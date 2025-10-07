@@ -1,0 +1,50 @@
+{
+  "id": "mobile-app-intermediate",
+  "name": "Cross-Platform Mobile App",
+  "description": "Build a professional mobile app that works on iOS and Android with React Native. Perfect for developers and startups.",
+  "category": "mobile",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "features": [
+    "React Native setup",
+    "Cross-platform compatibility",
+    "Native device features",
+    "Push notifications",
+    "Offline functionality",
+    "User authentication",
+    "Data synchronization",
+    "App store deployment",
+    "Performance optimization",
+    "Testing framework"
+  ],
+  "icon": "Smartphone",
+  "tags": ["mobile", "intermediate", "react-native", "cross-platform", "ios", "android"],
+  "access_tier": "pro",
+  "popular": true,
+  "featured": true,
+  "downloads": 1600,
+  "rating": 4.7,
+  "tech_stack": {
+    "frontend": ["React Native", "TypeScript"],
+    "backend": ["Node.js", "Express"],
+    "database": ["PostgreSQL", "SQLite"],
+    "auth": ["Firebase Auth", "JWT"],
+    "notifications": ["Firebase Cloud Messaging"],
+    "deployment": ["Expo", "App Store", "Google Play"]
+  },
+  "marketing_highlights": [
+    "Cross-platform mobile app",
+    "iOS and Android support",
+    "Native performance",
+    "App store ready",
+    "Professional features",
+    "Developer friendly"
+  ],
+  "customer_pain_points": [
+    "Need iOS and Android app",
+    "Want native performance",
+    "Need push notifications",
+    "Want offline functionality",
+    "Need app store deployment"
+  ]
+} 

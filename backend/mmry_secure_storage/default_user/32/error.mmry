@@ -1,0 +1,306 @@
+{
+  "user_id": "default_user",
+  "project_id": "32",
+  "file_name": "error.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.017234848484848485
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 338,
+        "output_size": 338,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 338,
+        "output_size": 1134,
+        "stage_compression_ratio": 3.3550295857988166,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 239,
+          "original_size": 338,
+          "compressed_size": 1134
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1134,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02821869488536155,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1134,
+          "estimated_compressed_size": 452,
+          "entropy": 3.1945359359236907
+        }
+      }
+    ],
+    "total_compression_ratio": 0.09467455621301775,
+    "stage_count": 3,
+    "original_size": 338,
+    "final_size": 32,
+    "space_savings": 306,
+    "space_savings_percent": 90.53254437869822
+  },
+  "original_size": 338,
+  "compressed_size": 32,
+  "compression_ratio": 0.09467455621301775,
+  "space_savings_percent": 90.53254437869822,
+  "content_hash": "3e225a13c6cc6447",
+  "timestamp": 1755082505,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:452:[70][97][105][108][1",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1755082505,
+    "total_lines": 1,
+    "total_chars": 338,
+    "total_words": 38,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 338,
+        "length": 338,
+        "preview": "Failed to generate project: Error code: 429 - {'er...",
+        "hash": "3abc8567"
+      }
+    },
+    "word_index": {
+      "this": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "generate": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "current": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "details.": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "'insufficient_quota'}}": {
+        "count": 1,
+        "positions": [
+          316
+        ]
+      },
+      "429": {
+        "count": 1,
+        "positions": [
+          40
+        ]
+      },
+      "error": {
+        "count": 5,
+        "positions": [
+          28,
+          48,
+          175,
+          237,
+          253
+        ]
+      },
+      "project:": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "'code':": {
+        "count": 1,
+        "positions": [
+          308
+        ]
+      },
+      "code:": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "error,": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "your": {
+        "count": 2,
+        "positions": [
+          82,
+          115
+        ]
+      },
+      "more": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "'type':": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "quota,": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "exceeded": {
+        "count": 1,
+        "positions": [
+          73
+        ]
+      },
+      "'param':": {
+        "count": 1,
+        "positions": [
+          293
+        ]
+      },
+      "check": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "none,": {
+        "count": 1,
+        "positions": [
+          302
+        ]
+      },
+      "billing": {
+        "count": 1,
+        "positions": [
+          129
+        ]
+      },
+      "plan": {
+        "count": 1,
+        "positions": [
+          120
+        ]
+      },
+      "and": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "docs:": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "'you": {
+        "count": 1,
+        "positions": [
+          68
+        ]
+      },
+      "read": {
+        "count": 1,
+        "positions": [
+          182
+        ]
+      },
+      "https://platform.openai.com/docs/guides/error-codes/api-errors.',": {
+        "count": 1,
+        "positions": [
+          197
+        ]
+      },
+      "information": {
+        "count": 1,
+        "positions": [
+          155
+        ]
+      },
+      "please": {
+        "count": 1,
+        "positions": [
+          102
+        ]
+      },
+      "for": {
+        "count": 3,
+        "positions": [
+          146,
+          157,
+          209
+        ]
+      },
+      "'insufficient_quota',": {
+        "count": 1,
+        "positions": [
+          271
+        ]
+      },
+      "{'error':": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "the": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "failed": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "{'message':": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

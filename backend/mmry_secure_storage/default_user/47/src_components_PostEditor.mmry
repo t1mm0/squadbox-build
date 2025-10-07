@@ -1,0 +1,257 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "src/components/PostEditor.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 1.0
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 182,
+        "output_size": 204,
+        "stage_compression_ratio": 1.120879120879121,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 5,
+          "compression_ratio": 1.120879120879121,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 204,
+        "output_size": 150,
+        "stage_compression_ratio": 0.7352941176470589,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 204,
+          "compressed_size": 150,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 373,
+        "output_size": 257,
+        "stage_compression_ratio": 0.6890080428954424,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 373,
+          "compressed_size": 257,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.4120879120879122,
+    "stage_count": 3,
+    "original_size": 182,
+    "final_size": 257,
+    "space_savings": -75,
+    "space_savings_percent": -41.208791208791204
+  },
+  "original_size": 182,
+  "compressed_size": 257,
+  "compression_ratio": 1.4120879120879122,
+  "space_savings_percent": -41.208791208791204,
+  "content_hash": "1da2de40c7c30a9c",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotUMFKw0AQ/RUDDa1IcTfpbnZuoaQ9KIiCVGMH2t1kl+KhoIey9eC3+4Z4GHbm5c178xLmmfPoHzn7ceE4h6bCTJwHBch1RWmWQPUKU9MVQlvdA6AZZ13PTgA8OpBJHZg5R+wTIKp6zqragQDEaxQ9Q3ZEY1DYUCqAF+5O0vZ85rO9BUDxCECLPowSdmA+Dq/7aTNiSoNYBfUFyIrytcR6Vqb9dyAlzcPlyN8t7te0vSyAWMkKCQRV9Wa6giQwdJP/EI0holxCPFf35U26pie0cf0Dv7jefr5MiZ3EtL/Ld7CD/A+MZnoVXJxt5bucZ97kgEYygktFt5n/AQChfeg=",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 9,
+    "total_chars": 182,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 38,
+        "length": 38,
+        "preview": "export default function PostEditor() {",
+        "hash": "e9aabcf3"
+      },
+      "1": {
+        "start_char": 39,
+        "end_char": 49,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 50,
+        "end_char": 92,
+        "length": 42,
+        "preview": "    <div className=\"component posteditor\">",
+        "hash": "241caf3f"
+      },
+      "3": {
+        "start_char": 93,
+        "end_char": 118,
+        "length": 25,
+        "preview": "      <h2>PostEditor</h2>",
+        "hash": "12b42084"
+      },
+      "4": {
+        "start_char": 119,
+        "end_char": 163,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 164,
+        "end_char": 174,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 175,
+        "end_char": 179,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 180,
+        "end_char": 181,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 182,
+        "end_char": 182,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          139
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          70,
+          129
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          155
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          168
+        ]
+      },
+      "<h2>posteditor</h2>": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      },
+      "posteditor\">": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          41
+        ]
+      },
+      "posteditor()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

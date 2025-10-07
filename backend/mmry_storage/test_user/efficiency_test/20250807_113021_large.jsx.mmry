@@ -1,0 +1,25 @@
+{
+ "mmry_version":"2.0",
+ "user_id":"test_user",
+ "project_id":"efficiency_test",
+ "file_metadata":{
+  "name":"large.jsx",
+  "type":"source",
+  "extension":".jsx",
+  "original_size":741,
+  "compressed_size":448,
+  "compression_ratio":0.6045883940620783,
+  "mime_type":"text/plain"
+ },
+ "content":"eNp1UsFOhDAQvfMVI6c2WSFedynG6NF4UG+bPTS0rM0WSuigawj/blsBl7DOqZ15896baVXVmBbhVfICoWxNBXHrz/EuisquLlCZGt6NMA9NQyj0EbgoTG0R9ujSdgNWogfYAzDorHxDjpLsD3QXsBcNXAgPdDCC8owUWD4S+phoyD5JkpG6ByW28OQIk9p8EboB37hxfFWjJUpXLLm2EoZJblipojketZyElfhPNkgmFW/CyYNmjA+fTJQAxpgzBffO2+hzYecm4OYEDLANrTMXvWK0ldi1NZAZlAn1CYXm1r7wSrLYM9zyponzhafs4y4Pgz0ri1nqbstyp5cJH/16TrIChW6t4CS/WT9OPoCpH7UqTqwnYYd/iyUjhA75VapZN/HPN1yXS7Vad1O6RGfp5UxZ6vb0e3VbHaJInsNvFrLkncbp3+5+ACGpxC0=",
+ "compression":"zlib",
+ "integrity":{
+  "hash":"15d5e403d0d7d6fc469c4936fdb7c060b9d5e8a5178d63eabe0d85878d73371c",
+  "algorithm":"sha256"
+ },
+ "timestamps":{
+  "created":"2025-08-07T11:30:21.544369",
+  "accessed":0
+ },
+ "metadata":{}
+}

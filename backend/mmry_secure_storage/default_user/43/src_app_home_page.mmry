@@ -1,0 +1,423 @@
+{
+  "user_id": "default_user",
+  "project_id": "43",
+  "file_name": "src/app/home/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19313304721030042
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 466,
+        "output_size": 454,
+        "stage_compression_ratio": 0.9742489270386266,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 8
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 454,
+        "output_size": 1234,
+        "stage_compression_ratio": 2.7180616740088106,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 260,
+          "original_size": 446,
+          "compressed_size": 1234
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1234,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02593192868719611,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1234,
+          "estimated_compressed_size": 500,
+          "entropy": 3.244948592001097
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06866952789699571,
+    "stage_count": 3,
+    "original_size": 466,
+    "final_size": 32,
+    "space_savings": 434,
+    "space_savings_percent": 93.13304721030042
+  },
+  "original_size": 466,
+  "compressed_size": 32,
+  "compression_ratio": 0.06866952789699571,
+  "space_savings_percent": 93.13304721030042,
+  "content_hash": "5176de9462303fec",
+  "timestamp": 1759698428,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:500:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698428,
+    "total_lines": 20,
+    "total_chars": 466,
+    "total_words": 48,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 65,
+        "length": 38,
+        "preview": "import Hero from '../components/Hero';",
+        "hash": "1afa28ea"
+      },
+      "2": {
+        "start_char": 66,
+        "end_char": 106,
+        "length": 40,
+        "preview": "import About from '../components/About';",
+        "hash": "b656c460"
+      },
+      "3": {
+        "start_char": 107,
+        "end_char": 149,
+        "length": 42,
+        "preview": "import Skills from '../components/Skills';",
+        "hash": "6d0672ad"
+      },
+      "4": {
+        "start_char": 150,
+        "end_char": 212,
+        "length": 62,
+        "preview": "import FeaturedProjects from '../components/Featur...",
+        "hash": "7f59451c"
+      },
+      "5": {
+        "start_char": 213,
+        "end_char": 257,
+        "length": 44,
+        "preview": "import Contact from '../components/Contact';",
+        "hash": "14db6d11"
+      },
+      "6": {
+        "start_char": 258,
+        "end_char": 258,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 259,
+        "end_char": 291,
+        "length": 32,
+        "preview": "export default function Home() {",
+        "hash": "a5086d01"
+      },
+      "8": {
+        "start_char": 292,
+        "end_char": 302,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "9": {
+        "start_char": 303,
+        "end_char": 334,
+        "length": 31,
+        "preview": "    <div className=\"page home\">",
+        "hash": "95571747"
+      },
+      "10": {
+        "start_char": 335,
+        "end_char": 354,
+        "length": 19,
+        "preview": "      <h1>Home</h1>",
+        "hash": "a9bb431b"
+      },
+      "11": {
+        "start_char": 355,
+        "end_char": 369,
+        "length": 14,
+        "preview": "      <Hero />",
+        "hash": "12349598"
+      },
+      "12": {
+        "start_char": 370,
+        "end_char": 385,
+        "length": 15,
+        "preview": "      <About />",
+        "hash": "61ca76e1"
+      },
+      "13": {
+        "start_char": 386,
+        "end_char": 402,
+        "length": 16,
+        "preview": "      <Skills />",
+        "hash": "51774b7e"
+      },
+      "14": {
+        "start_char": 403,
+        "end_char": 429,
+        "length": 26,
+        "preview": "      <FeaturedProjects />",
+        "hash": "bb531695"
+      },
+      "15": {
+        "start_char": 430,
+        "end_char": 447,
+        "length": 17,
+        "preview": "      <Contact />",
+        "hash": "d8b6572c"
+      },
+      "16": {
+        "start_char": 448,
+        "end_char": 458,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "17": {
+        "start_char": 459,
+        "end_char": 463,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "18": {
+        "start_char": 464,
+        "end_char": 465,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "19": {
+        "start_char": 466,
+        "end_char": 466,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "<featuredprojects": {
+        "count": 1,
+        "positions": [
+          409
+        ]
+      },
+      "<h1>home</h1>": {
+        "count": 1,
+        "positions": [
+          341
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          312
+        ]
+      },
+      "'../components/hero';": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "hero": {
+        "count": 3,
+        "positions": [
+          34,
+          59,
+          362
+        ]
+      },
+      "about": {
+        "count": 3,
+        "positions": [
+          73,
+          99,
+          377
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "contact": {
+        "count": 3,
+        "positions": [
+          220,
+          248,
+          437
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          452
+        ]
+      },
+      "<about": {
+        "count": 1,
+        "positions": [
+          376
+        ]
+      },
+      "'../components/skills';": {
+        "count": 1,
+        "positions": [
+          126
+        ]
+      },
+      "'../components/featuredprojects';": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "<hero": {
+        "count": 1,
+        "positions": [
+          361
+        ]
+      },
+      "home\">": {
+        "count": 1,
+        "positions": [
+          328
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          274
+        ]
+      },
+      "'../components/contact';": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "<skills": {
+        "count": 1,
+        "positions": [
+          392
+        ]
+      },
+      "<contact": {
+        "count": 1,
+        "positions": [
+          436
+        ]
+      },
+      "from": {
+        "count": 6,
+        "positions": [
+          13,
+          39,
+          79,
+          121,
+          174,
+          228
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          259
+        ]
+      },
+      "'../components/about';": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "skills": {
+        "count": 3,
+        "positions": [
+          114,
+          141,
+          393
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          294
+        ]
+      },
+      "import": {
+        "count": 6,
+        "positions": [
+          0,
+          27,
+          66,
+          107,
+          150,
+          213
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          266
+        ]
+      },
+      "home()": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "featuredprojects": {
+        "count": 3,
+        "positions": [
+          157,
+          194,
+          410
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

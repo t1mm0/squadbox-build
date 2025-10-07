@@ -1,0 +1,907 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.030744980411361412
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 1102,
+        "output_size": 1106,
+        "stage_compression_ratio": 1.0036297640653358,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 1106,
+        "output_size": 3121,
+        "stage_compression_ratio": 2.821880650994575,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 657,
+          "original_size": 1102,
+          "compressed_size": 3121
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 3121,
+        "output_size": 33,
+        "stage_compression_ratio": 0.010573534123678308,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 3121,
+          "estimated_compressed_size": 1278,
+          "entropy": 3.276182790031312
+        }
+      }
+    ],
+    "total_compression_ratio": 0.029945553539019964,
+    "stage_count": 3,
+    "original_size": 1102,
+    "final_size": 33,
+    "space_savings": 1069,
+    "space_savings_percent": 97.005444646098
+  },
+  "original_size": 1102,
+  "compressed_size": 33,
+  "compression_ratio": 0.029945553539019964,
+  "space_savings_percent": 97.005444646098,
+  "content_hash": "bffbca60abecc051",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1278:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 35,
+    "total_chars": 1102,
+    "total_words": 129,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-10-05 22:34:43",
+        "hash": "c4b6269a"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 133,
+        "length": 53,
+        "preview": "Agentic team ID: 1ac1d102-d5f5-4c52-8f2c-d3a5c0a39...",
+        "hash": "a2511603"
+      },
+      "4": {
+        "start_char": 134,
+        "end_char": 272,
+        "length": 138,
+        "preview": "AI agents assigned: project_manager, deployment_sp...",
+        "hash": "9dac9fba"
+      },
+      "5": {
+        "start_char": 273,
+        "end_char": 286,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "6": {
+        "start_char": 287,
+        "end_char": 350,
+        "length": 63,
+        "preview": "- Use tech stack: Next.js, MDX, TailwindCSS, Prism...",
+        "hash": "54d8364b"
+      },
+      "7": {
+        "start_char": 351,
+        "end_char": 370,
+        "length": 19,
+        "preview": "- Create page: Home",
+        "hash": "571bb8f9"
+      },
+      "8": {
+        "start_char": 371,
+        "end_char": 391,
+        "length": 20,
+        "preview": "- Create page: Posts",
+        "hash": "15fa4a2e"
+      },
+      "9": {
+        "start_char": 392,
+        "end_char": 418,
+        "length": 26,
+        "preview": "- Create page: Post Detail",
+        "hash": "39c5c6ce"
+      },
+      "10": {
+        "start_char": 419,
+        "end_char": 439,
+        "length": 20,
+        "preview": "- Create page: About",
+        "hash": "28c329e5"
+      },
+      "11": {
+        "start_char": 440,
+        "end_char": 462,
+        "length": 22,
+        "preview": "- Create page: Contact",
+        "hash": "c89b9fed"
+      },
+      "12": {
+        "start_char": 463,
+        "end_char": 483,
+        "length": 20,
+        "preview": "- Create page: Admin",
+        "hash": "5989a963"
+      },
+      "13": {
+        "start_char": 484,
+        "end_char": 625,
+        "length": 141,
+        "preview": "- Include components: Header, Footer, PostCard, Au...",
+        "hash": "2e78f041"
+      },
+      "14": {
+        "start_char": 626,
+        "end_char": 626,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "15": {
+        "start_char": 627,
+        "end_char": 656,
+        "length": 29,
+        "preview": "Using template: blog_template",
+        "hash": "b2fbbb12"
+      },
+      "16": {
+        "start_char": 657,
+        "end_char": 657,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "17": {
+        "start_char": 658,
+        "end_char": 692,
+        "length": 34,
+        "preview": "Executing agentic team workflow...",
+        "hash": "369cb588"
+      },
+      "18": {
+        "start_char": 693,
+        "end_char": 738,
+        "length": 45,
+        "preview": "Team ID: 1ac1d102-d5f5-4c52-8f2c-d3a5c0a395fb",
+        "hash": "aa5d2a88"
+      },
+      "19": {
+        "start_char": 739,
+        "end_char": 772,
+        "length": 33,
+        "preview": "Agentic team execution completed:",
+        "hash": "15b7a296"
+      },
+      "20": {
+        "start_char": 773,
+        "end_char": 792,
+        "length": 19,
+        "preview": "- Status: completed",
+        "hash": "63570549"
+      },
+      "21": {
+        "start_char": 793,
+        "end_char": 813,
+        "length": 20,
+        "preview": "- Completed tasks: 6",
+        "hash": "ef1ee266"
+      },
+      "22": {
+        "start_char": 814,
+        "end_char": 831,
+        "length": 17,
+        "preview": "- Failed tasks: 0",
+        "hash": "f9753178"
+      },
+      "23": {
+        "start_char": 832,
+        "end_char": 856,
+        "length": 24,
+        "preview": "- Execution time: 13.00s",
+        "hash": "e8714461"
+      },
+      "24": {
+        "start_char": 857,
+        "end_char": 857,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "25": {
+        "start_char": 858,
+        "end_char": 892,
+        "length": 34,
+        "preview": "Applying template blog_template...",
+        "hash": "63b7411f"
+      },
+      "26": {
+        "start_char": 893,
+        "end_char": 923,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "27": {
+        "start_char": 924,
+        "end_char": 957,
+        "length": 33,
+        "preview": "Generated 24 files from template.",
+        "hash": "60547b78"
+      },
+      "28": {
+        "start_char": 958,
+        "end_char": 958,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "29": {
+        "start_char": 959,
+        "end_char": 985,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "30": {
+        "start_char": 986,
+        "end_char": 1033,
+        "length": 47,
+        "preview": "Using fallback generation to prevent hanging...",
+        "hash": "2f54edb2"
+      },
+      "31": {
+        "start_char": 1034,
+        "end_char": 1055,
+        "length": 21,
+        "preview": "Generated: index.html",
+        "hash": "c5b20ed5"
+      },
+      "32": {
+        "start_char": 1056,
+        "end_char": 1077,
+        "length": 21,
+        "preview": "Generated: styles.css",
+        "hash": "83c9a197"
+      },
+      "33": {
+        "start_char": 1078,
+        "end_char": 1101,
+        "length": 23,
+        "preview": "Generated: README.ai.md",
+        "hash": "9a7cb76c"
+      },
+      "34": {
+        "start_char": 1102,
+        "end_char": 1102,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "readme.ai.md": {
+        "count": 1,
+        "positions": [
+          1089
+        ]
+      },
+      "time:": {
+        "count": 1,
+        "positions": [
+          844
+        ]
+      },
+      "documentation_specialist,": {
+        "count": 1,
+        "positions": [
+          194
+        ]
+      },
+      "generation": {
+        "count": 1,
+        "positions": [
+          1001
+        ]
+      },
+      "agents": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "detail": {
+        "count": 1,
+        "positions": [
+          412
+        ]
+      },
+      "ui_ux_designer": {
+        "count": 1,
+        "positions": [
+          258
+        ]
+      },
+      "executing": {
+        "count": 1,
+        "positions": [
+          658
+        ]
+      },
+      "contact": {
+        "count": 1,
+        "positions": [
+          455
+        ]
+      },
+      "mediauploader": {
+        "count": 1,
+        "positions": [
+          612
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          633
+        ]
+      },
+      "mdx,": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          937
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "status:": {
+        "count": 1,
+        "positions": [
+          775
+        ]
+      },
+      "generated:": {
+        "count": 3,
+        "positions": [
+          1034,
+          1056,
+          1078
+        ]
+      },
+      "deployment_specialist,": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          293
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "postgresql": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "commentsection,": {
+        "count": 1,
+        "positions": [
+          543
+        ]
+      },
+      "execution": {
+        "count": 2,
+        "positions": [
+          752,
+          834
+        ]
+      },
+      "1ac1d102-d5f5-4c52-8f2c-d3a5c0a395fb": {
+        "count": 2,
+        "positions": [
+          97,
+          702
+        ]
+      },
+      "footer,": {
+        "count": 1,
+        "positions": [
+          514
+        ]
+      },
+      "authorbio,": {
+        "count": 1,
+        "positions": [
+          532
+        ]
+      },
+      "newsletterform,": {
+        "count": 1,
+        "positions": [
+          559
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          970
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          943
+        ]
+      },
+      "page:": {
+        "count": 6,
+        "positions": [
+          360,
+          380,
+          401,
+          428,
+          449,
+          472
+        ]
+      },
+      "tasks:": {
+        "count": 2,
+        "positions": [
+          805,
+          823
+        ]
+      },
+      "postcard,": {
+        "count": 1,
+        "positions": [
+          522
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          858
+        ]
+      },
+      "styles.css": {
+        "count": 1,
+        "positions": [
+          1067
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "blog_template": {
+        "count": 2,
+        "positions": [
+          643,
+          876
+        ]
+      },
+      "testing_engineer,": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "home": {
+        "count": 1,
+        "positions": [
+          366
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          305
+        ]
+      },
+      "using": {
+        "count": 2,
+        "positions": [
+          627,
+          986
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "frontend_developer,": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      },
+      "template": {
+        "count": 6,
+        "positions": [
+          633,
+          648,
+          867,
+          881,
+          893,
+          948
+        ]
+      },
+      "create": {
+        "count": 6,
+        "positions": [
+          353,
+          373,
+          394,
+          421,
+          442,
+          465
+        ]
+      },
+      "index.html": {
+        "count": 1,
+        "positions": [
+          1045
+        ]
+      },
+      "posteditor,": {
+        "count": 1,
+        "positions": [
+          600
+        ]
+      },
+      "failed": {
+        "count": 1,
+        "positions": [
+          816
+        ]
+      },
+      "searchbar,": {
+        "count": 1,
+        "positions": [
+          589
+        ]
+      },
+      "13.00s": {
+        "count": 1,
+        "positions": [
+          850
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          506
+        ]
+      },
+      "prisma,": {
+        "count": 1,
+        "positions": [
+          332
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          959
+        ]
+      },
+      "posts": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      },
+      "team": {
+        "count": 4,
+        "positions": [
+          88,
+          676,
+          693,
+          747
+        ]
+      },
+      "22:34:43": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "hanging...": {
+        "count": 1,
+        "positions": [
+          1023
+        ]
+      },
+      "project_manager,": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          975
+        ]
+      },
+      "template.": {
+        "count": 2,
+        "positions": [
+          881,
+          948
+        ]
+      },
+      "workflow...": {
+        "count": 1,
+        "positions": [
+          681
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          273
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          910
+        ]
+      },
+      "about": {
+        "count": 1,
+        "positions": [
+          434
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          319
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          980
+        ]
+      },
+      "categorylist,": {
+        "count": 1,
+        "positions": [
+          575
+        ]
+      },
+      "admin": {
+        "count": 1,
+        "positions": [
+          478
+        ]
+      },
+      "assigned:": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "id:": {
+        "count": 2,
+        "positions": [
+          93,
+          698
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "generated": {
+        "count": 4,
+        "positions": [
+          924,
+          1034,
+          1056,
+          1078
+        ]
+      },
+      "completed": {
+        "count": 3,
+        "positions": [
+          762,
+          783,
+          795
+        ]
+      },
+      "project": {
+        "count": 4,
+        "positions": [
+          37,
+          54,
+          62,
+          154
+        ]
+      },
+      "agentic": {
+        "count": 3,
+        "positions": [
+          80,
+          668,
+          739
+        ]
+      },
+      "completed:": {
+        "count": 1,
+        "positions": [
+          762
+        ]
+      },
+      "post": {
+        "count": 5,
+        "positions": [
+          340,
+          386,
+          407,
+          522,
+          600
+        ]
+      },
+      "fallback": {
+        "count": 1,
+        "positions": [
+          992
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          902
+        ]
+      },
+      "blog_template...": {
+        "count": 1,
+        "positions": [
+          876
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          486
+        ]
+      },
+      "prevent": {
+        "count": 1,
+        "positions": [
+          1015
+        ]
+      },
+      "2025-10-05": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 3,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "3fc3e50a425a",
+          "preview": "Build started at 2025-10-05 22:34:43\nProject name: My Project\nProject type: web\nAgentic team ID: 1ac..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "4dbc851c21f8",
+          "preview": "ents: Header, Footer, PostCard, AuthorBio, CommentSection, NewsletterForm, CategoryList, SearchBar, ..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1102,
+          "size": 102,
+          "hash": "f0714bbf8802",
+          "preview": " generation to prevent hanging...\nGenerated: index.html\nGenerated: styles.css\nGenerated: README.ai.m..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

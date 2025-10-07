@@ -1,0 +1,191 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "timestamp": "2025-08-07T14:21:54.297837",
+  "files_stored": 18,
+  "total_original_size": 6577,
+  "total_compressed_size": 577,
+  "compression_ratio": 0.08772996807054888,
+  "stored_files": [
+    {
+      "file_name": "project_structure.md",
+      "file_type": "text",
+      "original_size": 970,
+      "compressed_size": 33,
+      "compression_ratio": 0.03402061855670103,
+      "mmry_file_path": "",
+      "file_hash": "2870ffd8aa3ae0b6ed9dcdc853fcf6e89fd9c521e9c328c0de836cf7e75982e6",
+      "timestamp": "2025-08-07T14:21:54.310927"
+    },
+    {
+      "file_name": "build_manifest.json",
+      "file_type": "json",
+      "original_size": 648,
+      "compressed_size": 32,
+      "compression_ratio": 0.04938271604938271,
+      "mmry_file_path": "",
+      "file_hash": "838f321ce42e86b884a5b2d00ad9774ce1b805b00fd2a8ce48a34ab3f1a09913",
+      "timestamp": "2025-08-07T14:21:54.319345"
+    },
+    {
+      "file_name": "error.log",
+      "file_type": "text",
+      "original_size": 67,
+      "compressed_size": 32,
+      "compression_ratio": 0.47761194029850745,
+      "mmry_file_path": "",
+      "file_hash": "750ed0566e436e4ecee0e77c042ef0cf5766194849ddb3d3d43f15372c3e5515",
+      "timestamp": "2025-08-07T14:21:54.324191"
+    },
+    {
+      "file_name": "README.md",
+      "file_type": "text",
+      "original_size": 73,
+      "compressed_size": 32,
+      "compression_ratio": 0.4383561643835616,
+      "mmry_file_path": "",
+      "file_hash": "963619fc72d8576744d7b429b61c9bcfd1313b26315a8e4cbdeb8ee6bbdc3c5b",
+      "timestamp": "2025-08-07T14:21:54.327629"
+    },
+    {
+      "file_name": "package.json",
+      "file_type": "json",
+      "original_size": 542,
+      "compressed_size": 32,
+      "compression_ratio": 0.05904059040590406,
+      "mmry_file_path": "",
+      "file_hash": "9828bc66012f1b38a3f1515f5de6fbf579585748a1a46db555889a71bb9b4cd7",
+      "timestamp": "2025-08-07T14:21:54.333912"
+    },
+    {
+      "file_name": "build.log",
+      "file_type": "text",
+      "original_size": 664,
+      "compressed_size": 32,
+      "compression_ratio": 0.04819277108433735,
+      "mmry_file_path": "",
+      "file_hash": "1582ec3d0b8f4ff50d483dc3b4be51b733238638822783ac1eb0342a09b3e37c",
+      "timestamp": "2025-08-07T14:21:54.344621"
+    },
+    {
+      "file_name": "src/app/layout.tsx",
+      "file_type": "javascript",
+      "original_size": 340,
+      "compressed_size": 32,
+      "compression_ratio": 0.09411764705882353,
+      "mmry_file_path": "",
+      "file_hash": "f33badb54970a00a8ab7d8f10f8f1b8424bdb089e0c0af9c878beac678731097",
+      "timestamp": "2025-08-07T14:21:54.353417"
+    },
+    {
+      "file_name": "src/app/globals.css",
+      "file_type": "css",
+      "original_size": 211,
+      "compressed_size": 32,
+      "compression_ratio": 0.15165876777251186,
+      "mmry_file_path": "",
+      "file_hash": "87611caae8f026a516ce725cb58ed04720e0ea53b759c520ff0add8bb95b159f",
+      "timestamp": "2025-08-07T14:21:54.359651"
+    },
+    {
+      "file_name": "src/app/chat-interface/page.tsx",
+      "file_type": "javascript",
+      "original_size": 424,
+      "compressed_size": 32,
+      "compression_ratio": 0.07547169811320754,
+      "mmry_file_path": "",
+      "file_hash": "770b15c06f15b93615861a5138804af46a4f2d35d7a1abd07c5ed9675f9db137",
+      "timestamp": "2025-08-07T14:21:54.370610"
+    },
+    {
+      "file_name": "src/app/training-center/page.tsx",
+      "file_type": "javascript",
+      "original_size": 433,
+      "compressed_size": 32,
+      "compression_ratio": 0.07390300230946882,
+      "mmry_file_path": "",
+      "file_hash": "b78965d11889694c903bf94a45c5d84e56542f314a68fab90ef3038e3320e671",
+      "timestamp": "2025-08-07T14:21:54.378607"
+    },
+    {
+      "file_name": "src/app/analytics-dashboard/page.tsx",
+      "file_type": "javascript",
+      "original_size": 454,
+      "compressed_size": 32,
+      "compression_ratio": 0.07048458149779736,
+      "mmry_file_path": "",
+      "file_hash": "5b1743aff1571d9fdb298314217195f7bb6279add92b83a0bc7e515fc9f93b2b",
+      "timestamp": "2025-08-07T14:21:54.386511"
+    },
+    {
+      "file_name": "src/components/ConversationLearning.tsx",
+      "file_type": "javascript",
+      "original_size": 257,
+      "compressed_size": 32,
+      "compression_ratio": 0.1245136186770428,
+      "mmry_file_path": "",
+      "file_hash": "7e0b4d907fdece782b51fb6425af377ec64dfa01de7c3b78b638b2b10fe27ea1",
+      "timestamp": "2025-08-07T14:21:54.392986"
+    },
+    {
+      "file_name": "src/components/KnowledgeBaseManager.tsx",
+      "file_type": "javascript",
+      "original_size": 257,
+      "compressed_size": 32,
+      "compression_ratio": 0.1245136186770428,
+      "mmry_file_path": "",
+      "file_hash": "12693025725471c484b20de8454a53b03812e7fab8980783a3efe91fad8faf92",
+      "timestamp": "2025-08-07T14:21:54.402032"
+    },
+    {
+      "file_name": "src/components/VoiceInterface.tsx",
+      "file_type": "javascript",
+      "original_size": 239,
+      "compressed_size": 32,
+      "compression_ratio": 0.13389121338912133,
+      "mmry_file_path": "",
+      "file_hash": "27f639081d734f699f03d4890fe5c33b5641cb06115e84c8fd229405170571f6",
+      "timestamp": "2025-08-07T14:21:54.408043"
+    },
+    {
+      "file_name": "src/components/EnterpriseChatInterface.tsx",
+      "file_type": "javascript",
+      "original_size": 266,
+      "compressed_size": 32,
+      "compression_ratio": 0.12030075187969924,
+      "mmry_file_path": "",
+      "file_hash": "8df59ac2134aa1e445f9d58f9481ffef5f35344faf4217e8afb265a053f4845e",
+      "timestamp": "2025-08-07T14:21:54.415140"
+    },
+    {
+      "file_name": "src/components/SentimentAnalyzer.tsx",
+      "file_type": "javascript",
+      "original_size": 248,
+      "compressed_size": 32,
+      "compression_ratio": 0.12903225806451613,
+      "mmry_file_path": "",
+      "file_hash": "793af4549b4d9571227712cf7c7b299ba2edaf681abdff44af04d8191971e7c5",
+      "timestamp": "2025-08-07T14:21:54.421155"
+    },
+    {
+      "file_name": "src/components/TrainingDashboard.tsx",
+      "file_type": "javascript",
+      "original_size": 248,
+      "compressed_size": 32,
+      "compression_ratio": 0.12903225806451613,
+      "mmry_file_path": "",
+      "file_hash": "304357252bceefc3bd6fd2f952328d80b58eb6e20fdee683def1c94b9d1f8417",
+      "timestamp": "2025-08-07T14:21:54.428335"
+    },
+    {
+      "file_name": "src/components/ChatAnalytics.tsx",
+      "file_type": "javascript",
+      "original_size": 236,
+      "compressed_size": 32,
+      "compression_ratio": 0.13559322033898305,
+      "mmry_file_path": "",
+      "file_hash": "76d098969fa14fb481d369802fb8fd06fab24e43553bbad442a6505fe0bf1815",
+      "timestamp": "2025-08-07T14:21:54.434193"
+    }
+  ]
+}

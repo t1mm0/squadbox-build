@@ -1,0 +1,453 @@
+{
+  "user_id": "default_user",
+  "project_id": "36",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02977941176470588
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 496,
+        "output_size": 496,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 496,
+        "output_size": 1465,
+        "stage_compression_ratio": 2.9536290322580645,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 312,
+          "original_size": 491,
+          "compressed_size": 1465
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1465,
+        "output_size": 32,
+        "stage_compression_ratio": 0.021843003412969283,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1465,
+          "estimated_compressed_size": 595,
+          "entropy": 3.251115963336312
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06451612903225806,
+    "stage_count": 3,
+    "original_size": 496,
+    "final_size": 32,
+    "space_savings": 464,
+    "space_savings_percent": 93.54838709677419
+  },
+  "original_size": 496,
+  "compressed_size": 32,
+  "compression_ratio": 0.06451612903225806,
+  "space_savings_percent": 93.54838709677419,
+  "content_hash": "bc20bb441efaaa50",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:595:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 22,
+    "total_chars": 496,
+    "total_words": 44,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"36\",",
+        "hash": "2a6c366e"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 62,
+        "length": 38,
+        "preview": "  \"project_name\": \"Test Form Project\",",
+        "hash": "7acc2b3f"
+      },
+      "3": {
+        "start_char": 63,
+        "end_char": 82,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 83,
+        "end_char": 110,
+        "length": 27,
+        "preview": "    \"Create a test project\"",
+        "hash": "987158d3"
+      },
+      "5": {
+        "start_char": 111,
+        "end_char": 115,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 116,
+        "end_char": 149,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "7": {
+        "start_char": 150,
+        "end_char": 174,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 175,
+        "end_char": 200,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 201,
+        "end_char": 235,
+        "length": 34,
+        "preview": "  \"start_time\": 1759696920.229582,",
+        "hash": "1ddc80f0"
+      },
+      "10": {
+        "start_char": 236,
+        "end_char": 255,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 256,
+        "end_char": 280,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 281,
+        "end_char": 296,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 297,
+        "end_char": 349,
+        "length": 52,
+        "preview": "  \"team_id\": \"76dcfdb1-aac0-4ad6-b04d-ff9fb20f6a57...",
+        "hash": "bc0ec87d"
+      },
+      "14": {
+        "start_char": 350,
+        "end_char": 373,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "15": {
+        "start_char": 374,
+        "end_char": 384,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "16": {
+        "start_char": 385,
+        "end_char": 411,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "17": {
+        "start_char": 412,
+        "end_char": 442,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "18": {
+        "start_char": 443,
+        "end_char": 466,
+        "length": 23,
+        "preview": "    \"ollama_url\": null,",
+        "hash": "7e0595d5"
+      },
+      "19": {
+        "start_char": 467,
+        "end_char": 490,
+        "length": 23,
+        "preview": "    \"use_ollama\": false",
+        "hash": "7bf2ed87"
+      },
+      "20": {
+        "start_char": 491,
+        "end_char": 494,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "21": {
+        "start_char": 495,
+        "end_char": 496,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"create": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "project\"": {
+        "count": 2,
+        "positions": [
+          53,
+          102
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          277,
+          293
+        ]
+      },
+      "false": {
+        "count": 3,
+        "positions": [
+          405,
+          436,
+          485
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          352
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          447
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          471
+        ]
+      },
+      "\"36\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "null,": {
+        "count": 2,
+        "positions": [
+          250,
+          461
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          416
+        ]
+      },
+      "\"76dcfdb1-aac0-4ad6-b04d-ff9fb20f6a57\",": {
+        "count": 1,
+        "positions": [
+          310
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          299
+        ]
+      },
+      "\"test": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          152
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "1759696920.229582,": {
+        "count": 1,
+        "positions": [
+          217
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          238
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          168
+        ]
+      },
+      "test": {
+        "count": 2,
+        "positions": [
+          43,
+          97
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          405,
+          436
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          118
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "form": {
+        "count": 1,
+        "positions": [
+          48
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          258
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          376
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          389
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          368
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

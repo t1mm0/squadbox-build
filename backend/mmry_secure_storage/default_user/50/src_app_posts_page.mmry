@@ -1,0 +1,351 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "src/app/posts/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02391008174386921
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 358,
+        "output_size": 350,
+        "stage_compression_ratio": 0.9776536312849162,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 350,
+        "output_size": 1042,
+        "stage_compression_ratio": 2.9771428571428573,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 220,
+          "original_size": 344,
+          "compressed_size": 1042
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1042,
+        "output_size": 32,
+        "stage_compression_ratio": 0.030710172744721688,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1042,
+          "estimated_compressed_size": 419,
+          "entropy": 3.217420199353417
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0893854748603352,
+    "stage_count": 3,
+    "original_size": 358,
+    "final_size": 32,
+    "space_savings": 326,
+    "space_savings_percent": 91.06145251396647
+  },
+  "original_size": 358,
+  "compressed_size": 32,
+  "compression_ratio": 0.0893854748603352,
+  "space_savings_percent": 91.06145251396647,
+  "content_hash": "0a216e1030f0476c",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:419:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 16,
+    "total_chars": 358,
+    "total_words": 36,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 73,
+        "length": 46,
+        "preview": "import PostList from '../components/PostList';",
+        "hash": "649da45a"
+      },
+      "2": {
+        "start_char": 74,
+        "end_char": 126,
+        "length": 52,
+        "preview": "import PostFilters from '../components/PostFilters...",
+        "hash": "86446e0b"
+      },
+      "3": {
+        "start_char": 127,
+        "end_char": 177,
+        "length": 50,
+        "preview": "import Pagination from '../components/Pagination';",
+        "hash": "c684b779"
+      },
+      "4": {
+        "start_char": 178,
+        "end_char": 178,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 179,
+        "end_char": 212,
+        "length": 33,
+        "preview": "export default function Posts() {",
+        "hash": "cbaaedbe"
+      },
+      "6": {
+        "start_char": 213,
+        "end_char": 223,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 224,
+        "end_char": 256,
+        "length": 32,
+        "preview": "    <div className=\"page posts\">",
+        "hash": "28be5177"
+      },
+      "8": {
+        "start_char": 257,
+        "end_char": 277,
+        "length": 20,
+        "preview": "      <h1>Posts</h1>",
+        "hash": "5f6f1b14"
+      },
+      "9": {
+        "start_char": 278,
+        "end_char": 296,
+        "length": 18,
+        "preview": "      <PostList />",
+        "hash": "b08c0abc"
+      },
+      "10": {
+        "start_char": 297,
+        "end_char": 318,
+        "length": 21,
+        "preview": "      <PostFilters />",
+        "hash": "85483c7c"
+      },
+      "11": {
+        "start_char": 319,
+        "end_char": 339,
+        "length": 20,
+        "preview": "      <Pagination />",
+        "hash": "ccd674ac"
+      },
+      "12": {
+        "start_char": 340,
+        "end_char": 350,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 351,
+        "end_char": 355,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 356,
+        "end_char": 357,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 358,
+        "end_char": 358,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "export": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          43,
+          93,
+          145
+        ]
+      },
+      "'../components/postfilters';": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          344
+        ]
+      },
+      "posts\">": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          215
+        ]
+      },
+      "'../components/postlist';": {
+        "count": 1,
+        "positions": [
+          48
+        ]
+      },
+      "<postlist": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "<pagination": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      },
+      "postfilters": {
+        "count": 3,
+        "positions": [
+          81,
+          113,
+          304
+        ]
+      },
+      "pagination": {
+        "count": 3,
+        "positions": [
+          134,
+          165,
+          326
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          228
+        ]
+      },
+      "postlist": {
+        "count": 3,
+        "positions": [
+          34,
+          63,
+          285
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          194
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "posts()": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      },
+      "'../components/pagination';": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          186
+        ]
+      },
+      "<h1>posts</h1>": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "<postfilters": {
+        "count": 1,
+        "positions": [
+          303
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          74,
+          127
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

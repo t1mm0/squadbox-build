@@ -1,0 +1,60 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "fox.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.014598214285714287
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 450,
+        "output_size": 450,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "error": "ord() expected a character, but string of length 2 found"
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 450,
+        "output_size": 32,
+        "stage_compression_ratio": 0.07111111111111111,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 450,
+          "estimated_compressed_size": 249,
+          "entropy": 4.441092818215358
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07111111111111111,
+    "stage_count": 3,
+    "original_size": 450,
+    "final_size": 32,
+    "space_savings": 418,
+    "space_savings_percent": 92.88888888888889
+  },
+  "original_size": 450,
+  "compressed_size": 32,
+  "compression_ratio": 0.07111111111111111,
+  "space_savings_percent": 92.88888888888889,
+  "content_hash": "67e8e9c79772f865",
+  "timestamp": 1754563189,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:249:The quick brown fox ",
+  "content_encoding": "text"
+}

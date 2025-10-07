@@ -1,0 +1,278 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "README.ai.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018400349650349652
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 196,
+        "output_size": 196,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 196,
+        "output_size": 699,
+        "stage_compression_ratio": 3.566326530612245,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 150,
+          "original_size": 196,
+          "compressed_size": 699
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 699,
+        "output_size": 32,
+        "stage_compression_ratio": 0.045779685264663805,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 699,
+          "estimated_compressed_size": 276,
+          "entropy": 3.168356461801456
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16326530612244897,
+    "stage_count": 3,
+    "original_size": 196,
+    "final_size": 32,
+    "space_savings": 164,
+    "space_savings_percent": 83.6734693877551
+  },
+  "original_size": 196,
+  "compressed_size": 32,
+  "compression_ratio": 0.16326530612244897,
+  "space_savings_percent": 83.6734693877551,
+  "content_hash": "28520e3530840634",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:276:[35][32][71][101][11",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 10,
+    "total_chars": 196,
+    "total_words": 33,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 19,
+        "length": 19,
+        "preview": "# Generated Project",
+        "hash": "e714e0b2"
+      },
+      "1": {
+        "start_char": 20,
+        "end_char": 20,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 21,
+        "end_char": 84,
+        "length": 63,
+        "preview": "This is a fallback project generated when AI gener...",
+        "hash": "39814b22"
+      },
+      "3": {
+        "start_char": 85,
+        "end_char": 85,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 86,
+        "end_char": 94,
+        "length": 8,
+        "preview": "## Files",
+        "hash": "d7331ccd"
+      },
+      "5": {
+        "start_char": 95,
+        "end_char": 124,
+        "length": 29,
+        "preview": "- index.html - Main HTML file",
+        "hash": "b737a9e0"
+      },
+      "6": {
+        "start_char": 125,
+        "end_char": 153,
+        "length": 28,
+        "preview": "- styles.css - Basic styling",
+        "hash": "62631ef4"
+      },
+      "7": {
+        "start_char": 154,
+        "end_char": 154,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "8": {
+        "start_char": 155,
+        "end_char": 163,
+        "length": 8,
+        "preview": "## Usage",
+        "hash": "36e7e62a"
+      },
+      "9": {
+        "start_char": 164,
+        "end_char": 196,
+        "length": 32,
+        "preview": "Open index.html in your browser.",
+        "hash": "2ab77954"
+      }
+    },
+    "word_index": {
+      "generation": {
+        "count": 1,
+        "positions": [
+          66
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "your": {
+        "count": 1,
+        "positions": [
+          183
+        ]
+      },
+      "html": {
+        "count": 3,
+        "positions": [
+          103,
+          115,
+          175
+        ]
+      },
+      "styling": {
+        "count": 1,
+        "positions": [
+          146
+        ]
+      },
+      "failed.": {
+        "count": 1,
+        "positions": [
+          77
+        ]
+      },
+      "usage": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      },
+      "styles.css": {
+        "count": 1,
+        "positions": [
+          127
+        ]
+      },
+      "generated": {
+        "count": 2,
+        "positions": [
+          2,
+          48
+        ]
+      },
+      "browser.": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "project": {
+        "count": 2,
+        "positions": [
+          12,
+          40
+        ]
+      },
+      "main": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "basic": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "fallback": {
+        "count": 1,
+        "positions": [
+          31
+        ]
+      },
+      "file": {
+        "count": 2,
+        "positions": [
+          89,
+          120
+        ]
+      },
+      "when": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "open": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "index.html": {
+        "count": 2,
+        "positions": [
+          97,
+          169
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

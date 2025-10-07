@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "25",
+  "file_name": "src/components/PricingCard.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.028502747252747252
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 185,
+        "output_size": 181,
+        "stage_compression_ratio": 0.9783783783783784,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 181,
+        "output_size": 657,
+        "stage_compression_ratio": 3.6298342541436464,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 141,
+          "original_size": 177,
+          "compressed_size": 657
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 657,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0487062404870624,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 657,
+          "estimated_compressed_size": 258,
+          "entropy": 3.145503028651809
+        }
+      }
+    ],
+    "total_compression_ratio": 0.17297297297297298,
+    "stage_count": 3,
+    "original_size": 185,
+    "final_size": 32,
+    "space_savings": 153,
+    "space_savings_percent": 82.70270270270271
+  },
+  "original_size": 185,
+  "compressed_size": 32,
+  "compression_ratio": 0.17297297297297298,
+  "space_savings_percent": 82.70270270270271,
+  "content_hash": "d4826f80bc453100",
+  "timestamp": 1754567822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:258:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754567822,
+    "total_lines": 9,
+    "total_chars": 185,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 39,
+        "length": 39,
+        "preview": "export default function PricingCard() {",
+        "hash": "55d2490b"
+      },
+      "1": {
+        "start_char": 40,
+        "end_char": 50,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 51,
+        "end_char": 94,
+        "length": 43,
+        "preview": "    <div className=\"component pricingcard\">",
+        "hash": "7e307969"
+      },
+      "3": {
+        "start_char": 95,
+        "end_char": 121,
+        "length": 26,
+        "preview": "      <h2>PricingCard</h2>",
+        "hash": "e40c49c9"
+      },
+      "4": {
+        "start_char": 122,
+        "end_char": 166,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 167,
+        "end_char": 177,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 178,
+        "end_char": 182,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 183,
+        "end_char": 184,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 185,
+        "end_char": 185,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          60
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "pricingcard\">": {
+        "count": 1,
+        "positions": [
+          81
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          128
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "pricingcard()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          71,
+          132
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          142
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "<h2>pricingcard</h2>": {
+        "count": 1,
+        "positions": [
+          101
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

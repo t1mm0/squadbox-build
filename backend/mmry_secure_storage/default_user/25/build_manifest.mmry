@@ -1,0 +1,428 @@
+{
+  "user_id": "default_user",
+  "project_id": "25",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012376718469814705
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 472,
+        "output_size": 472,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 472,
+        "output_size": 1499,
+        "stage_compression_ratio": 3.1758474576271185,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 319,
+          "original_size": 470,
+          "compressed_size": 1499
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1499,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02134756504336224,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1499,
+          "estimated_compressed_size": 604,
+          "entropy": 3.227936102913973
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06779661016949153,
+    "stage_count": 3,
+    "original_size": 472,
+    "final_size": 32,
+    "space_savings": 440,
+    "space_savings_percent": 93.22033898305084
+  },
+  "original_size": 472,
+  "compressed_size": 32,
+  "compression_ratio": 0.06779661016949153,
+  "space_savings_percent": 93.22033898305084,
+  "content_hash": "587876dcc383073d",
+  "timestamp": 1754567822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:604:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754567822,
+    "total_lines": 15,
+    "total_chars": 472,
+    "total_words": 44,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"25\",",
+        "hash": "6053c2ab"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 146,
+        "length": 70,
+        "preview": "    \"Use tech stack: Next.js, TailwindCSS, React H...",
+        "hash": "32569124"
+      },
+      "5": {
+        "start_char": 147,
+        "end_char": 276,
+        "length": 129,
+        "preview": "    \"Include components: Header, LogoCloud, Featur...",
+        "hash": "58c2ca0b"
+      },
+      "6": {
+        "start_char": 277,
+        "end_char": 281,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "7": {
+        "start_char": 282,
+        "end_char": 323,
+        "length": 41,
+        "preview": "  \"template_id\": \"landing_page_template\",",
+        "hash": "8c02c997"
+      },
+      "8": {
+        "start_char": 324,
+        "end_char": 348,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "9": {
+        "start_char": 349,
+        "end_char": 374,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "10": {
+        "start_char": 375,
+        "end_char": 410,
+        "length": 35,
+        "preview": "  \"start_time\": 1754567822.8339891,",
+        "hash": "2c9ce3dc"
+      },
+      "11": {
+        "start_char": 411,
+        "end_char": 430,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "12": {
+        "start_char": 431,
+        "end_char": 455,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "13": {
+        "start_char": 456,
+        "end_char": 470,
+        "length": 14,
+        "preview": "  \"errors\": []",
+        "hash": "ba2a80e7"
+      },
+      "14": {
+        "start_char": 471,
+        "end_char": 472,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "pricingcard,": {
+        "count": 1,
+        "positions": [
+          221
+        ]
+      },
+      "\"landing_page_template\",": {
+        "count": 1,
+        "positions": [
+          299
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "testimonialcard,": {
+        "count": 1,
+        "positions": [
+          204
+        ]
+      },
+      "sendgrid\",": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "1754567822.8339891,": {
+        "count": 1,
+        "positions": [
+          391
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          433
+        ]
+      },
+      "\"include": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          425
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          458
+        ]
+      },
+      "ctabutton,": {
+        "count": 1,
+        "positions": [
+          246
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          326
+        ]
+      },
+      "react": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "featurecard,": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          342
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          361
+        ]
+      },
+      "form,": {
+        "count": 2,
+        "positions": [
+          130,
+          240
+        ]
+      },
+      "hook": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "\"use": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "faq,": {
+        "count": 1,
+        "positions": [
+          257
+        ]
+      },
+      "[],": {
+        "count": 1,
+        "positions": [
+          452
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          377
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "logocloud,": {
+        "count": 1,
+        "positions": [
+          180
+        ]
+      },
+      "\"25\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "footersection\"": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          413
+        ]
+      },
+      "signupform,": {
+        "count": 1,
+        "positions": [
+          234
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          351
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

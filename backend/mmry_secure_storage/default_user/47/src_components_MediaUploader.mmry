@@ -1,0 +1,257 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "src/components/MediaUploader.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 1.0
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 191,
+        "output_size": 204,
+        "stage_compression_ratio": 1.068062827225131,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 5,
+          "compression_ratio": 1.068062827225131,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 204,
+        "output_size": 151,
+        "stage_compression_ratio": 0.7401960784313726,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 204,
+          "compressed_size": 151,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 399,
+        "output_size": 267,
+        "stage_compression_ratio": 0.6691729323308271,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 399,
+          "compressed_size": 267,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.3979057591623036,
+    "stage_count": 3,
+    "original_size": 191,
+    "final_size": 267,
+    "space_savings": -76,
+    "space_savings_percent": -39.79057591623037
+  },
+  "original_size": 191,
+  "compressed_size": 267,
+  "compression_ratio": 1.3979057591623036,
+  "space_savings_percent": -39.79057591623037,
+  "content_hash": "ca940c699a04e116",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkF9Lw0AQxL+LFYvgw11M0rsXEYUqSoU+KNqeyP2LIhoQIl6jfnd/S3xYbjOzM7ObMC+uJH/rionaFZVpKuWKNsuvG1c6MNO44f507wNQPbhi4yf4MbNqRRNmq83V5RoSKFaMIwkGOj7TVO/iNXzvnojJF8g7v92tN/DmFci64usjWYGGj7y4GwnJenkmaiwXEErsJKI+OIRsRU02cAxuINPOpikN1aHSDVQ97R9z/Rj6YdrKB4o3YJvUCftwcdeanriMgUXs8xtY7kGYTgRb+yuH/9/Nm0Te0VMah2jGn2uUjWxFbjYv+4mei3QlrvyGJDtJ6fXIyqhsK5O4hC1z8dzP/wC7For0",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 9,
+    "total_chars": 191,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 41,
+        "length": 41,
+        "preview": "export default function MediaUploader() {",
+        "hash": "4bb2d2d7"
+      },
+      "1": {
+        "start_char": 42,
+        "end_char": 52,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 53,
+        "end_char": 98,
+        "length": 45,
+        "preview": "    <div className=\"component mediauploader\">",
+        "hash": "a6ad39ee"
+      },
+      "3": {
+        "start_char": 99,
+        "end_char": 127,
+        "length": 28,
+        "preview": "      <h2>MediaUploader</h2>",
+        "hash": "f4b65ef7"
+      },
+      "4": {
+        "start_char": 128,
+        "end_char": 172,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 173,
+        "end_char": 183,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 184,
+        "end_char": 188,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 189,
+        "end_char": 190,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 191,
+        "end_char": 191,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          73,
+          138
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          57
+        ]
+      },
+      "mediauploader()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "mediauploader\">": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "<h2>mediauploader</h2>": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

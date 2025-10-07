@@ -1,0 +1,77 @@
+.requirements-editor {
+  background: #f8fafd;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0 1rem 0;
+  box-shadow: 0 2px 8px rgba(26,126,230,0.05);
+  border: 1.5px solid #e0eafc;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.requirements-editor h3 {
+  margin-top: 0;
+  color: #1a7ee6;
+}
+.req-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.req-list li {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 6px;
+  margin-bottom: 7px;
+  padding: 0.55rem 0.85rem;
+  font-size: 1.01rem;
+  border: 1px solid #e0eafc;
+}
+.req-list button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #d92b2b;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.req-add {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+.req-add input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1.5px solid #e0eafc;
+  font-size: 1rem;
+}
+.req-add button {
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  border: none;
+  background: #1a7ee6;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.confirm-btn {
+  width: 100%;
+  margin-top: 0.6rem;
+  padding: 0.85rem 0;
+  border-radius: 8px;
+  border: none;
+  background: #32d657;
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.16s;
+}
+.confirm-btn:hover {
+  background: #28b94d;
+}

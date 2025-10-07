@@ -1,0 +1,593 @@
+{
+  "user_id": "extreme_test",
+  "project_id": "compression",
+  "file_name": "pattern_based.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018734999999999998
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 28000,
+        "output_size": 28000,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 28000,
+        "output_size": 6494,
+        "stage_compression_ratio": 0.23192857142857143,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 1210,
+          "original_size": 28000,
+          "compressed_size": 6494
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 6494,
+        "output_size": 33,
+        "stage_compression_ratio": 0.0050816137973514015,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 6494,
+          "estimated_compressed_size": 2732,
+          "entropy": 3.3661003997425096
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0011785714285714286,
+    "stage_count": 3,
+    "original_size": 28000,
+    "final_size": 33,
+    "space_savings": 27967,
+    "space_savings_percent": 99.88214285714285
+  },
+  "original_size": 28000,
+  "compressed_size": 33,
+  "compression_ratio": 0.0011785714285714286,
+  "space_savings_percent": 99.88214285714285,
+  "content_hash": "8c02f6a56b540827",
+  "timestamp": 1754563769,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:2732:[72][101][108][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563769,
+    "total_lines": 1,
+    "total_chars": 28000,
+    "total_words": 4000,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 28000,
+        "length": 28000,
+        "preview": "Hello World! Hello World! Hello World! Hello World...",
+        "hash": "54dd8956"
+      }
+    },
+    "word_index": {
+      "world!": {
+        "count": 2000,
+        "positions": [
+          6,
+          19,
+          32,
+          45,
+          58,
+          71,
+          84,
+          97,
+          110,
+          123
+        ]
+      },
+      "hello": {
+        "count": 1000,
+        "positions": [
+          0,
+          13,
+          26,
+          39,
+          52,
+          65,
+          78,
+          91,
+          104,
+          117
+        ]
+      },
+      "goodbye": {
+        "count": 1000,
+        "positions": [
+          13000,
+          13015,
+          13030,
+          13045,
+          13060,
+          13075,
+          13090,
+          13105,
+          13120,
+          13135
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 56,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "e2e956c0ce29",
+          "preview": "Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Wor..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "7478a5806c87",
+          "preview": "World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! He..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1500,
+          "size": 500,
+          "hash": "1f6f6e512a61",
+          "preview": " Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Wo..."
+        },
+        {
+          "id": 3,
+          "start_char": 1500,
+          "end_char": 2000,
+          "size": 500,
+          "hash": "b38d1c98e023",
+          "preview": " World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! H..."
+        },
+        {
+          "id": 4,
+          "start_char": 2000,
+          "end_char": 2500,
+          "size": 500,
+          "hash": "ce3ae0fb1efb",
+          "preview": "! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello W..."
+        },
+        {
+          "id": 5,
+          "start_char": 2500,
+          "end_char": 3000,
+          "size": 500,
+          "hash": "01fcd857b95d",
+          "preview": "o World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! ..."
+        },
+        {
+          "id": 6,
+          "start_char": 3000,
+          "end_char": 3500,
+          "size": 500,
+          "hash": "cdc078612b41",
+          "preview": "d! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello ..."
+        },
+        {
+          "id": 7,
+          "start_char": 3500,
+          "end_char": 4000,
+          "size": 500,
+          "hash": "b7f7a758ba0f",
+          "preview": "lo World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!..."
+        },
+        {
+          "id": 8,
+          "start_char": 4000,
+          "end_char": 4500,
+          "size": 500,
+          "hash": "4b09577c0a93",
+          "preview": "ld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello..."
+        },
+        {
+          "id": 9,
+          "start_char": 4500,
+          "end_char": 5000,
+          "size": 500,
+          "hash": "fede0b950095",
+          "preview": "llo World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World..."
+        },
+        {
+          "id": 10,
+          "start_char": 5000,
+          "end_char": 5500,
+          "size": 500,
+          "hash": "a9b833ef572c",
+          "preview": "rld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hell..."
+        },
+        {
+          "id": 11,
+          "start_char": 5500,
+          "end_char": 6000,
+          "size": 500,
+          "hash": "3a19efdd5af1",
+          "preview": "ello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Worl..."
+        },
+        {
+          "id": 12,
+          "start_char": 6000,
+          "end_char": 6500,
+          "size": 500,
+          "hash": "ede1ef739fc8",
+          "preview": "orld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hel..."
+        },
+        {
+          "id": 13,
+          "start_char": 6500,
+          "end_char": 7000,
+          "size": 500,
+          "hash": "e2e956c0ce29",
+          "preview": "Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Wor..."
+        },
+        {
+          "id": 14,
+          "start_char": 7000,
+          "end_char": 7500,
+          "size": 500,
+          "hash": "7478a5806c87",
+          "preview": "World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! He..."
+        },
+        {
+          "id": 15,
+          "start_char": 7500,
+          "end_char": 8000,
+          "size": 500,
+          "hash": "1f6f6e512a61",
+          "preview": " Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Wo..."
+        },
+        {
+          "id": 16,
+          "start_char": 8000,
+          "end_char": 8500,
+          "size": 500,
+          "hash": "b38d1c98e023",
+          "preview": " World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! H..."
+        },
+        {
+          "id": 17,
+          "start_char": 8500,
+          "end_char": 9000,
+          "size": 500,
+          "hash": "ce3ae0fb1efb",
+          "preview": "! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello W..."
+        },
+        {
+          "id": 18,
+          "start_char": 9000,
+          "end_char": 9500,
+          "size": 500,
+          "hash": "01fcd857b95d",
+          "preview": "o World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! ..."
+        },
+        {
+          "id": 19,
+          "start_char": 9500,
+          "end_char": 10000,
+          "size": 500,
+          "hash": "cdc078612b41",
+          "preview": "d! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello ..."
+        },
+        {
+          "id": 20,
+          "start_char": 10000,
+          "end_char": 10500,
+          "size": 500,
+          "hash": "b7f7a758ba0f",
+          "preview": "lo World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!..."
+        },
+        {
+          "id": 21,
+          "start_char": 10500,
+          "end_char": 11000,
+          "size": 500,
+          "hash": "4b09577c0a93",
+          "preview": "ld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello..."
+        },
+        {
+          "id": 22,
+          "start_char": 11000,
+          "end_char": 11500,
+          "size": 500,
+          "hash": "fede0b950095",
+          "preview": "llo World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World..."
+        },
+        {
+          "id": 23,
+          "start_char": 11500,
+          "end_char": 12000,
+          "size": 500,
+          "hash": "a9b833ef572c",
+          "preview": "rld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hell..."
+        },
+        {
+          "id": 24,
+          "start_char": 12000,
+          "end_char": 12500,
+          "size": 500,
+          "hash": "3a19efdd5af1",
+          "preview": "ello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello Worl..."
+        },
+        {
+          "id": 25,
+          "start_char": 12500,
+          "end_char": 13000,
+          "size": 500,
+          "hash": "ede1ef739fc8",
+          "preview": "orld! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hel..."
+        },
+        {
+          "id": 26,
+          "start_char": 13000,
+          "end_char": 13500,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 27,
+          "start_char": 13500,
+          "end_char": 14000,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 28,
+          "start_char": 14000,
+          "end_char": 14500,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 29,
+          "start_char": 14500,
+          "end_char": 15000,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 30,
+          "start_char": 15000,
+          "end_char": 15500,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 31,
+          "start_char": 15500,
+          "end_char": 16000,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 32,
+          "start_char": 16000,
+          "end_char": 16500,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 33,
+          "start_char": 16500,
+          "end_char": 17000,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 34,
+          "start_char": 17000,
+          "end_char": 17500,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 35,
+          "start_char": 17500,
+          "end_char": 18000,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 36,
+          "start_char": 18000,
+          "end_char": 18500,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 37,
+          "start_char": 18500,
+          "end_char": 19000,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 38,
+          "start_char": 19000,
+          "end_char": 19500,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 39,
+          "start_char": 19500,
+          "end_char": 20000,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 40,
+          "start_char": 20000,
+          "end_char": 20500,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 41,
+          "start_char": 20500,
+          "end_char": 21000,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 42,
+          "start_char": 21000,
+          "end_char": 21500,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 43,
+          "start_char": 21500,
+          "end_char": 22000,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 44,
+          "start_char": 22000,
+          "end_char": 22500,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 45,
+          "start_char": 22500,
+          "end_char": 23000,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 46,
+          "start_char": 23000,
+          "end_char": 23500,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 47,
+          "start_char": 23500,
+          "end_char": 24000,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 48,
+          "start_char": 24000,
+          "end_char": 24500,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 49,
+          "start_char": 24500,
+          "end_char": 25000,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 50,
+          "start_char": 25000,
+          "end_char": 25500,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 51,
+          "start_char": 25500,
+          "end_char": 26000,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 52,
+          "start_char": 26000,
+          "end_char": 26500,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        },
+        {
+          "id": 53,
+          "start_char": 26500,
+          "end_char": 27000,
+          "size": 500,
+          "hash": "fe3a52bc0091",
+          "preview": "Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye Wo..."
+        },
+        {
+          "id": 54,
+          "start_char": 27000,
+          "end_char": 27500,
+          "size": 500,
+          "hash": "0ae323c37e3f",
+          "preview": "ye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! ..."
+        },
+        {
+          "id": 55,
+          "start_char": 27500,
+          "end_char": 28000,
+          "size": 500,
+          "hash": "3ca78380d959",
+          "preview": "rld! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodbye World! Goodb..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "user_id": "default_user",
+  "project_id": "37",
+  "file_name": "src/components/ContentOptimizer.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0976027397260274
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 245,
+        "output_size": 241,
+        "stage_compression_ratio": 0.9836734693877551,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 241,
+        "output_size": 822,
+        "stage_compression_ratio": 3.4107883817427385,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 175,
+          "original_size": 237,
+          "compressed_size": 822
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 822,
+        "output_size": 32,
+        "stage_compression_ratio": 0.038929440389294405,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 822,
+          "estimated_compressed_size": 324,
+          "entropy": 3.153822419141943
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1306122448979592,
+    "stage_count": 3,
+    "original_size": 245,
+    "final_size": 32,
+    "space_savings": 213,
+    "space_savings_percent": 86.93877551020408
+  },
+  "original_size": 245,
+  "compressed_size": 32,
+  "compression_ratio": 0.1306122448979592,
+  "space_savings_percent": 86.93877551020408,
+  "content_hash": "b391092a91ea0a1c",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:324:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 13,
+    "total_chars": 245,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 89,
+        "length": 50,
+        "preview": "export default function ContentOptimizer(Props ) {",
+        "hash": "8b50047c"
+      },
+      "5": {
+        "start_char": 90,
+        "end_char": 100,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 101,
+        "end_char": 149,
+        "length": 48,
+        "preview": "    <div className=\"component contentoptimizer\">",
+        "hash": "36c9d8ee"
+      },
+      "7": {
+        "start_char": 150,
+        "end_char": 181,
+        "length": 31,
+        "preview": "      <h2>ContentOptimizer</h2>",
+        "hash": "c1c29016"
+      },
+      "8": {
+        "start_char": 182,
+        "end_char": 226,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 227,
+        "end_char": 237,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 238,
+        "end_char": 242,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 243,
+        "end_char": 244,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 245,
+        "end_char": 245,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "contentoptimizer(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "content": {
+        "count": 4,
+        "positions": [
+          63,
+          131,
+          160,
+          202
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          210
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "contentoptimizer\">": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          121,
+          192
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          80
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "<h2>contentoptimizer</h2>": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          218
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          223
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          92
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

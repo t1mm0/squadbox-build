@@ -1,0 +1,701 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "README.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.2410714285714286
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 570,
+        "output_size": 574,
+        "stage_compression_ratio": 1.0070175438596491,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 574,
+        "output_size": 1748,
+        "stage_compression_ratio": 3.0452961672473866,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 365,
+          "original_size": 570,
+          "compressed_size": 1748
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1748,
+        "output_size": 32,
+        "stage_compression_ratio": 0.018306636155606407,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1748,
+          "estimated_compressed_size": 709,
+          "entropy": 3.246949685637301
+        }
+      }
+    ],
+    "total_compression_ratio": 0.056140350877192984,
+    "stage_count": 3,
+    "original_size": 570,
+    "final_size": 32,
+    "space_savings": 538,
+    "space_savings_percent": 94.38596491228071
+  },
+  "original_size": 570,
+  "compressed_size": 32,
+  "compression_ratio": 0.056140350877192984,
+  "space_savings_percent": 94.38596491228071,
+  "content_hash": "6f9a8f3264965d19",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:709:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 37,
+    "total_chars": 570,
+    "total_words": 93,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 12,
+        "length": 12,
+        "preview": "# My Project",
+        "hash": "6d7a42ee"
+      },
+      "1": {
+        "start_char": 13,
+        "end_char": 13,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 14,
+        "end_char": 76,
+        "length": 62,
+        "preview": "A modern portfolio website built with Next.js and ...",
+        "hash": "9229fa4f"
+      },
+      "3": {
+        "start_char": 77,
+        "end_char": 77,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 78,
+        "end_char": 89,
+        "length": 11,
+        "preview": "## Features",
+        "hash": "544a9618"
+      },
+      "5": {
+        "start_char": 90,
+        "end_char": 90,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 91,
+        "end_char": 131,
+        "length": 40,
+        "preview": "- Responsive design for all device sizes",
+        "hash": "e3de5798"
+      },
+      "7": {
+        "start_char": 132,
+        "end_char": 158,
+        "length": 26,
+        "preview": "- Dynamic project showcase",
+        "hash": "330d7cd7"
+      },
+      "8": {
+        "start_char": 159,
+        "end_char": 189,
+        "length": 30,
+        "preview": "- Contact form with validation",
+        "hash": "c9c0a1ea"
+      },
+      "9": {
+        "start_char": 190,
+        "end_char": 233,
+        "length": 43,
+        "preview": "- Animation and transitions for enhanced UX",
+        "hash": "3c65d01c"
+      },
+      "10": {
+        "start_char": 234,
+        "end_char": 249,
+        "length": 15,
+        "preview": "- SEO optimized",
+        "hash": "971c1080"
+      },
+      "11": {
+        "start_char": 250,
+        "end_char": 250,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "12": {
+        "start_char": 251,
+        "end_char": 269,
+        "length": 18,
+        "preview": "## Getting Started",
+        "hash": "f2d4cd63"
+      },
+      "13": {
+        "start_char": 270,
+        "end_char": 270,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "14": {
+        "start_char": 271,
+        "end_char": 278,
+        "length": 7,
+        "preview": "```bash",
+        "hash": "bbb5a8a3"
+      },
+      "15": {
+        "start_char": 279,
+        "end_char": 301,
+        "length": 22,
+        "preview": "# Install dependencies",
+        "hash": "5cc892f1"
+      },
+      "16": {
+        "start_char": 302,
+        "end_char": 313,
+        "length": 11,
+        "preview": "npm install",
+        "hash": "d53119ba"
+      },
+      "17": {
+        "start_char": 314,
+        "end_char": 314,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 315,
+        "end_char": 339,
+        "length": 24,
+        "preview": "# Run development server",
+        "hash": "9e2ea5be"
+      },
+      "19": {
+        "start_char": 340,
+        "end_char": 351,
+        "length": 11,
+        "preview": "npm run dev",
+        "hash": "e3abe2c5"
+      },
+      "20": {
+        "start_char": 352,
+        "end_char": 352,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "21": {
+        "start_char": 353,
+        "end_char": 375,
+        "length": 22,
+        "preview": "# Build for production",
+        "hash": "fe11e3f8"
+      },
+      "22": {
+        "start_char": 376,
+        "end_char": 389,
+        "length": 13,
+        "preview": "npm run build",
+        "hash": "f7382045"
+      },
+      "23": {
+        "start_char": 390,
+        "end_char": 390,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "24": {
+        "start_char": 391,
+        "end_char": 416,
+        "length": 25,
+        "preview": "# Start production server",
+        "hash": "d8820761"
+      },
+      "25": {
+        "start_char": 417,
+        "end_char": 426,
+        "length": 9,
+        "preview": "npm start",
+        "hash": "8b86e6df"
+      },
+      "26": {
+        "start_char": 427,
+        "end_char": 430,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "27": {
+        "start_char": 431,
+        "end_char": 431,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "28": {
+        "start_char": 432,
+        "end_char": 445,
+        "length": 13,
+        "preview": "## Deployment",
+        "hash": "3e4a80f6"
+      },
+      "29": {
+        "start_char": 446,
+        "end_char": 446,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "30": {
+        "start_char": 447,
+        "end_char": 530,
+        "length": 83,
+        "preview": "This site can be easily deployed to Vercel, Netlif...",
+        "hash": "cd23e130"
+      },
+      "31": {
+        "start_char": 531,
+        "end_char": 531,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "32": {
+        "start_char": 532,
+        "end_char": 539,
+        "length": 7,
+        "preview": "```bash",
+        "hash": "bbb5a8a3"
+      },
+      "33": {
+        "start_char": 540,
+        "end_char": 558,
+        "length": 18,
+        "preview": "# Deploy to Vercel",
+        "hash": "98457f04"
+      },
+      "34": {
+        "start_char": 559,
+        "end_char": 565,
+        "length": 6,
+        "preview": "vercel",
+        "hash": "3399d02f"
+      },
+      "35": {
+        "start_char": 566,
+        "end_char": 569,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "36": {
+        "start_char": 570,
+        "end_char": 570,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "transitions": {
+        "count": 1,
+        "positions": [
+          206
+        ]
+      },
+      "start": {
+        "count": 3,
+        "positions": [
+          262,
+          393,
+          421
+        ]
+      },
+      "form": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "all": {
+        "count": 3,
+        "positions": [
+          115,
+          285,
+          310
+        ]
+      },
+      "project": {
+        "count": 2,
+        "positions": [
+          5,
+          142
+        ]
+      },
+      "validation": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "development": {
+        "count": 1,
+        "positions": [
+          321
+        ]
+      },
+      "dev": {
+        "count": 3,
+        "positions": [
+          119,
+          321,
+          348
+        ]
+      },
+      "deployed": {
+        "count": 1,
+        "positions": [
+          471
+        ]
+      },
+      "next.js": {
+        "count": 1,
+        "positions": [
+          52
+        ]
+      },
+      "modern": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "enhanced": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "```": {
+        "count": 4,
+        "positions": [
+          271,
+          427,
+          532,
+          566
+        ]
+      },
+      "netlify,": {
+        "count": 1,
+        "positions": [
+          491
+        ]
+      },
+      "hosting": {
+        "count": 1,
+        "positions": [
+          514
+        ]
+      },
+      "responsive": {
+        "count": 1,
+        "positions": [
+          93
+        ]
+      },
+      "design": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "easily": {
+        "count": 1,
+        "positions": [
+          464
+        ]
+      },
+      "contact": {
+        "count": 1,
+        "positions": [
+          161
+        ]
+      },
+      "for": {
+        "count": 4,
+        "positions": [
+          111,
+          169,
+          218,
+          361
+        ]
+      },
+      "device": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "build": {
+        "count": 2,
+        "positions": [
+          355,
+          384
+        ]
+      },
+      "built": {
+        "count": 1,
+        "positions": [
+          41
+        ]
+      },
+      "features": {
+        "count": 1,
+        "positions": [
+          81
+        ]
+      },
+      "website": {
+        "count": 1,
+        "positions": [
+          33
+        ]
+      },
+      "getting": {
+        "count": 1,
+        "positions": [
+          254
+        ]
+      },
+      "any": {
+        "count": 1,
+        "positions": [
+          503
+        ]
+      },
+      "```bash": {
+        "count": 2,
+        "positions": [
+          271,
+          532
+        ]
+      },
+      "install": {
+        "count": 2,
+        "positions": [
+          281,
+          306
+        ]
+      },
+      "tailwindcss.": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "animation": {
+        "count": 1,
+        "positions": [
+          192
+        ]
+      },
+      "optimized": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "showcase": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "with": {
+        "count": 2,
+        "positions": [
+          47,
+          174
+        ]
+      },
+      "dependencies": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "service.": {
+        "count": 1,
+        "positions": [
+          522
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          447
+        ]
+      },
+      "can": {
+        "count": 1,
+        "positions": [
+          457
+        ]
+      },
+      "seo": {
+        "count": 1,
+        "positions": [
+          236
+        ]
+      },
+      "server": {
+        "count": 2,
+        "positions": [
+          333,
+          410
+        ]
+      },
+      "deploy": {
+        "count": 3,
+        "positions": [
+          435,
+          471,
+          542
+        ]
+      },
+      "vercel": {
+        "count": 3,
+        "positions": [
+          483,
+          552,
+          559
+        ]
+      },
+      "portfolio": {
+        "count": 1,
+        "positions": [
+          23
+        ]
+      },
+      "deployment": {
+        "count": 1,
+        "positions": [
+          435
+        ]
+      },
+      "vercel,": {
+        "count": 1,
+        "positions": [
+          483
+        ]
+      },
+      "static": {
+        "count": 1,
+        "positions": [
+          507
+        ]
+      },
+      "dynamic": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "run": {
+        "count": 3,
+        "positions": [
+          317,
+          344,
+          380
+        ]
+      },
+      "npm": {
+        "count": 4,
+        "positions": [
+          302,
+          340,
+          376,
+          417
+        ]
+      },
+      "site": {
+        "count": 2,
+        "positions": [
+          36,
+          452
+        ]
+      },
+      "and": {
+        "count": 2,
+        "positions": [
+          60,
+          202
+        ]
+      },
+      "production": {
+        "count": 2,
+        "positions": [
+          365,
+          399
+        ]
+      },
+      "sizes": {
+        "count": 1,
+        "positions": [
+          126
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

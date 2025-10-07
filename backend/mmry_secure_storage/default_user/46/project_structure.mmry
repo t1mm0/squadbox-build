@@ -1,0 +1,876 @@
+{
+  "user_id": "default_user",
+  "project_id": "46",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.10191176470588234
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 745,
+        "output_size": 745,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 745,
+        "output_size": 2030,
+        "stage_compression_ratio": 2.7248322147651005,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 425,
+          "original_size": 745,
+          "compressed_size": 2030
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2030,
+        "output_size": 32,
+        "stage_compression_ratio": 0.015763546798029555,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2030,
+          "estimated_compressed_size": 827,
+          "entropy": 3.2614657118665686
+        }
+      }
+    ],
+    "total_compression_ratio": 0.042953020134228186,
+    "stage_count": 3,
+    "original_size": 745,
+    "final_size": 32,
+    "space_savings": 713,
+    "space_savings_percent": 95.70469798657719
+  },
+  "original_size": 745,
+  "compressed_size": 32,
+  "compression_ratio": 0.042953020134228186,
+  "space_savings_percent": 95.70469798657719,
+  "content_hash": "b720cd254202e7e1",
+  "timestamp": 1759698822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:827:[35][32][79][112][11",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698822,
+    "total_lines": 58,
+    "total_chars": 745,
+    "total_words": 109,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 32,
+        "length": 32,
+        "preview": "# Optimized Model Test Structure",
+        "hash": "0556c56d"
+      },
+      "1": {
+        "start_char": 33,
+        "end_char": 33,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 34,
+        "end_char": 57,
+        "length": 23,
+        "preview": "Template: Blog Template",
+        "hash": "63fe7d17"
+      },
+      "3": {
+        "start_char": 58,
+        "end_char": 58,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 59,
+        "end_char": 76,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 77,
+        "end_char": 77,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 78,
+        "end_char": 84,
+        "length": 6,
+        "preview": "- Home",
+        "hash": "fec7ef99"
+      },
+      "7": {
+        "start_char": 85,
+        "end_char": 103,
+        "length": 18,
+        "preview": "  - featured-posts",
+        "hash": "fe232499"
+      },
+      "8": {
+        "start_char": 104,
+        "end_char": 118,
+        "length": 14,
+        "preview": "  - categories",
+        "hash": "2c4a1937"
+      },
+      "9": {
+        "start_char": 119,
+        "end_char": 133,
+        "length": 14,
+        "preview": "  - newsletter",
+        "hash": "635ff6e9"
+      },
+      "10": {
+        "start_char": 134,
+        "end_char": 141,
+        "length": 7,
+        "preview": "- Posts",
+        "hash": "bdaec979"
+      },
+      "11": {
+        "start_char": 142,
+        "end_char": 155,
+        "length": 13,
+        "preview": "  - post-list",
+        "hash": "24c55aee"
+      },
+      "12": {
+        "start_char": 156,
+        "end_char": 172,
+        "length": 16,
+        "preview": "  - post-filters",
+        "hash": "e987a345"
+      },
+      "13": {
+        "start_char": 173,
+        "end_char": 187,
+        "length": 14,
+        "preview": "  - pagination",
+        "hash": "d894ad59"
+      },
+      "14": {
+        "start_char": 188,
+        "end_char": 201,
+        "length": 13,
+        "preview": "- Post Detail",
+        "hash": "1e9526e2"
+      },
+      "15": {
+        "start_char": 202,
+        "end_char": 217,
+        "length": 15,
+        "preview": "  - post-header",
+        "hash": "6f7b1cc5"
+      },
+      "16": {
+        "start_char": 218,
+        "end_char": 234,
+        "length": 16,
+        "preview": "  - post-content",
+        "hash": "3a05752c"
+      },
+      "17": {
+        "start_char": 235,
+        "end_char": 250,
+        "length": 15,
+        "preview": "  - post-author",
+        "hash": "c1ffe51a"
+      },
+      "18": {
+        "start_char": 251,
+        "end_char": 268,
+        "length": 17,
+        "preview": "  - related-posts",
+        "hash": "2b195da0"
+      },
+      "19": {
+        "start_char": 269,
+        "end_char": 281,
+        "length": 12,
+        "preview": "  - comments",
+        "hash": "ccee2bcd"
+      },
+      "20": {
+        "start_char": 282,
+        "end_char": 289,
+        "length": 7,
+        "preview": "- About",
+        "hash": "59d1c831"
+      },
+      "21": {
+        "start_char": 290,
+        "end_char": 304,
+        "length": 14,
+        "preview": "  - author-bio",
+        "hash": "d07d3ff8"
+      },
+      "22": {
+        "start_char": 305,
+        "end_char": 318,
+        "length": 13,
+        "preview": "  - blog-info",
+        "hash": "531254a0"
+      },
+      "23": {
+        "start_char": 319,
+        "end_char": 328,
+        "length": 9,
+        "preview": "- Contact",
+        "hash": "a82996d3"
+      },
+      "24": {
+        "start_char": 329,
+        "end_char": 345,
+        "length": 16,
+        "preview": "  - contact-form",
+        "hash": "26ab85ee"
+      },
+      "25": {
+        "start_char": 346,
+        "end_char": 362,
+        "length": 16,
+        "preview": "  - social-links",
+        "hash": "a8a89c64"
+      },
+      "26": {
+        "start_char": 363,
+        "end_char": 370,
+        "length": 7,
+        "preview": "- Admin",
+        "hash": "0e2ea7fc"
+      },
+      "27": {
+        "start_char": 371,
+        "end_char": 380,
+        "length": 9,
+        "preview": "  - login",
+        "hash": "64e0209e"
+      },
+      "28": {
+        "start_char": 381,
+        "end_char": 396,
+        "length": 15,
+        "preview": "  - post-editor",
+        "hash": "d59e2b67"
+      },
+      "29": {
+        "start_char": 397,
+        "end_char": 414,
+        "length": 17,
+        "preview": "  - media-library",
+        "hash": "cfbac1fb"
+      },
+      "30": {
+        "start_char": 415,
+        "end_char": 437,
+        "length": 22,
+        "preview": "  - comment-management",
+        "hash": "4ebc3620"
+      },
+      "31": {
+        "start_char": 438,
+        "end_char": 451,
+        "length": 13,
+        "preview": "  - analytics",
+        "hash": "a0b9f642"
+      },
+      "32": {
+        "start_char": 452,
+        "end_char": 452,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "33": {
+        "start_char": 453,
+        "end_char": 466,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "34": {
+        "start_char": 467,
+        "end_char": 467,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "35": {
+        "start_char": 468,
+        "end_char": 476,
+        "length": 8,
+        "preview": "- Header",
+        "hash": "8bdb89f1"
+      },
+      "36": {
+        "start_char": 477,
+        "end_char": 485,
+        "length": 8,
+        "preview": "- Footer",
+        "hash": "f237ecf8"
+      },
+      "37": {
+        "start_char": 486,
+        "end_char": 496,
+        "length": 10,
+        "preview": "- PostCard",
+        "hash": "2347a831"
+      },
+      "38": {
+        "start_char": 497,
+        "end_char": 508,
+        "length": 11,
+        "preview": "- AuthorBio",
+        "hash": "35d1504f"
+      },
+      "39": {
+        "start_char": 509,
+        "end_char": 525,
+        "length": 16,
+        "preview": "- CommentSection",
+        "hash": "103023fb"
+      },
+      "40": {
+        "start_char": 526,
+        "end_char": 542,
+        "length": 16,
+        "preview": "- NewsletterForm",
+        "hash": "c5e79f96"
+      },
+      "41": {
+        "start_char": 543,
+        "end_char": 557,
+        "length": 14,
+        "preview": "- CategoryList",
+        "hash": "f445d6d3"
+      },
+      "42": {
+        "start_char": 558,
+        "end_char": 569,
+        "length": 11,
+        "preview": "- SearchBar",
+        "hash": "2c614cbe"
+      },
+      "43": {
+        "start_char": 570,
+        "end_char": 582,
+        "length": 12,
+        "preview": "- PostEditor",
+        "hash": "294fefa2"
+      },
+      "44": {
+        "start_char": 583,
+        "end_char": 598,
+        "length": 15,
+        "preview": "- MediaUploader",
+        "hash": "bb4f9b6a"
+      },
+      "45": {
+        "start_char": 599,
+        "end_char": 599,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "46": {
+        "start_char": 600,
+        "end_char": 613,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "47": {
+        "start_char": 614,
+        "end_char": 614,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "48": {
+        "start_char": 615,
+        "end_char": 624,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "49": {
+        "start_char": 625,
+        "end_char": 630,
+        "length": 5,
+        "preview": "- MDX",
+        "hash": "99410068"
+      },
+      "50": {
+        "start_char": 631,
+        "end_char": 644,
+        "length": 13,
+        "preview": "- TailwindCSS",
+        "hash": "44ce2250"
+      },
+      "51": {
+        "start_char": 645,
+        "end_char": 653,
+        "length": 8,
+        "preview": "- Prisma",
+        "hash": "02afc3f9"
+      },
+      "52": {
+        "start_char": 654,
+        "end_char": 666,
+        "length": 12,
+        "preview": "- PostgreSQL",
+        "hash": "dc987bdd"
+      },
+      "53": {
+        "start_char": 667,
+        "end_char": 667,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "54": {
+        "start_char": 668,
+        "end_char": 690,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "55": {
+        "start_char": 691,
+        "end_char": 691,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "56": {
+        "start_char": 692,
+        "end_char": 744,
+        "length": 52,
+        "preview": "- Test with llama3.2:latest model for agentic codi...",
+        "hash": "e49e0d20"
+      },
+      "57": {
+        "start_char": 745,
+        "end_char": 745,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "post-content": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "comments": {
+        "count": 2,
+        "positions": [
+          273,
+          511
+        ]
+      },
+      "stack": {
+        "count": 1,
+        "positions": [
+          608
+        ]
+      },
+      "detail": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      },
+      "postgresql": {
+        "count": 1,
+        "positions": [
+          656
+        ]
+      },
+      "posteditor": {
+        "count": 1,
+        "positions": [
+          572
+        ]
+      },
+      "mdx": {
+        "count": 1,
+        "positions": [
+          627
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          23
+        ]
+      },
+      "components": {
+        "count": 1,
+        "positions": [
+          456
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          671
+        ]
+      },
+      "llama3.2:latest": {
+        "count": 1,
+        "positions": [
+          704
+        ]
+      },
+      "next.js": {
+        "count": 1,
+        "positions": [
+          617
+        ]
+      },
+      "post-list": {
+        "count": 1,
+        "positions": [
+          146
+        ]
+      },
+      "about": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "model": {
+        "count": 2,
+        "positions": [
+          12,
+          720
+        ]
+      },
+      "post": {
+        "count": 13,
+        "positions": [
+          98,
+          136,
+          146,
+          160,
+          190,
+          206,
+          222,
+          239,
+          263,
+          385
+        ]
+      },
+      "contact": {
+        "count": 2,
+        "positions": [
+          321,
+          333
+        ]
+      },
+      "for": {
+        "count": 3,
+        "positions": [
+          341,
+          538,
+          726
+        ]
+      },
+      "post-filters": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "footer": {
+        "count": 1,
+        "positions": [
+          479
+        ]
+      },
+      "authorbio": {
+        "count": 1,
+        "positions": [
+          499
+        ]
+      },
+      "postcard": {
+        "count": 1,
+        "positions": [
+          488
+        ]
+      },
+      "comment-management": {
+        "count": 1,
+        "positions": [
+          419
+        ]
+      },
+      "author-bio": {
+        "count": 1,
+        "positions": [
+          294
+        ]
+      },
+      "post-editor": {
+        "count": 1,
+        "positions": [
+          385
+        ]
+      },
+      "post-header": {
+        "count": 1,
+        "positions": [
+          206
+        ]
+      },
+      "media-library": {
+        "count": 1,
+        "positions": [
+          401
+        ]
+      },
+      "searchbar": {
+        "count": 1,
+        "positions": [
+          560
+        ]
+      },
+      "categorylist": {
+        "count": 1,
+        "positions": [
+          545
+        ]
+      },
+      "login": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "admin": {
+        "count": 1,
+        "positions": [
+          365
+        ]
+      },
+      "coding": {
+        "count": 1,
+        "positions": [
+          738
+        ]
+      },
+      "blog": {
+        "count": 2,
+        "positions": [
+          44,
+          309
+        ]
+      },
+      "agentic": {
+        "count": 1,
+        "positions": [
+          730
+        ]
+      },
+      "blog-info": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "contact-form": {
+        "count": 1,
+        "positions": [
+          333
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      },
+      "optimized": {
+        "count": 1,
+        "positions": [
+          2
+        ]
+      },
+      "home": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "newsletter": {
+        "count": 2,
+        "positions": [
+          123,
+          528
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          678
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          699
+        ]
+      },
+      "related-posts": {
+        "count": 1,
+        "positions": [
+          255
+        ]
+      },
+      "posts": {
+        "count": 3,
+        "positions": [
+          98,
+          136,
+          263
+        ]
+      },
+      "commentsection": {
+        "count": 1,
+        "positions": [
+          511
+        ]
+      },
+      "featured-posts": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          603
+        ]
+      },
+      "analytics": {
+        "count": 1,
+        "positions": [
+          442
+        ]
+      },
+      "tailwindcss": {
+        "count": 1,
+        "positions": [
+          633
+        ]
+      },
+      "prisma": {
+        "count": 1,
+        "positions": [
+          647
+        ]
+      },
+      "post-author": {
+        "count": 1,
+        "positions": [
+          239
+        ]
+      },
+      "social-links": {
+        "count": 1,
+        "positions": [
+          350
+        ]
+      },
+      "newsletterform": {
+        "count": 1,
+        "positions": [
+          528
+        ]
+      },
+      "categories": {
+        "count": 1,
+        "positions": [
+          108
+        ]
+      },
+      "pagination": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "template": {
+        "count": 2,
+        "positions": [
+          34,
+          49
+        ]
+      },
+      "mediauploader": {
+        "count": 1,
+        "positions": [
+          585
+        ]
+      },
+      "test": {
+        "count": 3,
+        "positions": [
+          18,
+          694,
+          715
+        ]
+      },
+      "header": {
+        "count": 2,
+        "positions": [
+          211,
+          470
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

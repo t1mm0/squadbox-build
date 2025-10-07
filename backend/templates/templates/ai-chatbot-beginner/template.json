@@ -1,0 +1,66 @@
+{
+  "id": "ai-chatbot-beginner-friendly",
+  "name": "AI Chatbot for Beginners",
+  "description": "The easiest way to build your first AI chatbot - no coding required! Perfect for beginners who want to create intelligent conversations.",
+  "category": "ai",
+  "difficulty": "beginner",
+  "estimatedTime": "15 minutes",
+  "features": [
+    "Drag & drop interface",
+    "Pre-built conversation flows",
+    "One-click training",
+    "Visual conversation builder",
+    "Template responses",
+    "Simple analytics",
+    "Mobile-friendly design",
+    "Guided setup wizard"
+  ],
+  "icon": "Sparkles",
+  "tags": ["ai", "chatbot", "beginner", "no-code", "easy", "guided"],
+  "access_tier": "free",
+  "popular": true,
+  "featured": true,
+  "downloads": 2500,
+  "rating": 4.9,
+  "tech_stack": {
+    "frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Next.js", "Node.js"],
+    "database": ["SQLite", "Local Storage"],
+    "ai": ["OpenAI GPT", "Simple Prompts"],
+    "deployment": ["Vercel", "Netlify"]
+  },
+  "files": [
+    "src/components/BeginnerChatInterface.tsx",
+    "src/components/ConversationBuilder.tsx",
+    "src/components/SetupWizard.tsx",
+    "src/components/SimpleAnalytics.tsx",
+    "src/app/api/simple-chat/route.ts",
+    "src/lib/simple-chatbot.ts",
+    "src/data/conversation-templates.json",
+    "src/styles/beginner-chatbot.css",
+    "README.md",
+    "package.json"
+  ],
+  "setup_instructions": [
+    "Click 'Create Project'",
+    "Choose your chatbot personality",
+    "Add your first responses",
+    "Test your chatbot",
+    "Deploy in one click"
+  ],
+  "customization_options": {
+    "personality": ["friendly", "professional", "helpful", "casual"],
+    "response_templates": ["greeting", "help", "goodbye", "error"],
+    "color_theme": ["blue", "green", "purple", "orange"],
+    "language": ["english", "spanish", "french"],
+    "response_style": ["short", "detailed", "conversational"]
+  },
+  "marketing_highlights": [
+    "Build your first AI chatbot in 15 minutes",
+    "No coding experience required",
+    "Beautiful, mobile-friendly interface",
+    "Pre-built conversation templates",
+    "One-click deployment",
+    "Free forever plan available"
+  ]
+} 

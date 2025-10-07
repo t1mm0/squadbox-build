@@ -1,0 +1,101 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "large_repeated.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.01729368932038835
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 500,
+        "output_size": 12,
+        "stage_compression_ratio": 0.024,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 12,
+        "output_size": 36,
+        "stage_compression_ratio": 3.0,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 8,
+          "original_size": 10,
+          "compressed_size": 36
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 36,
+        "output_size": 31,
+        "stage_compression_ratio": 0.8611111111111112,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 36,
+          "estimated_compressed_size": 13,
+          "entropy": 2.9375770020923047
+        }
+      }
+    ],
+    "total_compression_ratio": 0.062,
+    "stage_count": 3,
+    "original_size": 500,
+    "final_size": 31,
+    "space_savings": 469,
+    "space_savings_percent": 93.8
+  },
+  "original_size": 500,
+  "compressed_size": 31,
+  "compression_ratio": 0.062,
+  "space_savings_percent": 93.8,
+  "content_hash": "c38c2bf3055c516a",
+  "timestamp": 1754563556,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:13:[167][50][53][53][12",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563556,
+    "total_lines": 1,
+    "total_chars": 500,
+    "total_words": 1,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 500,
+        "length": 500,
+        "preview": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...",
+        "hash": "86c489df"
+      }
+    },
+    "word_index": {
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

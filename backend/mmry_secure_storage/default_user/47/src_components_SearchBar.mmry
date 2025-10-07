@@ -1,0 +1,257 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "src/components/SearchBar.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 1.0
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 179,
+        "output_size": 192,
+        "stage_compression_ratio": 1.0726256983240223,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 5,
+          "compression_ratio": 1.0726256983240223,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 192,
+        "output_size": 149,
+        "stage_compression_ratio": 0.7760416666666666,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 192,
+          "compressed_size": 149,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 432,
+        "output_size": 264,
+        "stage_compression_ratio": 0.6111111111111112,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 432,
+          "compressed_size": 264,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.4748603351955307,
+    "stage_count": 3,
+    "original_size": 179,
+    "final_size": 264,
+    "space_savings": -85,
+    "space_savings_percent": -47.486033519553075
+  },
+  "original_size": 179,
+  "compressed_size": 264,
+  "compression_ratio": 1.4748603351955307,
+  "space_savings_percent": -47.486033519553075,
+  "content_hash": "8bfc2efd50796eb4",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkEtPAzEMhH/LSoVyQSS7m21y4dRTQagC8SiKRJPsLg8hDohDOMBv5zPuwYk9nsw4zssa65guYk3jiY81r1rqEGsxQH7dHLlTUNtTrdaN0PozgLCI1XaLF4BEBjkUIj1w9FpMVnKAJI8pUtiiO5I4gieGsK27x/FQZdzFy/bv16Ql6yCmPf6N1QcxFh3uYUOLZP4H96Dd5Q1lt1EFz1gFU8sdOvEByzrdVFRWOB5OSRB80cZEowy6hImNmO57K95vPyzCuGfmz6N47+/iFw2/Q3QighqJVjCKpfmQ20d1lmXJz5N7QoxxxuHzQ4iTTNIoO7lX2dOt/t84XU2a3fnV8g82ypMW",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 9,
+    "total_chars": 179,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 37,
+        "length": 37,
+        "preview": "export default function SearchBar() {",
+        "hash": "5381088a"
+      },
+      "1": {
+        "start_char": 38,
+        "end_char": 48,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 49,
+        "end_char": 90,
+        "length": 41,
+        "preview": "    <div className=\"component searchbar\">",
+        "hash": "c186d0b4"
+      },
+      "3": {
+        "start_char": 91,
+        "end_char": 115,
+        "length": 24,
+        "preview": "      <h2>SearchBar</h2>",
+        "hash": "6c5d818f"
+      },
+      "4": {
+        "start_char": 116,
+        "end_char": 160,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 161,
+        "end_char": 171,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 172,
+        "end_char": 176,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 177,
+        "end_char": 178,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 179,
+        "end_char": 179,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          157
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          69,
+          126
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          152
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "searchbar()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          40
+        ]
+      },
+      "<h2>searchbar</h2>": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "searchbar\">": {
+        "count": 1,
+        "positions": [
+          79
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

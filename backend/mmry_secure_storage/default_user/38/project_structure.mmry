@@ -1,0 +1,1057 @@
+{
+  "user_id": "default_user",
+  "project_id": "38",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19676787463271303
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 1021,
+        "output_size": 1021,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 1021,
+        "output_size": 2614,
+        "stage_compression_ratio": 2.5602350636630753,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 542,
+          "original_size": 1021,
+          "compressed_size": 2614
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2614,
+        "output_size": 33,
+        "stage_compression_ratio": 0.01262433052792655,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2614,
+          "estimated_compressed_size": 1071,
+          "entropy": 3.2789415681897207
+        }
+      }
+    ],
+    "total_compression_ratio": 0.03232125367286973,
+    "stage_count": 3,
+    "original_size": 1021,
+    "final_size": 33,
+    "space_savings": 988,
+    "space_savings_percent": 96.76787463271303
+  },
+  "original_size": 1021,
+  "compressed_size": 33,
+  "compression_ratio": 0.03232125367286973,
+  "space_savings_percent": 96.76787463271303,
+  "content_hash": "1e3b73534b14a195",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1071:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 65,
+    "total_chars": 1021,
+    "total_words": 147,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 22,
+        "length": 22,
+        "preview": "# My Project Structure",
+        "hash": "8917c60b"
+      },
+      "1": {
+        "start_char": 23,
+        "end_char": 23,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 47,
+        "length": 23,
+        "preview": "Template: Blog Template",
+        "hash": "63fe7d17"
+      },
+      "3": {
+        "start_char": 48,
+        "end_char": 48,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 49,
+        "end_char": 66,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 67,
+        "end_char": 67,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 68,
+        "end_char": 74,
+        "length": 6,
+        "preview": "- Home",
+        "hash": "fec7ef99"
+      },
+      "7": {
+        "start_char": 75,
+        "end_char": 93,
+        "length": 18,
+        "preview": "  - featured-posts",
+        "hash": "fe232499"
+      },
+      "8": {
+        "start_char": 94,
+        "end_char": 108,
+        "length": 14,
+        "preview": "  - categories",
+        "hash": "2c4a1937"
+      },
+      "9": {
+        "start_char": 109,
+        "end_char": 123,
+        "length": 14,
+        "preview": "  - newsletter",
+        "hash": "635ff6e9"
+      },
+      "10": {
+        "start_char": 124,
+        "end_char": 131,
+        "length": 7,
+        "preview": "- Posts",
+        "hash": "bdaec979"
+      },
+      "11": {
+        "start_char": 132,
+        "end_char": 145,
+        "length": 13,
+        "preview": "  - post-list",
+        "hash": "24c55aee"
+      },
+      "12": {
+        "start_char": 146,
+        "end_char": 162,
+        "length": 16,
+        "preview": "  - post-filters",
+        "hash": "e987a345"
+      },
+      "13": {
+        "start_char": 163,
+        "end_char": 177,
+        "length": 14,
+        "preview": "  - pagination",
+        "hash": "d894ad59"
+      },
+      "14": {
+        "start_char": 178,
+        "end_char": 191,
+        "length": 13,
+        "preview": "- Post Detail",
+        "hash": "1e9526e2"
+      },
+      "15": {
+        "start_char": 192,
+        "end_char": 207,
+        "length": 15,
+        "preview": "  - post-header",
+        "hash": "6f7b1cc5"
+      },
+      "16": {
+        "start_char": 208,
+        "end_char": 224,
+        "length": 16,
+        "preview": "  - post-content",
+        "hash": "3a05752c"
+      },
+      "17": {
+        "start_char": 225,
+        "end_char": 240,
+        "length": 15,
+        "preview": "  - post-author",
+        "hash": "c1ffe51a"
+      },
+      "18": {
+        "start_char": 241,
+        "end_char": 258,
+        "length": 17,
+        "preview": "  - related-posts",
+        "hash": "2b195da0"
+      },
+      "19": {
+        "start_char": 259,
+        "end_char": 271,
+        "length": 12,
+        "preview": "  - comments",
+        "hash": "ccee2bcd"
+      },
+      "20": {
+        "start_char": 272,
+        "end_char": 279,
+        "length": 7,
+        "preview": "- About",
+        "hash": "59d1c831"
+      },
+      "21": {
+        "start_char": 280,
+        "end_char": 294,
+        "length": 14,
+        "preview": "  - author-bio",
+        "hash": "d07d3ff8"
+      },
+      "22": {
+        "start_char": 295,
+        "end_char": 308,
+        "length": 13,
+        "preview": "  - blog-info",
+        "hash": "531254a0"
+      },
+      "23": {
+        "start_char": 309,
+        "end_char": 318,
+        "length": 9,
+        "preview": "- Contact",
+        "hash": "a82996d3"
+      },
+      "24": {
+        "start_char": 319,
+        "end_char": 335,
+        "length": 16,
+        "preview": "  - contact-form",
+        "hash": "26ab85ee"
+      },
+      "25": {
+        "start_char": 336,
+        "end_char": 352,
+        "length": 16,
+        "preview": "  - social-links",
+        "hash": "a8a89c64"
+      },
+      "26": {
+        "start_char": 353,
+        "end_char": 360,
+        "length": 7,
+        "preview": "- Admin",
+        "hash": "0e2ea7fc"
+      },
+      "27": {
+        "start_char": 361,
+        "end_char": 370,
+        "length": 9,
+        "preview": "  - login",
+        "hash": "64e0209e"
+      },
+      "28": {
+        "start_char": 371,
+        "end_char": 386,
+        "length": 15,
+        "preview": "  - post-editor",
+        "hash": "d59e2b67"
+      },
+      "29": {
+        "start_char": 387,
+        "end_char": 404,
+        "length": 17,
+        "preview": "  - media-library",
+        "hash": "cfbac1fb"
+      },
+      "30": {
+        "start_char": 405,
+        "end_char": 427,
+        "length": 22,
+        "preview": "  - comment-management",
+        "hash": "4ebc3620"
+      },
+      "31": {
+        "start_char": 428,
+        "end_char": 441,
+        "length": 13,
+        "preview": "  - analytics",
+        "hash": "a0b9f642"
+      },
+      "32": {
+        "start_char": 442,
+        "end_char": 442,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "33": {
+        "start_char": 443,
+        "end_char": 456,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "34": {
+        "start_char": 457,
+        "end_char": 457,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "35": {
+        "start_char": 458,
+        "end_char": 466,
+        "length": 8,
+        "preview": "- Header",
+        "hash": "8bdb89f1"
+      },
+      "36": {
+        "start_char": 467,
+        "end_char": 475,
+        "length": 8,
+        "preview": "- Footer",
+        "hash": "f237ecf8"
+      },
+      "37": {
+        "start_char": 476,
+        "end_char": 486,
+        "length": 10,
+        "preview": "- PostCard",
+        "hash": "2347a831"
+      },
+      "38": {
+        "start_char": 487,
+        "end_char": 498,
+        "length": 11,
+        "preview": "- AuthorBio",
+        "hash": "35d1504f"
+      },
+      "39": {
+        "start_char": 499,
+        "end_char": 515,
+        "length": 16,
+        "preview": "- CommentSection",
+        "hash": "103023fb"
+      },
+      "40": {
+        "start_char": 516,
+        "end_char": 532,
+        "length": 16,
+        "preview": "- NewsletterForm",
+        "hash": "c5e79f96"
+      },
+      "41": {
+        "start_char": 533,
+        "end_char": 547,
+        "length": 14,
+        "preview": "- CategoryList",
+        "hash": "f445d6d3"
+      },
+      "42": {
+        "start_char": 548,
+        "end_char": 559,
+        "length": 11,
+        "preview": "- SearchBar",
+        "hash": "2c614cbe"
+      },
+      "43": {
+        "start_char": 560,
+        "end_char": 572,
+        "length": 12,
+        "preview": "- PostEditor",
+        "hash": "294fefa2"
+      },
+      "44": {
+        "start_char": 573,
+        "end_char": 588,
+        "length": 15,
+        "preview": "- MediaUploader",
+        "hash": "bb4f9b6a"
+      },
+      "45": {
+        "start_char": 589,
+        "end_char": 589,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "46": {
+        "start_char": 590,
+        "end_char": 603,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "47": {
+        "start_char": 604,
+        "end_char": 604,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "48": {
+        "start_char": 605,
+        "end_char": 614,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "49": {
+        "start_char": 615,
+        "end_char": 620,
+        "length": 5,
+        "preview": "- MDX",
+        "hash": "99410068"
+      },
+      "50": {
+        "start_char": 621,
+        "end_char": 634,
+        "length": 13,
+        "preview": "- TailwindCSS",
+        "hash": "44ce2250"
+      },
+      "51": {
+        "start_char": 635,
+        "end_char": 643,
+        "length": 8,
+        "preview": "- Prisma",
+        "hash": "02afc3f9"
+      },
+      "52": {
+        "start_char": 644,
+        "end_char": 656,
+        "length": 12,
+        "preview": "- PostgreSQL",
+        "hash": "dc987bdd"
+      },
+      "53": {
+        "start_char": 657,
+        "end_char": 657,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "54": {
+        "start_char": 658,
+        "end_char": 680,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "55": {
+        "start_char": 681,
+        "end_char": 681,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "56": {
+        "start_char": 682,
+        "end_char": 745,
+        "length": 63,
+        "preview": "- Use tech stack: Next.js, MDX, TailwindCSS, Prism...",
+        "hash": "54d8364b"
+      },
+      "57": {
+        "start_char": 746,
+        "end_char": 765,
+        "length": 19,
+        "preview": "- Create page: Home",
+        "hash": "571bb8f9"
+      },
+      "58": {
+        "start_char": 766,
+        "end_char": 786,
+        "length": 20,
+        "preview": "- Create page: Posts",
+        "hash": "15fa4a2e"
+      },
+      "59": {
+        "start_char": 787,
+        "end_char": 813,
+        "length": 26,
+        "preview": "- Create page: Post Detail",
+        "hash": "39c5c6ce"
+      },
+      "60": {
+        "start_char": 814,
+        "end_char": 834,
+        "length": 20,
+        "preview": "- Create page: About",
+        "hash": "28c329e5"
+      },
+      "61": {
+        "start_char": 835,
+        "end_char": 857,
+        "length": 22,
+        "preview": "- Create page: Contact",
+        "hash": "c89b9fed"
+      },
+      "62": {
+        "start_char": 858,
+        "end_char": 878,
+        "length": 20,
+        "preview": "- Create page: Admin",
+        "hash": "5989a963"
+      },
+      "63": {
+        "start_char": 879,
+        "end_char": 1020,
+        "length": 141,
+        "preview": "- Include components: Header, Footer, PostCard, Au...",
+        "hash": "2e78f041"
+      },
+      "64": {
+        "start_char": 1021,
+        "end_char": 1021,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "page:": {
+        "count": 6,
+        "positions": [
+          755,
+          775,
+          796,
+          823,
+          844,
+          867
+        ]
+      },
+      "contact-form": {
+        "count": 1,
+        "positions": [
+          323
+        ]
+      },
+      "pagination": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "mediauploader": {
+        "count": 2,
+        "positions": [
+          575,
+          1007
+        ]
+      },
+      "categories": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          714
+        ]
+      },
+      "post": {
+        "count": 18,
+        "positions": [
+          88,
+          126,
+          136,
+          150,
+          180,
+          196,
+          212,
+          229,
+          253,
+          375
+        ]
+      },
+      "create": {
+        "count": 6,
+        "positions": [
+          748,
+          768,
+          789,
+          816,
+          837,
+          860
+        ]
+      },
+      "footer": {
+        "count": 2,
+        "positions": [
+          469,
+          909
+        ]
+      },
+      "project": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      },
+      "posteditor,": {
+        "count": 1,
+        "positions": [
+          995
+        ]
+      },
+      "searchbar": {
+        "count": 2,
+        "positions": [
+          550,
+          984
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          901
+        ]
+      },
+      "post-header": {
+        "count": 1,
+        "positions": [
+          196
+        ]
+      },
+      "searchbar,": {
+        "count": 1,
+        "positions": [
+          984
+        ]
+      },
+      "analytics": {
+        "count": 1,
+        "positions": [
+          432
+        ]
+      },
+      "commentsection,": {
+        "count": 1,
+        "positions": [
+          938
+        ]
+      },
+      "tailwindcss": {
+        "count": 2,
+        "positions": [
+          623,
+          714
+        ]
+      },
+      "tech": {
+        "count": 2,
+        "positions": [
+          593,
+          688
+        ]
+      },
+      "next.js": {
+        "count": 2,
+        "positions": [
+          607,
+          700
+        ]
+      },
+      "posts": {
+        "count": 4,
+        "positions": [
+          88,
+          126,
+          253,
+          781
+        ]
+      },
+      "home": {
+        "count": 2,
+        "positions": [
+          70,
+          761
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          52
+        ]
+      },
+      "components": {
+        "count": 2,
+        "positions": [
+          446,
+          889
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          668
+        ]
+      },
+      "newsletterform,": {
+        "count": 1,
+        "positions": [
+          954
+        ]
+      },
+      "categorylist,": {
+        "count": 1,
+        "positions": [
+          970
+        ]
+      },
+      "blog-info": {
+        "count": 1,
+        "positions": [
+          299
+        ]
+      },
+      "social-links": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "contact": {
+        "count": 3,
+        "positions": [
+          311,
+          323,
+          850
+        ]
+      },
+      "about": {
+        "count": 2,
+        "positions": [
+          274,
+          829
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          700
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          889
+        ]
+      },
+      "admin": {
+        "count": 2,
+        "positions": [
+          355,
+          873
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          661
+        ]
+      },
+      "post-author": {
+        "count": 1,
+        "positions": [
+          229
+        ]
+      },
+      "prisma": {
+        "count": 2,
+        "positions": [
+          637,
+          727
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "related-posts": {
+        "count": 1,
+        "positions": [
+          245
+        ]
+      },
+      "newsletter": {
+        "count": 3,
+        "positions": [
+          113,
+          518,
+          954
+        ]
+      },
+      "posteditor": {
+        "count": 2,
+        "positions": [
+          562,
+          995
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          881
+        ]
+      },
+      "comments": {
+        "count": 3,
+        "positions": [
+          263,
+          501,
+          938
+        ]
+      },
+      "author-bio": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "post-editor": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "template": {
+        "count": 2,
+        "positions": [
+          24,
+          39
+        ]
+      },
+      "post-content": {
+        "count": 1,
+        "positions": [
+          212
+        ]
+      },
+      "login": {
+        "count": 1,
+        "positions": [
+          365
+        ]
+      },
+      "commentsection": {
+        "count": 2,
+        "positions": [
+          501,
+          938
+        ]
+      },
+      "mdx": {
+        "count": 2,
+        "positions": [
+          617,
+          709
+        ]
+      },
+      "blog": {
+        "count": 2,
+        "positions": [
+          34,
+          299
+        ]
+      },
+      "postcard": {
+        "count": 2,
+        "positions": [
+          478,
+          917
+        ]
+      },
+      "mdx,": {
+        "count": 1,
+        "positions": [
+          709
+        ]
+      },
+      "comment-management": {
+        "count": 1,
+        "positions": [
+          409
+        ]
+      },
+      "authorbio,": {
+        "count": 1,
+        "positions": [
+          927
+        ]
+      },
+      "authorbio": {
+        "count": 2,
+        "positions": [
+          489,
+          927
+        ]
+      },
+      "postgresql": {
+        "count": 2,
+        "positions": [
+          646,
+          735
+        ]
+      },
+      "post-filters": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          684
+        ]
+      },
+      "categorylist": {
+        "count": 2,
+        "positions": [
+          535,
+          970
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          13
+        ]
+      },
+      "postcard,": {
+        "count": 1,
+        "positions": [
+          917
+        ]
+      },
+      "prisma,": {
+        "count": 1,
+        "positions": [
+          727
+        ]
+      },
+      "featured-posts": {
+        "count": 1,
+        "positions": [
+          79
+        ]
+      },
+      "footer,": {
+        "count": 1,
+        "positions": [
+          909
+        ]
+      },
+      "detail": {
+        "count": 2,
+        "positions": [
+          185,
+          807
+        ]
+      },
+      "header": {
+        "count": 3,
+        "positions": [
+          201,
+          460,
+          901
+        ]
+      },
+      "post-list": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "newsletterform": {
+        "count": 2,
+        "positions": [
+          518,
+          954
+        ]
+      },
+      "stack": {
+        "count": 2,
+        "positions": [
+          598,
+          693
+        ]
+      },
+      "media-library": {
+        "count": 1,
+        "positions": [
+          391
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 3,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "f09fa993270a",
+          "preview": "# My Project Structure\n\nTemplate: Blog Template\n\n## Pages/Sections\n\n- Home\n  - featured-posts\n  - ca..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "44f689c92300",
+          "preview": " CommentSection\n- NewsletterForm\n- CategoryList\n- SearchBar\n- PostEditor\n- MediaUploader\n\n## Tech St..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1021,
+          "size": 21,
+          "hash": "afa29f782c36",
+          "preview": "ditor, MediaUploader\n"
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/components/SentimentAnalyzer.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.030925503461296418
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 248,
+        "output_size": 244,
+        "stage_compression_ratio": 0.9838709677419355,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 244,
+        "output_size": 842,
+        "stage_compression_ratio": 3.4508196721311477,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 180,
+          "original_size": 240,
+          "compressed_size": 842
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 842,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03800475059382423,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 842,
+          "estimated_compressed_size": 332,
+          "entropy": 3.1550613760643027
+        }
+      }
+    ],
+    "total_compression_ratio": 0.12903225806451613,
+    "stage_count": 3,
+    "original_size": 248,
+    "final_size": 32,
+    "space_savings": 216,
+    "space_savings_percent": 87.09677419354838
+  },
+  "original_size": 248,
+  "compressed_size": 32,
+  "compression_ratio": 0.12903225806451613,
+  "space_savings_percent": 87.09677419354838,
+  "content_hash": "a14a543845367d55",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:332:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 13,
+    "total_chars": 248,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 90,
+        "length": 51,
+        "preview": "export default function SentimentAnalyzer(Props ) ...",
+        "hash": "2902fadf"
+      },
+      "5": {
+        "start_char": 91,
+        "end_char": 101,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 102,
+        "end_char": 151,
+        "length": 49,
+        "preview": "    <div className=\"component sentimentanalyzer\">",
+        "hash": "72e0a500"
+      },
+      "7": {
+        "start_char": 152,
+        "end_char": 184,
+        "length": 32,
+        "preview": "      <h2>SentimentAnalyzer</h2>",
+        "hash": "c1a9c14f"
+      },
+      "8": {
+        "start_char": 185,
+        "end_char": 229,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 230,
+        "end_char": 240,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 241,
+        "end_char": 245,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 246,
+        "end_char": 247,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 248,
+        "end_char": 248,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "{/*": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          213
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<h2>sentimentanalyzer</h2>": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          93
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          234
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          122,
+          195
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          111
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          226
+        ]
+      },
+      "sentimentanalyzer(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          81
+        ]
+      },
+      "sentimentanalyzer\">": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          221
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/components/ErrorAlert.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02977941176470588
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 186,
+        "output_size": 184,
+        "stage_compression_ratio": 0.989247311827957,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 184,
+        "output_size": 660,
+        "stage_compression_ratio": 3.5869565217391304,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 140,
+          "original_size": 177,
+          "compressed_size": 660
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 660,
+        "output_size": 32,
+        "stage_compression_ratio": 0.048484848484848485,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 660,
+          "estimated_compressed_size": 261,
+          "entropy": 3.1640742202037755
+        }
+      }
+    ],
+    "total_compression_ratio": 0.17204301075268819,
+    "stage_count": 3,
+    "original_size": 186,
+    "final_size": 32,
+    "space_savings": 154,
+    "space_savings_percent": 82.79569892473118
+  },
+  "original_size": 186,
+  "compressed_size": 32,
+  "compression_ratio": 0.17204301075268819,
+  "space_savings_percent": 82.79569892473118,
+  "content_hash": "87924d0423aec34a",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:261:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 8,
+    "total_chars": 182,
+    "total_words": 22,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 74,
+        "length": 70,
+        "preview": "export default function ErrorAlert({ message }: { ...",
+        "hash": "c1ce566a"
+      },
+      "2": {
+        "start_char": 75,
+        "end_char": 85,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "3": {
+        "start_char": 86,
+        "end_char": 132,
+        "length": 46,
+        "preview": "    <div className=\"error-alert\" role=\"alert\">",
+        "hash": "fd470f50"
+      },
+      "4": {
+        "start_char": 133,
+        "end_char": 164,
+        "length": 31,
+        "preview": "      <span>\u26a0\ufe0f {message}</span>",
+        "hash": "ba71e673"
+      },
+      "5": {
+        "start_char": 165,
+        "end_char": 175,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 176,
+        "end_char": 180,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 181,
+        "end_char": 182,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "classname=\"error-alert\"": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "message:": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          77
+        ]
+      },
+      "message": {
+        "count": 3,
+        "positions": [
+          41,
+          54,
+          149
+        ]
+      },
+      "role=\"alert\">": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "erroralert({": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "string": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          11
+        ]
+      },
+      "{message}</span>": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "<span>\u26a0\ufe0f": {
+        "count": 1,
+        "positions": [
+          139
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

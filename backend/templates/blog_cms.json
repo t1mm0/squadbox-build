@@ -1,0 +1,95 @@
+{
+  "id": "blog-cms",
+  "name": "Blog & Content Management System",
+  "description": "Modern blog platform with content management system, SEO optimization, comment system, and social sharing. Perfect for bloggers and content creators.",
+  "category": "cms",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "features": [
+    "Rich text editor",
+    "Content management system",
+    "SEO optimization",
+    "Comment system",
+    "Social media sharing",
+    "Tag & category system",
+    "Search functionality",
+    "Newsletter integration",
+    "Multi-author support",
+    "Media library",
+    "Analytics integration",
+    "RSS feed generation",
+    "Mobile responsive design",
+    "Performance optimization"
+  ],
+  "icon": "FileText",
+  "tags": ["blog", "cms", "content", "seo", "social", "newsletter"],
+  "access_tier": "basic",
+  "popular": true,
+  "featured": true,
+  "downloads": 3500,
+  "rating": 4.7,
+  "tech_stack": ["React", "TypeScript", "Next.js", "MDX", "PostgreSQL", "Prisma", "Tailwind CSS", "NextAuth"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "@mdx-js/loader": "^3.0.0",
+          "@mdx-js/react": "^3.0.0",
+          "@prisma/client": "^5.0.0",
+          "prisma": "^5.0.0",
+          "next-auth": "^4.24.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Blog Home",
+        "sections": ["featured-posts", "recent-posts", "categories", "search-bar"]
+      },
+      {
+        "name": "Post Detail",
+        "sections": ["post-content", "author-info", "comments", "related-posts"]
+      },
+      {
+        "name": "Category Archive",
+        "sections": ["category-header", "post-list", "pagination", "sidebar"]
+      },
+      {
+        "name": "Admin Dashboard",
+        "sections": ["post-manager", "media-library", "analytics", "settings"]
+      }
+    ],
+    "components": [
+      "PostEditor",
+      "PostCard",
+      "CommentSystem",
+      "CategoryFilter",
+      "SearchBar",
+      "MediaUploader",
+      "SocialShare",
+      "NewsletterSignup",
+      "AuthorProfile",
+      "SEOHead"
+    ]
+  }
+}

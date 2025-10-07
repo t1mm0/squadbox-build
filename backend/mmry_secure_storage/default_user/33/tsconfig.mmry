@@ -1,0 +1,437 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "tsconfig.json**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02451923076923077
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 513,
+        "output_size": 513,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 14
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 513,
+        "output_size": 1407,
+        "stage_compression_ratio": 2.742690058479532,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 294,
+          "original_size": 499,
+          "compressed_size": 1407
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1407,
+        "output_size": 32,
+        "stage_compression_ratio": 0.022743425728500355,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1407,
+          "estimated_compressed_size": 566,
+          "entropy": 3.2226823131536957
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06237816764132553,
+    "stage_count": 3,
+    "original_size": 513,
+    "final_size": 32,
+    "space_savings": 481,
+    "space_savings_percent": 93.76218323586744
+  },
+  "original_size": 513,
+  "compressed_size": 32,
+  "compression_ratio": 0.06237816764132553,
+  "space_savings_percent": 93.76218323586744,
+  "content_hash": "021002fffc7ccfda",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:566:[106][115][111][110]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 21,
+    "total_chars": 513,
+    "total_words": 42,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 4,
+        "length": 4,
+        "preview": "json",
+        "hash": "466deec7"
+      },
+      "1": {
+        "start_char": 5,
+        "end_char": 6,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "2": {
+        "start_char": 7,
+        "end_char": 29,
+        "length": 22,
+        "preview": "  \"compilerOptions\": {",
+        "hash": "b0b25297"
+      },
+      "3": {
+        "start_char": 30,
+        "end_char": 50,
+        "length": 20,
+        "preview": "    \"target\": \"es5\",",
+        "hash": "d93971ce"
+      },
+      "4": {
+        "start_char": 51,
+        "end_char": 96,
+        "length": 45,
+        "preview": "    \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],",
+        "hash": "fdb3759d"
+      },
+      "5": {
+        "start_char": 97,
+        "end_char": 117,
+        "length": 20,
+        "preview": "    \"allowJs\": true,",
+        "hash": "946e25c5"
+      },
+      "6": {
+        "start_char": 118,
+        "end_char": 143,
+        "length": 25,
+        "preview": "    \"skipLibCheck\": true,",
+        "hash": "44e3c287"
+      },
+      "7": {
+        "start_char": 144,
+        "end_char": 163,
+        "length": 19,
+        "preview": "    \"strict\": true,",
+        "hash": "a27e17a2"
+      },
+      "8": {
+        "start_char": 164,
+        "end_char": 209,
+        "length": 45,
+        "preview": "    \"forceConsistentCasingInFileNames\": true,",
+        "hash": "d0a5ea36"
+      },
+      "9": {
+        "start_char": 210,
+        "end_char": 229,
+        "length": 19,
+        "preview": "    \"noEmit\": true,",
+        "hash": "82804e4a"
+      },
+      "10": {
+        "start_char": 230,
+        "end_char": 258,
+        "length": 28,
+        "preview": "    \"esModuleInterop\": true,",
+        "hash": "6d991da0"
+      },
+      "11": {
+        "start_char": 259,
+        "end_char": 282,
+        "length": 23,
+        "preview": "    \"module\": \"esnext\",",
+        "hash": "a261e6ba"
+      },
+      "12": {
+        "start_char": 283,
+        "end_char": 314,
+        "length": 31,
+        "preview": "    \"moduleResolution\": \"node\",",
+        "hash": "7ccc7471"
+      },
+      "13": {
+        "start_char": 315,
+        "end_char": 345,
+        "length": 30,
+        "preview": "    \"resolveJsonModule\": true,",
+        "hash": "1fe0a00b"
+      },
+      "14": {
+        "start_char": 346,
+        "end_char": 374,
+        "length": 28,
+        "preview": "    \"isolatedModules\": true,",
+        "hash": "57c6c19c"
+      },
+      "15": {
+        "start_char": 375,
+        "end_char": 397,
+        "length": 22,
+        "preview": "    \"jsx\": \"preserve\",",
+        "hash": "239d4a58"
+      },
+      "16": {
+        "start_char": 398,
+        "end_char": 421,
+        "length": 23,
+        "preview": "    \"incremental\": true",
+        "hash": "4dc15529"
+      },
+      "17": {
+        "start_char": 422,
+        "end_char": 426,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "18": {
+        "start_char": 427,
+        "end_char": 481,
+        "length": 54,
+        "preview": "  \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.ts...",
+        "hash": "ccaf3023"
+      },
+      "19": {
+        "start_char": 482,
+        "end_char": 511,
+        "length": 29,
+        "preview": "  \"exclude\": [\"node_modules\"]",
+        "hash": "75228855"
+      },
+      "20": {
+        "start_char": 512,
+        "end_char": 513,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"**/*.ts\",": {
+        "count": 1,
+        "positions": [
+          458
+        ]
+      },
+      "\"compileroptions\":": {
+        "count": 1,
+        "positions": [
+          9
+        ]
+      },
+      "\"include\":": {
+        "count": 1,
+        "positions": [
+          429
+        ]
+      },
+      "\"jsx\":": {
+        "count": 1,
+        "positions": [
+          379
+        ]
+      },
+      "true": {
+        "count": 9,
+        "positions": [
+          112,
+          138,
+          158,
+          204,
+          224,
+          253,
+          340,
+          369,
+          417
+        ]
+      },
+      "\"exclude\":": {
+        "count": 1,
+        "positions": [
+          484
+        ]
+      },
+      "\"incremental\":": {
+        "count": 1,
+        "positions": [
+          402
+        ]
+      },
+      "\"forceconsistentcasinginfilenames\":": {
+        "count": 1,
+        "positions": [
+          168
+        ]
+      },
+      "[\"dom\",": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      },
+      "json": {
+        "count": 2,
+        "positions": [
+          0,
+          327
+        ]
+      },
+      "\"moduleresolution\":": {
+        "count": 1,
+        "positions": [
+          287
+        ]
+      },
+      "\"**/*.tsx\"],": {
+        "count": 1,
+        "positions": [
+          469
+        ]
+      },
+      "\"dom.iterable\",": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "\"node\",": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      },
+      "\"strict\":": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "true,": {
+        "count": 8,
+        "positions": [
+          112,
+          138,
+          158,
+          204,
+          224,
+          253,
+          340,
+          369
+        ]
+      },
+      "\"lib\":": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "\"esnext\",": {
+        "count": 1,
+        "positions": [
+          273
+        ]
+      },
+      "\"skiplibcheck\":": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "\"esnext\"],": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "\"isolatedmodules\":": {
+        "count": 1,
+        "positions": [
+          350
+        ]
+      },
+      "\"preserve\",": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      },
+      "\"resolvejsonmodule\":": {
+        "count": 1,
+        "positions": [
+          319
+        ]
+      },
+      "\"allowjs\":": {
+        "count": 1,
+        "positions": [
+          101
+        ]
+      },
+      "\"es5\",": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "\"module\":": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "\"esmoduleinterop\":": {
+        "count": 1,
+        "positions": [
+          234
+        ]
+      },
+      "[\"next-env.d.ts\",": {
+        "count": 1,
+        "positions": [
+          440
+        ]
+      },
+      "\"target\":": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "[\"node_modules\"]": {
+        "count": 1,
+        "positions": [
+          495
+        ]
+      },
+      "\"noemit\":": {
+        "count": 1,
+        "positions": [
+          214
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

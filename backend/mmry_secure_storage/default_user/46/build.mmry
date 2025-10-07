@@ -1,0 +1,635 @@
+{
+  "user_id": "default_user",
+  "project_id": "46",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.1039691943127962
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 754,
+        "output_size": 757,
+        "stage_compression_ratio": 1.0039787798408488,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 757,
+        "output_size": 2231,
+        "stage_compression_ratio": 2.9471598414795244,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 473,
+          "original_size": 754,
+          "compressed_size": 2231
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2231,
+        "output_size": 32,
+        "stage_compression_ratio": 0.014343343792021516,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2231,
+          "estimated_compressed_size": 904,
+          "entropy": 3.2448240537944506
+        }
+      }
+    ],
+    "total_compression_ratio": 0.042440318302387266,
+    "stage_count": 3,
+    "original_size": 754,
+    "final_size": 32,
+    "space_savings": 722,
+    "space_savings_percent": 95.75596816976127
+  },
+  "original_size": 754,
+  "compressed_size": 32,
+  "compression_ratio": 0.042440318302387266,
+  "space_savings_percent": 95.75596816976127,
+  "content_hash": "0d340e45fea97e34",
+  "timestamp": 1759698822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:904:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698822,
+    "total_lines": 26,
+    "total_chars": 754,
+    "total_words": 83,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-10-05 22:08:34",
+        "hash": "10a106b6"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 71,
+        "length": 34,
+        "preview": "Project name: Optimized Model Test",
+        "hash": "65fd35f9"
+      },
+      "2": {
+        "start_char": 72,
+        "end_char": 89,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 90,
+        "end_char": 143,
+        "length": 53,
+        "preview": "Agentic team ID: 7d357417-ce5c-4ddb-850d-a02321af0...",
+        "hash": "d665ad9a"
+      },
+      "4": {
+        "start_char": 144,
+        "end_char": 282,
+        "length": 138,
+        "preview": "AI agents assigned: ui_ux_designer, deployment_spe...",
+        "hash": "ca35a21d"
+      },
+      "5": {
+        "start_char": 283,
+        "end_char": 296,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "6": {
+        "start_char": 297,
+        "end_char": 349,
+        "length": 52,
+        "preview": "- Test with llama3.2:latest model for agentic codi...",
+        "hash": "e49e0d20"
+      },
+      "7": {
+        "start_char": 350,
+        "end_char": 350,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "8": {
+        "start_char": 351,
+        "end_char": 380,
+        "length": 29,
+        "preview": "Using template: blog_template",
+        "hash": "b2fbbb12"
+      },
+      "9": {
+        "start_char": 381,
+        "end_char": 381,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "10": {
+        "start_char": 382,
+        "end_char": 416,
+        "length": 34,
+        "preview": "Executing agentic team workflow...",
+        "hash": "369cb588"
+      },
+      "11": {
+        "start_char": 417,
+        "end_char": 462,
+        "length": 45,
+        "preview": "Team ID: 7d357417-ce5c-4ddb-850d-a02321af0719",
+        "hash": "e445aae9"
+      },
+      "12": {
+        "start_char": 463,
+        "end_char": 496,
+        "length": 33,
+        "preview": "Agentic team execution completed:",
+        "hash": "15b7a296"
+      },
+      "13": {
+        "start_char": 497,
+        "end_char": 516,
+        "length": 19,
+        "preview": "- Status: completed",
+        "hash": "63570549"
+      },
+      "14": {
+        "start_char": 517,
+        "end_char": 537,
+        "length": 20,
+        "preview": "- Completed tasks: 6",
+        "hash": "ef1ee266"
+      },
+      "15": {
+        "start_char": 538,
+        "end_char": 555,
+        "length": 17,
+        "preview": "- Failed tasks: 0",
+        "hash": "f9753178"
+      },
+      "16": {
+        "start_char": 556,
+        "end_char": 579,
+        "length": 23,
+        "preview": "- Execution time: 8.01s",
+        "hash": "3b476e52"
+      },
+      "17": {
+        "start_char": 580,
+        "end_char": 580,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 581,
+        "end_char": 615,
+        "length": 34,
+        "preview": "Applying template blog_template...",
+        "hash": "63b7411f"
+      },
+      "19": {
+        "start_char": 616,
+        "end_char": 646,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "20": {
+        "start_char": 647,
+        "end_char": 680,
+        "length": 33,
+        "preview": "Generated 24 files from template.",
+        "hash": "60547b78"
+      },
+      "21": {
+        "start_char": 681,
+        "end_char": 681,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "22": {
+        "start_char": 682,
+        "end_char": 708,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "23": {
+        "start_char": 709,
+        "end_char": 729,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "24": {
+        "start_char": 730,
+        "end_char": 753,
+        "length": 23,
+        "preview": "Generated: README.ai.md",
+        "hash": "9a7cb76c"
+      },
+      "25": {
+        "start_char": 754,
+        "end_char": 754,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "status:": {
+        "count": 1,
+        "positions": [
+          499
+        ]
+      },
+      "2025-10-05": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          709,
+          730
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          581
+        ]
+      },
+      "project_manager,": {
+        "count": 1,
+        "positions": [
+          221
+        ]
+      },
+      "completed": {
+        "count": 3,
+        "positions": [
+          486,
+          507,
+          519
+        ]
+      },
+      "project": {
+        "count": 3,
+        "positions": [
+          37,
+          72,
+          221
+        ]
+      },
+      "frontend_developer,": {
+        "count": 1,
+        "positions": [
+          238
+        ]
+      },
+      "llama3.2:latest": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "agents": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "8.01s": {
+        "count": 1,
+        "positions": [
+          574
+        ]
+      },
+      "deployment_specialist,": {
+        "count": 1,
+        "positions": [
+          180
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "tasks:": {
+        "count": 2,
+        "positions": [
+          529,
+          547
+        ]
+      },
+      "blog_template...": {
+        "count": 1,
+        "positions": [
+          599
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          357
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          633
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "22:08:34": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "model": {
+        "count": 2,
+        "positions": [
+          61,
+          325
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "workflow...": {
+        "count": 1,
+        "positions": [
+          405
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          625
+        ]
+      },
+      "blog_template": {
+        "count": 2,
+        "positions": [
+          367,
+          599
+        ]
+      },
+      "ui_ux_designer,": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "for": {
+        "count": 1,
+        "positions": [
+          331
+        ]
+      },
+      "assigned:": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "completed:": {
+        "count": 1,
+        "positions": [
+          486
+        ]
+      },
+      "template.": {
+        "count": 2,
+        "positions": [
+          604,
+          671
+        ]
+      },
+      "team": {
+        "count": 4,
+        "positions": [
+          98,
+          400,
+          417,
+          471
+        ]
+      },
+      "7d357417-ce5c-4ddb-850d-a02321af0719": {
+        "count": 2,
+        "positions": [
+          107,
+          426
+        ]
+      },
+      "testing_engineer,": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          647,
+          709,
+          730
+        ]
+      },
+      "executing": {
+        "count": 1,
+        "positions": [
+          382
+        ]
+      },
+      "failed": {
+        "count": 1,
+        "positions": [
+          540
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          666
+        ]
+      },
+      "coding": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "agentic": {
+        "count": 4,
+        "positions": [
+          90,
+          335,
+          392,
+          463
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "optimized": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          720
+        ]
+      },
+      "id:": {
+        "count": 2,
+        "positions": [
+          103,
+          422
+        ]
+      },
+      "with": {
+        "count": 2,
+        "positions": [
+          304,
+          698
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          682
+        ]
+      },
+      "execution": {
+        "count": 2,
+        "positions": [
+          476,
+          558
+        ]
+      },
+      "readme.ai.md": {
+        "count": 1,
+        "positions": [
+          741
+        ]
+      },
+      "documentation_specialist": {
+        "count": 1,
+        "positions": [
+          258
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          703
+        ]
+      },
+      "time:": {
+        "count": 1,
+        "positions": [
+          568
+        ]
+      },
+      "template": {
+        "count": 6,
+        "positions": [
+          357,
+          372,
+          590,
+          604,
+          616,
+          671
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          660
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          351
+        ]
+      },
+      "test": {
+        "count": 4,
+        "positions": [
+          67,
+          203,
+          299,
+          320
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

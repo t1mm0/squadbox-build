@@ -1,0 +1,607 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19584415584415585
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 769,
+        "output_size": 769,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 10
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 769,
+        "output_size": 2206,
+        "stage_compression_ratio": 2.8686605981794537,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 467,
+          "original_size": 759,
+          "compressed_size": 2206
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2206,
+        "output_size": 32,
+        "stage_compression_ratio": 0.014505893019038985,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2206,
+          "estimated_compressed_size": 899,
+          "entropy": 3.2604410687370935
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04161248374512354,
+    "stage_count": 3,
+    "original_size": 769,
+    "final_size": 32,
+    "space_savings": 737,
+    "space_savings_percent": 95.83875162548765
+  },
+  "original_size": 769,
+  "compressed_size": 32,
+  "compression_ratio": 0.04161248374512354,
+  "space_savings_percent": 95.83875162548765,
+  "content_hash": "2211f4bd1b45a60d",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:899:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 27,
+    "total_chars": 769,
+    "total_words": 67,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"48\",",
+        "hash": "e19e5f72"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 126,
+        "length": 50,
+        "preview": "    \"Use tech stack: React, Next.js, TailwindCSS\",",
+        "hash": "b905717c"
+      },
+      "5": {
+        "start_char": 127,
+        "end_char": 151,
+        "length": 24,
+        "preview": "    \"Create page: Home\",",
+        "hash": "f4e636b4"
+      },
+      "6": {
+        "start_char": 152,
+        "end_char": 180,
+        "length": 28,
+        "preview": "    \"Create page: Projects\",",
+        "hash": "84ceec0f"
+      },
+      "7": {
+        "start_char": 181,
+        "end_char": 206,
+        "length": 25,
+        "preview": "    \"Create page: About\",",
+        "hash": "84e0938d"
+      },
+      "8": {
+        "start_char": 207,
+        "end_char": 234,
+        "length": 27,
+        "preview": "    \"Create page: Contact\",",
+        "hash": "e8e0f735"
+      },
+      "9": {
+        "start_char": 235,
+        "end_char": 359,
+        "length": 124,
+        "preview": "    \"Include components: Header, Footer, ProjectCa...",
+        "hash": "007bcc6a"
+      },
+      "10": {
+        "start_char": 360,
+        "end_char": 364,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "11": {
+        "start_char": 365,
+        "end_char": 403,
+        "length": 38,
+        "preview": "  \"template_id\": \"portfolio_template\",",
+        "hash": "b985cb33"
+      },
+      "12": {
+        "start_char": 404,
+        "end_char": 428,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "13": {
+        "start_char": 429,
+        "end_char": 454,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "14": {
+        "start_char": 455,
+        "end_char": 489,
+        "length": 34,
+        "preview": "  \"start_time\": 1759698765.574879,",
+        "hash": "30d727dd"
+      },
+      "15": {
+        "start_char": 490,
+        "end_char": 509,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "16": {
+        "start_char": 510,
+        "end_char": 534,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "17": {
+        "start_char": 535,
+        "end_char": 550,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "18": {
+        "start_char": 551,
+        "end_char": 603,
+        "length": 52,
+        "preview": "  \"team_id\": \"0fbe4d79-7fa9-489c-ab3e-9ecbc7126e3a...",
+        "hash": "b0dea6e2"
+      },
+      "19": {
+        "start_char": 604,
+        "end_char": 627,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "20": {
+        "start_char": 628,
+        "end_char": 638,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "21": {
+        "start_char": 639,
+        "end_char": 665,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "22": {
+        "start_char": 666,
+        "end_char": 696,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "23": {
+        "start_char": 697,
+        "end_char": 740,
+        "length": 43,
+        "preview": "    \"ollama_url\": \"http://localhost:11434\",",
+        "hash": "83c9464e"
+      },
+      "24": {
+        "start_char": 741,
+        "end_char": 763,
+        "length": 22,
+        "preview": "    \"use_ollama\": true",
+        "hash": "62e4ce3f"
+      },
+      "25": {
+        "start_char": 764,
+        "end_char": 767,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "26": {
+        "start_char": 768,
+        "end_char": 769,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "tailwindcss\",": {
+        "count": 1,
+        "positions": [
+          113
+        ]
+      },
+      "herosection,": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "projectcard,": {
+        "count": 1,
+        "positions": [
+          276
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          422
+        ]
+      },
+      "\"include": {
+        "count": 1,
+        "positions": [
+          239
+        ]
+      },
+      "\"48\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "\"http://localhost:11434\",": {
+        "count": 1,
+        "positions": [
+          715
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          492
+        ]
+      },
+      "sociallinks,": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "page:": {
+        "count": 4,
+        "positions": [
+          139,
+          164,
+          193,
+          219
+        ]
+      },
+      "projects\",": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          630
+        ]
+      },
+      "skillsgrid,": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          367
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          512
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          260
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          406
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          745
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "1759698765.574879,": {
+        "count": 1,
+        "positions": [
+          471
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          553
+        ]
+      },
+      "\"portfolio_template\",": {
+        "count": 1,
+        "positions": [
+          382
+        ]
+      },
+      "true": {
+        "count": 2,
+        "positions": [
+          622,
+          759
+        ]
+      },
+      "about\",": {
+        "count": 1,
+        "positions": [
+          199
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          537
+        ]
+      },
+      "home\",": {
+        "count": 1,
+        "positions": [
+          145
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          504
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          659,
+          690
+        ]
+      },
+      "experiencetimeline\"": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          670
+        ]
+      },
+      "\"create": {
+        "count": 4,
+        "positions": [
+          131,
+          156,
+          185,
+          211
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          457
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "\"use": {
+        "count": 4,
+        "positions": [
+          80,
+          643,
+          670,
+          745
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "contact\",": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          606
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          643
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "footer,": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          531,
+          547
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          622
+        ]
+      },
+      "contactform,": {
+        "count": 1,
+        "positions": [
+          301
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          431
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          441
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          701
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          248
+        ]
+      },
+      "\"0fbe4d79-7fa9-489c-ab3e-9ecbc7126e3a\",": {
+        "count": 1,
+        "positions": [
+          564
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

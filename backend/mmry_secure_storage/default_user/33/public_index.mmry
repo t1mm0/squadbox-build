@@ -1,0 +1,347 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "public/index.html**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02451923076923077
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 350,
+        "output_size": 350,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 350,
+        "output_size": 1182,
+        "stage_compression_ratio": 3.3771428571428572,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 253,
+          "original_size": 350,
+          "compressed_size": 1182
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1182,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02707275803722504,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1182,
+          "estimated_compressed_size": 473,
+          "entropy": 3.20515193703439
+        }
+      }
+    ],
+    "total_compression_ratio": 0.09142857142857143,
+    "stage_count": 3,
+    "original_size": 350,
+    "final_size": 32,
+    "space_savings": 318,
+    "space_savings_percent": 90.85714285714286
+  },
+  "original_size": 350,
+  "compressed_size": 32,
+  "compression_ratio": 0.09142857142857143,
+  "space_savings_percent": 90.85714285714286,
+  "content_hash": "d31892ddb77fd456",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:473:[104][116][109][108]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 14,
+    "total_chars": 350,
+    "total_words": 30,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 4,
+        "length": 4,
+        "preview": "html",
+        "hash": "fc35fdc7"
+      },
+      "1": {
+        "start_char": 5,
+        "end_char": 20,
+        "length": 15,
+        "preview": "<!DOCTYPE html>",
+        "hash": "fe364450"
+      },
+      "2": {
+        "start_char": 21,
+        "end_char": 37,
+        "length": 16,
+        "preview": "<html lang=\"en\">",
+        "hash": "066af1a2"
+      },
+      "3": {
+        "start_char": 38,
+        "end_char": 44,
+        "length": 6,
+        "preview": "<head>",
+        "hash": "babd0daf"
+      },
+      "4": {
+        "start_char": 45,
+        "end_char": 71,
+        "length": 26,
+        "preview": "  <meta charset=\"UTF-8\" />",
+        "hash": "76c6891d"
+      },
+      "5": {
+        "start_char": 72,
+        "end_char": 146,
+        "length": 74,
+        "preview": "  <meta name=\"viewport\" content=\"width=device-widt...",
+        "hash": "df0e2859"
+      },
+      "6": {
+        "start_char": 147,
+        "end_char": 183,
+        "length": 36,
+        "preview": "  <title>UK Mental Health AI</title>",
+        "hash": "369cfc85"
+      },
+      "7": {
+        "start_char": 184,
+        "end_char": 238,
+        "length": 54,
+        "preview": "  <link rel=\"stylesheet\" href=\"/styles/globals.css...",
+        "hash": "d350b843"
+      },
+      "8": {
+        "start_char": 239,
+        "end_char": 246,
+        "length": 7,
+        "preview": "</head>",
+        "hash": "0efa13d1"
+      },
+      "9": {
+        "start_char": 247,
+        "end_char": 253,
+        "length": 6,
+        "preview": "<body>",
+        "hash": "bc1d3a13"
+      },
+      "10": {
+        "start_char": 254,
+        "end_char": 279,
+        "length": 25,
+        "preview": "  <div id=\"__next\"></div>",
+        "hash": "369c47c6"
+      },
+      "11": {
+        "start_char": 280,
+        "end_char": 334,
+        "length": 54,
+        "preview": "  <script src=\"/_next/static/chunks/main.js\"></scr...",
+        "hash": "b6fcc18c"
+      },
+      "12": {
+        "start_char": 335,
+        "end_char": 342,
+        "length": 7,
+        "preview": "</body>",
+        "hash": "a0bf95a3"
+      },
+      "13": {
+        "start_char": 343,
+        "end_char": 350,
+        "length": 7,
+        "preview": "</html>",
+        "hash": "308065b5"
+      }
+    },
+    "word_index": {
+      "<html": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "src=\"/_next/static/chunks/main.js\"></script>": {
+        "count": 1,
+        "positions": [
+          290
+        ]
+      },
+      "rel=\"stylesheet\"": {
+        "count": 1,
+        "positions": [
+          192
+        ]
+      },
+      "</head>": {
+        "count": 1,
+        "positions": [
+          239
+        ]
+      },
+      "href=\"/styles/globals.css\"": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      },
+      "html>": {
+        "count": 2,
+        "positions": [
+          15,
+          345
+        ]
+      },
+      "<!doctype": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      },
+      "<body>": {
+        "count": 1,
+        "positions": [
+          247
+        ]
+      },
+      "id=\"__next\"></div>": {
+        "count": 1,
+        "positions": [
+          261
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          256
+        ]
+      },
+      "</html>": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "<script": {
+        "count": 1,
+        "positions": [
+          282
+        ]
+      },
+      "health": {
+        "count": 1,
+        "positions": [
+          166
+        ]
+      },
+      "name=\"viewport\"": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "<meta": {
+        "count": 2,
+        "positions": [
+          47,
+          74
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          159
+        ]
+      },
+      "</body>": {
+        "count": 1,
+        "positions": [
+          335
+        ]
+      },
+      "<link": {
+        "count": 1,
+        "positions": [
+          186
+        ]
+      },
+      "<head>": {
+        "count": 1,
+        "positions": [
+          38
+        ]
+      },
+      "content=\"width=device-width,": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "charset=\"utf-8\"": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "initial-scale=1.0\"": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "<title>uk": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "ai</title>": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "lang=\"en\">": {
+        "count": 1,
+        "positions": [
+          27
+        ]
+      },
+      "html": {
+        "count": 4,
+        "positions": [
+          0,
+          15,
+          22,
+          345
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

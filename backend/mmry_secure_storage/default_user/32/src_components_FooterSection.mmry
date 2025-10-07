@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "32",
+  "file_name": "src/components/FooterSection.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.028724747474747476
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 191,
+        "output_size": 187,
+        "stage_compression_ratio": 0.9790575916230366,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 187,
+        "output_size": 665,
+        "stage_compression_ratio": 3.556149732620321,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 142,
+          "original_size": 183,
+          "compressed_size": 665
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 665,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0481203007518797,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 665,
+          "estimated_compressed_size": 260,
+          "entropy": 3.135935539973052
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16753926701570682,
+    "stage_count": 3,
+    "original_size": 191,
+    "final_size": 32,
+    "space_savings": 159,
+    "space_savings_percent": 83.24607329842932
+  },
+  "original_size": 191,
+  "compressed_size": 32,
+  "compression_ratio": 0.16753926701570682,
+  "space_savings_percent": 83.24607329842932,
+  "content_hash": "8c03919f130ae38b",
+  "timestamp": 1755082505,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:260:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1755082505,
+    "total_lines": 9,
+    "total_chars": 191,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 41,
+        "length": 41,
+        "preview": "export default function FooterSection() {",
+        "hash": "5c7680cb"
+      },
+      "1": {
+        "start_char": 42,
+        "end_char": 52,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 53,
+        "end_char": 98,
+        "length": 45,
+        "preview": "    <div className=\"component footersection\">",
+        "hash": "af5cd4c4"
+      },
+      "3": {
+        "start_char": 99,
+        "end_char": 127,
+        "length": 28,
+        "preview": "      <h2>FooterSection</h2>",
+        "hash": "3b59ab4a"
+      },
+      "4": {
+        "start_char": 128,
+        "end_char": 172,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 173,
+        "end_char": 183,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 184,
+        "end_char": 188,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 189,
+        "end_char": 190,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 191,
+        "end_char": 191,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          73,
+          138
+        ]
+      },
+      "footersection()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          57
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "footersection\">": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "<h2>footersection</h2>": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

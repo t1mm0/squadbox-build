@@ -1,0 +1,432 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "src/app/admin/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.7750972762645915
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 514,
+        "output_size": 579,
+        "stage_compression_ratio": 1.1264591439688716,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 8,
+          "compression_ratio": 1.1264591439688716,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 579,
+        "output_size": 236,
+        "stage_compression_ratio": 0.4075993091537133,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 579,
+          "compressed_size": 236,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 660,
+        "output_size": 395,
+        "stage_compression_ratio": 0.5984848484848485,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 660,
+          "compressed_size": 395,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 0.7684824902723736,
+    "stage_count": 3,
+    "original_size": 514,
+    "final_size": 395,
+    "space_savings": 119,
+    "space_savings_percent": 23.151750972762645
+  },
+  "original_size": 514,
+  "compressed_size": 395,
+  "compression_ratio": 0.7684824902723736,
+  "space_savings_percent": 23.151750972762645,
+  "content_hash": "5357778baf64e9ae",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkl9rFDEUxb9KH7TVQiGTmcxkqIIVFbbVF5FWSx7MTBLdQsuCVaKL393fMfuQ7M39c86Zc3c5qaGm+DPUufsQHkJdrQm143gXaplmMgTZvKMtfabEayr8jtehxo4+f96yhYcZVx72ipLZXhIub7lUYCQP+QU8/YaQNl8uQl3intQsKh5pU9VuyS0a8DuAaM0grF4a77jzdPla3TqRsxzRZX8pc8o13n2Ez0LQX7xCNdISrTM4xX4Cf4I3u/1Bfs9MGQjG8Eg+EeX7TVNcQMmW71sziUH2uOdcwBXgEtl5JM4Ei/DN7WYrS2ABKFLr/A+CRSaPbcp3h8n47GAu7FEE7kxtonRfmfDkEyoiqU4u9N9E84QIqGSvMHhxO//mfTPC5z9/a1ueMY00ozSZPjwcJcFyopakLbzUdNYqVBqh9uapCL9o5+OxdO2u72mSS9PvbRNUXNuVGdrWO1iKNLtJH1pkeDnYU24k2oE6D/2+zWmN0csz8Cz/hxU6M30n6P47+3jyD8z15hg=",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 20,
+    "total_chars": 514,
+    "total_words": 48,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 67,
+        "length": 40,
+        "preview": "import Login from '../components/Login';",
+        "hash": "e2f2158d"
+      },
+      "2": {
+        "start_char": 68,
+        "end_char": 118,
+        "length": 50,
+        "preview": "import PostEditor from '../components/PostEditor';",
+        "hash": "b15102aa"
+      },
+      "3": {
+        "start_char": 119,
+        "end_char": 173,
+        "length": 54,
+        "preview": "import MediaLibrary from '../components/MediaLibra...",
+        "hash": "5857e68d"
+      },
+      "4": {
+        "start_char": 174,
+        "end_char": 238,
+        "length": 64,
+        "preview": "import CommentManagement from '../components/Comme...",
+        "hash": "0f9e43fe"
+      },
+      "5": {
+        "start_char": 239,
+        "end_char": 287,
+        "length": 48,
+        "preview": "import Analytics from '../components/Analytics';",
+        "hash": "effa47f9"
+      },
+      "6": {
+        "start_char": 288,
+        "end_char": 288,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 289,
+        "end_char": 322,
+        "length": 33,
+        "preview": "export default function Admin() {",
+        "hash": "de6d3524"
+      },
+      "8": {
+        "start_char": 323,
+        "end_char": 333,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "9": {
+        "start_char": 334,
+        "end_char": 366,
+        "length": 32,
+        "preview": "    <div className=\"page admin\">",
+        "hash": "ea00ec91"
+      },
+      "10": {
+        "start_char": 367,
+        "end_char": 387,
+        "length": 20,
+        "preview": "      <h1>Admin</h1>",
+        "hash": "e8d08179"
+      },
+      "11": {
+        "start_char": 388,
+        "end_char": 403,
+        "length": 15,
+        "preview": "      <Login />",
+        "hash": "e0b7bdcd"
+      },
+      "12": {
+        "start_char": 404,
+        "end_char": 424,
+        "length": 20,
+        "preview": "      <PostEditor />",
+        "hash": "9a080859"
+      },
+      "13": {
+        "start_char": 425,
+        "end_char": 447,
+        "length": 22,
+        "preview": "      <MediaLibrary />",
+        "hash": "b1c0fe50"
+      },
+      "14": {
+        "start_char": 448,
+        "end_char": 475,
+        "length": 27,
+        "preview": "      <CommentManagement />",
+        "hash": "ca0606d0"
+      },
+      "15": {
+        "start_char": 476,
+        "end_char": 495,
+        "length": 19,
+        "preview": "      <Analytics />",
+        "hash": "add6290a"
+      },
+      "16": {
+        "start_char": 496,
+        "end_char": 506,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "17": {
+        "start_char": 507,
+        "end_char": 511,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "18": {
+        "start_char": 512,
+        "end_char": 513,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "19": {
+        "start_char": 514,
+        "end_char": 514,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "posteditor": {
+        "count": 3,
+        "positions": [
+          75,
+          106,
+          411
+        ]
+      },
+      "'../components/commentmanagement';": {
+        "count": 1,
+        "positions": [
+          204
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "'../components/medialibrary';": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          338
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "<h1>admin</h1>": {
+        "count": 1,
+        "positions": [
+          373
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          500
+        ]
+      },
+      "<commentmanagement": {
+        "count": 1,
+        "positions": [
+          454
+        ]
+      },
+      "commentmanagement": {
+        "count": 3,
+        "positions": [
+          181,
+          219,
+          455
+        ]
+      },
+      "'../components/login';": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "'../components/analytics';": {
+        "count": 1,
+        "positions": [
+          261
+        ]
+      },
+      "'../components/posteditor';": {
+        "count": 1,
+        "positions": [
+          91
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          304
+        ]
+      },
+      "login": {
+        "count": 3,
+        "positions": [
+          34,
+          60,
+          395
+        ]
+      },
+      "from": {
+        "count": 6,
+        "positions": [
+          13,
+          40,
+          86,
+          139,
+          199,
+          256
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "<medialibrary": {
+        "count": 1,
+        "positions": [
+          431
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      },
+      "import": {
+        "count": 6,
+        "positions": [
+          0,
+          27,
+          68,
+          119,
+          174,
+          239
+        ]
+      },
+      "analytics": {
+        "count": 3,
+        "positions": [
+          246,
+          276,
+          483
+        ]
+      },
+      "medialibrary": {
+        "count": 3,
+        "positions": [
+          126,
+          159,
+          432
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          296
+        ]
+      },
+      "<login": {
+        "count": 1,
+        "positions": [
+          394
+        ]
+      },
+      "<posteditor": {
+        "count": 1,
+        "positions": [
+          410
+        ]
+      },
+      "<analytics": {
+        "count": 1,
+        "positions": [
+          482
+        ]
+      },
+      "admin\">": {
+        "count": 1,
+        "positions": [
+          359
+        ]
+      },
+      "admin()": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

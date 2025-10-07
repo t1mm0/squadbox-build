@@ -1,0 +1,2061 @@
+{
+  "user_id": "default_user",
+  "project_id": "32",
+  "file_name": "src/data/content.js",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03990384615384615
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 4965,
+        "output_size": 4619,
+        "stage_compression_ratio": 0.9303121852970796,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 133
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 4619,
+        "output_size": 9478,
+        "stage_compression_ratio": 2.0519592985494697,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 1869,
+          "original_size": 4485,
+          "compressed_size": 9478
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 9478,
+        "output_size": 33,
+        "stage_compression_ratio": 0.003481747204051488,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 9478,
+          "estimated_compressed_size": 3941,
+          "entropy": 3.3267110842548937
+        }
+      }
+    ],
+    "total_compression_ratio": 0.006646525679758308,
+    "stage_count": 3,
+    "original_size": 4965,
+    "final_size": 33,
+    "space_savings": 4932,
+    "space_savings_percent": 99.33534743202416
+  },
+  "original_size": 4965,
+  "compressed_size": 33,
+  "compression_ratio": 0.006646525679758308,
+  "space_savings_percent": 99.33534743202416,
+  "content_hash": "be3f450dd8203bb2",
+  "timestamp": 1755082505,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:3941:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1755082505,
+    "total_lines": 169,
+    "total_chars": 4964,
+    "total_words": 578,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 24,
+        "length": 24,
+        "preview": "export const content = {",
+        "hash": "ae682b8f"
+      },
+      "1": {
+        "start_char": 25,
+        "end_char": 43,
+        "length": 18,
+        "preview": "  // Site metadata",
+        "hash": "c7d841fe"
+      },
+      "2": {
+        "start_char": 44,
+        "end_char": 53,
+        "length": 9,
+        "preview": "  site: {",
+        "hash": "0ca604ab"
+      },
+      "3": {
+        "start_char": 54,
+        "end_char": 100,
+        "length": 46,
+        "preview": "    title: \"Product Name - Tagline Goes Here\",",
+        "hash": "2a9936ae"
+      },
+      "4": {
+        "start_char": 101,
+        "end_char": 210,
+        "length": 109,
+        "preview": "    description: \"A brief compelling description o...",
+        "hash": "56a4b1e1"
+      },
+      "5": {
+        "start_char": 211,
+        "end_char": 239,
+        "length": 28,
+        "preview": "    domain: \"yourdomain.com\"",
+        "hash": "8808e124"
+      },
+      "6": {
+        "start_char": 240,
+        "end_char": 244,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "7": {
+        "start_char": 245,
+        "end_char": 247,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "8": {
+        "start_char": 248,
+        "end_char": 265,
+        "length": 17,
+        "preview": "  // Hero section",
+        "hash": "9a82d363"
+      },
+      "9": {
+        "start_char": 266,
+        "end_char": 275,
+        "length": 9,
+        "preview": "  hero: {",
+        "hash": "879ae77e"
+      },
+      "10": {
+        "start_char": 276,
+        "end_char": 324,
+        "length": 48,
+        "preview": "    headline: \"Main value proposition headline\",",
+        "hash": "25f807b6"
+      },
+      "11": {
+        "start_char": 325,
+        "end_char": 410,
+        "length": 85,
+        "preview": "    subheadline: \"Supporting statement that explai...",
+        "hash": "eac5ff99"
+      },
+      "12": {
+        "start_char": 411,
+        "end_char": 438,
+        "length": 27,
+        "preview": "    ctaText: \"Get Started\",",
+        "hash": "36f8f350"
+      },
+      "13": {
+        "start_char": 439,
+        "end_char": 474,
+        "length": 35,
+        "preview": "    secondaryCtaText: \"Learn More\",",
+        "hash": "401c2bc1"
+      },
+      "14": {
+        "start_char": 475,
+        "end_char": 510,
+        "length": 35,
+        "preview": "    image: \"/images/hero-image.jpg\"",
+        "hash": "de293716"
+      },
+      "15": {
+        "start_char": 511,
+        "end_char": 515,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "16": {
+        "start_char": 516,
+        "end_char": 518,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "17": {
+        "start_char": 519,
+        "end_char": 540,
+        "length": 21,
+        "preview": "  // Features section",
+        "hash": "860d62c7"
+      },
+      "18": {
+        "start_char": 541,
+        "end_char": 554,
+        "length": 13,
+        "preview": "  features: {",
+        "hash": "1b3d7731"
+      },
+      "19": {
+        "start_char": 555,
+        "end_char": 585,
+        "length": 30,
+        "preview": "    headline: \"Why Choose Us\",",
+        "hash": "ab776913"
+      },
+      "20": {
+        "start_char": 586,
+        "end_char": 664,
+        "length": 78,
+        "preview": "    subheadline: \"Discover what sets our product a...",
+        "hash": "025f276c"
+      },
+      "21": {
+        "start_char": 665,
+        "end_char": 683,
+        "length": 18,
+        "preview": "    featureList: [",
+        "hash": "54484560"
+      },
+      "22": {
+        "start_char": 684,
+        "end_char": 691,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "23": {
+        "start_char": 692,
+        "end_char": 721,
+        "length": 29,
+        "preview": "        title: \"Feature One\",",
+        "hash": "eee9c4ba"
+      },
+      "24": {
+        "start_char": 722,
+        "end_char": 801,
+        "length": 79,
+        "preview": "        description: \"Description of the first mai...",
+        "hash": "fdc065d6"
+      },
+      "25": {
+        "start_char": 802,
+        "end_char": 826,
+        "length": 24,
+        "preview": "        icon: \"sparkles\"",
+        "hash": "8cd20891"
+      },
+      "26": {
+        "start_char": 827,
+        "end_char": 835,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "27": {
+        "start_char": 836,
+        "end_char": 843,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "28": {
+        "start_char": 844,
+        "end_char": 873,
+        "length": 29,
+        "preview": "        title: \"Feature Two\",",
+        "hash": "14711534"
+      },
+      "29": {
+        "start_char": 874,
+        "end_char": 954,
+        "length": 80,
+        "preview": "        description: \"Description of the second ma...",
+        "hash": "81de96f5"
+      },
+      "30": {
+        "start_char": 955,
+        "end_char": 983,
+        "length": 28,
+        "preview": "        icon: \"shield-check\"",
+        "hash": "6f498c08"
+      },
+      "31": {
+        "start_char": 984,
+        "end_char": 992,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "32": {
+        "start_char": 993,
+        "end_char": 1000,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "33": {
+        "start_char": 1001,
+        "end_char": 1032,
+        "length": 31,
+        "preview": "        title: \"Feature Three\",",
+        "hash": "a8f15434"
+      },
+      "34": {
+        "start_char": 1033,
+        "end_char": 1112,
+        "length": 79,
+        "preview": "        description: \"Description of the third mai...",
+        "hash": "48be4bfd"
+      },
+      "35": {
+        "start_char": 1113,
+        "end_char": 1143,
+        "length": 30,
+        "preview": "        icon: \"lightning-bolt\"",
+        "hash": "a076aad1"
+      },
+      "36": {
+        "start_char": 1144,
+        "end_char": 1151,
+        "length": 7,
+        "preview": "      }",
+        "hash": "e82f3e56"
+      },
+      "37": {
+        "start_char": 1152,
+        "end_char": 1157,
+        "length": 5,
+        "preview": "    ]",
+        "hash": "6b3c75df"
+      },
+      "38": {
+        "start_char": 1158,
+        "end_char": 1162,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "39": {
+        "start_char": 1163,
+        "end_char": 1165,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "40": {
+        "start_char": 1166,
+        "end_char": 1191,
+        "length": 25,
+        "preview": "  // Testimonials section",
+        "hash": "3aba5389"
+      },
+      "41": {
+        "start_char": 1192,
+        "end_char": 1209,
+        "length": 17,
+        "preview": "  testimonials: {",
+        "hash": "a361acc4"
+      },
+      "42": {
+        "start_char": 1210,
+        "end_char": 1249,
+        "length": 39,
+        "preview": "    headline: \"What Our Customers Say\",",
+        "hash": "b5a8532e"
+      },
+      "43": {
+        "start_char": 1250,
+        "end_char": 1272,
+        "length": 22,
+        "preview": "    testimonialList: [",
+        "hash": "52a85f65"
+      },
+      "44": {
+        "start_char": 1273,
+        "end_char": 1280,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "45": {
+        "start_char": 1281,
+        "end_char": 1406,
+        "length": 125,
+        "preview": "        quote: \"This product has completely transf...",
+        "hash": "70dbacef"
+      },
+      "46": {
+        "start_char": 1407,
+        "end_char": 1436,
+        "length": 29,
+        "preview": "        author: \"Jane Smith\",",
+        "hash": "5e7d7576"
+      },
+      "47": {
+        "start_char": 1437,
+        "end_char": 1471,
+        "length": 34,
+        "preview": "        role: \"CEO, Company Inc.\",",
+        "hash": "d6639c19"
+      },
+      "48": {
+        "start_char": 1472,
+        "end_char": 1514,
+        "length": 42,
+        "preview": "        image: \"/images/testimonial-1.jpg\"",
+        "hash": "ca7fb49d"
+      },
+      "49": {
+        "start_char": 1515,
+        "end_char": 1523,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "50": {
+        "start_char": 1524,
+        "end_char": 1531,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "51": {
+        "start_char": 1532,
+        "end_char": 1648,
+        "length": 116,
+        "preview": "        quote: \"The ease of use and powerful featu...",
+        "hash": "c2afeb2a"
+      },
+      "52": {
+        "start_char": 1649,
+        "end_char": 1676,
+        "length": 27,
+        "preview": "        author: \"John Doe\",",
+        "hash": "5b1147ce"
+      },
+      "53": {
+        "start_char": 1677,
+        "end_char": 1724,
+        "length": 47,
+        "preview": "        role: \"Marketing Director, Agency Co.\",",
+        "hash": "400a6210"
+      },
+      "54": {
+        "start_char": 1725,
+        "end_char": 1767,
+        "length": 42,
+        "preview": "        image: \"/images/testimonial-2.jpg\"",
+        "hash": "71e02117"
+      },
+      "55": {
+        "start_char": 1768,
+        "end_char": 1775,
+        "length": 7,
+        "preview": "      }",
+        "hash": "e82f3e56"
+      },
+      "56": {
+        "start_char": 1776,
+        "end_char": 1781,
+        "length": 5,
+        "preview": "    ]",
+        "hash": "6b3c75df"
+      },
+      "57": {
+        "start_char": 1782,
+        "end_char": 1786,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "58": {
+        "start_char": 1787,
+        "end_char": 1789,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "59": {
+        "start_char": 1790,
+        "end_char": 1810,
+        "length": 20,
+        "preview": "  // Pricing section",
+        "hash": "bacb1c14"
+      },
+      "60": {
+        "start_char": 1811,
+        "end_char": 1823,
+        "length": 12,
+        "preview": "  pricing: {",
+        "hash": "aad5ce63"
+      },
+      "61": {
+        "start_char": 1824,
+        "end_char": 1868,
+        "length": 44,
+        "preview": "    headline: \"Simple, Transparent Pricing\",",
+        "hash": "77a70420"
+      },
+      "62": {
+        "start_char": 1869,
+        "end_char": 1963,
+        "length": 94,
+        "preview": "    subheadline: \"No hidden fees or long-term cont...",
+        "hash": "c3078cb4"
+      },
+      "63": {
+        "start_char": 1964,
+        "end_char": 1976,
+        "length": 12,
+        "preview": "    plans: [",
+        "hash": "fcdb7e7f"
+      },
+      "64": {
+        "start_char": 1977,
+        "end_char": 1984,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "65": {
+        "start_char": 1985,
+        "end_char": 2007,
+        "length": 22,
+        "preview": "        name: \"Basic\",",
+        "hash": "23dc640f"
+      },
+      "66": {
+        "start_char": 2008,
+        "end_char": 2028,
+        "length": 20,
+        "preview": "        price: \"$9\",",
+        "hash": "b2f2165f"
+      },
+      "67": {
+        "start_char": 2029,
+        "end_char": 2054,
+        "length": 25,
+        "preview": "        period: \"/month\",",
+        "hash": "5ea26206"
+      },
+      "68": {
+        "start_char": 2055,
+        "end_char": 2121,
+        "length": 66,
+        "preview": "        description: \"Perfect for individuals and ...",
+        "hash": "e8f0303a"
+      },
+      "69": {
+        "start_char": 2122,
+        "end_char": 2141,
+        "length": 19,
+        "preview": "        features: [",
+        "hash": "c96dc20a"
+      },
+      "70": {
+        "start_char": 2142,
+        "end_char": 2166,
+        "length": 24,
+        "preview": "          \"Feature one\",",
+        "hash": "ae6b0894"
+      },
+      "71": {
+        "start_char": 2167,
+        "end_char": 2191,
+        "length": 24,
+        "preview": "          \"Feature two\",",
+        "hash": "79d9cb17"
+      },
+      "72": {
+        "start_char": 2192,
+        "end_char": 2217,
+        "length": 25,
+        "preview": "          \"Feature three\"",
+        "hash": "f53750d8"
+      },
+      "73": {
+        "start_char": 2218,
+        "end_char": 2228,
+        "length": 10,
+        "preview": "        ],",
+        "hash": "35fc0edd"
+      },
+      "74": {
+        "start_char": 2229,
+        "end_char": 2264,
+        "length": 35,
+        "preview": "        ctaText: \"Start Free Trial\"",
+        "hash": "d52cfb58"
+      },
+      "75": {
+        "start_char": 2265,
+        "end_char": 2273,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "76": {
+        "start_char": 2274,
+        "end_char": 2281,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "77": {
+        "start_char": 2282,
+        "end_char": 2302,
+        "length": 20,
+        "preview": "        name: \"Pro\",",
+        "hash": "f9ad9e73"
+      },
+      "78": {
+        "start_char": 2303,
+        "end_char": 2324,
+        "length": 21,
+        "preview": "        price: \"$29\",",
+        "hash": "c8e04f63"
+      },
+      "79": {
+        "start_char": 2325,
+        "end_char": 2350,
+        "length": 25,
+        "preview": "        period: \"/month\",",
+        "hash": "5ea26206"
+      },
+      "80": {
+        "start_char": 2351,
+        "end_char": 2403,
+        "length": 52,
+        "preview": "        description: \"Ideal for growing businesses...",
+        "hash": "c2ca22ad"
+      },
+      "81": {
+        "start_char": 2404,
+        "end_char": 2423,
+        "length": 19,
+        "preview": "        features: [",
+        "hash": "c96dc20a"
+      },
+      "82": {
+        "start_char": 2424,
+        "end_char": 2456,
+        "length": 32,
+        "preview": "          \"Everything in Basic\",",
+        "hash": "7db8cc8e"
+      },
+      "83": {
+        "start_char": 2457,
+        "end_char": 2492,
+        "length": 35,
+        "preview": "          \"Additional feature one\",",
+        "hash": "5a2a9449"
+      },
+      "84": {
+        "start_char": 2493,
+        "end_char": 2528,
+        "length": 35,
+        "preview": "          \"Additional feature two\",",
+        "hash": "32df34bb"
+      },
+      "85": {
+        "start_char": 2529,
+        "end_char": 2565,
+        "length": 36,
+        "preview": "          \"Additional feature three\"",
+        "hash": "55dce8dc"
+      },
+      "86": {
+        "start_char": 2566,
+        "end_char": 2576,
+        "length": 10,
+        "preview": "        ],",
+        "hash": "35fc0edd"
+      },
+      "87": {
+        "start_char": 2577,
+        "end_char": 2613,
+        "length": 36,
+        "preview": "        ctaText: \"Start Free Trial\",",
+        "hash": "1a097b82"
+      },
+      "88": {
+        "start_char": 2614,
+        "end_char": 2639,
+        "length": 25,
+        "preview": "        highlighted: true",
+        "hash": "82e8ee54"
+      },
+      "89": {
+        "start_char": 2640,
+        "end_char": 2648,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "90": {
+        "start_char": 2649,
+        "end_char": 2656,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "91": {
+        "start_char": 2657,
+        "end_char": 2684,
+        "length": 27,
+        "preview": "        name: \"Enterprise\",",
+        "hash": "a8b6be4d"
+      },
+      "92": {
+        "start_char": 2685,
+        "end_char": 2706,
+        "length": 21,
+        "preview": "        price: \"$99\",",
+        "hash": "0f318f4c"
+      },
+      "93": {
+        "start_char": 2707,
+        "end_char": 2732,
+        "length": 25,
+        "preview": "        period: \"/month\",",
+        "hash": "5ea26206"
+      },
+      "94": {
+        "start_char": 2733,
+        "end_char": 2800,
+        "length": 67,
+        "preview": "        description: \"For large organizations with...",
+        "hash": "f8170dbd"
+      },
+      "95": {
+        "start_char": 2801,
+        "end_char": 2820,
+        "length": 19,
+        "preview": "        features: [",
+        "hash": "c96dc20a"
+      },
+      "96": {
+        "start_char": 2821,
+        "end_char": 2851,
+        "length": 30,
+        "preview": "          \"Everything in Pro\",",
+        "hash": "eb276db1"
+      },
+      "97": {
+        "start_char": 2852,
+        "end_char": 2884,
+        "length": 32,
+        "preview": "          \"Premium feature one\",",
+        "hash": "9ad845ab"
+      },
+      "98": {
+        "start_char": 2885,
+        "end_char": 2917,
+        "length": 32,
+        "preview": "          \"Premium feature two\",",
+        "hash": "fbf93718"
+      },
+      "99": {
+        "start_char": 2918,
+        "end_char": 2952,
+        "length": 34,
+        "preview": "          \"Premium feature three\",",
+        "hash": "48f6c3f5"
+      },
+      "100": {
+        "start_char": 2953,
+        "end_char": 2981,
+        "length": 28,
+        "preview": "          \"Priority support\"",
+        "hash": "3c464a22"
+      },
+      "101": {
+        "start_char": 2982,
+        "end_char": 2992,
+        "length": 10,
+        "preview": "        ],",
+        "hash": "35fc0edd"
+      },
+      "102": {
+        "start_char": 2993,
+        "end_char": 3025,
+        "length": 32,
+        "preview": "        ctaText: \"Contact Sales\"",
+        "hash": "91bc87aa"
+      },
+      "103": {
+        "start_char": 3026,
+        "end_char": 3033,
+        "length": 7,
+        "preview": "      }",
+        "hash": "e82f3e56"
+      },
+      "104": {
+        "start_char": 3034,
+        "end_char": 3039,
+        "length": 5,
+        "preview": "    ]",
+        "hash": "6b3c75df"
+      },
+      "105": {
+        "start_char": 3040,
+        "end_char": 3044,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "106": {
+        "start_char": 3045,
+        "end_char": 3047,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "107": {
+        "start_char": 3048,
+        "end_char": 3064,
+        "length": 16,
+        "preview": "  // FAQ section",
+        "hash": "2dcda23a"
+      },
+      "108": {
+        "start_char": 3065,
+        "end_char": 3073,
+        "length": 8,
+        "preview": "  faq: {",
+        "hash": "ac058d83"
+      },
+      "109": {
+        "start_char": 3074,
+        "end_char": 3117,
+        "length": 43,
+        "preview": "    headline: \"Frequently Asked Questions\",",
+        "hash": "86814bd3"
+      },
+      "110": {
+        "start_char": 3118,
+        "end_char": 3134,
+        "length": 16,
+        "preview": "    questions: [",
+        "hash": "a94f6a58"
+      },
+      "111": {
+        "start_char": 3135,
+        "end_char": 3142,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "112": {
+        "start_char": 3143,
+        "end_char": 3185,
+        "length": 42,
+        "preview": "        question: \"What is your product?\",",
+        "hash": "5aeead32"
+      },
+      "113": {
+        "start_char": 3186,
+        "end_char": 3286,
+        "length": 100,
+        "preview": "        answer: \"Our product is a [brief descripti...",
+        "hash": "e813a5b1"
+      },
+      "114": {
+        "start_char": 3287,
+        "end_char": 3295,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "115": {
+        "start_char": 3296,
+        "end_char": 3303,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "116": {
+        "start_char": 3304,
+        "end_char": 3354,
+        "length": 50,
+        "preview": "        question: \"How does the free trial work?\",",
+        "hash": "7be40c5c"
+      },
+      "117": {
+        "start_char": 3355,
+        "end_char": 3463,
+        "length": 108,
+        "preview": "        answer: \"Our free trial gives you full acc...",
+        "hash": "36963b5a"
+      },
+      "118": {
+        "start_char": 3464,
+        "end_char": 3472,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "119": {
+        "start_char": 3473,
+        "end_char": 3480,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "120": {
+        "start_char": 3481,
+        "end_char": 3523,
+        "length": 42,
+        "preview": "        question: \"Do you offer refunds?\",",
+        "hash": "cc67fbbe"
+      },
+      "121": {
+        "start_char": 3524,
+        "end_char": 3627,
+        "length": 103,
+        "preview": "        answer: \"Yes, we offer a 30-day money-back...",
+        "hash": "983ae444"
+      },
+      "122": {
+        "start_char": 3628,
+        "end_char": 3636,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "123": {
+        "start_char": 3637,
+        "end_char": 3644,
+        "length": 7,
+        "preview": "      {",
+        "hash": "d12ac106"
+      },
+      "124": {
+        "start_char": 3645,
+        "end_char": 3688,
+        "length": 43,
+        "preview": "        question: \"How can I get support?\",",
+        "hash": "f2010d61"
+      },
+      "125": {
+        "start_char": 3689,
+        "end_char": 3799,
+        "length": 110,
+        "preview": "        answer: \"We provide 24/7 support via email...",
+        "hash": "5d2e9800"
+      },
+      "126": {
+        "start_char": 3800,
+        "end_char": 3807,
+        "length": 7,
+        "preview": "      }",
+        "hash": "e82f3e56"
+      },
+      "127": {
+        "start_char": 3808,
+        "end_char": 3813,
+        "length": 5,
+        "preview": "    ]",
+        "hash": "6b3c75df"
+      },
+      "128": {
+        "start_char": 3814,
+        "end_char": 3818,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "129": {
+        "start_char": 3819,
+        "end_char": 3821,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "130": {
+        "start_char": 3822,
+        "end_char": 3838,
+        "length": 16,
+        "preview": "  // CTA section",
+        "hash": "25c4564b"
+      },
+      "131": {
+        "start_char": 3839,
+        "end_char": 3847,
+        "length": 8,
+        "preview": "  cta: {",
+        "hash": "e68d4f19"
+      },
+      "132": {
+        "start_char": 3848,
+        "end_char": 3886,
+        "length": 38,
+        "preview": "    headline: \"Ready to get started?\",",
+        "hash": "abe142ac"
+      },
+      "133": {
+        "start_char": 3887,
+        "end_char": 3963,
+        "length": 76,
+        "preview": "    subheadline: \"Join thousands of satisfied cust...",
+        "hash": "4e3da9c1"
+      },
+      "134": {
+        "start_char": 3964,
+        "end_char": 3991,
+        "length": 27,
+        "preview": "    ctaText: \"Sign Up Now\",",
+        "hash": "3b5aed47"
+      },
+      "135": {
+        "start_char": 3992,
+        "end_char": 4029,
+        "length": 37,
+        "preview": "    secondaryCtaText: \"Contact Sales\"",
+        "hash": "26141537"
+      },
+      "136": {
+        "start_char": 4030,
+        "end_char": 4034,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "137": {
+        "start_char": 4035,
+        "end_char": 4037,
+        "length": 2,
+        "preview": "  ",
+        "hash": "23b58def"
+      },
+      "138": {
+        "start_char": 4038,
+        "end_char": 4049,
+        "length": 11,
+        "preview": "  // Footer",
+        "hash": "4b762ab1"
+      },
+      "139": {
+        "start_char": 4050,
+        "end_char": 4061,
+        "length": 11,
+        "preview": "  footer: {",
+        "hash": "2702f1be"
+      },
+      "140": {
+        "start_char": 4062,
+        "end_char": 4099,
+        "length": 37,
+        "preview": "    companyName: \"Your Company Name\",",
+        "hash": "766b99d8"
+      },
+      "141": {
+        "start_char": 4100,
+        "end_char": 4153,
+        "length": 53,
+        "preview": "    tagline: \"Brief company description or tagline...",
+        "hash": "1c468d06"
+      },
+      "142": {
+        "start_char": 4154,
+        "end_char": 4166,
+        "length": 12,
+        "preview": "    links: {",
+        "hash": "9e4087dd"
+      },
+      "143": {
+        "start_char": 4167,
+        "end_char": 4183,
+        "length": 16,
+        "preview": "      product: [",
+        "hash": "441a241c"
+      },
+      "144": {
+        "start_char": 4184,
+        "end_char": 4231,
+        "length": 47,
+        "preview": "        { text: \"Features\", url: \"#features\" },",
+        "hash": "8b199756"
+      },
+      "145": {
+        "start_char": 4232,
+        "end_char": 4277,
+        "length": 45,
+        "preview": "        { text: \"Pricing\", url: \"#pricing\" },",
+        "hash": "1d75c2a6"
+      },
+      "146": {
+        "start_char": 4278,
+        "end_char": 4314,
+        "length": 36,
+        "preview": "        { text: \"FAQ\", url: \"#faq\" }",
+        "hash": "4b9be5cf"
+      },
+      "147": {
+        "start_char": 4315,
+        "end_char": 4323,
+        "length": 8,
+        "preview": "      ],",
+        "hash": "70dd4e79"
+      },
+      "148": {
+        "start_char": 4324,
+        "end_char": 4340,
+        "length": 16,
+        "preview": "      company: [",
+        "hash": "98c8efb9"
+      },
+      "149": {
+        "start_char": 4341,
+        "end_char": 4382,
+        "length": 41,
+        "preview": "        { text: \"About\", url: \"/about\" },",
+        "hash": "633bd30d"
+      },
+      "150": {
+        "start_char": 4383,
+        "end_char": 4428,
+        "length": 45,
+        "preview": "        { text: \"Contact\", url: \"/contact\" },",
+        "hash": "697a8a83"
+      },
+      "151": {
+        "start_char": 4429,
+        "end_char": 4473,
+        "length": 44,
+        "preview": "        { text: \"Careers\", url: \"/careers\" }",
+        "hash": "8271d94d"
+      },
+      "152": {
+        "start_char": 4474,
+        "end_char": 4482,
+        "length": 8,
+        "preview": "      ],",
+        "hash": "70dd4e79"
+      },
+      "153": {
+        "start_char": 4483,
+        "end_char": 4497,
+        "length": 14,
+        "preview": "      legal: [",
+        "hash": "aa92b1e9"
+      },
+      "154": {
+        "start_char": 4498,
+        "end_char": 4543,
+        "length": 45,
+        "preview": "        { text: \"Privacy\", url: \"/privacy\" },",
+        "hash": "221a5ebf"
+      },
+      "155": {
+        "start_char": 4544,
+        "end_char": 4584,
+        "length": 40,
+        "preview": "        { text: \"Terms\", url: \"/terms\" }",
+        "hash": "b4db00e9"
+      },
+      "156": {
+        "start_char": 4585,
+        "end_char": 4592,
+        "length": 7,
+        "preview": "      ]",
+        "hash": "596e1cca"
+      },
+      "157": {
+        "start_char": 4593,
+        "end_char": 4599,
+        "length": 6,
+        "preview": "    },",
+        "hash": "4f94b621"
+      },
+      "158": {
+        "start_char": 4600,
+        "end_char": 4613,
+        "length": 13,
+        "preview": "    social: [",
+        "hash": "8a5107d6"
+      },
+      "159": {
+        "start_char": 4614,
+        "end_char": 4684,
+        "length": 70,
+        "preview": "      { platform: \"twitter\", url: \"https://twitter...",
+        "hash": "7d60452c"
+      },
+      "160": {
+        "start_char": 4685,
+        "end_char": 4765,
+        "length": 80,
+        "preview": "      { platform: \"linkedin\", url: \"https://linked...",
+        "hash": "9eb16df3"
+      },
+      "161": {
+        "start_char": 4766,
+        "end_char": 4837,
+        "length": 71,
+        "preview": "      { platform: \"facebook\", url: \"https://facebo...",
+        "hash": "4eb1856b"
+      },
+      "162": {
+        "start_char": 4838,
+        "end_char": 4844,
+        "length": 6,
+        "preview": "    ],",
+        "hash": "d02f072c"
+      },
+      "163": {
+        "start_char": 4845,
+        "end_char": 4931,
+        "length": 86,
+        "preview": "    copyright: `\u00a9 ${new Date().getFullYear()} Your...",
+        "hash": "39d611b7"
+      },
+      "164": {
+        "start_char": 4932,
+        "end_char": 4935,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "165": {
+        "start_char": 4936,
+        "end_char": 4938,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "166": {
+        "start_char": 4939,
+        "end_char": 4939,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "167": {
+        "start_char": 4940,
+        "end_char": 4963,
+        "length": 23,
+        "preview": "export default content;",
+        "hash": "b0685c31"
+      },
+      "168": {
+        "start_char": 4964,
+        "end_char": 4964,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "we've": {
+        "count": 2,
+        "positions": [
+          1362,
+          1614
+        ]
+      },
+      "date().getfullyear()}": {
+        "count": 1,
+        "positions": [
+          4869
+        ]
+      },
+      "\"your": {
+        "count": 2,
+        "positions": [
+          223,
+          4079
+        ]
+      },
+      "benefits.\",": {
+        "count": 4,
+        "positions": [
+          399,
+          790,
+          943,
+          1101
+        ]
+      },
+      "value": {
+        "count": 1,
+        "positions": [
+          296
+        ]
+      },
+      "\"yourdomain.com\"": {
+        "count": 1,
+        "positions": [
+          223
+        ]
+      },
+      "period:": {
+        "count": 3,
+        "positions": [
+          2037,
+          2333,
+          2715
+        ]
+      },
+      "rights": {
+        "count": 1,
+        "positions": [
+          4914
+        ]
+      },
+      "\"the": {
+        "count": 1,
+        "positions": [
+          1547
+        ]
+      },
+      "for": {
+        "count": 9,
+        "positions": [
+          1330,
+          1953,
+          2085,
+          2379,
+          2755,
+          3425,
+          4626,
+          4697,
+          4778
+        ]
+      },
+      "headline\",": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "not": {
+        "count": 1,
+        "positions": [
+          3595
+        ]
+      },
+      "price:": {
+        "count": 3,
+        "positions": [
+          2016,
+          2311,
+          2693
+        ]
+      },
+      "\"features\",": {
+        "count": 1,
+        "positions": [
+          4200
+        ]
+      },
+      "question:": {
+        "count": 4,
+        "positions": [
+          3151,
+          3312,
+          3489,
+          3653
+        ]
+      },
+      "full": {
+        "count": 2,
+        "positions": [
+          3397,
+          4879
+        ]
+      },
+      "ready": {
+        "count": 2,
+        "positions": [
+          3784,
+          3863
+        ]
+      },
+      "tagline:": {
+        "count": 1,
+        "positions": [
+          4104
+        ]
+      },
+      "contracts.": {
+        "count": 1,
+        "positions": [
+          1915
+        ]
+      },
+      "always": {
+        "count": 1,
+        "positions": [
+          3777
+        ]
+      },
+      "that": {
+        "count": 3,
+        "positions": [
+          177,
+          364,
+          1942
+        ]
+      },
+      "testimonials:": {
+        "count": 1,
+        "positions": [
+          1194
+        ]
+      },
+      "24/7": {
+        "count": 1,
+        "positions": [
+          3717
+        ]
+      },
+      "\"$29\",": {
+        "count": 1,
+        "positions": [
+          2318
+        ]
+      },
+      "free": {
+        "count": 4,
+        "positions": [
+          2253,
+          2601,
+          3336,
+          3376
+        ]
+      },
+      "benefit].\"": {
+        "count": 1,
+        "positions": [
+          3276
+        ]
+      },
+      "\"privacy\",": {
+        "count": 1,
+        "positions": [
+          4514
+        ]
+      },
+      "first": {
+        "count": 1,
+        "positions": [
+          763
+        ]
+      },
+      "started\",": {
+        "count": 1,
+        "positions": [
+          429
+        ]
+      },
+      "what": {
+        "count": 3,
+        "positions": [
+          613,
+          1225,
+          3162
+        ]
+      },
+      "site:": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "product:": {
+        "count": 1,
+        "positions": [
+          4173
+        ]
+      },
+      "url:": {
+        "count": 11,
+        "positions": [
+          4212,
+          4259,
+          4301,
+          4366,
+          4410,
+          4456,
+          4525,
+          4569,
+          4643,
+          4715
+        ]
+      },
+      "\"supporting": {
+        "count": 1,
+        "positions": [
+          342
+        ]
+      },
+      "gives": {
+        "count": 1,
+        "positions": [
+          3387
+        ]
+      },
+      "say\",": {
+        "count": 1,
+        "positions": [
+          1244
+        ]
+      },
+      "\"/images/testimonial-1.jpg\"": {
+        "count": 1,
+        "positions": [
+          1487
+        ]
+      },
+      "faq:": {
+        "count": 1,
+        "positions": [
+          3067
+        ]
+      },
+      "answer:": {
+        "count": 4,
+        "positions": [
+          3194,
+          3363,
+          3532,
+          3697
+        ]
+      },
+      "audience]": {
+        "count": 1,
+        "positions": [
+          3258
+        ]
+      },
+      "\"description": {
+        "count": 3,
+        "positions": [
+          743,
+          895,
+          1054
+        ]
+      },
+      "\"jane": {
+        "count": 1,
+        "positions": [
+          1423
+        ]
+      },
+      "\"https://linkedin.com/company/yourcompany\"": {
+        "count": 1,
+        "positions": [
+          4720
+        ]
+      },
+      "company": {
+        "count": 10,
+        "positions": [
+          1457,
+          4066,
+          4085,
+          4120,
+          4330,
+          4673,
+          4742,
+          4754,
+          4827,
+          4896
+        ]
+      },
+      "\"ceo,": {
+        "count": 1,
+        "positions": [
+          1451
+        ]
+      },
+      "metadata": {
+        "count": 1,
+        "positions": [
+          35
+        ]
+      },
+      "30%": {
+        "count": 1,
+        "positions": [
+          1375
+        ]
+      },
+      "text:": {
+        "count": 15,
+        "positions": [
+          418,
+          455,
+          2240,
+          2588,
+          3004,
+          3971,
+          4008,
+          4194,
+          4242,
+          4288
+        ]
+      },
+      "agency": {
+        "count": 1,
+        "positions": [
+          1712
+        ]
+      },
+      "\"facebook\",": {
+        "count": 1,
+        "positions": [
+          4784
+        ]
+      },
+      "tried.": {
+        "count": 1,
+        "positions": [
+          1620
+        ]
+      },
+      "required.\"": {
+        "count": 1,
+        "positions": [
+          3453
+        ]
+      },
+      "offer": {
+        "count": 2,
+        "positions": [
+          3507,
+          3549
+        ]
+      },
+      "\"marketing": {
+        "count": 1,
+        "positions": [
+          1691
+        ]
+      },
+      "\"our": {
+        "count": 2,
+        "positions": [
+          3202,
+          3371
+        ]
+      },
+      "transparent": {
+        "count": 1,
+        "positions": [
+          1847
+        ]
+      },
+      "\"start": {
+        "count": 2,
+        "positions": [
+          2246,
+          2594
+        ]
+      },
+      "proposition": {
+        "count": 1,
+        "positions": [
+          302
+        ]
+      },
+      "description": {
+        "count": 13,
+        "positions": [
+          105,
+          138,
+          730,
+          744,
+          882,
+          896,
+          1041,
+          1055,
+          2063,
+          2359
+        ]
+      },
+      "tagline": {
+        "count": 3,
+        "positions": [
+          81,
+          4104,
+          4143
+        ]
+      },
+      "image:": {
+        "count": 3,
+        "positions": [
+          479,
+          1480,
+          1733
+        ]
+      },
+      "\"pro\",": {
+        "count": 1,
+        "positions": [
+          2296
+        ]
+      },
+      "links:": {
+        "count": 1,
+        "positions": [
+          4158
+        ]
+      },
+      "content": {
+        "count": 2,
+        "positions": [
+          13,
+          4955
+        ]
+      },
+      "\"product": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "${new": {
+        "count": 1,
+        "positions": [
+          4863
+        ]
+      },
+      "\"premium": {
+        "count": 3,
+        "positions": [
+          2862,
+          2895,
+          2928
+        ]
+      },
+      "plan": {
+        "count": 2,
+        "positions": [
+          1937,
+          1968
+        ]
+      },
+      "pricing:": {
+        "count": 1,
+        "positions": [
+          1813
+        ]
+      },
+      "productivity.\",": {
+        "count": 1,
+        "positions": [
+          1391
+        ]
+      },
+      "\"ready": {
+        "count": 1,
+        "positions": [
+          3862
+        ]
+      },
+      "you": {
+        "count": 13,
+        "positions": [
+          153,
+          224,
+          378,
+          1957,
+          3170,
+          3393,
+          3503,
+          3588,
+          4080,
+          4669
+        ]
+      },
+      "refunds?\",": {
+        "count": 1,
+        "positions": [
+          3513
+        ]
+      },
+      "\"/terms\"": {
+        "count": 1,
+        "positions": [
+          4574
+        ]
+      },
+      "\"contact": {
+        "count": 3,
+        "positions": [
+          3010,
+          4014,
+          4399
+        ]
+      },
+      "guarantee": {
+        "count": 1,
+        "positions": [
+          3575
+        ]
+      },
+      "this": {
+        "count": 2,
+        "positions": [
+          1297,
+          1591
+        ]
+      },
+      "copyright:": {
+        "count": 1,
+        "positions": [
+          4849
+        ]
+      },
+      "\"/about\"": {
+        "count": 1,
+        "positions": [
+          4371
+        ]
+      },
+      "started?\",": {
+        "count": 1,
+        "positions": [
+          3876
+        ]
+      },
+      "support\"": {
+        "count": 1,
+        "positions": [
+          2973
+        ]
+      },
+      "completely": {
+        "count": 1,
+        "positions": [
+          1314
+        ]
+      },
+      "organizations": {
+        "count": 1,
+        "positions": [
+          2765
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          641
+        ]
+      },
+      "domain:": {
+        "count": 1,
+        "positions": [
+          215
+        ]
+      },
+      "name.": {
+        "count": 1,
+        "positions": [
+          4904
+        ]
+      },
+      "three\"": {
+        "count": 4,
+        "positions": [
+          1025,
+          2211,
+          2559,
+          2945
+        ]
+      },
+      "increase": {
+        "count": 1,
+        "positions": [
+          1379
+        ]
+      },
+      "sets": {
+        "count": 1,
+        "positions": [
+          618
+        ]
+      },
+      "fees": {
+        "count": 1,
+        "positions": [
+          1897
+        ]
+      },
+      "best": {
+        "count": 1,
+        "positions": [
+          1600
+        ]
+      },
+      "thousands": {
+        "count": 1,
+        "positions": [
+          3910
+        ]
+      },
+      "seen": {
+        "count": 1,
+        "positions": [
+          1368
+        ]
+      },
+      "description:": {
+        "count": 7,
+        "positions": [
+          105,
+          730,
+          882,
+          1041,
+          2063,
+          2359,
+          2741
+        ]
+      },
+      "smith\",": {
+        "count": 1,
+        "positions": [
+          1429
+        ]
+      },
+      "can": {
+        "count": 1,
+        "positions": [
+          3668
+        ]
+      },
+      "competition.\",": {
+        "count": 1,
+        "positions": [
+          650
+        ]
+      },
+      "faq": {
+        "count": 4,
+        "positions": [
+          3053,
+          3067,
+          4295,
+          4308
+        ]
+      },
+      "third": {
+        "count": 1,
+        "positions": [
+          1074
+        ]
+      },
+      "long-term": {
+        "count": 1,
+        "positions": [
+          1905
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 10,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "23d889b40567",
+          "preview": "export const content = {\n  // Site metadata\n  site: {\n    title: \"Product Name - Tagline Goes Here\",..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "80f0af105092",
+          "preview": "image.jpg\"\n  },\n  \n  // Features section\n  features: {\n    headline: \"Why Choose Us\",\n    subheadlin..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1500,
+          "size": 500,
+          "hash": "5c6b612ecd88",
+          "preview": "\n        title: \"Feature Three\",\n        description: \"Description of the third main feature and its..."
+        },
+        {
+          "id": 3,
+          "start_char": 1500,
+          "end_char": 2000,
+          "size": 500,
+          "hash": "56d3f9a5a970",
+          "preview": "imonial-1.jpg\"\n      },\n      {\n        quote: \"The ease of use and powerful features make this the ..."
+        },
+        {
+          "id": 4,
+          "start_char": 2000,
+          "end_char": 2500,
+          "size": 500,
+          "hash": "3f575125498f",
+          "preview": "Basic\",\n        price: \"$9\",\n        period: \"/month\",\n        description: \"Perfect for individuals..."
+        },
+        {
+          "id": 5,
+          "start_char": 2500,
+          "end_char": 3000,
+          "size": 500,
+          "hash": "8c71d79014c0",
+          "preview": "   \"Additional feature two\",\n          \"Additional feature three\"\n        ],\n        ctaText: \"Start..."
+        },
+        {
+          "id": 6,
+          "start_char": 3000,
+          "end_char": 3500,
+          "size": 500,
+          "hash": "544951fb33d1",
+          "preview": " ctaText: \"Contact Sales\"\n      }\n    ]\n  },\n  \n  // FAQ section\n  faq: {\n    headline: \"Frequently ..."
+        },
+        {
+          "id": 7,
+          "start_char": 3500,
+          "end_char": 4000,
+          "size": 500,
+          "hash": "f0bc0de8936c",
+          "preview": "Do you offer refunds?\",\n        answer: \"Yes, we offer a 30-day money-back guarantee if you're not s..."
+        },
+        {
+          "id": 8,
+          "start_char": 4000,
+          "end_char": 4500,
+          "size": 500,
+          "hash": "860675578b88",
+          "preview": "ndaryCtaText: \"Contact Sales\"\n  },\n  \n  // Footer\n  footer: {\n    companyName: \"Your Company Name\",\n..."
+        },
+        {
+          "id": 9,
+          "start_char": 4500,
+          "end_char": 4964,
+          "size": 464,
+          "hash": "26cb9f2b39e4",
+          "preview": "      { text: \"Privacy\", url: \"/privacy\" },\n        { text: \"Terms\", url: \"/terms\" }\n      ]\n    },\n..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "src/app/post-detail/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 1.0
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 526,
+        "output_size": 591,
+        "stage_compression_ratio": 1.123574144486692,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 8,
+          "compression_ratio": 1.123574144486692,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 591,
+        "output_size": 234,
+        "stage_compression_ratio": 0.39593908629441626,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 591,
+          "compressed_size": 234,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 685,
+        "output_size": 405,
+        "stage_compression_ratio": 0.5912408759124088,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 685,
+          "compressed_size": 405,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 0.7699619771863118,
+    "stage_count": 3,
+    "original_size": 526,
+    "final_size": 405,
+    "space_savings": 121,
+    "space_savings_percent": 23.00380228136882
+  },
+  "original_size": 526,
+  "compressed_size": 405,
+  "compression_ratio": 0.7699619771863118,
+  "space_savings_percent": 23.00380228136882,
+  "content_hash": "c4083f108639b59c",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkl1r2zAUhn9LU9bQwBIpdhwJEsq2bhRKLkqhZUOUSLK8m62U0YGgdL99z1v1wvaRfN6P85HmNdQxvobq7SFUU0J1axOq5XGbUKftPtRMkHsuxlBTJMv2C94J0Puf4viudbbQ5VCjOSe/G4jsZx2hJMd25PI40hJpLv8kABjHK8Q8NzylTLBgZUr69gJtZi848X7bRK2Z8d+CLOsdwQaBnP/uQ9DtA6RAM8kJd968oEBgkS2D0oVzy+sLNHTOK9l4+oicVWWP4c+HljYNq1+AfTPkzIG6MvYisIl+yFDU2d7t1IvL+9YZl/tbMqjR0rFR9uyPU1SGxqYG688UW0HimuLikreR6uFr69jYrW+IUlOy2zMovOQgHJe8hAfh+zDnumv9f5ZVouG1saD4eHwviIyY1Atcm+3iSQN2byN8PoG80yp8Osre2DqswjXcnLUq3PkvWox/moomp0Iu2sEMLFGyTcWk34A6hjFivagNWqDuOyBNpnyjx8W/zUneRR0ZRNYadG1BDDxOUjm7+X+hXOrB",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 20,
+    "total_chars": 526,
+    "total_words": 51,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 77,
+        "length": 50,
+        "preview": "import PostHeader from '../components/PostHeader';",
+        "hash": "13508e26"
+      },
+      "2": {
+        "start_char": 78,
+        "end_char": 130,
+        "length": 52,
+        "preview": "import PostContent from '../components/PostContent...",
+        "hash": "dead34c8"
+      },
+      "3": {
+        "start_char": 131,
+        "end_char": 181,
+        "length": 50,
+        "preview": "import PostAuthor from '../components/PostAuthor';",
+        "hash": "57f06e45"
+      },
+      "4": {
+        "start_char": 182,
+        "end_char": 236,
+        "length": 54,
+        "preview": "import RelatedPosts from '../components/RelatedPos...",
+        "hash": "9bafb7d4"
+      },
+      "5": {
+        "start_char": 237,
+        "end_char": 283,
+        "length": 46,
+        "preview": "import Comments from '../components/Comments';",
+        "hash": "20a8c6d3"
+      },
+      "6": {
+        "start_char": 284,
+        "end_char": 284,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 285,
+        "end_char": 324,
+        "length": 39,
+        "preview": "export default function Post detail() {",
+        "hash": "27d31916"
+      },
+      "8": {
+        "start_char": 325,
+        "end_char": 335,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "9": {
+        "start_char": 336,
+        "end_char": 374,
+        "length": 38,
+        "preview": "    <div className=\"page post detail\">",
+        "hash": "9c38c81a"
+      },
+      "10": {
+        "start_char": 375,
+        "end_char": 401,
+        "length": 26,
+        "preview": "      <h1>Post Detail</h1>",
+        "hash": "2d81f98b"
+      },
+      "11": {
+        "start_char": 402,
+        "end_char": 422,
+        "length": 20,
+        "preview": "      <PostHeader />",
+        "hash": "33aba119"
+      },
+      "12": {
+        "start_char": 423,
+        "end_char": 444,
+        "length": 21,
+        "preview": "      <PostContent />",
+        "hash": "a328f7f3"
+      },
+      "13": {
+        "start_char": 445,
+        "end_char": 465,
+        "length": 20,
+        "preview": "      <PostAuthor />",
+        "hash": "a980f505"
+      },
+      "14": {
+        "start_char": 466,
+        "end_char": 488,
+        "length": 22,
+        "preview": "      <RelatedPosts />",
+        "hash": "495b4ef5"
+      },
+      "15": {
+        "start_char": 489,
+        "end_char": 507,
+        "length": 18,
+        "preview": "      <Comments />",
+        "hash": "5072ea40"
+      },
+      "16": {
+        "start_char": 508,
+        "end_char": 518,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "17": {
+        "start_char": 519,
+        "end_char": 523,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "18": {
+        "start_char": 524,
+        "end_char": 525,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "19": {
+        "start_char": 526,
+        "end_char": 526,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "comments": {
+        "count": 3,
+        "positions": [
+          244,
+          273,
+          496
+        ]
+      },
+      "relatedposts": {
+        "count": 3,
+        "positions": [
+          189,
+          222,
+          473
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          345
+        ]
+      },
+      "<postcontent": {
+        "count": 1,
+        "positions": [
+          429
+        ]
+      },
+      "'../components/comments';": {
+        "count": 1,
+        "positions": [
+          258
+        ]
+      },
+      "<postheader": {
+        "count": 1,
+        "positions": [
+          408
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "detail\">": {
+        "count": 1,
+        "positions": [
+          366
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "postauthor": {
+        "count": 3,
+        "positions": [
+          138,
+          169,
+          452
+        ]
+      },
+      "post": {
+        "count": 15,
+        "positions": [
+          34,
+          65,
+          85,
+          117,
+          138,
+          169,
+          196,
+          229,
+          309,
+          361
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          512
+        ]
+      },
+      "detail()": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "<postauthor": {
+        "count": 1,
+        "positions": [
+          451
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          300
+        ]
+      },
+      "from": {
+        "count": 6,
+        "positions": [
+          13,
+          45,
+          97,
+          149,
+          202,
+          253
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          285
+        ]
+      },
+      "'../components/postheader';": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "import": {
+        "count": 6,
+        "positions": [
+          0,
+          27,
+          78,
+          131,
+          182,
+          237
+        ]
+      },
+      "<relatedposts": {
+        "count": 1,
+        "positions": [
+          472
+        ]
+      },
+      "'../components/postcontent';": {
+        "count": 1,
+        "positions": [
+          102
+        ]
+      },
+      "'../components/relatedposts';": {
+        "count": 1,
+        "positions": [
+          207
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          292
+        ]
+      },
+      "detail</h1>": {
+        "count": 1,
+        "positions": [
+          390
+        ]
+      },
+      "<h1>post": {
+        "count": 1,
+        "positions": [
+          381
+        ]
+      },
+      "postheader": {
+        "count": 3,
+        "positions": [
+          34,
+          65,
+          409
+        ]
+      },
+      "postcontent": {
+        "count": 3,
+        "positions": [
+          85,
+          117,
+          430
+        ]
+      },
+      "'../components/postauthor';": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "<comments": {
+        "count": 1,
+        "positions": [
+          495
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

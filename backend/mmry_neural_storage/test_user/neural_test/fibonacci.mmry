@@ -1,0 +1,133 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "fibonacci.js",
+  "file_type": "source",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.011101973684210526
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 70,
+        "output_size": 70,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 70,
+        "output_size": 234,
+        "stage_compression_ratio": 3.342857142857143,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 52,
+          "original_size": 70,
+          "compressed_size": 234
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 234,
+        "output_size": 31,
+        "stage_compression_ratio": 0.13247863247863248,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 234,
+          "estimated_compressed_size": 93,
+          "entropy": 3.1832328884525647
+        }
+      }
+    ],
+    "total_compression_ratio": 0.44285714285714284,
+    "stage_count": 3,
+    "original_size": 70,
+    "final_size": 31,
+    "space_savings": 39,
+    "space_savings_percent": 55.714285714285715
+  },
+  "original_size": 70,
+  "compressed_size": 31,
+  "compression_ratio": 0.44285714285714284,
+  "space_savings_percent": 55.714285714285715,
+  "content_hash": "3659ad9e2d52b6a9",
+  "timestamp": 1754563556,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:93:[99][111][110][115][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563556,
+    "total_lines": 1,
+    "total_chars": 70,
+    "total_words": 14,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 70,
+        "length": 70,
+        "preview": "const fibonacci = (n) => n <= 1 ? n : fibonacci(n-...",
+        "hash": "33b66f5f"
+      }
+    },
+    "word_index": {
+      "fibonacci(n-2);": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "fibonacci(n-1)": {
+        "count": 1,
+        "positions": [
+          38
+        ]
+      },
+      "(n)": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "fibonacci": {
+        "count": 3,
+        "positions": [
+          6,
+          38,
+          55
+        ]
+      }
+    },
+    "structural_index": {
+      "functions": [],
+      "classes": [],
+      "constants": [
+        "fibonacci"
+      ]
+    },
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

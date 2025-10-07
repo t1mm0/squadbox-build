@@ -1,0 +1,387 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/styles/variables.css**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.030160675381263612
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 420,
+        "output_size": 417,
+        "stage_compression_ratio": 0.9928571428571429,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 417,
+        "output_size": 1157,
+        "stage_compression_ratio": 2.774580335731415,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 245,
+          "original_size": 414,
+          "compressed_size": 1157
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1157,
+        "output_size": 32,
+        "stage_compression_ratio": 0.027657735522904063,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1157,
+          "estimated_compressed_size": 467,
+          "entropy": 3.230452296052355
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0761904761904762,
+    "stage_count": 3,
+    "original_size": 420,
+    "final_size": 32,
+    "space_savings": 388,
+    "space_savings_percent": 92.38095238095238
+  },
+  "original_size": 420,
+  "compressed_size": 32,
+  "compression_ratio": 0.0761904761904762,
+  "space_savings_percent": 92.38095238095238,
+  "content_hash": "ccae5951d0ac653d",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:467:[99][115][115][10][5",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 20,
+    "total_chars": 420,
+    "total_words": 41,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "css",
+        "hash": "c7a628cb"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 11,
+        "length": 7,
+        "preview": ":root {",
+        "hash": "28c011f5"
+      },
+      "2": {
+        "start_char": 12,
+        "end_char": 41,
+        "length": 29,
+        "preview": "  /* Light theme variables */",
+        "hash": "9c40754a"
+      },
+      "3": {
+        "start_char": 42,
+        "end_char": 69,
+        "length": 27,
+        "preview": "  --primary-color: #0066cc;",
+        "hash": "cbd0cabb"
+      },
+      "4": {
+        "start_char": 70,
+        "end_char": 99,
+        "length": 29,
+        "preview": "  --secondary-color: #004999;",
+        "hash": "d7f8b613"
+      },
+      "5": {
+        "start_char": 100,
+        "end_char": 130,
+        "length": 30,
+        "preview": "  --background-color: #ffffff;",
+        "hash": "66aa6140"
+      },
+      "6": {
+        "start_char": 131,
+        "end_char": 155,
+        "length": 24,
+        "preview": "  --text-color: #222222;",
+        "hash": "7b3f70a7"
+      },
+      "7": {
+        "start_char": 156,
+        "end_char": 182,
+        "length": 26,
+        "preview": "  --accent-color: #ffcc00;",
+        "hash": "cf5ade6b"
+      },
+      "8": {
+        "start_char": 183,
+        "end_char": 206,
+        "length": 23,
+        "preview": "  --border-radius: 4px;",
+        "hash": "7318956d"
+      },
+      "9": {
+        "start_char": 207,
+        "end_char": 237,
+        "length": 30,
+        "preview": "  --transition-duration: 0.3s;",
+        "hash": "fdce6e6f"
+      },
+      "10": {
+        "start_char": 238,
+        "end_char": 239,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "11": {
+        "start_char": 240,
+        "end_char": 240,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "12": {
+        "start_char": 241,
+        "end_char": 248,
+        "length": 7,
+        "preview": ".dark {",
+        "hash": "990c905b"
+      },
+      "13": {
+        "start_char": 249,
+        "end_char": 277,
+        "length": 28,
+        "preview": "  /* Dark theme variables */",
+        "hash": "ec9eb0b5"
+      },
+      "14": {
+        "start_char": 278,
+        "end_char": 305,
+        "length": 27,
+        "preview": "  --primary-color: #4da6ff;",
+        "hash": "5852799b"
+      },
+      "15": {
+        "start_char": 306,
+        "end_char": 335,
+        "length": 29,
+        "preview": "  --secondary-color: #3399ff;",
+        "hash": "49829d23"
+      },
+      "16": {
+        "start_char": 336,
+        "end_char": 366,
+        "length": 30,
+        "preview": "  --background-color: #121212;",
+        "hash": "83275e60"
+      },
+      "17": {
+        "start_char": 367,
+        "end_char": 391,
+        "length": 24,
+        "preview": "  --text-color: #e0e0e0;",
+        "hash": "a377f3be"
+      },
+      "18": {
+        "start_char": 392,
+        "end_char": 418,
+        "length": 26,
+        "preview": "  --accent-color: #ffcc00;",
+        "hash": "cf5ade6b"
+      },
+      "19": {
+        "start_char": 419,
+        "end_char": 420,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "#e0e0e0;": {
+        "count": 1,
+        "positions": [
+          383
+        ]
+      },
+      "--accent-color:": {
+        "count": 2,
+        "positions": [
+          158,
+          394
+        ]
+      },
+      "#4da6ff;": {
+        "count": 1,
+        "positions": [
+          297
+        ]
+      },
+      "--secondary-color:": {
+        "count": 2,
+        "positions": [
+          72,
+          308
+        ]
+      },
+      "variables": {
+        "count": 2,
+        "positions": [
+          29,
+          265
+        ]
+      },
+      "theme": {
+        "count": 2,
+        "positions": [
+          23,
+          259
+        ]
+      },
+      "dark": {
+        "count": 2,
+        "positions": [
+          242,
+          254
+        ]
+      },
+      "--text-color:": {
+        "count": 2,
+        "positions": [
+          133,
+          369
+        ]
+      },
+      "#121212;": {
+        "count": 1,
+        "positions": [
+          358
+        ]
+      },
+      ".dark": {
+        "count": 1,
+        "positions": [
+          241
+        ]
+      },
+      "--background-color:": {
+        "count": 2,
+        "positions": [
+          102,
+          338
+        ]
+      },
+      "#ffffff;": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "--border-radius:": {
+        "count": 1,
+        "positions": [
+          185
+        ]
+      },
+      "#222222;": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "#ffcc00;": {
+        "count": 2,
+        "positions": [
+          174,
+          410
+        ]
+      },
+      "light": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "--primary-color:": {
+        "count": 2,
+        "positions": [
+          44,
+          280
+        ]
+      },
+      ":root": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "css": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "0.3s;": {
+        "count": 1,
+        "positions": [
+          232
+        ]
+      },
+      "#004999;": {
+        "count": 1,
+        "positions": [
+          91
+        ]
+      },
+      "#3399ff;": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "#0066cc;": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "4px;": {
+        "count": 1,
+        "positions": [
+          202
+        ]
+      },
+      "--transition-duration:": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

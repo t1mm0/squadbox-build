@@ -1,0 +1,985 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "README.md**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.005906357388316151
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 1163,
+        "output_size": 1165,
+        "stage_compression_ratio": 1.001719690455718,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 1165,
+        "output_size": 3219,
+        "stage_compression_ratio": 2.7630901287553646,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 674,
+          "original_size": 1147,
+          "compressed_size": 3219
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 3219,
+        "output_size": 33,
+        "stage_compression_ratio": 0.010251630941286114,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 3219,
+          "estimated_compressed_size": 1321,
+          "entropy": 3.2851924304641225
+        }
+      }
+    ],
+    "total_compression_ratio": 0.028374892519346516,
+    "stage_count": 3,
+    "original_size": 1163,
+    "final_size": 33,
+    "space_savings": 1130,
+    "space_savings_percent": 97.16251074806534
+  },
+  "original_size": 1163,
+  "compressed_size": 33,
+  "compression_ratio": 0.028374892519346516,
+  "space_savings_percent": 97.16251074806534,
+  "content_hash": "3f785dc80077ee49",
+  "timestamp": 1759013437,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1321:[109][97][114][107][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013437,
+    "total_lines": 33,
+    "total_chars": 1147,
+    "total_words": 174,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 8,
+        "length": 8,
+        "preview": "markdown",
+        "hash": "590fc197"
+      },
+      "1": {
+        "start_char": 9,
+        "end_char": 30,
+        "length": 21,
+        "preview": "# UK Mental Health AI",
+        "hash": "da8ea59f"
+      },
+      "2": {
+        "start_char": 31,
+        "end_char": 31,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "3": {
+        "start_char": 32,
+        "end_char": 140,
+        "length": 108,
+        "preview": "A clinical diagnostic mental health AI web applica...",
+        "hash": "7353cbd8"
+      },
+      "4": {
+        "start_char": 141,
+        "end_char": 237,
+        "length": 96,
+        "preview": "The app provides a quick, AI\u2011powered assessment of...",
+        "hash": "e6af2b84"
+      },
+      "5": {
+        "start_char": 238,
+        "end_char": 338,
+        "length": 100,
+        "preview": "It is intended for educational purposes and **not*...",
+        "hash": "7b617978"
+      },
+      "6": {
+        "start_char": 339,
+        "end_char": 339,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 340,
+        "end_char": 351,
+        "length": 11,
+        "preview": "## Features",
+        "hash": "544a9618"
+      },
+      "8": {
+        "start_char": 352,
+        "end_char": 352,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "9": {
+        "start_char": 353,
+        "end_char": 428,
+        "length": 75,
+        "preview": "- **AI Assessment** \u2013 Submit symptoms and receive ...",
+        "hash": "29a6f108"
+      },
+      "10": {
+        "start_char": 429,
+        "end_char": 502,
+        "length": 73,
+        "preview": "- **User Data** \u2013 Securely store user information ...",
+        "hash": "432705c1"
+      },
+      "11": {
+        "start_char": 503,
+        "end_char": 546,
+        "length": 43,
+        "preview": "- **Contact Form** \u2013 Reach out to the team.",
+        "hash": "0f76a615"
+      },
+      "12": {
+        "start_char": 547,
+        "end_char": 610,
+        "length": 63,
+        "preview": "- **Responsive Design** \u2013 Works on mobile, tablet,...",
+        "hash": "9fc9b785"
+      },
+      "13": {
+        "start_char": 611,
+        "end_char": 665,
+        "length": 54,
+        "preview": "- **Dark/Light Mode** \u2013 Toggle theme with persiste...",
+        "hash": "e877539d"
+      },
+      "14": {
+        "start_char": 666,
+        "end_char": 735,
+        "length": 69,
+        "preview": "- **Loading & Error UI** \u2013 Friendly feedback durin...",
+        "hash": "eaef011c"
+      },
+      "15": {
+        "start_char": 736,
+        "end_char": 812,
+        "length": 76,
+        "preview": "- **Modern CSS** \u2013 Flexbox/Grid, CSS variables, tr...",
+        "hash": "10c2b952"
+      },
+      "16": {
+        "start_char": 813,
+        "end_char": 813,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "17": {
+        "start_char": 814,
+        "end_char": 827,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "18": {
+        "start_char": 828,
+        "end_char": 828,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "19": {
+        "start_char": 829,
+        "end_char": 869,
+        "length": 40,
+        "preview": "- **Framework**: Next.js 13 (App Router)",
+        "hash": "6b8bddf9"
+      },
+      "20": {
+        "start_char": 870,
+        "end_char": 896,
+        "length": 26,
+        "preview": "- **Language**: TypeScript",
+        "hash": "f4c5c819"
+      },
+      "21": {
+        "start_char": 897,
+        "end_char": 940,
+        "length": 43,
+        "preview": "- **Styling**: Plain CSS with CSS variables",
+        "hash": "38e16a42"
+      },
+      "22": {
+        "start_char": 941,
+        "end_char": 976,
+        "length": 35,
+        "preview": "- **Database**: SQLite + Prisma ORM",
+        "hash": "23ab6508"
+      },
+      "23": {
+        "start_char": 977,
+        "end_char": 1038,
+        "length": 61,
+        "preview": "- **Deployment**: Vercel (recommended) or any Node...",
+        "hash": "e302d94c"
+      },
+      "24": {
+        "start_char": 1039,
+        "end_char": 1039,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "25": {
+        "start_char": 1040,
+        "end_char": 1058,
+        "length": 18,
+        "preview": "## Getting Started",
+        "hash": "f2d4cd63"
+      },
+      "26": {
+        "start_char": 1059,
+        "end_char": 1059,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "27": {
+        "start_char": 1060,
+        "end_char": 1077,
+        "length": 17,
+        "preview": "### Prerequisites",
+        "hash": "d905771c"
+      },
+      "28": {
+        "start_char": 1078,
+        "end_char": 1078,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "29": {
+        "start_char": 1079,
+        "end_char": 1102,
+        "length": 23,
+        "preview": "- Node.js 20.x or later",
+        "hash": "954ad8ca"
+      },
+      "30": {
+        "start_char": 1103,
+        "end_char": 1129,
+        "length": 26,
+        "preview": "- npm (comes with Node.js)",
+        "hash": "abb47a85"
+      },
+      "31": {
+        "start_char": 1130,
+        "end_char": 1130,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "32": {
+        "start_char": 1131,
+        "end_char": 1147,
+        "length": 16,
+        "preview": "### Installation",
+        "hash": "1e4be0c3"
+      }
+    },
+    "word_index": {
+      "users": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "**not**": {
+        "count": 1,
+        "positions": [
+          282
+        ]
+      },
+      "ui**": {
+        "count": 1,
+        "positions": [
+          686
+        ]
+      },
+      "assessment**": {
+        "count": 1,
+        "positions": [
+          360
+        ]
+      },
+      "orm": {
+        "count": 3,
+        "positions": [
+          470,
+          516,
+          973
+        ]
+      },
+      "typescript,": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "(recommended)": {
+        "count": 1,
+        "positions": [
+          1002
+        ]
+      },
+      "health": {
+        "count": 3,
+        "positions": [
+          21,
+          61,
+          199
+        ]
+      },
+      "next.js": {
+        "count": 2,
+        "positions": [
+          98,
+          846
+        ]
+      },
+      "plain": {
+        "count": 1,
+        "positions": [
+          912
+        ]
+      },
+      "submit": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "data**": {
+        "count": 1,
+        "positions": [
+          438
+        ]
+      },
+      "the": {
+        "count": 4,
+        "positions": [
+          141,
+          228,
+          537,
+          642
+        ]
+      },
+      "preliminary": {
+        "count": 1,
+        "positions": [
+          405
+        ]
+      },
+      "history.": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "**contact": {
+        "count": 1,
+        "positions": [
+          505
+        ]
+      },
+      "css": {
+        "count": 4,
+        "positions": [
+          747,
+          769,
+          918,
+          927
+        ]
+      },
+      "and": {
+        "count": 6,
+        "positions": [
+          127,
+          278,
+          391,
+          479,
+          598,
+          797
+        ]
+      },
+      "store": {
+        "count": 1,
+        "positions": [
+          456
+        ]
+      },
+      "**deployment**:": {
+        "count": 1,
+        "positions": [
+          979
+        ]
+      },
+      "vercel": {
+        "count": 1,
+        "positions": [
+          995
+        ]
+      },
+      "**responsive": {
+        "count": 1,
+        "positions": [
+          549
+        ]
+      },
+      "friendly": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "sqlite": {
+        "count": 2,
+        "positions": [
+          131,
+          957
+        ]
+      },
+      "hosting": {
+        "count": 1,
+        "positions": [
+          1031
+        ]
+      },
+      "built": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "**styling**:": {
+        "count": 1,
+        "positions": [
+          899
+        ]
+      },
+      "**dark/light": {
+        "count": 1,
+        "positions": [
+          613
+        ]
+      },
+      "user": {
+        "count": 3,
+        "positions": [
+          219,
+          433,
+          462
+        ]
+      },
+      "tablet,": {
+        "count": 1,
+        "positions": [
+          590
+        ]
+      },
+      "**ai": {
+        "count": 1,
+        "positions": [
+          355
+        ]
+      },
+      "css**": {
+        "count": 1,
+        "positions": [
+          747
+        ]
+      },
+      "intended": {
+        "count": 1,
+        "positions": [
+          244
+        ]
+      },
+      "**modern": {
+        "count": 1,
+        "positions": [
+          738
+        ]
+      },
+      "out": {
+        "count": 2,
+        "positions": [
+          530,
+          863
+        ]
+      },
+      "sqlite.": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "works": {
+        "count": 1,
+        "positions": [
+          573
+        ]
+      },
+      "securely": {
+        "count": 1,
+        "positions": [
+          447
+        ]
+      },
+      "markdown": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "provides": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "any": {
+        "count": 1,
+        "positions": [
+          1019
+        ]
+      },
+      "mobile,": {
+        "count": 1,
+        "positions": [
+          582
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          1051
+        ]
+      },
+      "mode**": {
+        "count": 1,
+        "positions": [
+          626
+        ]
+      },
+      "###": {
+        "count": 2,
+        "positions": [
+          1060,
+          1131
+        ]
+      },
+      "with": {
+        "count": 4,
+        "positions": [
+          93,
+          648,
+          922,
+          1116
+        ]
+      },
+      "router)": {
+        "count": 1,
+        "positions": [
+          862
+        ]
+      },
+      "advice.": {
+        "count": 1,
+        "positions": [
+          331
+        ]
+      },
+      "**language**:": {
+        "count": 1,
+        "positions": [
+          872
+        ]
+      },
+      "uk.": {
+        "count": 1,
+        "positions": [
+          232
+        ]
+      },
+      "node.js": {
+        "count": 3,
+        "positions": [
+          1023,
+          1081,
+          1121
+        ]
+      },
+      "animations.": {
+        "count": 1,
+        "positions": [
+          801
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          71
+        ]
+      },
+      "diagnostic": {
+        "count": 1,
+        "positions": [
+          43
+        ]
+      },
+      "later": {
+        "count": 1,
+        "positions": [
+          1097
+        ]
+      },
+      "purposes": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "persistence.": {
+        "count": 1,
+        "positions": [
+          653
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "assessment": {
+        "count": 4,
+        "positions": [
+          178,
+          360,
+          417,
+          483
+        ]
+      },
+      "variables": {
+        "count": 2,
+        "positions": [
+          773,
+          931
+        ]
+      },
+      "installation": {
+        "count": 1,
+        "positions": [
+          1135
+        ]
+      },
+      "20.x": {
+        "count": 1,
+        "positions": [
+          1089
+        ]
+      },
+      "team.": {
+        "count": 1,
+        "positions": [
+          541
+        ]
+      },
+      "**user": {
+        "count": 1,
+        "positions": [
+          431
+        ]
+      },
+      "stack": {
+        "count": 1,
+        "positions": [
+          822
+        ]
+      },
+      "symptoms": {
+        "count": 2,
+        "positions": [
+          206,
+          382
+        ]
+      },
+      "ai\u2011powered": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "feedback": {
+        "count": 1,
+        "positions": [
+          702
+        ]
+      },
+      "typescript": {
+        "count": 2,
+        "positions": [
+          107,
+          886
+        ]
+      },
+      "prerequisites": {
+        "count": 1,
+        "positions": [
+          1064
+        ]
+      },
+      "form**": {
+        "count": 1,
+        "positions": [
+          515
+        ]
+      },
+      "**database**:": {
+        "count": 1,
+        "positions": [
+          943
+        ]
+      },
+      "prisma": {
+        "count": 2,
+        "positions": [
+          119,
+          966
+        ]
+      },
+      "during": {
+        "count": 1,
+        "positions": [
+          711
+        ]
+      },
+      "**framework**:": {
+        "count": 1,
+        "positions": [
+          831
+        ]
+      },
+      "(app": {
+        "count": 1,
+        "positions": [
+          857
+        ]
+      },
+      "npm": {
+        "count": 1,
+        "positions": [
+          1105
+        ]
+      },
+      "substitute": {
+        "count": 1,
+        "positions": [
+          295
+        ]
+      },
+      "medical": {
+        "count": 1,
+        "positions": [
+          323
+        ]
+      },
+      "clinical": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          817
+        ]
+      },
+      "(comes": {
+        "count": 1,
+        "positions": [
+          1109
+        ]
+      },
+      "quick,": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "reach": {
+        "count": 1,
+        "positions": [
+          524
+        ]
+      },
+      "variables,": {
+        "count": 1,
+        "positions": [
+          773
+        ]
+      },
+      "assessment.": {
+        "count": 1,
+        "positions": [
+          417
+        ]
+      },
+      "getting": {
+        "count": 1,
+        "positions": [
+          1043
+        ]
+      },
+      "desktop.": {
+        "count": 1,
+        "positions": [
+          602
+        ]
+      },
+      "flexbox/grid,": {
+        "count": 1,
+        "positions": [
+          755
+        ]
+      },
+      "app": {
+        "count": 3,
+        "positions": [
+          75,
+          145,
+          858
+        ]
+      },
+      "node.js)": {
+        "count": 1,
+        "positions": [
+          1121
+        ]
+      },
+      "features": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "theme": {
+        "count": 1,
+        "positions": [
+          642
+        ]
+      },
+      "requests.": {
+        "count": 1,
+        "positions": [
+          726
+        ]
+      },
+      "toggle": {
+        "count": 1,
+        "positions": [
+          635
+        ]
+      },
+      "information": {
+        "count": 1,
+        "positions": [
+          467
+        ]
+      },
+      "application": {
+        "count": 1,
+        "positions": [
+          75
+        ]
+      },
+      "mental": {
+        "count": 3,
+        "positions": [
+          14,
+          54,
+          192
+        ]
+      },
+      "design**": {
+        "count": 1,
+        "positions": [
+          562
+        ]
+      },
+      "**loading": {
+        "count": 1,
+        "positions": [
+          668
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 3,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "7e2fb0ff8a70",
+          "preview": "markdown\n# UK Mental Health AI\n\nA clinical diagnostic mental health AI web application built with Ne..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "a525545fc275",
+          "preview": "y.\n- **Contact Form** \u2013 Reach out to the team.\n- **Responsive Design** \u2013 Works on mobile, tablet, an..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1147,
+          "size": 147,
+          "hash": "f4ab8860e0f7",
+          "preview": "l (recommended) or any Node.js hosting\n\n## Getting Started\n\n### Prerequisites\n\n- Node.js 20.x or lat..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  role          Role      @default(CUSTOMER)
+  orders        Order[]
+  addresses     Address[]
+  reviews       Review[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model Product {
+  id          String      @id @default(cuid())
+  name        String
+  slug        String      @unique
+  description String?
+  price       Float
+  compareAt   Float?
+  images      String[]    @default([])
+  stock       Int         @default(0)
+  sku         String      @unique
+  category    Category    @relation(fields: [categoryId], references: [id])
+  categoryId  String
+  options     Json?
+  featured    Boolean     @default(false)
+  orderItems  OrderItem[]
+  reviews     Review[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  name        String    @unique
+  slug        String    @unique
+  description String?
+  image       String?
+  products    Product[]
+  parentId    String?
+  parent      Category? @relation("SubCategories", fields: [parentId], references: [id])
+  children    Category[] @relation("SubCategories")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Order {
+  id              String      @id @default(cuid())
+  user            User        @relation(fields: [userId], references: [id])
+  userId          String
+  items           OrderItem[]
+  status          OrderStatus @default(PENDING)
+  total           Float
+  shippingAddress String
+  paymentId       String?
+  paymentMethod   String
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId   String
+  product   Product @relation(fields: [productId], references: [id])
+  productId String
+  quantity  Int
+  price     Float
+  options   Json?
+}
+
+model Address {
+  id        String    @id @default(cuid())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  type      AddressType @default(SHIPPING)
+  name      String
+  street    String
+  city      String
+  state     String
+  zipCode   String
+  country   String
+  isDefault Boolean   @default(false)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Review {
+  id        String    @id @default(cuid())
+  product   Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String
+  user      User      @relation(fields: [userId], references: [id])
+  userId    String
+  rating    Int
+  comment   String?
+  title     String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+enum Role {
+  ADMIN
+  STAFF
+  CUSTOMER
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
+
+enum AddressType {
+  SHIPPING
+  BILLING
+}

@@ -1,0 +1,68 @@
+.build-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.timeline-stage {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.stage-light {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #e0eafc;
+  border: 3px solid #b8d3f6;
+  margin: 0 8px;
+  box-shadow: 0 0 0 0 rgba(26,126,230,0.4);
+  transition: background 0.3s, box-shadow 0.3s, border 0.3s;
+}
+.timeline-stage.active .stage-light {
+  background: #ffd700;
+  border: 4px solid #ffd700;
+  animation: pulse 1s infinite;
+}
+.timeline-stage.complete .stage-light {
+  background: #32d657;
+  border: 4px solid #32d657;
+  box-shadow: 0 0 12px 4px rgba(50,214,87,0.2);
+  animation: none;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255,215,0,0.6); }
+  70% { box-shadow: 0 0 0 8px rgba(255,215,0,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,215,0,0); }
+}
+.stage-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a7ee6;
+  margin: 0 6px 0 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.timeline-stage.complete .stage-label {
+  color: #32d657;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgba(50,214,87,0.3);
+}
+.timeline-stage.active .stage-label {
+  color: #ffd700;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgba(255,215,0,0.3);
+}
+.stage-connector {
+  width: 40px;
+  height: 6px;
+  background: #e0eafc;
+  margin: 0 4px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.timeline-stage.complete .stage-connector {
+  background: #32d657;
+}
+.timeline-stage.active .stage-connector {
+  background: #ffd700;
+}

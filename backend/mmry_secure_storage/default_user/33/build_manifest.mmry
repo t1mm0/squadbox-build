@@ -1,0 +1,422 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018483985382631126
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 459,
+        "output_size": 459,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 459,
+        "output_size": 1435,
+        "stage_compression_ratio": 3.1263616557734206,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 305,
+          "original_size": 454,
+          "compressed_size": 1435
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1435,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02229965156794425,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1435,
+          "estimated_compressed_size": 578,
+          "entropy": 3.227776943759659
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06971677559912855,
+    "stage_count": 3,
+    "original_size": 459,
+    "final_size": 32,
+    "space_savings": 427,
+    "space_savings_percent": 93.02832244008714
+  },
+  "original_size": 459,
+  "compressed_size": 32,
+  "compression_ratio": 0.06971677559912855,
+  "space_savings_percent": 93.02832244008714,
+  "content_hash": "da8765993b83f82f",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:578:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 20,
+    "total_chars": 459,
+    "total_words": 42,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"33\",",
+        "hash": "f1a71cf4"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 125,
+        "length": 49,
+        "preview": "    \"clinical diagnotistc mental Helath AI in UK\"",
+        "hash": "1bbcfbfe"
+      },
+      "5": {
+        "start_char": 126,
+        "end_char": 130,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 131,
+        "end_char": 170,
+        "length": 39,
+        "preview": "  \"template_id\": \"ai_chatbot_advanced\",",
+        "hash": "5d287698"
+      },
+      "7": {
+        "start_char": 171,
+        "end_char": 195,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 196,
+        "end_char": 221,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 222,
+        "end_char": 256,
+        "length": 34,
+        "preview": "  \"start_time\": 1759009469.157192,",
+        "hash": "ec92de34"
+      },
+      "10": {
+        "start_char": 257,
+        "end_char": 276,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 277,
+        "end_char": 301,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 302,
+        "end_char": 317,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 318,
+        "end_char": 328,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "14": {
+        "start_char": 329,
+        "end_char": 355,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "15": {
+        "start_char": 356,
+        "end_char": 386,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "16": {
+        "start_char": 387,
+        "end_char": 430,
+        "length": 43,
+        "preview": "    \"ollama_url\": \"http://localhost:11434\",",
+        "hash": "83c9464e"
+      },
+      "17": {
+        "start_char": 431,
+        "end_char": 453,
+        "length": 22,
+        "preview": "    \"use_ollama\": true",
+        "hash": "62e4ce3f"
+      },
+      "18": {
+        "start_char": 454,
+        "end_char": 457,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "19": {
+        "start_char": 458,
+        "end_char": 459,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          189
+        ]
+      },
+      "\"clinical": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "diagnotistc": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          298,
+          314
+        ]
+      },
+      "1759009469.157192,": {
+        "count": 1,
+        "positions": [
+          238
+        ]
+      },
+      "true": {
+        "count": 1,
+        "positions": [
+          449
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          391
+        ]
+      },
+      "\"http://localhost:11434\",": {
+        "count": 1,
+        "positions": [
+          405
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          333
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          208
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          435
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          259
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          102
+        ]
+      },
+      "uk\"": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          320
+        ]
+      },
+      "\"33\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "helath": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "\"ai_chatbot_advanced\",": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          224
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          279
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          271
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          349,
+          380
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          304
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          360
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "name": "squadbox-frontend",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_API_URL": "@squadbox_api_url",
+    "VITE_APP_NAME": "Squadbox",
+    "VITE_APP_VERSION": "1.0.0"
+  },
+  "functions": {
+    "app/api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}

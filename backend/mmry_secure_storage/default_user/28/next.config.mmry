@@ -1,0 +1,238 @@
+{
+  "user_id": "default_user",
+  "project_id": "28",
+  "file_name": "next.config.js",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012376718469814705
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 198,
+        "output_size": 198,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 1
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 198,
+        "output_size": 735,
+        "stage_compression_ratio": 3.712121212121212,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 158,
+          "original_size": 197,
+          "compressed_size": 735
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 735,
+        "output_size": 32,
+        "stage_compression_ratio": 0.04353741496598639,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 735,
+          "estimated_compressed_size": 288,
+          "entropy": 3.1357925699565836
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16161616161616163,
+    "stage_count": 3,
+    "original_size": 198,
+    "final_size": 32,
+    "space_savings": 166,
+    "space_savings_percent": 83.83838383838383
+  },
+  "original_size": 198,
+  "compressed_size": 32,
+  "compression_ratio": 0.16161616161616163,
+  "space_savings_percent": 83.83838383838383,
+  "content_hash": "b6b999ff72975c07",
+  "timestamp": 1754569366,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:288:[47][42][42][32][64]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754569366,
+    "total_lines": 10,
+    "total_chars": 198,
+    "total_words": 20,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 40,
+        "length": 40,
+        "preview": "/** @type {import('next').NextConfig} */",
+        "hash": "5e73760a"
+      },
+      "1": {
+        "start_char": 41,
+        "end_char": 61,
+        "length": 20,
+        "preview": "const nextConfig = {",
+        "hash": "d51ba477"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 86,
+        "length": 24,
+        "preview": "  reactStrictMode: true,",
+        "hash": "0a4beec4"
+      },
+      "3": {
+        "start_char": 87,
+        "end_char": 98,
+        "length": 11,
+        "preview": "  images: {",
+        "hash": "9e9f7507"
+      },
+      "4": {
+        "start_char": 99,
+        "end_char": 159,
+        "length": 60,
+        "preview": "    domains: ['images.unsplash.com', 'via.placehol...",
+        "hash": "cd8b6298"
+      },
+      "5": {
+        "start_char": 160,
+        "end_char": 164,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "6": {
+        "start_char": 165,
+        "end_char": 167,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "7": {
+        "start_char": 168,
+        "end_char": 168,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "8": {
+        "start_char": 169,
+        "end_char": 197,
+        "length": 28,
+        "preview": "module.exports = nextConfig;",
+        "hash": "c1ec6060"
+      },
+      "9": {
+        "start_char": 198,
+        "end_char": 198,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "reactstrictmode:": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "domains:": {
+        "count": 1,
+        "positions": [
+          103
+        ]
+      },
+      "/**": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "['images.unsplash.com',": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "module.exports": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "images:": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          41
+        ]
+      },
+      "'via.placeholder.com'],": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "nextconfig;": {
+        "count": 1,
+        "positions": [
+          186
+        ]
+      },
+      "{import('next').nextconfig}": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "@type": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "nextconfig": {
+        "count": 3,
+        "positions": [
+          26,
+          47,
+          186
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          81
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

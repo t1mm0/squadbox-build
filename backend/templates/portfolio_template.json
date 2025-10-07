@@ -1,0 +1,117 @@
+{
+  "name": "Portfolio Template",
+  "description": "A modern personal portfolio website template",
+  "tech_stack": ["React", "Next.js", "TailwindCSS"],
+  "structure": {
+    "pages": [
+      {
+        "name": "Home",
+        "sections": ["hero", "about", "skills", "featured-projects", "contact"]
+      },
+      {
+        "name": "Projects",
+        "sections": ["project-list", "project-details", "related-projects"]
+      },
+      {
+        "name": "About",
+        "sections": ["bio", "experience", "education", "testimonials"]
+      },
+      {
+        "name": "Contact",
+        "sections": ["contact-form", "social-links", "location"]
+      }
+    ],
+    "components": [
+      "Header", "Footer", "ProjectCard", "SkillsGrid", "ContactForm", 
+      "SocialLinks", "HeroSection", "ExperienceTimeline"
+    ]
+  },
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.3",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "tailwindcss": "^3.3.5",
+          "postcss": "^8.4.31",
+          "autoprefixer": "^10.4.16",
+          "framer-motion": "^10.16.5",
+          "react-icons": "^4.12.0"
+        },
+        "devDependencies": {
+          "eslint": "^8.54.0",
+          "eslint-config-next": "^14.0.3",
+          "typescript": "^5.3.2",
+          "@types/react": "^18.2.38",
+          "@types/node": "^20.9.5"
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "content": "# {{project_name}}\n\nA modern portfolio website built with Next.js and TailwindCSS.\n\n## Features\n\n- Responsive design for all device sizes\n- Dynamic project showcase\n- Contact form with validation\n- Animation and transitions for enhanced UX\n- SEO optimized\n\n## Getting Started\n\n```bash\n# Install dependencies\nnpm install\n\n# Run development server\nnpm run dev\n\n# Build for production\nnpm run build\n\n# Start production server\nnpm start\n```\n\n## Deployment\n\nThis site can be easily deployed to Vercel, Netlify, or any static hosting service.\n\n```bash\n# Deploy to Vercel\nvercel\n```\n"
+    },
+    {
+      "path": "tailwind.config.js",
+      "content": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\n    './src/pages/**/*.{js,ts,jsx,tsx}',\n    './src/components/**/*.{js,ts,jsx,tsx}',\n    './src/app/**/*.{js,ts,jsx,tsx}',\n  ],\n  theme: {\n    extend: {\n      colors: {\n        primary: '#3490dc',\n        secondary: '#ffed4a',\n        dark: '#1a202c',\n      },\n      fontFamily: {\n        sans: ['Inter', 'sans-serif'],\n        mono: ['JetBrains Mono', 'monospace'],\n      },\n      animation: {\n        'fade-in': 'fadeIn 1s ease-in-out',\n        'slide-up': 'slideUp 0.5s ease-out',\n      },\n      keyframes: {\n        fadeIn: {\n          '0%': { opacity: 0 },\n          '100%': { opacity: 1 },\n        },\n        slideUp: {\n          '0%': { transform: 'translateY(20px)', opacity: 0 },\n          '100%': { transform: 'translateY(0)', opacity: 1 },\n        },\n      },\n    },\n  },\n  plugins: [],\n};\n"
+    },
+    {
+      "path": "next.config.js",
+      "content": "/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    domains: ['images.unsplash.com', 'via.placeholder.com'],\n  },\n};\n\nmodule.exports = nextConfig;\n"
+    }
+  ],
+  "schema": {
+    "projects": {
+      "id": "INT PRIMARY KEY",
+      "title": "VARCHAR(100)",
+      "description": "TEXT",
+      "image_url": "VARCHAR(255)",
+      "tech_stack": "JSON",
+      "live_url": "VARCHAR(255)",
+      "github_url": "VARCHAR(255)",
+      "featured": "BOOLEAN",
+      "created_at": "TIMESTAMP"
+    },
+    "skills": {
+      "id": "INT PRIMARY KEY",
+      "name": "VARCHAR(50)",
+      "category": "VARCHAR(50)",
+      "icon": "VARCHAR(100)",
+      "proficiency": "INT"
+    },
+    "testimonials": {
+      "id": "INT PRIMARY KEY",
+      "name": "VARCHAR(100)",
+      "position": "VARCHAR(100)",
+      "company": "VARCHAR(100)",
+      "quote": "TEXT",
+      "image_url": "VARCHAR(255)"
+    }
+  },
+  "example_data": {
+    "personal_info": {
+      "name": "Alex Johnson",
+      "title": "Frontend Developer",
+      "bio": "A passionate frontend developer with 5+ years of experience building modern web applications.",
+      "location": "San Francisco, CA",
+      "email": "alex@example.com",
+      "phone": "+1 (555) 123-4567",
+      "social": {
+        "github": "https://github.com/alexjohnson",
+        "linkedin": "https://linkedin.com/in/alexjohnson",
+        "twitter": "https://twitter.com/alexjohnson"
+      }
+    }
+  }
+}

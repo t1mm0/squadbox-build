@@ -1,0 +1,143 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "error.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.006143685567010309
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 67,
+        "output_size": 67,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 67,
+        "output_size": 277,
+        "stage_compression_ratio": 4.134328358208955,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 59,
+          "original_size": 67,
+          "compressed_size": 277
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 277,
+        "output_size": 32,
+        "stage_compression_ratio": 0.11552346570397112,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 277,
+          "estimated_compressed_size": 104,
+          "entropy": 3.0195343420078737
+        }
+      }
+    ],
+    "total_compression_ratio": 0.47761194029850745,
+    "stage_count": 3,
+    "original_size": 67,
+    "final_size": 32,
+    "space_savings": 35,
+    "space_savings_percent": 52.23880597014925
+  },
+  "original_size": 67,
+  "compressed_size": 32,
+  "compression_ratio": 0.47761194029850745,
+  "space_savings_percent": 52.23880597014925,
+  "content_hash": "17a4a03306c1db2c",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:104:[70][97][105][108][1",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 1,
+    "total_chars": 67,
+    "total_words": 10,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 67,
+        "length": 67,
+        "preview": "Failed to generate project: module 'openai' has no...",
+        "hash": "9ab0656a"
+      }
+    },
+    "word_index": {
+      "generate": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "module": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "attribute": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "'openai'": {
+        "count": 1,
+        "positions": [
+          35
+        ]
+      },
+      "project:": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "'chat'": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "has": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "failed": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

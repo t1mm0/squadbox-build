@@ -1,0 +1,47 @@
+{
+  "id": "ecommerce-store-beginner",
+  "name": "Quick Start Ecommerce Store",
+  "description": "Start selling online in 30 minutes! Perfect for beginners who want to launch their first online store with zero coding.",
+  "category": "ecommerce",
+  "difficulty": "beginner",
+  "estimatedTime": "30 minutes",
+  "features": [
+    "One-click product import",
+    "Pre-built payment processing",
+    "Mobile-optimized design",
+    "Simple inventory management",
+    "Basic analytics dashboard",
+    "Social media integration",
+    "Email marketing setup",
+    "Customer support chat"
+  ],
+  "icon": "ShoppingCart",
+  "tags": ["ecommerce", "beginner", "quick-start", "dropshipping", "online-store"],
+  "access_tier": "free",
+  "popular": true,
+  "featured": true,
+  "downloads": 3200,
+  "rating": 4.8,
+  "tech_stack": {
+    "frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Next.js", "Node.js"],
+    "database": ["SQLite", "Local Storage"],
+    "payment": ["Stripe", "PayPal"],
+    "deployment": ["Vercel", "Netlify"]
+  },
+  "marketing_highlights": [
+    "Start selling in 30 minutes",
+    "No coding required",
+    "Mobile-ready store",
+    "Built-in payment processing",
+    "Free forever plan",
+    "Perfect for dropshipping"
+  ],
+  "customer_pain_points": [
+    "Don't know how to code",
+    "Want to start selling quickly",
+    "Need mobile-friendly store",
+    "Want simple payment setup",
+    "Need basic analytics"
+  ]
+} 

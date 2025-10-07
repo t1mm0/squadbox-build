@@ -1,0 +1,689 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012322656921754084
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 660,
+        "output_size": 660,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 660,
+        "output_size": 1959,
+        "stage_compression_ratio": 2.9681818181818183,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 411,
+          "original_size": 660,
+          "compressed_size": 1959
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1959,
+        "output_size": 32,
+        "stage_compression_ratio": 0.01633486472690148,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1959,
+          "estimated_compressed_size": 792,
+          "entropy": 3.2347868104078223
+        }
+      }
+    ],
+    "total_compression_ratio": 0.048484848484848485,
+    "stage_count": 3,
+    "original_size": 660,
+    "final_size": 32,
+    "space_savings": 628,
+    "space_savings_percent": 95.15151515151516
+  },
+  "original_size": 660,
+  "compressed_size": 32,
+  "compression_ratio": 0.048484848484848485,
+  "space_savings_percent": 95.15151515151516,
+  "content_hash": "90b149106e5ce982",
+  "timestamp": 1759013437,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:792:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013437,
+    "total_lines": 44,
+    "total_chars": 660,
+    "total_words": 85,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 22,
+        "length": 22,
+        "preview": "# My Project Structure",
+        "hash": "8917c60b"
+      },
+      "1": {
+        "start_char": 23,
+        "end_char": 23,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "Template: Enterprise AI Chatbot",
+        "hash": "4c263273"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 56,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 57,
+        "end_char": 74,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 75,
+        "end_char": 75,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 76,
+        "end_char": 92,
+        "length": 16,
+        "preview": "- Chat Interface",
+        "hash": "67a202dd"
+      },
+      "7": {
+        "start_char": 93,
+        "end_char": 108,
+        "length": 15,
+        "preview": "  - chat-window",
+        "hash": "6beacceb"
+      },
+      "8": {
+        "start_char": 109,
+        "end_char": 133,
+        "length": 24,
+        "preview": "  - conversation-history",
+        "hash": "c4d11aea"
+      },
+      "9": {
+        "start_char": 134,
+        "end_char": 152,
+        "length": 18,
+        "preview": "  - settings-panel",
+        "hash": "8cc0df83"
+      },
+      "10": {
+        "start_char": 153,
+        "end_char": 174,
+        "length": 21,
+        "preview": "- Analytics Dashboard",
+        "hash": "2a182521"
+      },
+      "11": {
+        "start_char": 175,
+        "end_char": 199,
+        "length": 24,
+        "preview": "  - conversation-metrics",
+        "hash": "168f7f70"
+      },
+      "12": {
+        "start_char": 200,
+        "end_char": 221,
+        "length": 21,
+        "preview": "  - performance-stats",
+        "hash": "fb86ad9e"
+      },
+      "13": {
+        "start_char": 222,
+        "end_char": 239,
+        "length": 17,
+        "preview": "  - user-insights",
+        "hash": "18625cd2"
+      },
+      "14": {
+        "start_char": 240,
+        "end_char": 257,
+        "length": 17,
+        "preview": "- Training Center",
+        "hash": "92285d7e"
+      },
+      "15": {
+        "start_char": 258,
+        "end_char": 276,
+        "length": 18,
+        "preview": "  - knowledge-base",
+        "hash": "8025c598"
+      },
+      "16": {
+        "start_char": 277,
+        "end_char": 302,
+        "length": 25,
+        "preview": "  - conversation-training",
+        "hash": "7ec95371"
+      },
+      "17": {
+        "start_char": 303,
+        "end_char": 319,
+        "length": 16,
+        "preview": "  - model-tuning",
+        "hash": "789a7f54"
+      },
+      "18": {
+        "start_char": 320,
+        "end_char": 320,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "19": {
+        "start_char": 321,
+        "end_char": 334,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "20": {
+        "start_char": 335,
+        "end_char": 335,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "21": {
+        "start_char": 336,
+        "end_char": 361,
+        "length": 25,
+        "preview": "- EnterpriseChatInterface",
+        "hash": "2f7179ce"
+      },
+      "22": {
+        "start_char": 362,
+        "end_char": 384,
+        "length": 22,
+        "preview": "- ConversationLearning",
+        "hash": "e3144272"
+      },
+      "23": {
+        "start_char": 385,
+        "end_char": 404,
+        "length": 19,
+        "preview": "- TrainingDashboard",
+        "hash": "afaaf599"
+      },
+      "24": {
+        "start_char": 405,
+        "end_char": 420,
+        "length": 15,
+        "preview": "- ChatAnalytics",
+        "hash": "601a9dc0"
+      },
+      "25": {
+        "start_char": 421,
+        "end_char": 443,
+        "length": 22,
+        "preview": "- KnowledgeBaseManager",
+        "hash": "50275a41"
+      },
+      "26": {
+        "start_char": 444,
+        "end_char": 460,
+        "length": 16,
+        "preview": "- VoiceInterface",
+        "hash": "3ba3fa92"
+      },
+      "27": {
+        "start_char": 461,
+        "end_char": 480,
+        "length": 19,
+        "preview": "- SentimentAnalyzer",
+        "hash": "c8912fa4"
+      },
+      "28": {
+        "start_char": 481,
+        "end_char": 481,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "29": {
+        "start_char": 482,
+        "end_char": 495,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "30": {
+        "start_char": 496,
+        "end_char": 496,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "31": {
+        "start_char": 497,
+        "end_char": 504,
+        "length": 7,
+        "preview": "- React",
+        "hash": "4324dc0b"
+      },
+      "32": {
+        "start_char": 505,
+        "end_char": 517,
+        "length": 12,
+        "preview": "- TypeScript",
+        "hash": "38c447aa"
+      },
+      "33": {
+        "start_char": 518,
+        "end_char": 527,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "34": {
+        "start_char": 528,
+        "end_char": 540,
+        "length": 12,
+        "preview": "- OpenAI GPT",
+        "hash": "6c652fb8"
+      },
+      "35": {
+        "start_char": 541,
+        "end_char": 552,
+        "length": 11,
+        "preview": "- LangChain",
+        "hash": "02d49268"
+      },
+      "36": {
+        "start_char": 553,
+        "end_char": 565,
+        "length": 12,
+        "preview": "- PostgreSQL",
+        "hash": "dc987bdd"
+      },
+      "37": {
+        "start_char": 566,
+        "end_char": 573,
+        "length": 7,
+        "preview": "- Redis",
+        "hash": "688bb2f9"
+      },
+      "38": {
+        "start_char": 574,
+        "end_char": 588,
+        "length": 14,
+        "preview": "- Tailwind CSS",
+        "hash": "c78a3989"
+      },
+      "39": {
+        "start_char": 589,
+        "end_char": 589,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "40": {
+        "start_char": 590,
+        "end_char": 612,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "41": {
+        "start_char": 613,
+        "end_char": 613,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "42": {
+        "start_char": 614,
+        "end_char": 659,
+        "length": 45,
+        "preview": "- clinical diagnotistc mental Helath AI in UK",
+        "hash": "708073ed"
+      },
+      "43": {
+        "start_char": 660,
+        "end_char": 660,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "settings-panel": {
+        "count": 1,
+        "positions": [
+          138
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          600
+        ]
+      },
+      "dashboard": {
+        "count": 2,
+        "positions": [
+          165,
+          395
+        ]
+      },
+      "user-insights": {
+        "count": 1,
+        "positions": [
+          226
+        ]
+      },
+      "voiceinterface": {
+        "count": 1,
+        "positions": [
+          446
+        ]
+      },
+      "knowledgebasemanager": {
+        "count": 1,
+        "positions": [
+          423
+        ]
+      },
+      "langchain": {
+        "count": 1,
+        "positions": [
+          543
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          13
+        ]
+      },
+      "diagnotistc": {
+        "count": 1,
+        "positions": [
+          625
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          60
+        ]
+      },
+      "gpt": {
+        "count": 1,
+        "positions": [
+          537
+        ]
+      },
+      "sentimentanalyzer": {
+        "count": 1,
+        "positions": [
+          463
+        ]
+      },
+      "stack": {
+        "count": 1,
+        "positions": [
+          490
+        ]
+      },
+      "model-tuning": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      },
+      "next.js": {
+        "count": 1,
+        "positions": [
+          520
+        ]
+      },
+      "chat-window": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "redis": {
+        "count": 1,
+        "positions": [
+          568
+        ]
+      },
+      "components": {
+        "count": 1,
+        "positions": [
+          324
+        ]
+      },
+      "conversation-metrics": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "knowledge-base": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          637
+        ]
+      },
+      "enterprisechatinterface": {
+        "count": 1,
+        "positions": [
+          338
+        ]
+      },
+      "typescript": {
+        "count": 1,
+        "positions": [
+          507
+        ]
+      },
+      "enterprise": {
+        "count": 2,
+        "positions": [
+          34,
+          338
+        ]
+      },
+      "analytics": {
+        "count": 2,
+        "positions": [
+          155,
+          411
+        ]
+      },
+      "conversationlearning": {
+        "count": 1,
+        "positions": [
+          364
+        ]
+      },
+      "helath": {
+        "count": 1,
+        "positions": [
+          644
+        ]
+      },
+      "interface": {
+        "count": 3,
+        "positions": [
+          83,
+          352,
+          451
+        ]
+      },
+      "chatbot": {
+        "count": 1,
+        "positions": [
+          48
+        ]
+      },
+      "conversation-history": {
+        "count": 1,
+        "positions": [
+          113
+        ]
+      },
+      "css": {
+        "count": 1,
+        "positions": [
+          585
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "trainingdashboard": {
+        "count": 1,
+        "positions": [
+          387
+        ]
+      },
+      "center": {
+        "count": 1,
+        "positions": [
+          251
+        ]
+      },
+      "openai": {
+        "count": 1,
+        "positions": [
+          530
+        ]
+      },
+      "conversation-training": {
+        "count": 1,
+        "positions": [
+          281
+        ]
+      },
+      "training": {
+        "count": 3,
+        "positions": [
+          242,
+          294,
+          387
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          593
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          485
+        ]
+      },
+      "react": {
+        "count": 1,
+        "positions": [
+          499
+        ]
+      },
+      "tailwind": {
+        "count": 1,
+        "positions": [
+          576
+        ]
+      },
+      "clinical": {
+        "count": 1,
+        "positions": [
+          616
+        ]
+      },
+      "performance-stats": {
+        "count": 1,
+        "positions": [
+          204
+        ]
+      },
+      "chat": {
+        "count": 5,
+        "positions": [
+          48,
+          78,
+          97,
+          348,
+          407
+        ]
+      },
+      "chatanalytics": {
+        "count": 1,
+        "positions": [
+          407
+        ]
+      },
+      "postgresql": {
+        "count": 1,
+        "positions": [
+          555
+        ]
+      },
+      "project": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

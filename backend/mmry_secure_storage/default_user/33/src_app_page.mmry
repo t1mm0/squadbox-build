@@ -1,0 +1,401 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/app/page.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024289520426287743
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 409,
+        "output_size": 387,
+        "stage_compression_ratio": 0.9462102689486552,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 10
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 387,
+        "output_size": 1291,
+        "stage_compression_ratio": 3.3359173126614987,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 274,
+          "original_size": 375,
+          "compressed_size": 1291
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1291,
+        "output_size": 32,
+        "stage_compression_ratio": 0.024786986831913247,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1291,
+          "estimated_compressed_size": 512,
+          "entropy": 3.176974882789283
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07823960880195599,
+    "stage_count": 3,
+    "original_size": 409,
+    "final_size": 32,
+    "space_savings": 377,
+    "space_savings_percent": 92.1760391198044
+  },
+  "original_size": 409,
+  "compressed_size": 32,
+  "compression_ratio": 0.07823960880195599,
+  "space_savings_percent": 92.1760391198044,
+  "content_hash": "e227fab21c79055d",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:512:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 15,
+    "total_chars": 407,
+    "total_words": 49,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 36,
+        "length": 32,
+        "preview": "export default function Home() {",
+        "hash": "a5086d01"
+      },
+      "2": {
+        "start_char": 37,
+        "end_char": 47,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "3": {
+        "start_char": 48,
+        "end_char": 78,
+        "length": 30,
+        "preview": "    <section className=\"hero\">",
+        "hash": "c0ff3b49"
+      },
+      "4": {
+        "start_char": 79,
+        "end_char": 124,
+        "length": 45,
+        "preview": "      <h1>Welcome to UK Mental Health AI</h1>",
+        "hash": "88d81fa9"
+      },
+      "5": {
+        "start_char": 125,
+        "end_char": 134,
+        "length": 9,
+        "preview": "      <p>",
+        "hash": "31afcae7"
+      },
+      "6": {
+        "start_char": 135,
+        "end_char": 209,
+        "length": 74,
+        "preview": "        Get a quick, AI\u2011powered assessment of your...",
+        "hash": "47ea64fe"
+      },
+      "7": {
+        "start_char": 210,
+        "end_char": 285,
+        "length": 75,
+        "preview": "        All data is stored securely and handled in...",
+        "hash": "5801fc86"
+      },
+      "8": {
+        "start_char": 286,
+        "end_char": 296,
+        "length": 10,
+        "preview": "      </p>",
+        "hash": "f88fe8d4"
+      },
+      "9": {
+        "start_char": 297,
+        "end_char": 349,
+        "length": 52,
+        "preview": "      <a href=\"/diagnostic\" className=\"btn-primary...",
+        "hash": "f6ebf2f2"
+      },
+      "10": {
+        "start_char": 350,
+        "end_char": 374,
+        "length": 24,
+        "preview": "        Start Assessment",
+        "hash": "ba1316eb"
+      },
+      "11": {
+        "start_char": 375,
+        "end_char": 385,
+        "length": 10,
+        "preview": "      </a>",
+        "hash": "8390b255"
+      },
+      "12": {
+        "start_char": 386,
+        "end_char": 400,
+        "length": 14,
+        "preview": "    </section>",
+        "hash": "7a8b33a1"
+      },
+      "13": {
+        "start_char": 401,
+        "end_char": 405,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 406,
+        "end_char": 407,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "assessment": {
+        "count": 2,
+        "positions": [
+          167,
+          364
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "</p>": {
+        "count": 1,
+        "positions": [
+          292
+        ]
+      },
+      "<h1>welcome": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "href=\"/diagnostic\"": {
+        "count": 1,
+        "positions": [
+          306
+        ]
+      },
+      "symptoms.": {
+        "count": 1,
+        "positions": [
+          200
+        ]
+      },
+      "stored": {
+        "count": 1,
+        "positions": [
+          230
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "health": {
+        "count": 2,
+        "positions": [
+          110,
+          193
+        ]
+      },
+      "ai\u2011powered": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "securely": {
+        "count": 1,
+        "positions": [
+          237
+        ]
+      },
+      "compliance": {
+        "count": 1,
+        "positions": [
+          261
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "mental": {
+        "count": 2,
+        "positions": [
+          103,
+          186
+        ]
+      },
+      "<section": {
+        "count": 1,
+        "positions": [
+          52
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          272
+        ]
+      },
+      "handled": {
+        "count": 1,
+        "positions": [
+          250
+        ]
+      },
+      "gdpr.": {
+        "count": 1,
+        "positions": [
+          280
+        ]
+      },
+      "</a>": {
+        "count": 1,
+        "positions": [
+          381
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          11
+        ]
+      },
+      "ai</h1>": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      },
+      "get": {
+        "count": 1,
+        "positions": [
+          143
+        ]
+      },
+      "your": {
+        "count": 1,
+        "positions": [
+          181
+        ]
+      },
+      "all": {
+        "count": 1,
+        "positions": [
+          218
+        ]
+      },
+      "and": {
+        "count": 2,
+        "positions": [
+          246,
+          251
+        ]
+      },
+      "classname=\"btn-primary\">": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      },
+      "<p>": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "</section>": {
+        "count": 1,
+        "positions": [
+          390
+        ]
+      },
+      "data": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "home()": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "start": {
+        "count": 1,
+        "positions": [
+          358
+        ]
+      },
+      "quick,": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "classname=\"hero\">": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

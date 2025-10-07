@@ -1,0 +1,645 @@
+{
+  "user_id": "default_user",
+  "project_id": "32",
+  "file_name": "package.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03094179617453676
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 799,
+        "output_size": 799,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 22
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 799,
+        "output_size": 1885,
+        "stage_compression_ratio": 2.3591989987484356,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 394,
+          "original_size": 777,
+          "compressed_size": 1885
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1885,
+        "output_size": 32,
+        "stage_compression_ratio": 0.016976127320954906,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1885,
+          "estimated_compressed_size": 766,
+          "entropy": 3.2548848662720316
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04005006257822278,
+    "stage_count": 3,
+    "original_size": 799,
+    "final_size": 32,
+    "space_savings": 767,
+    "space_savings_percent": 95.99499374217773
+  },
+  "original_size": 799,
+  "compressed_size": 32,
+  "compression_ratio": 0.04005006257822278,
+  "space_savings_percent": 95.99499374217773,
+  "content_hash": "c971e9cf3ef56b9d",
+  "timestamp": 1755082505,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:766:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1755082505,
+    "total_lines": 33,
+    "total_chars": 799,
+    "total_words": 66,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 25,
+        "length": 23,
+        "preview": "  \"name\": \"My Project\",",
+        "hash": "28adaddb"
+      },
+      "2": {
+        "start_char": 26,
+        "end_char": 47,
+        "length": 21,
+        "preview": "  \"version\": \"1.0.0\",",
+        "hash": "881d12ea"
+      },
+      "3": {
+        "start_char": 48,
+        "end_char": 66,
+        "length": 18,
+        "preview": "  \"private\": true,",
+        "hash": "1f62b516"
+      },
+      "4": {
+        "start_char": 67,
+        "end_char": 81,
+        "length": 14,
+        "preview": "  \"scripts\": {",
+        "hash": "347edb61"
+      },
+      "5": {
+        "start_char": 82,
+        "end_char": 104,
+        "length": 22,
+        "preview": "    \"dev\": \"next dev\",",
+        "hash": "02f4e13a"
+      },
+      "6": {
+        "start_char": 105,
+        "end_char": 131,
+        "length": 26,
+        "preview": "    \"build\": \"next build\",",
+        "hash": "5b041ed9"
+      },
+      "7": {
+        "start_char": 132,
+        "end_char": 158,
+        "length": 26,
+        "preview": "    \"start\": \"next start\",",
+        "hash": "b2e9a98a"
+      },
+      "8": {
+        "start_char": 159,
+        "end_char": 182,
+        "length": 23,
+        "preview": "    \"lint\": \"next lint\"",
+        "hash": "54a65ce8"
+      },
+      "9": {
+        "start_char": 183,
+        "end_char": 187,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "10": {
+        "start_char": 188,
+        "end_char": 207,
+        "length": 19,
+        "preview": "  \"dependencies\": {",
+        "hash": "20975e2f"
+      },
+      "11": {
+        "start_char": 208,
+        "end_char": 230,
+        "length": 22,
+        "preview": "    \"next\": \"^14.0.3\",",
+        "hash": "18965ad9"
+      },
+      "12": {
+        "start_char": 231,
+        "end_char": 254,
+        "length": 23,
+        "preview": "    \"react\": \"^18.2.0\",",
+        "hash": "4bb28712"
+      },
+      "13": {
+        "start_char": 255,
+        "end_char": 282,
+        "length": 27,
+        "preview": "    \"react-dom\": \"^18.2.0\",",
+        "hash": "ac97d90c"
+      },
+      "14": {
+        "start_char": 283,
+        "end_char": 311,
+        "length": 28,
+        "preview": "    \"tailwindcss\": \"^3.3.5\",",
+        "hash": "d7137cdd"
+      },
+      "15": {
+        "start_char": 312,
+        "end_char": 337,
+        "length": 25,
+        "preview": "    \"postcss\": \"^8.4.31\",",
+        "hash": "f1b4be3e"
+      },
+      "16": {
+        "start_char": 338,
+        "end_char": 369,
+        "length": 31,
+        "preview": "    \"autoprefixer\": \"^10.4.16\",",
+        "hash": "952f0ca3"
+      },
+      "17": {
+        "start_char": 370,
+        "end_char": 405,
+        "length": 35,
+        "preview": "    \"@tailwindcss/forms\": \"^0.5.7\",",
+        "hash": "f77c8254"
+      },
+      "18": {
+        "start_char": 406,
+        "end_char": 439,
+        "length": 33,
+        "preview": "    \"react-hook-form\": \"^7.48.2\",",
+        "hash": "f2d13acf"
+      },
+      "19": {
+        "start_char": 440,
+        "end_char": 472,
+        "length": 32,
+        "preview": "    \"framer-motion\": \"^10.16.5\",",
+        "hash": "cc61cbfe"
+      },
+      "20": {
+        "start_char": 473,
+        "end_char": 502,
+        "length": 29,
+        "preview": "    \"react-icons\": \"^4.12.0\",",
+        "hash": "6a770c0f"
+      },
+      "21": {
+        "start_char": 503,
+        "end_char": 547,
+        "length": 44,
+        "preview": "    \"react-intersection-observer\": \"^9.5.3\",",
+        "hash": "a08e6d42"
+      },
+      "22": {
+        "start_char": 548,
+        "end_char": 579,
+        "length": 31,
+        "preview": "    \"@sendgrid/mail\": \"^7.7.0\",",
+        "hash": "db6b8992"
+      },
+      "23": {
+        "start_char": 580,
+        "end_char": 614,
+        "length": 34,
+        "preview": "    \"@headlessui/react\": \"^1.7.17\"",
+        "hash": "2354d070"
+      },
+      "24": {
+        "start_char": 615,
+        "end_char": 619,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "25": {
+        "start_char": 620,
+        "end_char": 642,
+        "length": 22,
+        "preview": "  \"devDependencies\": {",
+        "hash": "0e816747"
+      },
+      "26": {
+        "start_char": 643,
+        "end_char": 667,
+        "length": 24,
+        "preview": "    \"eslint\": \"^8.54.0\",",
+        "hash": "9ead5382"
+      },
+      "27": {
+        "start_char": 668,
+        "end_char": 704,
+        "length": 36,
+        "preview": "    \"eslint-config-next\": \"^14.0.3\",",
+        "hash": "74ee849c"
+      },
+      "28": {
+        "start_char": 705,
+        "end_char": 732,
+        "length": 27,
+        "preview": "    \"typescript\": \"^5.3.2\",",
+        "hash": "e1fdc3e5"
+      },
+      "29": {
+        "start_char": 733,
+        "end_char": 764,
+        "length": 31,
+        "preview": "    \"@types/react\": \"^18.2.38\",",
+        "hash": "be9dd497"
+      },
+      "30": {
+        "start_char": 765,
+        "end_char": 793,
+        "length": 28,
+        "preview": "    \"@types/node\": \"^20.9.5\"",
+        "hash": "6720e61a"
+      },
+      "31": {
+        "start_char": 794,
+        "end_char": 797,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "32": {
+        "start_char": 798,
+        "end_char": 799,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"^8.4.31\",": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "\"react-intersection-observer\":": {
+        "count": 1,
+        "positions": [
+          507
+        ]
+      },
+      "\"dev\":": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "\"^0.5.7\",": {
+        "count": 1,
+        "positions": [
+          396
+        ]
+      },
+      "\"eslint-config-next\":": {
+        "count": 1,
+        "positions": [
+          672
+        ]
+      },
+      "\"react-dom\":": {
+        "count": 1,
+        "positions": [
+          259
+        ]
+      },
+      "\"1.0.0\",": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "\"private\":": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "\"next\":": {
+        "count": 1,
+        "positions": [
+          212
+        ]
+      },
+      "\"@types/node\":": {
+        "count": 1,
+        "positions": [
+          769
+        ]
+      },
+      "\"^8.54.0\",": {
+        "count": 1,
+        "positions": [
+          657
+        ]
+      },
+      "\"^5.3.2\",": {
+        "count": 1,
+        "positions": [
+          723
+        ]
+      },
+      "\"dependencies\":": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "\"next": {
+        "count": 5,
+        "positions": [
+          93,
+          118,
+          145,
+          171,
+          212
+        ]
+      },
+      "\"^18.2.38\",": {
+        "count": 1,
+        "positions": [
+          753
+        ]
+      },
+      "\"^9.5.3\",": {
+        "count": 1,
+        "positions": [
+          538
+        ]
+      },
+      "\"start\":": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "\"^7.7.0\",": {
+        "count": 1,
+        "positions": [
+          570
+        ]
+      },
+      "\"^10.4.16\",": {
+        "count": 1,
+        "positions": [
+          358
+        ]
+      },
+      "\"^7.48.2\",": {
+        "count": 1,
+        "positions": [
+          429
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          12
+        ]
+      },
+      "\"postcss\":": {
+        "count": 1,
+        "positions": [
+          316
+        ]
+      },
+      "\"tailwindcss\":": {
+        "count": 1,
+        "positions": [
+          287
+        ]
+      },
+      "\"lint\":": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "\"^10.16.5\",": {
+        "count": 1,
+        "positions": [
+          461
+        ]
+      },
+      "\"^18.2.0\",": {
+        "count": 2,
+        "positions": [
+          244,
+          272
+        ]
+      },
+      "\"@tailwindcss/forms\":": {
+        "count": 1,
+        "positions": [
+          374
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "\"devdependencies\":": {
+        "count": 1,
+        "positions": [
+          622
+        ]
+      },
+      "\"version\":": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "start\",": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "build\",": {
+        "count": 1,
+        "positions": [
+          124
+        ]
+      },
+      "dev\",": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      },
+      "\"@sendgrid/mail\":": {
+        "count": 1,
+        "positions": [
+          552
+        ]
+      },
+      "\"@types/react\":": {
+        "count": 1,
+        "positions": [
+          737
+        ]
+      },
+      "\"^4.12.0\",": {
+        "count": 1,
+        "positions": [
+          492
+        ]
+      },
+      "lint\"": {
+        "count": 3,
+        "positions": [
+          164,
+          177,
+          650
+        ]
+      },
+      "\"eslint\":": {
+        "count": 1,
+        "positions": [
+          647
+        ]
+      },
+      "\"^14.0.3\",": {
+        "count": 2,
+        "positions": [
+          220,
+          694
+        ]
+      },
+      "\"framer-motion\":": {
+        "count": 1,
+        "positions": [
+          444
+        ]
+      },
+      "\"^20.9.5\"": {
+        "count": 1,
+        "positions": [
+          784
+        ]
+      },
+      "\"@headlessui/react\":": {
+        "count": 1,
+        "positions": [
+          584
+        ]
+      },
+      "\"typescript\":": {
+        "count": 1,
+        "positions": [
+          709
+        ]
+      },
+      "\"scripts\":": {
+        "count": 1,
+        "positions": [
+          69
+        ]
+      },
+      "\"react-icons\":": {
+        "count": 1,
+        "positions": [
+          477
+        ]
+      },
+      "\"react\":": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "\"^3.3.5\",": {
+        "count": 1,
+        "positions": [
+          302
+        ]
+      },
+      "\"name\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"autoprefixer\":": {
+        "count": 1,
+        "positions": [
+          342
+        ]
+      },
+      "\"build\":": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "\"^1.7.17\"": {
+        "count": 1,
+        "positions": [
+          605
+        ]
+      },
+      "\"react-hook-form\":": {
+        "count": 1,
+        "positions": [
+          410
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

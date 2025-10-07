@@ -1,0 +1,505 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "package.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02869897959183674
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 542,
+        "output_size": 542,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 16
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 542,
+        "output_size": 1316,
+        "stage_compression_ratio": 2.4280442804428044,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 274,
+          "original_size": 526,
+          "compressed_size": 1316
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1316,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0243161094224924,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1316,
+          "estimated_compressed_size": 531,
+          "entropy": 3.230415935736804
+        }
+      }
+    ],
+    "total_compression_ratio": 0.05904059040590406,
+    "stage_count": 3,
+    "original_size": 542,
+    "final_size": 32,
+    "space_savings": 510,
+    "space_savings_percent": 94.0959409594096
+  },
+  "original_size": 542,
+  "compressed_size": 32,
+  "compression_ratio": 0.05904059040590406,
+  "space_savings_percent": 94.0959409594096,
+  "content_hash": "87762a966661d672",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:531:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 25,
+    "total_chars": 542,
+    "total_words": 51,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 25,
+        "length": 23,
+        "preview": "  \"name\": \"My Project\",",
+        "hash": "28adaddb"
+      },
+      "2": {
+        "start_char": 26,
+        "end_char": 47,
+        "length": 21,
+        "preview": "  \"version\": \"1.0.0\",",
+        "hash": "881d12ea"
+      },
+      "3": {
+        "start_char": 48,
+        "end_char": 66,
+        "length": 18,
+        "preview": "  \"private\": true,",
+        "hash": "1f62b516"
+      },
+      "4": {
+        "start_char": 67,
+        "end_char": 81,
+        "length": 14,
+        "preview": "  \"scripts\": {",
+        "hash": "347edb61"
+      },
+      "5": {
+        "start_char": 82,
+        "end_char": 104,
+        "length": 22,
+        "preview": "    \"dev\": \"next dev\",",
+        "hash": "02f4e13a"
+      },
+      "6": {
+        "start_char": 105,
+        "end_char": 131,
+        "length": 26,
+        "preview": "    \"build\": \"next build\",",
+        "hash": "5b041ed9"
+      },
+      "7": {
+        "start_char": 132,
+        "end_char": 158,
+        "length": 26,
+        "preview": "    \"start\": \"next start\",",
+        "hash": "b2e9a98a"
+      },
+      "8": {
+        "start_char": 159,
+        "end_char": 182,
+        "length": 23,
+        "preview": "    \"lint\": \"next lint\"",
+        "hash": "54a65ce8"
+      },
+      "9": {
+        "start_char": 183,
+        "end_char": 187,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "10": {
+        "start_char": 188,
+        "end_char": 207,
+        "length": 19,
+        "preview": "  \"dependencies\": {",
+        "hash": "20975e2f"
+      },
+      "11": {
+        "start_char": 208,
+        "end_char": 230,
+        "length": 22,
+        "preview": "    \"next\": \"^14.0.0\",",
+        "hash": "2c35fb64"
+      },
+      "12": {
+        "start_char": 231,
+        "end_char": 254,
+        "length": 23,
+        "preview": "    \"react\": \"^18.0.0\",",
+        "hash": "5122dbfd"
+      },
+      "13": {
+        "start_char": 255,
+        "end_char": 282,
+        "length": 27,
+        "preview": "    \"react-dom\": \"^18.0.0\",",
+        "hash": "ab9ddbb0"
+      },
+      "14": {
+        "start_char": 283,
+        "end_char": 310,
+        "length": 27,
+        "preview": "    \"typescript\": \"^5.0.0\",",
+        "hash": "f7c40071"
+      },
+      "15": {
+        "start_char": 311,
+        "end_char": 340,
+        "length": 29,
+        "preview": "    \"@types/node\": \"^20.0.0\",",
+        "hash": "03a26f25"
+      },
+      "16": {
+        "start_char": 341,
+        "end_char": 371,
+        "length": 30,
+        "preview": "    \"@types/react\": \"^18.0.0\",",
+        "hash": "41f6c01f"
+      },
+      "17": {
+        "start_char": 372,
+        "end_char": 406,
+        "length": 34,
+        "preview": "    \"@types/react-dom\": \"^18.0.0\",",
+        "hash": "cec8377f"
+      },
+      "18": {
+        "start_char": 407,
+        "end_char": 435,
+        "length": 28,
+        "preview": "    \"tailwindcss\": \"^3.0.0\",",
+        "hash": "afe10ea5"
+      },
+      "19": {
+        "start_char": 436,
+        "end_char": 459,
+        "length": 23,
+        "preview": "    \"openai\": \"^4.0.0\",",
+        "hash": "079acd04"
+      },
+      "20": {
+        "start_char": 460,
+        "end_char": 488,
+        "length": 28,
+        "preview": "    \"langchain\": \"^0.0.200\",",
+        "hash": "ba9b55e4"
+      },
+      "21": {
+        "start_char": 489,
+        "end_char": 514,
+        "length": 25,
+        "preview": "    \"postgres\": \"^3.4.0\",",
+        "hash": "64f22590"
+      },
+      "22": {
+        "start_char": 515,
+        "end_char": 536,
+        "length": 21,
+        "preview": "    \"redis\": \"^4.6.0\"",
+        "hash": "bd299745"
+      },
+      "23": {
+        "start_char": 537,
+        "end_char": 540,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "24": {
+        "start_char": 541,
+        "end_char": 542,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"@types/react-dom\":": {
+        "count": 1,
+        "positions": [
+          376
+        ]
+      },
+      "\"name\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"openai\":": {
+        "count": 1,
+        "positions": [
+          440
+        ]
+      },
+      "dev\",": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      },
+      "\"tailwindcss\":": {
+        "count": 1,
+        "positions": [
+          411
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          12
+        ]
+      },
+      "\"start\":": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "\"^4.0.0\",": {
+        "count": 1,
+        "positions": [
+          450
+        ]
+      },
+      "\"dev\":": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "\"^3.0.0\",": {
+        "count": 1,
+        "positions": [
+          426
+        ]
+      },
+      "\"^4.6.0\"": {
+        "count": 1,
+        "positions": [
+          528
+        ]
+      },
+      "\"build\":": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "lint\"": {
+        "count": 2,
+        "positions": [
+          164,
+          177
+        ]
+      },
+      "\"^3.4.0\",": {
+        "count": 1,
+        "positions": [
+          505
+        ]
+      },
+      "\"version\":": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "\"@types/node\":": {
+        "count": 1,
+        "positions": [
+          315
+        ]
+      },
+      "\"1.0.0\",": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "start\",": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "\"scripts\":": {
+        "count": 1,
+        "positions": [
+          69
+        ]
+      },
+      "\"postgres\":": {
+        "count": 1,
+        "positions": [
+          493
+        ]
+      },
+      "\"@types/react\":": {
+        "count": 1,
+        "positions": [
+          345
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "\"lint\":": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "\"next\":": {
+        "count": 1,
+        "positions": [
+          212
+        ]
+      },
+      "\"^5.0.0\",": {
+        "count": 1,
+        "positions": [
+          301
+        ]
+      },
+      "build\",": {
+        "count": 1,
+        "positions": [
+          124
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "\"dependencies\":": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "\"^18.0.0\",": {
+        "count": 4,
+        "positions": [
+          244,
+          272,
+          361,
+          396
+        ]
+      },
+      "\"react-dom\":": {
+        "count": 1,
+        "positions": [
+          259
+        ]
+      },
+      "\"redis\":": {
+        "count": 1,
+        "positions": [
+          519
+        ]
+      },
+      "\"langchain\":": {
+        "count": 1,
+        "positions": [
+          464
+        ]
+      },
+      "\"typescript\":": {
+        "count": 1,
+        "positions": [
+          287
+        ]
+      },
+      "\"next": {
+        "count": 5,
+        "positions": [
+          93,
+          118,
+          145,
+          171,
+          212
+        ]
+      },
+      "\"^20.0.0\",": {
+        "count": 1,
+        "positions": [
+          330
+        ]
+      },
+      "\"^0.0.200\",": {
+        "count": 1,
+        "positions": [
+          477
+        ]
+      },
+      "\"react\":": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "\"private\":": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "\"^14.0.0\",": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

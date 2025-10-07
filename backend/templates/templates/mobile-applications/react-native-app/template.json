@@ -1,0 +1,146 @@
+{
+  "id": "react-native-app-pro",
+  "name": "React Native App Pro",
+  "description": "Complete React Native mobile application with authentication, offline capabilities, push notifications, and native performance. Production-ready with cross-platform compatibility and advanced features.",
+  "category": "mobile-applications/react-native",
+  "difficulty": "intermediate",
+  "estimatedTime": "5-7 hours",
+  "features": [
+    "Cross-platform iOS and Android support",
+    "User authentication and authorization",
+    "Offline-first architecture",
+    "Push notifications",
+    "Native performance optimization",
+    "Camera and image handling",
+    "GPS and location services",
+    "Biometric authentication",
+    "Deep linking and navigation",
+    "Real-time data synchronization",
+    "File upload and download",
+    "Social media integration",
+    "In-app purchases",
+    "Analytics and crash reporting",
+    "Dark/light theme support",
+    "Internationalization (i18n)",
+    "Accessibility features",
+    "Performance monitoring",
+    "Automated testing",
+    "App store deployment"
+  ],
+  "icon": "Smartphone",
+  "tags": ["mobile", "react-native", "ios", "android", "offline", "notifications", "performance"],
+  "access_tier": "pro",
+  "popular": true,
+  "featured": true,
+  "downloads": 850,
+  "rating": 4.7,
+  "tech_stack": {
+    "frontend": ["React Native", "TypeScript", "React Navigation", "Redux Toolkit", "React Query"],
+    "backend": ["Node.js", "Express", "PostgreSQL", "Redis", "Firebase"],
+    "database": ["SQLite", "PostgreSQL", "Firebase Firestore"],
+    "notifications": ["Firebase Cloud Messaging", "Apple Push Notifications"],
+    "analytics": ["Firebase Analytics", "Mixpanel", "Crashlytics"],
+    "deployment": ["Expo", "React Native CLI", "App Store", "Google Play"]
+  },
+  "marketing_highlights": [
+    "Cross-platform mobile app with native performance",
+    "Offline-first architecture for better user experience",
+    "Advanced push notification system",
+    "Biometric authentication and security",
+    "Real-time data synchronization",
+    "App store deployment ready"
+  ],
+  "customer_pain_points": [
+    "Need to build mobile app for both iOS and Android",
+    "Want offline capabilities for better UX",
+    "Require push notifications",
+    "Need native performance",
+    "Want biometric authentication",
+    "Need app store deployment"
+  ],
+  "agentic_team_instructions": {
+    "phase_1_setup": [
+      "Initialize React Native project with TypeScript",
+      "Set up Expo or React Native CLI",
+      "Configure navigation system",
+      "Set up state management (Redux Toolkit)",
+      "Install essential dependencies",
+      "Configure development environment"
+    ],
+    "phase_2_core_features": [
+      "Build authentication system",
+      "Implement offline-first architecture",
+      "Create navigation structure",
+      "Add camera and image handling",
+      "Implement GPS and location services",
+      "Add file upload/download functionality"
+    ],
+    "phase_3_advanced_features": [
+      "Add push notifications",
+      "Implement biometric authentication",
+      "Create real-time data sync",
+      "Add social media integration",
+      "Implement in-app purchases",
+      "Add analytics and crash reporting"
+    ],
+    "phase_4_optimization": [
+      "Optimize for native performance",
+      "Implement accessibility features",
+      "Add comprehensive testing",
+      "Configure app store deployment",
+      "Set up CI/CD pipeline",
+      "Create deployment documentation"
+    ]
+  },
+  "user_customization_guide": {
+    "branding": {
+      "app_icon": "Replace app icon in assets/",
+      "splash_screen": "Customize splash screen design",
+      "colors": "Update theme colors in src/theme/",
+      "fonts": "Configure custom fonts in react-native.config.js"
+    },
+    "notifications": {
+      "firebase": "Configure Firebase Cloud Messaging",
+      "apple_push": "Set up Apple Push Notification Service",
+      "android_push": "Configure Android push notifications",
+      "custom_sounds": "Add custom notification sounds"
+    },
+    "authentication": {
+      "firebase_auth": "Configure Firebase Authentication",
+      "biometric": "Set up biometric authentication",
+      "social_login": "Configure social media login",
+      "deep_linking": "Set up deep linking for auth"
+    },
+    "analytics": {
+      "firebase_analytics": "Configure Firebase Analytics",
+      "mixpanel": "Set up Mixpanel for mobile",
+      "crashlytics": "Configure crash reporting",
+      "custom_events": "Define custom analytics events"
+    }
+  },
+  "deployment_options": {
+    "expo": {
+      "recommended": true,
+      "setup_time": "15 minutes",
+      "cost": "Free tier available",
+      "instructions": "Use Expo EAS Build for app store deployment"
+    },
+    "react_native_cli": {
+      "setup_time": "30 minutes",
+      "cost": "Free",
+      "instructions": "Build native apps for iOS and Android"
+    },
+    "firebase": {
+      "setup_time": "20 minutes",
+      "cost": "Pay-as-you-go",
+      "instructions": "Use Firebase for backend services"
+    }
+  },
+  "live_demo": "https://mobile-demo.squadbox.uk",
+  "documentation": "https://docs.squadbox.uk/templates/react-native-app",
+  "support": {
+    "email": "support@squadbox.uk",
+    "discord": "https://discord.gg/squadbox",
+    "docs": "https://docs.squadbox.uk"
+  }
+} 

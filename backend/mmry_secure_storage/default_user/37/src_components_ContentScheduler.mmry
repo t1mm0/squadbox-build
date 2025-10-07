@@ -1,0 +1,300 @@
+{
+  "user_id": "default_user",
+  "project_id": "37",
+  "file_name": "src/components/ContentScheduler.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.05856164383561644
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 245,
+        "output_size": 241,
+        "stage_compression_ratio": 0.9836734693877551,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 241,
+        "output_size": 826,
+        "stage_compression_ratio": 3.4273858921161824,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 176,
+          "original_size": 237,
+          "compressed_size": 826
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 826,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0387409200968523,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 826,
+          "estimated_compressed_size": 325,
+          "entropy": 3.1522182032228856
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1306122448979592,
+    "stage_count": 3,
+    "original_size": 245,
+    "final_size": 32,
+    "space_savings": 213,
+    "space_savings_percent": 86.93877551020408
+  },
+  "original_size": 245,
+  "compressed_size": 32,
+  "compression_ratio": 0.1306122448979592,
+  "space_savings_percent": 86.93877551020408,
+  "content_hash": "8eb9749e89ad064b",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:325:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 13,
+    "total_chars": 245,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 89,
+        "length": 50,
+        "preview": "export default function ContentScheduler(Props ) {",
+        "hash": "a07a31c5"
+      },
+      "5": {
+        "start_char": 90,
+        "end_char": 100,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 101,
+        "end_char": 149,
+        "length": 48,
+        "preview": "    <div className=\"component contentscheduler\">",
+        "hash": "5d8e3f45"
+      },
+      "7": {
+        "start_char": 150,
+        "end_char": 181,
+        "length": 31,
+        "preview": "      <h2>ContentScheduler</h2>",
+        "hash": "6631d8a9"
+      },
+      "8": {
+        "start_char": 182,
+        "end_char": 226,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 227,
+        "end_char": 237,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 238,
+        "end_char": 242,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 243,
+        "end_char": 244,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 245,
+        "end_char": 245,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "content": {
+        "count": 4,
+        "positions": [
+          63,
+          131,
+          160,
+          202
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          210
+        ]
+      },
+      "contentscheduler(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          121,
+          192
+        ]
+      },
+      "<h2>contentscheduler</h2>": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "contentscheduler\">": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          80
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          218
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          223
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          92
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

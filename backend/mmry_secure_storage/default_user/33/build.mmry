@@ -1,0 +1,719 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012322656921754084
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 1106,
+        "output_size": 1108,
+        "stage_compression_ratio": 1.0018083182640145,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 1108,
+        "output_size": 2629,
+        "stage_compression_ratio": 2.3727436823104693,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 551,
+          "original_size": 1106,
+          "compressed_size": 2629
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2629,
+        "output_size": 33,
+        "stage_compression_ratio": 0.012552301255230125,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2629,
+          "estimated_compressed_size": 1077,
+          "entropy": 3.277871171250296
+        }
+      }
+    ],
+    "total_compression_ratio": 0.029837251356238697,
+    "stage_count": 3,
+    "original_size": 1106,
+    "final_size": 33,
+    "space_savings": 1073,
+    "space_savings_percent": 97.01627486437613
+  },
+  "original_size": 1106,
+  "compressed_size": 33,
+  "compression_ratio": 0.029837251356238697,
+  "space_savings_percent": 97.01627486437613,
+  "content_hash": "29ebcc0e16f77de3",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1077:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 37,
+    "total_chars": 1106,
+    "total_words": 85,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-09-27 22:44:29",
+        "hash": "d65255b3"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 93,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "4": {
+        "start_char": 94,
+        "end_char": 139,
+        "length": 45,
+        "preview": "- clinical diagnotistc mental Helath AI in UK",
+        "hash": "708073ed"
+      },
+      "5": {
+        "start_char": 140,
+        "end_char": 140,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 141,
+        "end_char": 176,
+        "length": 35,
+        "preview": "Using template: ai_chatbot_advanced",
+        "hash": "9ef0a44e"
+      },
+      "7": {
+        "start_char": 177,
+        "end_char": 177,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "8": {
+        "start_char": 178,
+        "end_char": 218,
+        "length": 40,
+        "preview": "Applying template ai_chatbot_advanced...",
+        "hash": "e463aa9c"
+      },
+      "9": {
+        "start_char": 219,
+        "end_char": 249,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "10": {
+        "start_char": 250,
+        "end_char": 283,
+        "length": 33,
+        "preview": "Generated 14 files from template.",
+        "hash": "7ae47b52"
+      },
+      "11": {
+        "start_char": 284,
+        "end_char": 284,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "12": {
+        "start_char": 285,
+        "end_char": 311,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "13": {
+        "start_char": 312,
+        "end_char": 337,
+        "length": 25,
+        "preview": "Generated: package.json**",
+        "hash": "865509ce"
+      },
+      "14": {
+        "start_char": 338,
+        "end_char": 365,
+        "length": 27,
+        "preview": "Generated: next.config.js**",
+        "hash": "69fb5cc5"
+      },
+      "15": {
+        "start_char": 366,
+        "end_char": 392,
+        "length": 26,
+        "preview": "Generated: tsconfig.json**",
+        "hash": "f0d68bf2"
+      },
+      "16": {
+        "start_char": 393,
+        "end_char": 426,
+        "length": 33,
+        "preview": "Generated: prisma/schema.prisma**",
+        "hash": "089414a6"
+      },
+      "17": {
+        "start_char": 427,
+        "end_char": 457,
+        "length": 30,
+        "preview": "Generated: src/lib/prisma.ts**",
+        "hash": "791a70c7"
+      },
+      "18": {
+        "start_char": 458,
+        "end_char": 489,
+        "length": 31,
+        "preview": "Generated: src/app/layout.tsx**",
+        "hash": "cfd4c8d6"
+      },
+      "19": {
+        "start_char": 490,
+        "end_char": 519,
+        "length": 29,
+        "preview": "Generated: src/app/page.tsx**",
+        "hash": "fbd71be1"
+      },
+      "20": {
+        "start_char": 520,
+        "end_char": 555,
+        "length": 35,
+        "preview": "Generated: src/app/about/page.tsx**",
+        "hash": "8474862b"
+      },
+      "21": {
+        "start_char": 556,
+        "end_char": 593,
+        "length": 37,
+        "preview": "Generated: src/app/contact/page.tsx**",
+        "hash": "06ce9b00"
+      },
+      "22": {
+        "start_char": 594,
+        "end_char": 634,
+        "length": 40,
+        "preview": "Generated: src/app/diagnostic/page.tsx**",
+        "hash": "e7df0931"
+      },
+      "23": {
+        "start_char": 635,
+        "end_char": 673,
+        "length": 38,
+        "preview": "Generated: src/components/Navbar.tsx**",
+        "hash": "871dd9fc"
+      },
+      "24": {
+        "start_char": 674,
+        "end_char": 712,
+        "length": 38,
+        "preview": "Generated: src/components/Footer.tsx**",
+        "hash": "9f66bebe"
+      },
+      "25": {
+        "start_char": 713,
+        "end_char": 759,
+        "length": 46,
+        "preview": "Generated: src/components/DiagnosticForm.tsx**",
+        "hash": "b0bff60c"
+      },
+      "26": {
+        "start_char": 760,
+        "end_char": 806,
+        "length": 46,
+        "preview": "Generated: src/components/LoadingSpinner.tsx**",
+        "hash": "213a0e12"
+      },
+      "27": {
+        "start_char": 807,
+        "end_char": 849,
+        "length": 42,
+        "preview": "Generated: src/components/ErrorAlert.tsx**",
+        "hash": "a295b4ff"
+      },
+      "28": {
+        "start_char": 850,
+        "end_char": 887,
+        "length": 37,
+        "preview": "Generated: src/styles/variables.css**",
+        "hash": "c29a1250"
+      },
+      "29": {
+        "start_char": 888,
+        "end_char": 923,
+        "length": 35,
+        "preview": "Generated: src/styles/globals.css**",
+        "hash": "faf65bda"
+      },
+      "30": {
+        "start_char": 924,
+        "end_char": 960,
+        "length": 36,
+        "preview": "Generated: pages/api/diagnostic.ts**",
+        "hash": "cc9ce246"
+      },
+      "31": {
+        "start_char": 961,
+        "end_char": 994,
+        "length": 33,
+        "preview": "Generated: pages/api/contact.ts**",
+        "hash": "a43cdade"
+      },
+      "32": {
+        "start_char": 995,
+        "end_char": 1025,
+        "length": 30,
+        "preview": "Generated: public/index.html**",
+        "hash": "091a2dbc"
+      },
+      "33": {
+        "start_char": 1026,
+        "end_char": 1048,
+        "length": 22,
+        "preview": "Generated: README.md**",
+        "hash": "a7896f5e"
+      },
+      "34": {
+        "start_char": 1049,
+        "end_char": 1072,
+        "length": 23,
+        "preview": "Generated: .gitignore**",
+        "hash": "08dd2526"
+      },
+      "35": {
+        "start_char": 1073,
+        "end_char": 1105,
+        "length": 32,
+        "preview": "Generated: project_manifest.json",
+        "hash": "4dc595fa"
+      },
+      "36": {
+        "start_char": 1106,
+        "end_char": 1106,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "readme.md**": {
+        "count": 1,
+        "positions": [
+          1037
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          141
+        ]
+      },
+      "src/app/contact/page.tsx**": {
+        "count": 1,
+        "positions": [
+          567
+        ]
+      },
+      "generated": {
+        "count": 24,
+        "positions": [
+          250,
+          312,
+          338,
+          366,
+          393,
+          427,
+          458,
+          490,
+          520,
+          556
+        ]
+      },
+      "diagnotistc": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "src/components/navbar.tsx**": {
+        "count": 1,
+        "positions": [
+          646
+        ]
+      },
+      "22:44:29": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "src/lib/prisma.ts**": {
+        "count": 1,
+        "positions": [
+          438
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "src/components/footer.tsx**": {
+        "count": 1,
+        "positions": [
+          685
+        ]
+      },
+      "project_manifest.json": {
+        "count": 1,
+        "positions": [
+          1084
+        ]
+      },
+      "template": {
+        "count": 4,
+        "positions": [
+          147,
+          187,
+          219,
+          274
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          306
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          285
+        ]
+      },
+      "next.config.js**": {
+        "count": 1,
+        "positions": [
+          349
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          228
+        ]
+      },
+      "src/styles/variables.css**": {
+        "count": 1,
+        "positions": [
+          861
+        ]
+      },
+      "pages/api/contact.ts**": {
+        "count": 1,
+        "positions": [
+          972
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          296
+        ]
+      },
+      "tsconfig.json**": {
+        "count": 1,
+        "positions": [
+          377
+        ]
+      },
+      "ai_chatbot_advanced...": {
+        "count": 1,
+        "positions": [
+          196
+        ]
+      },
+      "package.json**": {
+        "count": 1,
+        "positions": [
+          323
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          178
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          301
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "ai_chatbot_advanced": {
+        "count": 2,
+        "positions": [
+          157,
+          196
+        ]
+      },
+      "2025-09-27": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          236
+        ]
+      },
+      "src/components/erroralert.tsx**": {
+        "count": 1,
+        "positions": [
+          818
+        ]
+      },
+      "helath": {
+        "count": 1,
+        "positions": [
+          124
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "generated:": {
+        "count": 23,
+        "positions": [
+          312,
+          338,
+          366,
+          393,
+          427,
+          458,
+          490,
+          520,
+          556,
+          594
+        ]
+      },
+      "public/index.html**": {
+        "count": 1,
+        "positions": [
+          1006
+        ]
+      },
+      "src/app/page.tsx**": {
+        "count": 1,
+        "positions": [
+          501
+        ]
+      },
+      ".gitignore**": {
+        "count": 1,
+        "positions": [
+          1060
+        ]
+      },
+      "prisma/schema.prisma**": {
+        "count": 1,
+        "positions": [
+          404
+        ]
+      },
+      "src/app/layout.tsx**": {
+        "count": 1,
+        "positions": [
+          469
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "template.": {
+        "count": 1,
+        "positions": [
+          274
+        ]
+      },
+      "clinical": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "src/app/about/page.tsx**": {
+        "count": 1,
+        "positions": [
+          531
+        ]
+      },
+      "pages/api/diagnostic.ts**": {
+        "count": 1,
+        "positions": [
+          935
+        ]
+      },
+      "src/components/diagnosticform.tsx**": {
+        "count": 1,
+        "positions": [
+          724
+        ]
+      },
+      "src/styles/globals.css**": {
+        "count": 1,
+        "positions": [
+          899
+        ]
+      },
+      "src/app/diagnostic/page.tsx**": {
+        "count": 1,
+        "positions": [
+          605
+        ]
+      },
+      "project": {
+        "count": 4,
+        "positions": [
+          37,
+          54,
+          62,
+          1084
+        ]
+      },
+      "src/components/loadingspinner.tsx**": {
+        "count": 1,
+        "positions": [
+          771
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 3,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "e551483fa61c",
+          "preview": "Build started at 2025-09-27 22:44:29\nProject name: My Project\nProject type: web\nRequirements:\n- clin..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "1cc268d5e8a8",
+          "preview": " src/app/page.tsx**\nGenerated: src/app/about/page.tsx**\nGenerated: src/app/contact/page.tsx**\nGenera..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1106,
+          "size": 106,
+          "hash": "3e7279034a89",
+          "preview": "ated: public/index.html**\nGenerated: README.md**\nGenerated: .gitignore**\nGenerated: project_manifest..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

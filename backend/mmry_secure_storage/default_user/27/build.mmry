@@ -1,0 +1,508 @@
+{
+  "user_id": "default_user",
+  "project_id": "27",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018565077704722054
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 507,
+        "output_size": 509,
+        "stage_compression_ratio": 1.0039447731755424,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 509,
+        "output_size": 1628,
+        "stage_compression_ratio": 3.1984282907662083,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 346,
+          "original_size": 507,
+          "compressed_size": 1628
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1628,
+        "output_size": 32,
+        "stage_compression_ratio": 0.019656019656019656,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1628,
+          "estimated_compressed_size": 657,
+          "entropy": 3.229146625804286
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0631163708086785,
+    "stage_count": 3,
+    "original_size": 507,
+    "final_size": 32,
+    "space_savings": 475,
+    "space_savings_percent": 93.68836291913215
+  },
+  "original_size": 507,
+  "compressed_size": 32,
+  "compression_ratio": 0.0631163708086785,
+  "space_savings_percent": 93.68836291913215,
+  "content_hash": "9da95c6a115350a8",
+  "timestamp": 1754569158,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:657:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754569158,
+    "total_lines": 17,
+    "total_chars": 507,
+    "total_words": 57,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-08-07 13:19:17",
+        "hash": "fab9ac77"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 93,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "4": {
+        "start_char": 94,
+        "end_char": 159,
+        "length": 65,
+        "preview": "- Use tech stack: Next.js, TailwindCSS, React Hook...",
+        "hash": "499a2e66"
+      },
+      "5": {
+        "start_char": 160,
+        "end_char": 285,
+        "length": 125,
+        "preview": "- Include components: Header, LogoCloud, FeatureCa...",
+        "hash": "f64351e0"
+      },
+      "6": {
+        "start_char": 286,
+        "end_char": 286,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 287,
+        "end_char": 324,
+        "length": 37,
+        "preview": "Using template: landing_page_template",
+        "hash": "2db786eb"
+      },
+      "8": {
+        "start_char": 325,
+        "end_char": 325,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "9": {
+        "start_char": 326,
+        "end_char": 368,
+        "length": 42,
+        "preview": "Applying template landing_page_template...",
+        "hash": "7e97ea12"
+      },
+      "10": {
+        "start_char": 369,
+        "end_char": 399,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "11": {
+        "start_char": 400,
+        "end_char": 433,
+        "length": 33,
+        "preview": "Generated 17 files from template.",
+        "hash": "e97896c0"
+      },
+      "12": {
+        "start_char": 434,
+        "end_char": 434,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "13": {
+        "start_char": 435,
+        "end_char": 461,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "14": {
+        "start_char": 462,
+        "end_char": 482,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "15": {
+        "start_char": 483,
+        "end_char": 506,
+        "length": 23,
+        "preview": "Generated: README.ai.md",
+        "hash": "9a7cb76c"
+      },
+      "16": {
+        "start_char": 507,
+        "end_char": 507,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "template.": {
+        "count": 2,
+        "positions": [
+          357,
+          424
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "logocloud,": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      },
+      "landing_page_template": {
+        "count": 2,
+        "positions": [
+          303,
+          344
+        ]
+      },
+      "landing_page_template...": {
+        "count": 1,
+        "positions": [
+          344
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          446
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          162
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "ctabutton,": {
+        "count": 1,
+        "positions": [
+          256
+        ]
+      },
+      "project": {
+        "count": 3,
+        "positions": [
+          37,
+          54,
+          62
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          182
+        ]
+      },
+      "react": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "sendgrid": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          413
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          419
+        ]
+      },
+      "footersection": {
+        "count": 1,
+        "positions": [
+          272
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          400,
+          462,
+          483
+        ]
+      },
+      "form,": {
+        "count": 2,
+        "positions": [
+          145,
+          250
+        ]
+      },
+      "readme.ai.md": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          456
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          293
+        ]
+      },
+      "faq,": {
+        "count": 1,
+        "positions": [
+          267
+        ]
+      },
+      "hook": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          326
+        ]
+      },
+      "signupform,": {
+        "count": 1,
+        "positions": [
+          244
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "featurecard,": {
+        "count": 1,
+        "positions": [
+          201
+        ]
+      },
+      "pricingcard,": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          451
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          287
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          435
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          473
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "testimonialcard,": {
+        "count": 1,
+        "positions": [
+          214
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          462,
+          483
+        ]
+      },
+      "2025-08-07": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "template": {
+        "count": 6,
+        "positions": [
+          293,
+          316,
+          335,
+          357,
+          369,
+          424
+        ]
+      },
+      "13:19:17": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          378
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

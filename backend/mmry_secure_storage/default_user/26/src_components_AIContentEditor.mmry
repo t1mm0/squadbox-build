@@ -1,0 +1,300 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/components/AIContentEditor.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018332753824756607
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 242,
+        "output_size": 238,
+        "stage_compression_ratio": 0.9834710743801653,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 238,
+        "output_size": 823,
+        "stage_compression_ratio": 3.457983193277311,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 176,
+          "original_size": 234,
+          "compressed_size": 823
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 823,
+        "output_size": 32,
+        "stage_compression_ratio": 0.038882138517618466,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 823,
+          "estimated_compressed_size": 324,
+          "entropy": 3.1560266364436664
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1322314049586777,
+    "stage_count": 3,
+    "original_size": 242,
+    "final_size": 32,
+    "space_savings": 210,
+    "space_savings_percent": 86.77685950413223
+  },
+  "original_size": 242,
+  "compressed_size": 32,
+  "compression_ratio": 0.1322314049586777,
+  "space_savings_percent": 86.77685950413223,
+  "content_hash": "2f9ce96ba90403a9",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:324:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 13,
+    "total_chars": 242,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 88,
+        "length": 49,
+        "preview": "export default function AIContentEditor(Props ) {",
+        "hash": "b2acd614"
+      },
+      "5": {
+        "start_char": 89,
+        "end_char": 99,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 100,
+        "end_char": 147,
+        "length": 47,
+        "preview": "    <div className=\"component aicontenteditor\">",
+        "hash": "4d3c31b1"
+      },
+      "7": {
+        "start_char": 148,
+        "end_char": 178,
+        "length": 30,
+        "preview": "      <h2>AIContentEditor</h2>",
+        "hash": "ceda221d"
+      },
+      "8": {
+        "start_char": 179,
+        "end_char": 223,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 224,
+        "end_char": 234,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 235,
+        "end_char": 239,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 240,
+        "end_char": 241,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 242,
+        "end_char": 242,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "aicontenteditor\">": {
+        "count": 1,
+        "positions": [
+          130
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "content": {
+        "count": 4,
+        "positions": [
+          65,
+          132,
+          160,
+          199
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          207
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          79
+        ]
+      },
+      "<h2>aicontenteditor</h2>": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          120,
+          189
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          185
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          215
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          228
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          91
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "aicontenteditor(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

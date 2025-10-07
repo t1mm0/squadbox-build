@@ -1,0 +1,45 @@
+name: Trigger Deployments
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  trigger-vercel:
+    runs-on: ubuntu-latest
+    name: Trigger Vercel Deployment
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Trigger Vercel Deployment
+        run: |
+          echo "🚀 Triggering Vercel deployment..."
+          echo "Vercel will automatically deploy from GitHub integration"
+          echo "Make sure Vercel is connected to this repository"
+
+  trigger-render:
+    runs-on: ubuntu-latest
+    name: Trigger Render Deployment
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Trigger Render Deployment
+        run: |
+          echo "🚀 Triggering Render deployment..."
+          echo "Render will automatically deploy from GitHub integration"
+          echo "Make sure Render is connected to this repository"
+
+  notify-deployment:
+    runs-on: ubuntu-latest
+    name: Notify Deployment Status
+    needs: [trigger-vercel, trigger-render]
+    steps:
+      - name: Deployment Notification
+        run: |
+          echo "✅ Deployment triggers sent to:"
+          echo "  - Vercel (Frontend)"
+          echo "  - Render (Backend)"
+          echo "Check deployment status in respective dashboards"

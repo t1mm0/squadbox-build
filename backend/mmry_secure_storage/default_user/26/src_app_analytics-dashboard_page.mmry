@@ -1,0 +1,401 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/app/analytics-dashboard/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.036665507649513214
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 523,
+        "output_size": 513,
+        "stage_compression_ratio": 0.9808795411089866,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 7
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 513,
+        "output_size": 1479,
+        "stage_compression_ratio": 2.8830409356725144,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 310,
+          "original_size": 506,
+          "compressed_size": 1479
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1479,
+        "output_size": 32,
+        "stage_compression_ratio": 0.021636240703177823,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1479,
+          "estimated_compressed_size": 602,
+          "entropy": 3.259012863005699
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06118546845124283,
+    "stage_count": 3,
+    "original_size": 523,
+    "final_size": 32,
+    "space_savings": 491,
+    "space_savings_percent": 93.88145315487571
+  },
+  "original_size": 523,
+  "compressed_size": 32,
+  "compression_ratio": 0.06118546845124283,
+  "space_savings_percent": 93.88145315487571,
+  "content_hash": "8beadd459a219ef0",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:602:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 18,
+    "total_chars": 523,
+    "total_words": 45,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 93,
+        "length": 66,
+        "preview": "import ContentPerformance from '../components/Cont...",
+        "hash": "bffd0a26"
+      },
+      "2": {
+        "start_char": 94,
+        "end_char": 148,
+        "length": 54,
+        "preview": "import UsageMetrics from '../components/UsageMetri...",
+        "hash": "bea89707"
+      },
+      "3": {
+        "start_char": 149,
+        "end_char": 199,
+        "length": 50,
+        "preview": "import AiInsights from '../components/AiInsights';",
+        "hash": "3f5894c4"
+      },
+      "4": {
+        "start_char": 200,
+        "end_char": 262,
+        "length": 62,
+        "preview": "import OptimizationTips from '../components/Optimi...",
+        "hash": "fe76d129"
+      },
+      "5": {
+        "start_char": 263,
+        "end_char": 263,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 264,
+        "end_char": 311,
+        "length": 47,
+        "preview": "export default function Analytics dashboard() {",
+        "hash": "36e19d04"
+      },
+      "7": {
+        "start_char": 312,
+        "end_char": 322,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "8": {
+        "start_char": 323,
+        "end_char": 369,
+        "length": 46,
+        "preview": "    <div className=\"page analytics dashboard\">",
+        "hash": "2707aa15"
+      },
+      "9": {
+        "start_char": 370,
+        "end_char": 404,
+        "length": 34,
+        "preview": "      <h1>Analytics Dashboard</h1>",
+        "hash": "b3c2856d"
+      },
+      "10": {
+        "start_char": 405,
+        "end_char": 433,
+        "length": 28,
+        "preview": "      <ContentPerformance />",
+        "hash": "082d705f"
+      },
+      "11": {
+        "start_char": 434,
+        "end_char": 456,
+        "length": 22,
+        "preview": "      <UsageMetrics />",
+        "hash": "bf26f808"
+      },
+      "12": {
+        "start_char": 457,
+        "end_char": 477,
+        "length": 20,
+        "preview": "      <AiInsights />",
+        "hash": "5d0254b9"
+      },
+      "13": {
+        "start_char": 478,
+        "end_char": 504,
+        "length": 26,
+        "preview": "      <OptimizationTips />",
+        "hash": "cc63b677"
+      },
+      "14": {
+        "start_char": 505,
+        "end_char": 515,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "15": {
+        "start_char": 516,
+        "end_char": 520,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "16": {
+        "start_char": 521,
+        "end_char": 522,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 523,
+        "end_char": 523,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          271
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          279
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "optimizationtips": {
+        "count": 3,
+        "positions": [
+          207,
+          244,
+          485
+        ]
+      },
+      "<optimizationtips": {
+        "count": 1,
+        "positions": [
+          484
+        ]
+      },
+      "<aiinsights": {
+        "count": 1,
+        "positions": [
+          463
+        ]
+      },
+      "dashboard()": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          509
+        ]
+      },
+      "'../components/aiinsights';": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "'../components/usagemetrics';": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "usagemetrics": {
+        "count": 3,
+        "positions": [
+          101,
+          134,
+          441
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "dashboard\">": {
+        "count": 1,
+        "positions": [
+          358
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "<usagemetrics": {
+        "count": 1,
+        "positions": [
+          440
+        ]
+      },
+      "contentperformance": {
+        "count": 3,
+        "positions": [
+          34,
+          73,
+          412
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          332
+        ]
+      },
+      "'../components/optimizationtips';": {
+        "count": 1,
+        "positions": [
+          229
+        ]
+      },
+      "'../components/contentperformance';": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "from": {
+        "count": 5,
+        "positions": [
+          13,
+          53,
+          114,
+          167,
+          224
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          264
+        ]
+      },
+      "import": {
+        "count": 5,
+        "positions": [
+          0,
+          27,
+          94,
+          149,
+          200
+        ]
+      },
+      "aiinsights": {
+        "count": 3,
+        "positions": [
+          156,
+          187,
+          464
+        ]
+      },
+      "dashboard</h1>": {
+        "count": 1,
+        "positions": [
+          390
+        ]
+      },
+      "<contentperformance": {
+        "count": 1,
+        "positions": [
+          411
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "<h1>analytics": {
+        "count": 1,
+        "positions": [
+          376
+        ]
+      },
+      "analytics": {
+        "count": 3,
+        "positions": [
+          288,
+          348,
+          380
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

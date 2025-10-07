@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "39",
+  "file_name": "src/components/CommentSection.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.18350515463917524
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 194,
+        "output_size": 190,
+        "stage_compression_ratio": 0.979381443298969,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 190,
+        "output_size": 648,
+        "stage_compression_ratio": 3.4105263157894736,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 138,
+          "original_size": 186,
+          "compressed_size": 648
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 648,
+        "output_size": 32,
+        "stage_compression_ratio": 0.04938271604938271,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 648,
+          "estimated_compressed_size": 256,
+          "entropy": 3.1685584468113355
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16494845360824742,
+    "stage_count": 3,
+    "original_size": 194,
+    "final_size": 32,
+    "space_savings": 162,
+    "space_savings_percent": 83.50515463917526
+  },
+  "original_size": 194,
+  "compressed_size": 32,
+  "compression_ratio": 0.16494845360824742,
+  "space_savings_percent": 83.50515463917526,
+  "content_hash": "558f51bfd878168f",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:256:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 9,
+    "total_chars": 194,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 42,
+        "length": 42,
+        "preview": "export default function CommentSection() {",
+        "hash": "bbdc7353"
+      },
+      "1": {
+        "start_char": 43,
+        "end_char": 53,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 54,
+        "end_char": 100,
+        "length": 46,
+        "preview": "    <div className=\"component commentsection\">",
+        "hash": "d0c577d3"
+      },
+      "3": {
+        "start_char": 101,
+        "end_char": 130,
+        "length": 29,
+        "preview": "      <h2>CommentSection</h2>",
+        "hash": "e49573fe"
+      },
+      "4": {
+        "start_char": 131,
+        "end_char": 175,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 176,
+        "end_char": 186,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 187,
+        "end_char": 191,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 192,
+        "end_char": 193,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 194,
+        "end_char": 194,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          180
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          159
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "<h2>commentsection</h2>": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          74,
+          141
+        ]
+      },
+      "commentsection()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "commentsection\">": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

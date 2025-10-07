@@ -1,0 +1,158 @@
+/* FeedbackForm.css */
+
+.feedback-form-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.feedback-form-container.open {
+  animation: slideInUp 0.3s ease;
+}
+
+.feedback-form-container.minimized {
+  transform: translateY(calc(100% - 60px));
+}
+
+.feedback-trigger {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1001;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.feedback-trigger:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.feedback-form-paper {
+  width: 400px;
+  max-width: 90vw;
+  max-height: 80vh;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  margin: -16px -16px 16px -16px;
+  padding: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.feedback-header .mantine-Group-root {
+  color: white;
+}
+
+.feedback-header .mantine-Text-root {
+  color: white;
+}
+
+.feedback-header .mantine-ActionIcon-root {
+  color: white;
+}
+
+.feedback-header .mantine-ActionIcon-root:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Minimized state */
+.feedback-form-container.minimized .feedback-form-paper {
+  height: 60px;
+  overflow: hidden;
+}
+
+.feedback-form-container.minimized .feedback-header {
+  margin-bottom: 0;
+}
+
+/* Animations */
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .feedback-form-container {
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+  }
+  
+  .feedback-form-paper {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .feedback-trigger {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .feedback-form-paper {
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Accessibility */
+.feedback-trigger:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+.feedback-form-paper:focus-within {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 0 0 2px #667eea;
+}
+
+/* Scrollbar styling */
+.feedback-form-paper .mantine-ScrollArea-root {
+  scrollbar-width: thin;
+}
+
+.feedback-form-paper .mantine-ScrollArea-root::-webkit-scrollbar {
+  width: 6px;
+}
+
+.feedback-form-paper .mantine-ScrollArea-root::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.feedback-form-paper .mantine-ScrollArea-root::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+.feedback-form-paper .mantine-ScrollArea-root::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+}

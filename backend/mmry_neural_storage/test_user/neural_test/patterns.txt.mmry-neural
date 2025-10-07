@@ -1,0 +1,60 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "patterns.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.011101973684210526
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 25,
+        "output_size": 12,
+        "stage_compression_ratio": 0.48,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "error": "ord() expected a character, but string of length 2 found"
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 12,
+        "output_size": 22,
+        "stage_compression_ratio": 1.8333333333333333,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 9,
+          "estimated_compressed_size": 2,
+          "entropy": 2.4193819456463714
+        }
+      }
+    ],
+    "total_compression_ratio": 0.88,
+    "stage_count": 3,
+    "original_size": 25,
+    "final_size": 22,
+    "space_savings": 3,
+    "space_savings_percent": 12.0
+  },
+  "original_size": 25,
+  "compressed_size": 22,
+  "compression_ratio": 0.88,
+  "space_savings_percent": 12.0,
+  "content_hash": "ea0a190b32e58a3f",
+  "timestamp": 1754563189,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:2:\u00a79a\u00a78b\u00a78c",
+  "content_encoding": "text"
+}

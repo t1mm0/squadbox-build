@@ -1,0 +1,486 @@
+{
+  "user_id": "default_user",
+  "project_id": "44",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0883736559139785
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 534,
+        "output_size": 534,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 534,
+        "output_size": 1599,
+        "stage_compression_ratio": 2.99438202247191,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 340,
+          "original_size": 529,
+          "compressed_size": 1599
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1599,
+        "output_size": 32,
+        "stage_compression_ratio": 0.020012507817385866,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1599,
+          "estimated_compressed_size": 650,
+          "entropy": 3.255890096012291
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0599250936329588,
+    "stage_count": 3,
+    "original_size": 534,
+    "final_size": 32,
+    "space_savings": 502,
+    "space_savings_percent": 94.00749063670412
+  },
+  "original_size": 534,
+  "compressed_size": 32,
+  "compression_ratio": 0.0599250936329588,
+  "space_savings_percent": 94.00749063670412,
+  "content_hash": "aa4306edd8cda742",
+  "timestamp": 1759698606,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:650:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698606,
+    "total_lines": 22,
+    "total_chars": 534,
+    "total_words": 51,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"44\",",
+        "hash": "80eff44c"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 61,
+        "length": 37,
+        "preview": "  \"project_name\": \"Cache Clear Test\",",
+        "hash": "51440664"
+      },
+      "3": {
+        "start_char": 62,
+        "end_char": 81,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 82,
+        "end_char": 149,
+        "length": 67,
+        "preview": "    \"Test project after cache clear to verify 50% ...",
+        "hash": "0ce10970"
+      },
+      "5": {
+        "start_char": 150,
+        "end_char": 154,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 155,
+        "end_char": 188,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "7": {
+        "start_char": 189,
+        "end_char": 213,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 214,
+        "end_char": 239,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 240,
+        "end_char": 273,
+        "length": 33,
+        "preview": "  \"start_time\": 1759698298.26416,",
+        "hash": "c43ab9dc"
+      },
+      "10": {
+        "start_char": 274,
+        "end_char": 293,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 294,
+        "end_char": 318,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 319,
+        "end_char": 334,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 335,
+        "end_char": 387,
+        "length": 52,
+        "preview": "  \"team_id\": \"b2cf8402-74ee-448c-a632-c15f2620dedd...",
+        "hash": "ee07bf28"
+      },
+      "14": {
+        "start_char": 388,
+        "end_char": 411,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "15": {
+        "start_char": 412,
+        "end_char": 422,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "16": {
+        "start_char": 423,
+        "end_char": 449,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "17": {
+        "start_char": 450,
+        "end_char": 480,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "18": {
+        "start_char": 481,
+        "end_char": 504,
+        "length": 23,
+        "preview": "    \"ollama_url\": null,",
+        "hash": "7e0595d5"
+      },
+      "19": {
+        "start_char": 505,
+        "end_char": 528,
+        "length": 23,
+        "preview": "    \"use_ollama\": false",
+        "hash": "7bf2ed87"
+      },
+      "20": {
+        "start_char": 529,
+        "end_char": 532,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "21": {
+        "start_char": 533,
+        "end_char": 534,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          207
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          276
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "project": {
+        "count": 4,
+        "positions": [
+          5,
+          27,
+          92,
+          192
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          414
+        ]
+      },
+      "\"test": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          157
+        ]
+      },
+      "after": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          296
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          509
+        ]
+      },
+      "\"b2cf8402-74ee-448c-a632-c15f2620dedd\",": {
+        "count": 1,
+        "positions": [
+          348
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "\"44\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "fixed\"": {
+        "count": 1,
+        "positions": [
+          143
+        ]
+      },
+      "verify": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      },
+      "clear": {
+        "count": 2,
+        "positions": [
+          49,
+          112
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          321
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "test\",": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "null,": {
+        "count": 2,
+        "positions": [
+          288,
+          499
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          443,
+          474
+        ]
+      },
+      "hanging": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          454
+        ]
+      },
+      "50%": {
+        "count": 1,
+        "positions": [
+          128
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          242
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          427
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          390
+        ]
+      },
+      "\"cache": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          315,
+          331
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          406
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          226
+        ]
+      },
+      "1759698298.26416,": {
+        "count": 1,
+        "positions": [
+          256
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          485
+        ]
+      },
+      "false": {
+        "count": 3,
+        "positions": [
+          443,
+          474,
+          523
+        ]
+      },
+      "cache": {
+        "count": 2,
+        "positions": [
+          43,
+          106
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

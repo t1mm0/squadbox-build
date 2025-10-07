@@ -1,0 +1,756 @@
+{
+  "user_id": "default_user",
+  "project_id": "46",
+  "file_name": "package.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.1413978494623656
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 957,
+        "output_size": 957,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 27
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 957,
+        "output_size": 2197,
+        "stage_compression_ratio": 2.295715778474399,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 458,
+          "original_size": 930,
+          "compressed_size": 2197
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2197,
+        "output_size": 32,
+        "stage_compression_ratio": 0.01456531634046427,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2197,
+          "estimated_compressed_size": 897,
+          "entropy": 3.269415433658096
+        }
+      }
+    ],
+    "total_compression_ratio": 0.03343782654127482,
+    "stage_count": 3,
+    "original_size": 957,
+    "final_size": 32,
+    "space_savings": 925,
+    "space_savings_percent": 96.65621734587252
+  },
+  "original_size": 957,
+  "compressed_size": 32,
+  "compression_ratio": 0.03343782654127482,
+  "space_savings_percent": 96.65621734587252,
+  "content_hash": "1e3cfa1ed1d0d888",
+  "timestamp": 1759698822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:897:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698822,
+    "total_lines": 38,
+    "total_chars": 957,
+    "total_words": 81,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 35,
+        "length": 33,
+        "preview": "  \"name\": \"Optimized Model Test\",",
+        "hash": "3f6d0277"
+      },
+      "2": {
+        "start_char": 36,
+        "end_char": 57,
+        "length": 21,
+        "preview": "  \"version\": \"1.0.0\",",
+        "hash": "881d12ea"
+      },
+      "3": {
+        "start_char": 58,
+        "end_char": 76,
+        "length": 18,
+        "preview": "  \"private\": true,",
+        "hash": "1f62b516"
+      },
+      "4": {
+        "start_char": 77,
+        "end_char": 91,
+        "length": 14,
+        "preview": "  \"scripts\": {",
+        "hash": "347edb61"
+      },
+      "5": {
+        "start_char": 92,
+        "end_char": 114,
+        "length": 22,
+        "preview": "    \"dev\": \"next dev\",",
+        "hash": "02f4e13a"
+      },
+      "6": {
+        "start_char": 115,
+        "end_char": 141,
+        "length": 26,
+        "preview": "    \"build\": \"next build\",",
+        "hash": "5b041ed9"
+      },
+      "7": {
+        "start_char": 142,
+        "end_char": 168,
+        "length": 26,
+        "preview": "    \"start\": \"next start\",",
+        "hash": "b2e9a98a"
+      },
+      "8": {
+        "start_char": 169,
+        "end_char": 193,
+        "length": 24,
+        "preview": "    \"lint\": \"next lint\",",
+        "hash": "3be8d495"
+      },
+      "9": {
+        "start_char": 194,
+        "end_char": 235,
+        "length": 41,
+        "preview": "    \"prisma:generate\": \"prisma generate\",",
+        "hash": "fbd7ba1c"
+      },
+      "10": {
+        "start_char": 236,
+        "end_char": 279,
+        "length": 43,
+        "preview": "    \"prisma:migrate\": \"prisma migrate dev\",",
+        "hash": "e5204808"
+      },
+      "11": {
+        "start_char": 280,
+        "end_char": 316,
+        "length": 36,
+        "preview": "    \"prisma:studio\": \"prisma studio\"",
+        "hash": "4c6d8852"
+      },
+      "12": {
+        "start_char": 317,
+        "end_char": 321,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "13": {
+        "start_char": 322,
+        "end_char": 341,
+        "length": 19,
+        "preview": "  \"dependencies\": {",
+        "hash": "20975e2f"
+      },
+      "14": {
+        "start_char": 342,
+        "end_char": 364,
+        "length": 22,
+        "preview": "    \"next\": \"^14.0.3\",",
+        "hash": "18965ad9"
+      },
+      "15": {
+        "start_char": 365,
+        "end_char": 388,
+        "length": 23,
+        "preview": "    \"react\": \"^18.2.0\",",
+        "hash": "4bb28712"
+      },
+      "16": {
+        "start_char": 389,
+        "end_char": 416,
+        "length": 27,
+        "preview": "    \"react-dom\": \"^18.2.0\",",
+        "hash": "ac97d90c"
+      },
+      "17": {
+        "start_char": 417,
+        "end_char": 445,
+        "length": 28,
+        "preview": "    \"tailwindcss\": \"^3.3.5\",",
+        "hash": "d7137cdd"
+      },
+      "18": {
+        "start_char": 446,
+        "end_char": 471,
+        "length": 25,
+        "preview": "    \"postcss\": \"^8.4.31\",",
+        "hash": "f1b4be3e"
+      },
+      "19": {
+        "start_char": 472,
+        "end_char": 503,
+        "length": 31,
+        "preview": "    \"autoprefixer\": \"^10.4.16\",",
+        "hash": "952f0ca3"
+      },
+      "20": {
+        "start_char": 504,
+        "end_char": 535,
+        "length": 31,
+        "preview": "    \"@prisma/client\": \"^5.6.0\",",
+        "hash": "69d0b012"
+      },
+      "21": {
+        "start_char": 536,
+        "end_char": 568,
+        "length": 32,
+        "preview": "    \"next-mdx-remote\": \"^4.4.1\",",
+        "hash": "2e05d806"
+      },
+      "22": {
+        "start_char": 569,
+        "end_char": 595,
+        "length": 26,
+        "preview": "    \"date-fns\": \"^2.30.0\",",
+        "hash": "84e30012"
+      },
+      "23": {
+        "start_char": 596,
+        "end_char": 624,
+        "length": 28,
+        "preview": "    \"gray-matter\": \"^4.0.3\",",
+        "hash": "36729ae1"
+      },
+      "24": {
+        "start_char": 625,
+        "end_char": 658,
+        "length": 33,
+        "preview": "    \"react-hook-form\": \"^7.48.2\",",
+        "hash": "f2d13acf"
+      },
+      "25": {
+        "start_char": 659,
+        "end_char": 686,
+        "length": 27,
+        "preview": "    \"next-auth\": \"^4.24.4\",",
+        "hash": "03b17423"
+      },
+      "26": {
+        "start_char": 687,
+        "end_char": 721,
+        "length": 34,
+        "preview": "    \"rehype-prism-plus\": \"^1.6.3\",",
+        "hash": "1ada48db"
+      },
+      "27": {
+        "start_char": 722,
+        "end_char": 748,
+        "length": 26,
+        "preview": "    \"remark-gfm\": \"^3.0.1\"",
+        "hash": "511eee17"
+      },
+      "28": {
+        "start_char": 749,
+        "end_char": 753,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "29": {
+        "start_char": 754,
+        "end_char": 776,
+        "length": 22,
+        "preview": "  \"devDependencies\": {",
+        "hash": "0e816747"
+      },
+      "30": {
+        "start_char": 777,
+        "end_char": 801,
+        "length": 24,
+        "preview": "    \"eslint\": \"^8.54.0\",",
+        "hash": "9ead5382"
+      },
+      "31": {
+        "start_char": 802,
+        "end_char": 838,
+        "length": 36,
+        "preview": "    \"eslint-config-next\": \"^14.0.3\",",
+        "hash": "74ee849c"
+      },
+      "32": {
+        "start_char": 839,
+        "end_char": 862,
+        "length": 23,
+        "preview": "    \"prisma\": \"^5.6.0\",",
+        "hash": "54e901b2"
+      },
+      "33": {
+        "start_char": 863,
+        "end_char": 890,
+        "length": 27,
+        "preview": "    \"typescript\": \"^5.3.2\",",
+        "hash": "e1fdc3e5"
+      },
+      "34": {
+        "start_char": 891,
+        "end_char": 922,
+        "length": 31,
+        "preview": "    \"@types/react\": \"^18.2.38\",",
+        "hash": "be9dd497"
+      },
+      "35": {
+        "start_char": 923,
+        "end_char": 951,
+        "length": 28,
+        "preview": "    \"@types/node\": \"^20.9.5\"",
+        "hash": "6720e61a"
+      },
+      "36": {
+        "start_char": 952,
+        "end_char": 955,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "37": {
+        "start_char": 956,
+        "end_char": 957,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"optimized": {
+        "count": 1,
+        "positions": [
+          12
+        ]
+      },
+      "\"version\":": {
+        "count": 1,
+        "positions": [
+          38
+        ]
+      },
+      "\"gray-matter\":": {
+        "count": 1,
+        "positions": [
+          600
+        ]
+      },
+      "\"remark-gfm\":": {
+        "count": 1,
+        "positions": [
+          726
+        ]
+      },
+      "migrate": {
+        "count": 2,
+        "positions": [
+          248,
+          266
+        ]
+      },
+      "\"^14.0.3\",": {
+        "count": 2,
+        "positions": [
+          354,
+          828
+        ]
+      },
+      "\"^18.2.0\",": {
+        "count": 2,
+        "positions": [
+          378,
+          406
+        ]
+      },
+      "\"eslint\":": {
+        "count": 1,
+        "positions": [
+          781
+        ]
+      },
+      "\"@prisma/client\":": {
+        "count": 1,
+        "positions": [
+          508
+        ]
+      },
+      "model": {
+        "count": 1,
+        "positions": [
+          23
+        ]
+      },
+      "lint\",": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "\"postcss\":": {
+        "count": 1,
+        "positions": [
+          450
+        ]
+      },
+      "\"next-auth\":": {
+        "count": 1,
+        "positions": [
+          663
+        ]
+      },
+      "\"^20.9.5\"": {
+        "count": 1,
+        "positions": [
+          942
+        ]
+      },
+      "dev\",": {
+        "count": 2,
+        "positions": [
+          109,
+          274
+        ]
+      },
+      "\"eslint-config-next\":": {
+        "count": 1,
+        "positions": [
+          806
+        ]
+      },
+      "\"typescript\":": {
+        "count": 1,
+        "positions": [
+          867
+        ]
+      },
+      "\"date-fns\":": {
+        "count": 1,
+        "positions": [
+          573
+        ]
+      },
+      "\"dev\":": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "\"^8.54.0\",": {
+        "count": 1,
+        "positions": [
+          791
+        ]
+      },
+      "\"^4.0.3\",": {
+        "count": 1,
+        "positions": [
+          615
+        ]
+      },
+      "generate\",": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "\"^3.0.1\"": {
+        "count": 1,
+        "positions": [
+          740
+        ]
+      },
+      "\"name\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"react\":": {
+        "count": 1,
+        "positions": [
+          369
+        ]
+      },
+      "\"react-dom\":": {
+        "count": 1,
+        "positions": [
+          393
+        ]
+      },
+      "\"prisma\":": {
+        "count": 1,
+        "positions": [
+          843
+        ]
+      },
+      "studio\"": {
+        "count": 2,
+        "positions": [
+          292,
+          309
+        ]
+      },
+      "\"^3.3.5\",": {
+        "count": 1,
+        "positions": [
+          436
+        ]
+      },
+      "build\",": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "\"^2.30.0\",": {
+        "count": 1,
+        "positions": [
+          585
+        ]
+      },
+      "\"react-hook-form\":": {
+        "count": 1,
+        "positions": [
+          629
+        ]
+      },
+      "test\",": {
+        "count": 1,
+        "positions": [
+          29
+        ]
+      },
+      "\"prisma": {
+        "count": 7,
+        "positions": [
+          198,
+          217,
+          240,
+          258,
+          284,
+          301,
+          843
+        ]
+      },
+      "\"next": {
+        "count": 7,
+        "positions": [
+          103,
+          128,
+          155,
+          181,
+          346,
+          540,
+          663
+        ]
+      },
+      "\"^5.3.2\",": {
+        "count": 1,
+        "positions": [
+          881
+        ]
+      },
+      "\"^4.4.1\",": {
+        "count": 1,
+        "positions": [
+          559
+        ]
+      },
+      "\"prisma:generate\":": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "\"prisma:studio\":": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "\"^4.24.4\",": {
+        "count": 1,
+        "positions": [
+          676
+        ]
+      },
+      "\"prisma:migrate\":": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "\"@types/node\":": {
+        "count": 1,
+        "positions": [
+          927
+        ]
+      },
+      "\"1.0.0\",": {
+        "count": 1,
+        "positions": [
+          49
+        ]
+      },
+      "\"next-mdx-remote\":": {
+        "count": 1,
+        "positions": [
+          540
+        ]
+      },
+      "\"autoprefixer\":": {
+        "count": 1,
+        "positions": [
+          476
+        ]
+      },
+      "\"rehype-prism-plus\":": {
+        "count": 1,
+        "positions": [
+          691
+        ]
+      },
+      "\"^5.6.0\",": {
+        "count": 2,
+        "positions": [
+          526,
+          853
+        ]
+      },
+      "\"devdependencies\":": {
+        "count": 1,
+        "positions": [
+          756
+        ]
+      },
+      "\"^1.6.3\",": {
+        "count": 1,
+        "positions": [
+          712
+        ]
+      },
+      "\"@types/react\":": {
+        "count": 1,
+        "positions": [
+          895
+        ]
+      },
+      "\"start\":": {
+        "count": 1,
+        "positions": [
+          146
+        ]
+      },
+      "start\",": {
+        "count": 1,
+        "positions": [
+          161
+        ]
+      },
+      "\"^8.4.31\",": {
+        "count": 1,
+        "positions": [
+          461
+        ]
+      },
+      "\"lint\":": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "\"^7.48.2\",": {
+        "count": 1,
+        "positions": [
+          648
+        ]
+      },
+      "\"^18.2.38\",": {
+        "count": 1,
+        "positions": [
+          911
+        ]
+      },
+      "\"next\":": {
+        "count": 1,
+        "positions": [
+          346
+        ]
+      },
+      "\"scripts\":": {
+        "count": 1,
+        "positions": [
+          79
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          71
+        ]
+      },
+      "\"dependencies\":": {
+        "count": 1,
+        "positions": [
+          324
+        ]
+      },
+      "\"build\":": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "\"^10.4.16\",": {
+        "count": 1,
+        "positions": [
+          492
+        ]
+      },
+      "\"tailwindcss\":": {
+        "count": 1,
+        "positions": [
+          421
+        ]
+      },
+      "\"private\":": {
+        "count": 1,
+        "positions": [
+          60
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ecommerce-advanced",
+  "name": "Professional E-commerce Store",
+  "description": "Complete e-commerce solution with advanced features like inventory management, analytics, multi-payment processing, and customer relationship management.",
+  "category": "ecommerce",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "features": [
+    "Advanced product catalog",
+    "Inventory management system",
+    "Multi-payment processing",
+    "Customer relationship management",
+    "Order tracking & fulfillment",
+    "Advanced analytics dashboard",
+    "Marketing automation",
+    "SEO optimization",
+    "Mobile-responsive design",
+    "Admin panel",
+    "Coupon & discount system",
+    "Customer reviews & ratings",
+    "Wishlist functionality",
+    "Advanced search & filtering"
+  ],
+  "icon": "ShoppingCart",
+  "tags": ["ecommerce", "advanced", "inventory", "payments", "crm", "analytics"],
+  "access_tier": "pro",
+  "popular": true,
+  "featured": true,
+  "downloads": 2100,
+  "rating": 4.7,
+  "tech_stack": ["React", "TypeScript", "Next.js", "Stripe", "PostgreSQL", "Prisma", "Tailwind CSS", "NextAuth"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build", 
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "stripe": "^14.0.0",
+          "@prisma/client": "^5.0.0",
+          "prisma": "^5.0.0",
+          "next-auth": "^4.24.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Product Catalog",
+        "sections": ["product-grid", "filter-sidebar", "search-bar", "pagination"]
+      },
+      {
+        "name": "Product Details",
+        "sections": ["product-images", "product-info", "reviews", "recommendations"]
+      },
+      {
+        "name": "Shopping Cart",
+        "sections": ["cart-items", "checkout-summary", "payment-options"]
+      },
+      {
+        "name": "Admin Dashboard",
+        "sections": ["sales-analytics", "inventory-management", "order-management", "customer-data"]
+      }
+    ],
+    "components": [
+      "ProductCard",
+      "ProductGallery",
+      "ShoppingCart",
+      "CheckoutForm",
+      "PaymentProcessor",
+      "InventoryManager",
+      "OrderTracker",
+      "CustomerPanel",
+      "AnalyticsDashboard",
+      "ReviewSystem"
+    ]
+  }
+}

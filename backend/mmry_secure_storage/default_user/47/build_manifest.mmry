@@ -1,0 +1,471 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.21799610894941632
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 519,
+        "output_size": 519,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 519,
+        "output_size": 1551,
+        "stage_compression_ratio": 2.9884393063583814,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 330,
+          "original_size": 514,
+          "compressed_size": 1551
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1551,
+        "output_size": 32,
+        "stage_compression_ratio": 0.020631850419084462,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1551,
+          "estimated_compressed_size": 631,
+          "entropy": 3.2586234590833163
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06165703275529865,
+    "stage_count": 3,
+    "original_size": 519,
+    "final_size": 32,
+    "space_savings": 487,
+    "space_savings_percent": 93.83429672447014
+  },
+  "original_size": 519,
+  "compressed_size": 32,
+  "compression_ratio": 0.06165703275529865,
+  "space_savings_percent": 93.83429672447014,
+  "content_hash": "5da6674be0b012ad",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:631:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 22,
+    "total_chars": 519,
+    "total_words": 48,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"47\",",
+        "hash": "877593b1"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 61,
+        "length": 37,
+        "preview": "  \"project_name\": \"Timeout Fix Test\",",
+        "hash": "68fd92d4"
+      },
+      "3": {
+        "start_char": 62,
+        "end_char": 81,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 82,
+        "end_char": 133,
+        "length": 51,
+        "preview": "    \"Test with 1-minute timeout to fix 50% hanging...",
+        "hash": "13bbc006"
+      },
+      "5": {
+        "start_char": 134,
+        "end_char": 138,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 139,
+        "end_char": 172,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "7": {
+        "start_char": 173,
+        "end_char": 197,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 198,
+        "end_char": 223,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 224,
+        "end_char": 258,
+        "length": 34,
+        "preview": "  \"start_time\": 1759698557.419022,",
+        "hash": "9d950e43"
+      },
+      "10": {
+        "start_char": 259,
+        "end_char": 278,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 279,
+        "end_char": 303,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 304,
+        "end_char": 319,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 320,
+        "end_char": 372,
+        "length": 52,
+        "preview": "  \"team_id\": \"a8235818-2d6f-4f1d-a0b7-85a89822f437...",
+        "hash": "7125e689"
+      },
+      "14": {
+        "start_char": 373,
+        "end_char": 396,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "15": {
+        "start_char": 397,
+        "end_char": 407,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "16": {
+        "start_char": 408,
+        "end_char": 434,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "17": {
+        "start_char": 435,
+        "end_char": 465,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "18": {
+        "start_char": 466,
+        "end_char": 489,
+        "length": 23,
+        "preview": "    \"ollama_url\": null,",
+        "hash": "7e0595d5"
+      },
+      "19": {
+        "start_char": 490,
+        "end_char": 513,
+        "length": 23,
+        "preview": "    \"use_ollama\": false",
+        "hash": "7bf2ed87"
+      },
+      "20": {
+        "start_char": 514,
+        "end_char": 517,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "21": {
+        "start_char": 518,
+        "end_char": 519,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          261
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"a8235818-2d6f-4f1d-a0b7-85a89822f437\",": {
+        "count": 1,
+        "positions": [
+          333
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          399
+        ]
+      },
+      "\"test": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          141
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          281
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "1759698557.419022,": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          322
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          306
+        ]
+      },
+      "hanging\"": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "\"47\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "test\",": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "null,": {
+        "count": 2,
+        "positions": [
+          273,
+          484
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          428,
+          459
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          92
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          439
+        ]
+      },
+      "1-minute": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "50%": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      },
+      "timeout": {
+        "count": 2,
+        "positions": [
+          43,
+          106
+        ]
+      },
+      "fix": {
+        "count": 2,
+        "positions": [
+          51,
+          117
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          226
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          412
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "\"timeout": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          300,
+          316
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          391
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          200
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          210
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          470
+        ]
+      },
+      "false": {
+        "count": 3,
+        "positions": [
+          428,
+          459,
+          508
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.09106145251396648
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 733,
+        "output_size": 733,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 733,
+        "output_size": 2027,
+        "stage_compression_ratio": 2.7653478854024556,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 425,
+          "original_size": 733,
+          "compressed_size": 2027
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2027,
+        "output_size": 32,
+        "stage_compression_ratio": 0.015786877158362113,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2027,
+          "estimated_compressed_size": 822,
+          "entropy": 3.244948162401808
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04365620736698499,
+    "stage_count": 3,
+    "original_size": 733,
+    "final_size": 32,
+    "space_savings": 701,
+    "space_savings_percent": 95.63437926330151
+  },
+  "original_size": 733,
+  "compressed_size": 32,
+  "compression_ratio": 0.04365620736698499,
+  "space_savings_percent": 95.63437926330151,
+  "content_hash": "db0818d87378fcd6",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:822:[35][32][84][105][11",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 58,
+    "total_chars": 733,
+    "total_words": 109,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "# TinyLlama Test Structure",
+        "hash": "1d3defb6"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 27,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 28,
+        "end_char": 51,
+        "length": 23,
+        "preview": "Template: Blog Template",
+        "hash": "63fe7d17"
+      },
+      "3": {
+        "start_char": 52,
+        "end_char": 52,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 53,
+        "end_char": 70,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 71,
+        "end_char": 71,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 72,
+        "end_char": 78,
+        "length": 6,
+        "preview": "- Home",
+        "hash": "fec7ef99"
+      },
+      "7": {
+        "start_char": 79,
+        "end_char": 97,
+        "length": 18,
+        "preview": "  - featured-posts",
+        "hash": "fe232499"
+      },
+      "8": {
+        "start_char": 98,
+        "end_char": 112,
+        "length": 14,
+        "preview": "  - categories",
+        "hash": "2c4a1937"
+      },
+      "9": {
+        "start_char": 113,
+        "end_char": 127,
+        "length": 14,
+        "preview": "  - newsletter",
+        "hash": "635ff6e9"
+      },
+      "10": {
+        "start_char": 128,
+        "end_char": 135,
+        "length": 7,
+        "preview": "- Posts",
+        "hash": "bdaec979"
+      },
+      "11": {
+        "start_char": 136,
+        "end_char": 149,
+        "length": 13,
+        "preview": "  - post-list",
+        "hash": "24c55aee"
+      },
+      "12": {
+        "start_char": 150,
+        "end_char": 166,
+        "length": 16,
+        "preview": "  - post-filters",
+        "hash": "e987a345"
+      },
+      "13": {
+        "start_char": 167,
+        "end_char": 181,
+        "length": 14,
+        "preview": "  - pagination",
+        "hash": "d894ad59"
+      },
+      "14": {
+        "start_char": 182,
+        "end_char": 195,
+        "length": 13,
+        "preview": "- Post Detail",
+        "hash": "1e9526e2"
+      },
+      "15": {
+        "start_char": 196,
+        "end_char": 211,
+        "length": 15,
+        "preview": "  - post-header",
+        "hash": "6f7b1cc5"
+      },
+      "16": {
+        "start_char": 212,
+        "end_char": 228,
+        "length": 16,
+        "preview": "  - post-content",
+        "hash": "3a05752c"
+      },
+      "17": {
+        "start_char": 229,
+        "end_char": 244,
+        "length": 15,
+        "preview": "  - post-author",
+        "hash": "c1ffe51a"
+      },
+      "18": {
+        "start_char": 245,
+        "end_char": 262,
+        "length": 17,
+        "preview": "  - related-posts",
+        "hash": "2b195da0"
+      },
+      "19": {
+        "start_char": 263,
+        "end_char": 275,
+        "length": 12,
+        "preview": "  - comments",
+        "hash": "ccee2bcd"
+      },
+      "20": {
+        "start_char": 276,
+        "end_char": 283,
+        "length": 7,
+        "preview": "- About",
+        "hash": "59d1c831"
+      },
+      "21": {
+        "start_char": 284,
+        "end_char": 298,
+        "length": 14,
+        "preview": "  - author-bio",
+        "hash": "d07d3ff8"
+      },
+      "22": {
+        "start_char": 299,
+        "end_char": 312,
+        "length": 13,
+        "preview": "  - blog-info",
+        "hash": "531254a0"
+      },
+      "23": {
+        "start_char": 313,
+        "end_char": 322,
+        "length": 9,
+        "preview": "- Contact",
+        "hash": "a82996d3"
+      },
+      "24": {
+        "start_char": 323,
+        "end_char": 339,
+        "length": 16,
+        "preview": "  - contact-form",
+        "hash": "26ab85ee"
+      },
+      "25": {
+        "start_char": 340,
+        "end_char": 356,
+        "length": 16,
+        "preview": "  - social-links",
+        "hash": "a8a89c64"
+      },
+      "26": {
+        "start_char": 357,
+        "end_char": 364,
+        "length": 7,
+        "preview": "- Admin",
+        "hash": "0e2ea7fc"
+      },
+      "27": {
+        "start_char": 365,
+        "end_char": 374,
+        "length": 9,
+        "preview": "  - login",
+        "hash": "64e0209e"
+      },
+      "28": {
+        "start_char": 375,
+        "end_char": 390,
+        "length": 15,
+        "preview": "  - post-editor",
+        "hash": "d59e2b67"
+      },
+      "29": {
+        "start_char": 391,
+        "end_char": 408,
+        "length": 17,
+        "preview": "  - media-library",
+        "hash": "cfbac1fb"
+      },
+      "30": {
+        "start_char": 409,
+        "end_char": 431,
+        "length": 22,
+        "preview": "  - comment-management",
+        "hash": "4ebc3620"
+      },
+      "31": {
+        "start_char": 432,
+        "end_char": 445,
+        "length": 13,
+        "preview": "  - analytics",
+        "hash": "a0b9f642"
+      },
+      "32": {
+        "start_char": 446,
+        "end_char": 446,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "33": {
+        "start_char": 447,
+        "end_char": 460,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "34": {
+        "start_char": 461,
+        "end_char": 461,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "35": {
+        "start_char": 462,
+        "end_char": 470,
+        "length": 8,
+        "preview": "- Header",
+        "hash": "8bdb89f1"
+      },
+      "36": {
+        "start_char": 471,
+        "end_char": 479,
+        "length": 8,
+        "preview": "- Footer",
+        "hash": "f237ecf8"
+      },
+      "37": {
+        "start_char": 480,
+        "end_char": 490,
+        "length": 10,
+        "preview": "- PostCard",
+        "hash": "2347a831"
+      },
+      "38": {
+        "start_char": 491,
+        "end_char": 502,
+        "length": 11,
+        "preview": "- AuthorBio",
+        "hash": "35d1504f"
+      },
+      "39": {
+        "start_char": 503,
+        "end_char": 519,
+        "length": 16,
+        "preview": "- CommentSection",
+        "hash": "103023fb"
+      },
+      "40": {
+        "start_char": 520,
+        "end_char": 536,
+        "length": 16,
+        "preview": "- NewsletterForm",
+        "hash": "c5e79f96"
+      },
+      "41": {
+        "start_char": 537,
+        "end_char": 551,
+        "length": 14,
+        "preview": "- CategoryList",
+        "hash": "f445d6d3"
+      },
+      "42": {
+        "start_char": 552,
+        "end_char": 563,
+        "length": 11,
+        "preview": "- SearchBar",
+        "hash": "2c614cbe"
+      },
+      "43": {
+        "start_char": 564,
+        "end_char": 576,
+        "length": 12,
+        "preview": "- PostEditor",
+        "hash": "294fefa2"
+      },
+      "44": {
+        "start_char": 577,
+        "end_char": 592,
+        "length": 15,
+        "preview": "- MediaUploader",
+        "hash": "bb4f9b6a"
+      },
+      "45": {
+        "start_char": 593,
+        "end_char": 593,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "46": {
+        "start_char": 594,
+        "end_char": 607,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "47": {
+        "start_char": 608,
+        "end_char": 608,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "48": {
+        "start_char": 609,
+        "end_char": 618,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "49": {
+        "start_char": 619,
+        "end_char": 624,
+        "length": 5,
+        "preview": "- MDX",
+        "hash": "99410068"
+      },
+      "50": {
+        "start_char": 625,
+        "end_char": 638,
+        "length": 13,
+        "preview": "- TailwindCSS",
+        "hash": "44ce2250"
+      },
+      "51": {
+        "start_char": 639,
+        "end_char": 647,
+        "length": 8,
+        "preview": "- Prisma",
+        "hash": "02afc3f9"
+      },
+      "52": {
+        "start_char": 648,
+        "end_char": 660,
+        "length": 12,
+        "preview": "- PostgreSQL",
+        "hash": "dc987bdd"
+      },
+      "53": {
+        "start_char": 661,
+        "end_char": 661,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "54": {
+        "start_char": 662,
+        "end_char": 684,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "55": {
+        "start_char": 685,
+        "end_char": 685,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "56": {
+        "start_char": 686,
+        "end_char": 732,
+        "length": 46,
+        "preview": "- Test with TinyLlama model to fix 50% hanging",
+        "hash": "2378371a"
+      },
+      "57": {
+        "start_char": 733,
+        "end_char": 733,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "post-content": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "comments": {
+        "count": 2,
+        "positions": [
+          267,
+          505
+        ]
+      },
+      "stack": {
+        "count": 1,
+        "positions": [
+          602
+        ]
+      },
+      "detail": {
+        "count": 1,
+        "positions": [
+          189
+        ]
+      },
+      "postgresql": {
+        "count": 1,
+        "positions": [
+          650
+        ]
+      },
+      "posteditor": {
+        "count": 1,
+        "positions": [
+          566
+        ]
+      },
+      "mdx": {
+        "count": 1,
+        "positions": [
+          621
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "components": {
+        "count": 1,
+        "positions": [
+          450
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          665
+        ]
+      },
+      "next.js": {
+        "count": 1,
+        "positions": [
+          611
+        ]
+      },
+      "post-list": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "about": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "model": {
+        "count": 1,
+        "positions": [
+          708
+        ]
+      },
+      "post": {
+        "count": 13,
+        "positions": [
+          92,
+          130,
+          140,
+          154,
+          184,
+          200,
+          216,
+          233,
+          257,
+          379
+        ]
+      },
+      "contact": {
+        "count": 2,
+        "positions": [
+          315,
+          327
+        ]
+      },
+      "post-filters": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "footer": {
+        "count": 1,
+        "positions": [
+          473
+        ]
+      },
+      "authorbio": {
+        "count": 1,
+        "positions": [
+          493
+        ]
+      },
+      "postcard": {
+        "count": 1,
+        "positions": [
+          482
+        ]
+      },
+      "comment-management": {
+        "count": 1,
+        "positions": [
+          413
+        ]
+      },
+      "author-bio": {
+        "count": 1,
+        "positions": [
+          288
+        ]
+      },
+      "post-editor": {
+        "count": 1,
+        "positions": [
+          379
+        ]
+      },
+      "post-header": {
+        "count": 1,
+        "positions": [
+          200
+        ]
+      },
+      "media-library": {
+        "count": 1,
+        "positions": [
+          395
+        ]
+      },
+      "searchbar": {
+        "count": 1,
+        "positions": [
+          554
+        ]
+      },
+      "categorylist": {
+        "count": 1,
+        "positions": [
+          539
+        ]
+      },
+      "login": {
+        "count": 1,
+        "positions": [
+          369
+        ]
+      },
+      "admin": {
+        "count": 1,
+        "positions": [
+          359
+        ]
+      },
+      "tinyllama": {
+        "count": 2,
+        "positions": [
+          2,
+          698
+        ]
+      },
+      "blog": {
+        "count": 2,
+        "positions": [
+          38,
+          303
+        ]
+      },
+      "blog-info": {
+        "count": 1,
+        "positions": [
+          303
+        ]
+      },
+      "contact-form": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "home": {
+        "count": 1,
+        "positions": [
+          74
+        ]
+      },
+      "newsletter": {
+        "count": 2,
+        "positions": [
+          117,
+          522
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          672
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "hanging": {
+        "count": 1,
+        "positions": [
+          725
+        ]
+      },
+      "related-posts": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "posts": {
+        "count": 3,
+        "positions": [
+          92,
+          130,
+          257
+        ]
+      },
+      "commentsection": {
+        "count": 1,
+        "positions": [
+          505
+        ]
+      },
+      "50%": {
+        "count": 1,
+        "positions": [
+          721
+        ]
+      },
+      "featured-posts": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          597
+        ]
+      },
+      "fix": {
+        "count": 1,
+        "positions": [
+          717
+        ]
+      },
+      "analytics": {
+        "count": 1,
+        "positions": [
+          436
+        ]
+      },
+      "tailwindcss": {
+        "count": 1,
+        "positions": [
+          627
+        ]
+      },
+      "prisma": {
+        "count": 1,
+        "positions": [
+          641
+        ]
+      },
+      "post-author": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "social-links": {
+        "count": 1,
+        "positions": [
+          344
+        ]
+      },
+      "newsletterform": {
+        "count": 1,
+        "positions": [
+          522
+        ]
+      },
+      "categories": {
+        "count": 1,
+        "positions": [
+          102
+        ]
+      },
+      "pagination": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "template": {
+        "count": 2,
+        "positions": [
+          28,
+          43
+        ]
+      },
+      "mediauploader": {
+        "count": 1,
+        "positions": [
+          579
+        ]
+      },
+      "test": {
+        "count": 2,
+        "positions": [
+          12,
+          688
+        ]
+      },
+      "header": {
+        "count": 2,
+        "positions": [
+          205,
+          464
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

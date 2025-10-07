@@ -1,0 +1,942 @@
+{
+  "user_id": "default_user",
+  "project_id": "41",
+  "file_name": "README.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03214285714285715
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 911,
+        "output_size": 915,
+        "stage_compression_ratio": 1.004390779363337,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 915,
+        "output_size": 2737,
+        "stage_compression_ratio": 2.9912568306010927,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 576,
+          "original_size": 911,
+          "compressed_size": 2737
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2737,
+        "output_size": 33,
+        "stage_compression_ratio": 0.01205699671172817,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2737,
+          "estimated_compressed_size": 1115,
+          "entropy": 3.259132207231517
+        }
+      }
+    ],
+    "total_compression_ratio": 0.036223929747530186,
+    "stage_count": 3,
+    "original_size": 911,
+    "final_size": 33,
+    "space_savings": 878,
+    "space_savings_percent": 96.37760702524699
+  },
+  "original_size": 911,
+  "compressed_size": 33,
+  "compression_ratio": 0.036223929747530186,
+  "space_savings_percent": 96.37760702524699,
+  "content_hash": "2cef10188fbaf2e4",
+  "timestamp": 1759698112,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1115:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698112,
+    "total_lines": 51,
+    "total_chars": 911,
+    "total_words": 125,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 12,
+        "length": 12,
+        "preview": "# My Project",
+        "hash": "6d7a42ee"
+      },
+      "1": {
+        "start_char": 13,
+        "end_char": 13,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 14,
+        "end_char": 72,
+        "length": 58,
+        "preview": "A modern blog website built with Next.js, MDX, and...",
+        "hash": "0d77a6da"
+      },
+      "3": {
+        "start_char": 73,
+        "end_char": 73,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 74,
+        "end_char": 85,
+        "length": 11,
+        "preview": "## Features",
+        "hash": "544a9618"
+      },
+      "5": {
+        "start_char": 86,
+        "end_char": 86,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 87,
+        "end_char": 112,
+        "length": 25,
+        "preview": "- Fully responsive design",
+        "hash": "7c27b2e2"
+      },
+      "7": {
+        "start_char": 113,
+        "end_char": 141,
+        "length": 28,
+        "preview": "- SEO optimized with Next.js",
+        "hash": "a99701ea"
+      },
+      "8": {
+        "start_char": 142,
+        "end_char": 172,
+        "length": 30,
+        "preview": "- Markdown/MDX content support",
+        "hash": "814d0835"
+      },
+      "9": {
+        "start_char": 173,
+        "end_char": 194,
+        "length": 21,
+        "preview": "- Categories and tags",
+        "hash": "ca4132fa"
+      },
+      "10": {
+        "start_char": 195,
+        "end_char": 221,
+        "length": 26,
+        "preview": "- Code syntax highlighting",
+        "hash": "8f04197f"
+      },
+      "11": {
+        "start_char": 222,
+        "end_char": 238,
+        "length": 16,
+        "preview": "- Comment system",
+        "hash": "b07e5b4f"
+      },
+      "12": {
+        "start_char": 239,
+        "end_char": 264,
+        "length": 25,
+        "preview": "- Newsletter subscription",
+        "hash": "922f450f"
+      },
+      "13": {
+        "start_char": 265,
+        "end_char": 282,
+        "length": 17,
+        "preview": "- Admin dashboard",
+        "hash": "0fd80ebf"
+      },
+      "14": {
+        "start_char": 283,
+        "end_char": 316,
+        "length": 33,
+        "preview": "- Authentication with NextAuth.js",
+        "hash": "55be0a3d"
+      },
+      "15": {
+        "start_char": 317,
+        "end_char": 317,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "16": {
+        "start_char": 318,
+        "end_char": 336,
+        "length": 18,
+        "preview": "## Getting Started",
+        "hash": "f2d4cd63"
+      },
+      "17": {
+        "start_char": 337,
+        "end_char": 337,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 338,
+        "end_char": 345,
+        "length": 7,
+        "preview": "```bash",
+        "hash": "bbb5a8a3"
+      },
+      "19": {
+        "start_char": 346,
+        "end_char": 368,
+        "length": 22,
+        "preview": "# Install dependencies",
+        "hash": "5cc892f1"
+      },
+      "20": {
+        "start_char": 369,
+        "end_char": 380,
+        "length": 11,
+        "preview": "npm install",
+        "hash": "d53119ba"
+      },
+      "21": {
+        "start_char": 381,
+        "end_char": 381,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "22": {
+        "start_char": 382,
+        "end_char": 406,
+        "length": 24,
+        "preview": "# Generate Prisma client",
+        "hash": "d4d9ed6a"
+      },
+      "23": {
+        "start_char": 407,
+        "end_char": 430,
+        "length": 23,
+        "preview": "npm run prisma:generate",
+        "hash": "55186499"
+      },
+      "24": {
+        "start_char": 431,
+        "end_char": 431,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "25": {
+        "start_char": 432,
+        "end_char": 474,
+        "length": 42,
+        "preview": "# Run migrations (requires database setup)",
+        "hash": "9b59f558"
+      },
+      "26": {
+        "start_char": 475,
+        "end_char": 497,
+        "length": 22,
+        "preview": "npm run prisma:migrate",
+        "hash": "25d33c99"
+      },
+      "27": {
+        "start_char": 498,
+        "end_char": 498,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "28": {
+        "start_char": 499,
+        "end_char": 523,
+        "length": 24,
+        "preview": "# Run development server",
+        "hash": "9e2ea5be"
+      },
+      "29": {
+        "start_char": 524,
+        "end_char": 535,
+        "length": 11,
+        "preview": "npm run dev",
+        "hash": "e3abe2c5"
+      },
+      "30": {
+        "start_char": 536,
+        "end_char": 536,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "31": {
+        "start_char": 537,
+        "end_char": 559,
+        "length": 22,
+        "preview": "# Build for production",
+        "hash": "fe11e3f8"
+      },
+      "32": {
+        "start_char": 560,
+        "end_char": 573,
+        "length": 13,
+        "preview": "npm run build",
+        "hash": "f7382045"
+      },
+      "33": {
+        "start_char": 574,
+        "end_char": 574,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "34": {
+        "start_char": 575,
+        "end_char": 600,
+        "length": 25,
+        "preview": "# Start production server",
+        "hash": "d8820761"
+      },
+      "35": {
+        "start_char": 601,
+        "end_char": 610,
+        "length": 9,
+        "preview": "npm start",
+        "hash": "8b86e6df"
+      },
+      "36": {
+        "start_char": 611,
+        "end_char": 614,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "37": {
+        "start_char": 615,
+        "end_char": 615,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "38": {
+        "start_char": 616,
+        "end_char": 640,
+        "length": 24,
+        "preview": "## Environment Variables",
+        "hash": "877680ce"
+      },
+      "39": {
+        "start_char": 641,
+        "end_char": 641,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "40": {
+        "start_char": 642,
+        "end_char": 688,
+        "length": 46,
+        "preview": "Create a `.env.local` file with the following:",
+        "hash": "178abbd8"
+      },
+      "41": {
+        "start_char": 689,
+        "end_char": 689,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "42": {
+        "start_char": 690,
+        "end_char": 693,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "43": {
+        "start_char": 694,
+        "end_char": 757,
+        "length": 63,
+        "preview": "DATABASE_URL=\"postgresql://user:password@localhost...",
+        "hash": "b63b22e5"
+      },
+      "44": {
+        "start_char": 758,
+        "end_char": 796,
+        "length": 38,
+        "preview": "NEXTAUTH_SECRET=\"your-nextauth-secret\"",
+        "hash": "75cd943c"
+      },
+      "45": {
+        "start_char": 797,
+        "end_char": 800,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "46": {
+        "start_char": 801,
+        "end_char": 801,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "47": {
+        "start_char": 802,
+        "end_char": 815,
+        "length": 13,
+        "preview": "## Deployment",
+        "hash": "3e4a80f6"
+      },
+      "48": {
+        "start_char": 816,
+        "end_char": 816,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "49": {
+        "start_char": 817,
+        "end_char": 910,
+        "length": 93,
+        "preview": "This application can be deployed to Vercel or any ...",
+        "hash": "a43550ab"
+      },
+      "50": {
+        "start_char": 911,
+        "end_char": 911,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "database_url=\"postgresql://user:password@localhost:5432/blogdb\"": {
+        "count": 1,
+        "positions": [
+          694
+        ]
+      },
+      "setup)": {
+        "count": 1,
+        "positions": [
+          468
+        ]
+      },
+      "supporting": {
+        "count": 1,
+        "positions": [
+          876
+        ]
+      },
+      "prisma:generate": {
+        "count": 1,
+        "positions": [
+          415
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          47
+        ]
+      },
+      "build": {
+        "count": 2,
+        "positions": [
+          539,
+          568
+        ]
+      },
+      "following:": {
+        "count": 1,
+        "positions": [
+          678
+        ]
+      },
+      "syntax": {
+        "count": 1,
+        "positions": [
+          202
+        ]
+      },
+      "features": {
+        "count": 1,
+        "positions": [
+          77
+        ]
+      },
+      "environment": {
+        "count": 1,
+        "positions": [
+          619
+        ]
+      },
+      "install": {
+        "count": 2,
+        "positions": [
+          348,
+          373
+        ]
+      },
+      "optimized": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          329
+        ]
+      },
+      "with": {
+        "count": 4,
+        "positions": [
+          42,
+          129,
+          300,
+          669
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          817
+        ]
+      },
+      "prisma": {
+        "count": 4,
+        "positions": [
+          65,
+          393,
+          415,
+          483
+        ]
+      },
+      "categories": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "run": {
+        "count": 6,
+        "positions": [
+          411,
+          434,
+          479,
+          501,
+          528,
+          564
+        ]
+      },
+      "fully": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "production": {
+        "count": 2,
+        "positions": [
+          549,
+          583
+        ]
+      },
+      "platform": {
+        "count": 1,
+        "positions": [
+          867
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          157
+        ]
+      },
+      "system": {
+        "count": 1,
+        "positions": [
+          232
+        ]
+      },
+      "development": {
+        "count": 1,
+        "positions": [
+          505
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          197
+        ]
+      },
+      "modern": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "authentication": {
+        "count": 1,
+        "positions": [
+          285
+        ]
+      },
+      "built": {
+        "count": 1,
+        "positions": [
+          36
+        ]
+      },
+      "database": {
+        "count": 2,
+        "positions": [
+          459,
+          694
+        ]
+      },
+      "nextauth_secret=\"your-nextauth-secret\"": {
+        "count": 1,
+        "positions": [
+          758
+        ]
+      },
+      "application": {
+        "count": 1,
+        "positions": [
+          822
+        ]
+      },
+      "support": {
+        "count": 2,
+        "positions": [
+          165,
+          876
+        ]
+      },
+      "server": {
+        "count": 2,
+        "positions": [
+          517,
+          594
+        ]
+      },
+      "generate": {
+        "count": 2,
+        "positions": [
+          384,
+          422
+        ]
+      },
+      "the": {
+        "count": 2,
+        "positions": [
+          287,
+          674
+        ]
+      },
+      "migrations": {
+        "count": 1,
+        "positions": [
+          438
+        ]
+      },
+      "dev": {
+        "count": 2,
+        "positions": [
+          505,
+          532
+        ]
+      },
+      "deployed": {
+        "count": 1,
+        "positions": [
+          841
+        ]
+      },
+      "```": {
+        "count": 4,
+        "positions": [
+          338,
+          611,
+          690,
+          797
+        ]
+      },
+      "`.env.local`": {
+        "count": 1,
+        "positions": [
+          651
+        ]
+      },
+      "for": {
+        "count": 2,
+        "positions": [
+          545,
+          871
+        ]
+      },
+      "subscription": {
+        "count": 1,
+        "positions": [
+          252
+        ]
+      },
+      "prisma.": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "file": {
+        "count": 1,
+        "positions": [
+          664
+        ]
+      },
+      "postgresql.": {
+        "count": 1,
+        "positions": [
+          899
+        ]
+      },
+      "website": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "getting": {
+        "count": 1,
+        "positions": [
+          321
+        ]
+      },
+      "admin": {
+        "count": 1,
+        "positions": [
+          267
+        ]
+      },
+      "blog": {
+        "count": 2,
+        "positions": [
+          23,
+          750
+        ]
+      },
+      "mdx,": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "can": {
+        "count": 1,
+        "positions": [
+          834
+        ]
+      },
+      "vercel": {
+        "count": 1,
+        "positions": [
+          853
+        ]
+      },
+      "prisma:migrate": {
+        "count": 1,
+        "positions": [
+          483
+        ]
+      },
+      "dashboard": {
+        "count": 1,
+        "positions": [
+          273
+        ]
+      },
+      "npm": {
+        "count": 6,
+        "positions": [
+          369,
+          407,
+          475,
+          524,
+          560,
+          601
+        ]
+      },
+      "and": {
+        "count": 3,
+        "positions": [
+          61,
+          186,
+          895
+        ]
+      },
+      "start": {
+        "count": 3,
+        "positions": [
+          329,
+          577,
+          605
+        ]
+      },
+      "tags": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "project": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      },
+      "next.js": {
+        "count": 2,
+        "positions": [
+          47,
+          134
+        ]
+      },
+      "client": {
+        "count": 1,
+        "positions": [
+          400
+        ]
+      },
+      "create": {
+        "count": 1,
+        "positions": [
+          642
+        ]
+      },
+      "responsive": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "design": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "variables": {
+        "count": 1,
+        "positions": [
+          631
+        ]
+      },
+      "any": {
+        "count": 1,
+        "positions": [
+          863
+        ]
+      },
+      "```bash": {
+        "count": 1,
+        "positions": [
+          338
+        ]
+      },
+      "markdown/mdx": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "comment": {
+        "count": 1,
+        "positions": [
+          224
+        ]
+      },
+      "dependencies": {
+        "count": 1,
+        "positions": [
+          356
+        ]
+      },
+      "newsletter": {
+        "count": 1,
+        "positions": [
+          241
+        ]
+      },
+      "seo": {
+        "count": 1,
+        "positions": [
+          115
+        ]
+      },
+      "deployment": {
+        "count": 1,
+        "positions": [
+          805
+        ]
+      },
+      "highlighting": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      },
+      "node.js": {
+        "count": 1,
+        "positions": [
+          887
+        ]
+      },
+      "(requires": {
+        "count": 1,
+        "positions": [
+          449
+        ]
+      },
+      "nextauth.js": {
+        "count": 1,
+        "positions": [
+          305
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

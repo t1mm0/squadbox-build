@@ -1,0 +1,498 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "prisma/schema.prisma**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024627034358047018
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 574,
+        "output_size": 546,
+        "stage_compression_ratio": 0.9512195121951219,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 15
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 546,
+        "output_size": 1617,
+        "stage_compression_ratio": 2.9615384615384617,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 338,
+          "original_size": 531,
+          "compressed_size": 1617
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1617,
+        "output_size": 32,
+        "stage_compression_ratio": 0.019789734075448363,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1617,
+          "estimated_compressed_size": 655,
+          "entropy": 3.2430298022837354
+        }
+      }
+    ],
+    "total_compression_ratio": 0.05574912891986063,
+    "stage_count": 3,
+    "original_size": 574,
+    "final_size": 32,
+    "space_savings": 542,
+    "space_savings_percent": 94.42508710801394
+  },
+  "original_size": 574,
+  "compressed_size": 32,
+  "compression_ratio": 0.05574912891986063,
+  "space_savings_percent": 94.42508710801394,
+  "content_hash": "85523aedc75a0e72",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:655:[112][114][105][115]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 28,
+    "total_chars": 574,
+    "total_words": 60,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 6,
+        "length": 6,
+        "preview": "prisma",
+        "hash": "dea12ffb"
+      },
+      "1": {
+        "start_char": 7,
+        "end_char": 25,
+        "length": 18,
+        "preview": "generator client {",
+        "hash": "801b2425"
+      },
+      "2": {
+        "start_char": 26,
+        "end_char": 57,
+        "length": 31,
+        "preview": "  provider = \"prisma-client-js\"",
+        "hash": "4cc6b6ed"
+      },
+      "3": {
+        "start_char": 58,
+        "end_char": 59,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "4": {
+        "start_char": 60,
+        "end_char": 60,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 61,
+        "end_char": 76,
+        "length": 15,
+        "preview": "datasource db {",
+        "hash": "30300a27"
+      },
+      "6": {
+        "start_char": 77,
+        "end_char": 98,
+        "length": 21,
+        "preview": "  provider = \"sqlite\"",
+        "hash": "96842034"
+      },
+      "7": {
+        "start_char": 99,
+        "end_char": 127,
+        "length": 28,
+        "preview": "  url      = \"file:./dev.db\"",
+        "hash": "ccf1ad03"
+      },
+      "8": {
+        "start_char": 128,
+        "end_char": 129,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "9": {
+        "start_char": 130,
+        "end_char": 130,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "10": {
+        "start_char": 131,
+        "end_char": 143,
+        "length": 12,
+        "preview": "model User {",
+        "hash": "3ac29ffb"
+      },
+      "11": {
+        "start_char": 144,
+        "end_char": 196,
+        "length": 52,
+        "preview": "  id        Int        @id @default(autoincrement(...",
+        "hash": "e82d3de4"
+      },
+      "12": {
+        "start_char": 197,
+        "end_char": 215,
+        "length": 18,
+        "preview": "  name      String",
+        "hash": "fbed497d"
+      },
+      "13": {
+        "start_char": 216,
+        "end_char": 246,
+        "length": 30,
+        "preview": "  email     String     @unique",
+        "hash": "112a9a28"
+      },
+      "14": {
+        "start_char": 247,
+        "end_char": 285,
+        "length": 38,
+        "preview": "  createdAt DateTime   @default(now())",
+        "hash": "e9580b8f"
+      },
+      "15": {
+        "start_char": 286,
+        "end_char": 309,
+        "length": 23,
+        "preview": "  diagnoses Diagnosis[]",
+        "hash": "53d525dd"
+      },
+      "16": {
+        "start_char": 310,
+        "end_char": 311,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 312,
+        "end_char": 312,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 313,
+        "end_char": 330,
+        "length": 17,
+        "preview": "model Diagnosis {",
+        "hash": "9c025a67"
+      },
+      "19": {
+        "start_char": 331,
+        "end_char": 383,
+        "length": 52,
+        "preview": "  id          Int      @id @default(autoincrement(...",
+        "hash": "b9bc372c"
+      },
+      "20": {
+        "start_char": 384,
+        "end_char": 401,
+        "length": 17,
+        "preview": "  userId      Int",
+        "hash": "98974ea3"
+      },
+      "21": {
+        "start_char": 402,
+        "end_char": 470,
+        "length": 68,
+        "preview": "  user        User     @relation(fields: [userId],...",
+        "hash": "2b47c379"
+      },
+      "22": {
+        "start_char": 471,
+        "end_char": 491,
+        "length": 20,
+        "preview": "  symptoms    String",
+        "hash": "f2ddb977"
+      },
+      "23": {
+        "start_char": 492,
+        "end_char": 512,
+        "length": 20,
+        "preview": "  result      String",
+        "hash": "7e43aeb9"
+      },
+      "24": {
+        "start_char": 513,
+        "end_char": 551,
+        "length": 38,
+        "preview": "  createdAt   DateTime @default(now())",
+        "hash": "f17d3840"
+      },
+      "25": {
+        "start_char": 552,
+        "end_char": 552,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "26": {
+        "start_char": 553,
+        "end_char": 572,
+        "length": 19,
+        "preview": "  @@index([userId])",
+        "hash": "d37e0513"
+      },
+      "27": {
+        "start_char": 573,
+        "end_char": 574,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "int": {
+        "count": 3,
+        "positions": [
+          156,
+          345,
+          398
+        ]
+      },
+      "generator": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "diagnoses": {
+        "count": 1,
+        "positions": [
+          288
+        ]
+      },
+      "\"sqlite\"": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "@relation(fields:": {
+        "count": 1,
+        "positions": [
+          425
+        ]
+      },
+      "createdat": {
+        "count": 2,
+        "positions": [
+          249,
+          515
+        ]
+      },
+      "@unique": {
+        "count": 1,
+        "positions": [
+          239
+        ]
+      },
+      "symptoms": {
+        "count": 1,
+        "positions": [
+          473
+        ]
+      },
+      "[id])": {
+        "count": 1,
+        "positions": [
+          465
+        ]
+      },
+      "userid": {
+        "count": 3,
+        "positions": [
+          386,
+          444,
+          564
+        ]
+      },
+      "\"file:./dev.db\"": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "@@index([userid])": {
+        "count": 1,
+        "positions": [
+          555
+        ]
+      },
+      "@default(autoincrement())": {
+        "count": 2,
+        "positions": [
+          171,
+          358
+        ]
+      },
+      "@default(now())": {
+        "count": 2,
+        "positions": [
+          270,
+          536
+        ]
+      },
+      "[userid],": {
+        "count": 1,
+        "positions": [
+          443
+        ]
+      },
+      "string": {
+        "count": 4,
+        "positions": [
+          209,
+          228,
+          485,
+          506
+        ]
+      },
+      "provider": {
+        "count": 2,
+        "positions": [
+          28,
+          79
+        ]
+      },
+      "prisma": {
+        "count": 2,
+        "positions": [
+          0,
+          40
+        ]
+      },
+      "model": {
+        "count": 2,
+        "positions": [
+          131,
+          313
+        ]
+      },
+      "name": {
+        "count": 1,
+        "positions": [
+          199
+        ]
+      },
+      "email": {
+        "count": 1,
+        "positions": [
+          218
+        ]
+      },
+      "result": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "@id": {
+        "count": 2,
+        "positions": [
+          167,
+          354
+        ]
+      },
+      "\"prisma-client-js\"": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "client": {
+        "count": 2,
+        "positions": [
+          17,
+          47
+        ]
+      },
+      "references:": {
+        "count": 1,
+        "positions": [
+          453
+        ]
+      },
+      "diagnosis[]": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "url": {
+        "count": 1,
+        "positions": [
+          101
+        ]
+      },
+      "diagnosis": {
+        "count": 2,
+        "positions": [
+          298,
+          319
+        ]
+      },
+      "datasource": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "datetime": {
+        "count": 2,
+        "positions": [
+          259,
+          527
+        ]
+      },
+      "user": {
+        "count": 6,
+        "positions": [
+          137,
+          386,
+          404,
+          416,
+          444,
+          564
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

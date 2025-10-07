@@ -1,0 +1,155 @@
+/* BuildConsole.css
+   Purpose: Styling for build console component
+   Last modified: 2025-01-27
+   By: AI Assistant
+   Completeness: 100 */
+
+.build-console-wrapper {
+  margin: 1.5rem 0 1rem 0;
+}
+
+/* External Progress Bar */
+.external-progress-section {
+  background: linear-gradient(135deg, #1a1f2e 0%, #232a36 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(26,126,230,0.1);
+  border: 1px solid rgba(26,126,230,0.2);
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.progress-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.progress-percentage {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a7ee6;
+}
+
+.external-progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #3c4454;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.external-progress-fill {
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(26,126,230,0.3);
+}
+
+.progress-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.status-text, .files-text, .duration-text {
+  padding: 0.25rem 0.5rem;
+  background: rgba(26,126,230,0.1);
+  border-radius: 4px;
+  border: 1px solid rgba(26,126,230,0.2);
+}
+
+.build-console {
+  background: #181c24;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(26,126,230,0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.console-header {
+  background: #232a36;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #222b3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.console-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #181c24;
+  color: #d0d0d0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  border: 1px solid rgba(26,126,230,0.1);
+}
+
+.console-content pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.console-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-indicator {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+}
+
+.progress-bar-container {
+  width: 120px;
+  height: 6px;
+  background: #3c4454;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.file-count {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.auto-scroll {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.auto-scroll input {
+  margin-right: 4px;
+}

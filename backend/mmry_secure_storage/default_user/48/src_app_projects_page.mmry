@@ -1,0 +1,351 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "src/app/projects/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.21960616438356168
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 400,
+        "output_size": 392,
+        "stage_compression_ratio": 0.98,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 392,
+        "output_size": 1083,
+        "stage_compression_ratio": 2.7627551020408165,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 228,
+          "original_size": 386,
+          "compressed_size": 1083
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1083,
+        "output_size": 32,
+        "stage_compression_ratio": 0.029547553093259463,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1083,
+          "estimated_compressed_size": 437,
+          "entropy": 3.231809976819257
+        }
+      }
+    ],
+    "total_compression_ratio": 0.08,
+    "stage_count": 3,
+    "original_size": 400,
+    "final_size": 32,
+    "space_savings": 368,
+    "space_savings_percent": 92.0
+  },
+  "original_size": 400,
+  "compressed_size": 32,
+  "compression_ratio": 0.08,
+  "space_savings_percent": 92.0,
+  "content_hash": "0de619b8d413b213",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:437:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 16,
+    "total_chars": 400,
+    "total_words": 36,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 79,
+        "length": 52,
+        "preview": "import ProjectList from '../components/ProjectList...",
+        "hash": "9c688b49"
+      },
+      "2": {
+        "start_char": 80,
+        "end_char": 138,
+        "length": 58,
+        "preview": "import ProjectDetails from '../components/ProjectD...",
+        "hash": "43b862a2"
+      },
+      "3": {
+        "start_char": 139,
+        "end_char": 199,
+        "length": 60,
+        "preview": "import RelatedProjects from '../components/Related...",
+        "hash": "2bc2141e"
+      },
+      "4": {
+        "start_char": 200,
+        "end_char": 200,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 201,
+        "end_char": 237,
+        "length": 36,
+        "preview": "export default function Projects() {",
+        "hash": "14726fcd"
+      },
+      "6": {
+        "start_char": 238,
+        "end_char": 248,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 249,
+        "end_char": 284,
+        "length": 35,
+        "preview": "    <div className=\"page projects\">",
+        "hash": "6d64b553"
+      },
+      "8": {
+        "start_char": 285,
+        "end_char": 308,
+        "length": 23,
+        "preview": "      <h1>Projects</h1>",
+        "hash": "f20e9ac9"
+      },
+      "9": {
+        "start_char": 309,
+        "end_char": 330,
+        "length": 21,
+        "preview": "      <ProjectList />",
+        "hash": "3090177f"
+      },
+      "10": {
+        "start_char": 331,
+        "end_char": 355,
+        "length": 24,
+        "preview": "      <ProjectDetails />",
+        "hash": "cdd55600"
+      },
+      "11": {
+        "start_char": 356,
+        "end_char": 381,
+        "length": 25,
+        "preview": "      <RelatedProjects />",
+        "hash": "8924061a"
+      },
+      "12": {
+        "start_char": 382,
+        "end_char": 392,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 393,
+        "end_char": 397,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 398,
+        "end_char": 399,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 400,
+        "end_char": 400,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          258
+        ]
+      },
+      "<projectdetails": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          253
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      },
+      "'../components/projectdetails';": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "projectdetails": {
+        "count": 3,
+        "positions": [
+          87,
+          122,
+          338
+        ]
+      },
+      "relatedprojects": {
+        "count": 3,
+        "positions": [
+          146,
+          182,
+          363
+        ]
+      },
+      "<relatedprojects": {
+        "count": 1,
+        "positions": [
+          362
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "'../components/projectlist';": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          46,
+          102,
+          162
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          201
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          80,
+          139
+        ]
+      },
+      "<h1>projects</h1>": {
+        "count": 1,
+        "positions": [
+          291
+        ]
+      },
+      "projects()": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          208
+        ]
+      },
+      "projectlist": {
+        "count": 3,
+        "positions": [
+          34,
+          66,
+          316
+        ]
+      },
+      "<projectlist": {
+        "count": 1,
+        "positions": [
+          315
+        ]
+      },
+      "projects\">": {
+        "count": 1,
+        "positions": [
+          274
+        ]
+      },
+      "'../components/relatedprojects';": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

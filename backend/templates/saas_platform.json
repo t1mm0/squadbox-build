@@ -1,0 +1,102 @@
+{
+  "id": "saas-platform",
+  "name": "SaaS Platform Starter",
+  "description": "Complete SaaS platform with user authentication, subscription management, billing integration, and multi-tenant architecture. Perfect for launching your SaaS product.",
+  "category": "saas",
+  "difficulty": "advanced",
+  "estimatedTime": "5 hours",
+  "features": [
+    "User authentication & authorization",
+    "Subscription management",
+    "Stripe billing integration",
+    "Multi-tenant architecture",
+    "Admin dashboard",
+    "User onboarding flow",
+    "Email notifications",
+    "API rate limiting",
+    "Usage analytics",
+    "Customer support chat",
+    "Documentation portal",
+    "Feature flags",
+    "A/B testing framework",
+    "Security compliance"
+  ],
+  "icon": "Building2",
+  "tags": ["saas", "subscription", "billing", "multi-tenant", "enterprise", "platform"],
+  "access_tier": "enterprise",
+  "popular": true,
+  "featured": true,
+  "downloads": 1800,
+  "rating": 4.9,
+  "tech_stack": ["React", "TypeScript", "Next.js", "Stripe", "PostgreSQL", "Prisma", "NextAuth", "Tailwind CSS", "Redis"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint",
+          "db:push": "prisma db push",
+          "db:migrate": "prisma migrate dev"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "stripe": "^14.0.0",
+          "@prisma/client": "^5.0.0",
+          "prisma": "^5.0.0",
+          "next-auth": "^4.24.0",
+          "nodemailer": "^6.9.0",
+          "redis": "^4.6.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Landing Page",
+        "sections": ["hero", "features", "pricing", "testimonials", "cta"]
+      },
+      {
+        "name": "Dashboard",
+        "sections": ["overview", "usage-metrics", "recent-activity", "quick-actions"]
+      },
+      {
+        "name": "Billing",
+        "sections": ["subscription-status", "payment-methods", "billing-history", "usage-limits"]
+      },
+      {
+        "name": "Settings",
+        "sections": ["profile", "team-management", "integrations", "security"]
+      },
+      {
+        "name": "Admin Panel",
+        "sections": ["user-management", "analytics", "system-health", "feature-flags"]
+      }
+    ],
+    "components": [
+      "AuthWrapper",
+      "SubscriptionGate",
+      "BillingManager",
+      "UserProfile",
+      "TeamInvite",
+      "UsageTracker",
+      "FeatureFlag",
+      "AdminDashboard",
+      "NotificationSystem",
+      "SupportChat"
+    ]
+  }
+}

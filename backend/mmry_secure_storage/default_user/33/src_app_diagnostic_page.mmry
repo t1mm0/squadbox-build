@@ -1,0 +1,381 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/app/diagnostic/page.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0288803317535545
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 354,
+        "output_size": 338,
+        "stage_compression_ratio": 0.9548022598870056,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 8
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 338,
+        "output_size": 1092,
+        "stage_compression_ratio": 3.230769230769231,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 232,
+          "original_size": 330,
+          "compressed_size": 1092
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1092,
+        "output_size": 32,
+        "stage_compression_ratio": 0.029304029304029304,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1092,
+          "estimated_compressed_size": 437,
+          "entropy": 3.2077283709232827
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0903954802259887,
+    "stage_count": 3,
+    "original_size": 354,
+    "final_size": 32,
+    "space_savings": 322,
+    "space_savings_percent": 90.96045197740112
+  },
+  "original_size": 354,
+  "compressed_size": 32,
+  "compression_ratio": 0.0903954802259887,
+  "space_savings_percent": 90.96045197740112,
+  "content_hash": "cc52c923d6c90b23",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:437:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 15,
+    "total_chars": 354,
+    "total_words": 41,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 61,
+        "length": 57,
+        "preview": "import DiagnosticForm from '@/components/Diagnosti...",
+        "hash": "af23b724"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 62,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "3": {
+        "start_char": 63,
+        "end_char": 101,
+        "length": 38,
+        "preview": "export default function Diagnostic() {",
+        "hash": "6340fda3"
+      },
+      "4": {
+        "start_char": 102,
+        "end_char": 112,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "5": {
+        "start_char": 113,
+        "end_char": 126,
+        "length": 13,
+        "preview": "    <section>",
+        "hash": "7aee1f86"
+      },
+      "6": {
+        "start_char": 127,
+        "end_char": 169,
+        "length": 42,
+        "preview": "      <h2>AI Mental Health Assessment</h2>",
+        "hash": "1f85d672"
+      },
+      "7": {
+        "start_char": 170,
+        "end_char": 179,
+        "length": 9,
+        "preview": "      <p>",
+        "hash": "31afcae7"
+      },
+      "8": {
+        "start_char": 180,
+        "end_char": 251,
+        "length": 71,
+        "preview": "        Please fill in your symptoms. The AI will ...",
+        "hash": "c930f9bd"
+      },
+      "9": {
+        "start_char": 252,
+        "end_char": 296,
+        "length": 44,
+        "preview": "        assessment. This is not a diagnosis.",
+        "hash": "ccf128e5"
+      },
+      "10": {
+        "start_char": 297,
+        "end_char": 307,
+        "length": 10,
+        "preview": "      </p>",
+        "hash": "f88fe8d4"
+      },
+      "11": {
+        "start_char": 308,
+        "end_char": 332,
+        "length": 24,
+        "preview": "      <DiagnosticForm />",
+        "hash": "77e38186"
+      },
+      "12": {
+        "start_char": 333,
+        "end_char": 347,
+        "length": 14,
+        "preview": "    </section>",
+        "hash": "7a8b33a1"
+      },
+      "13": {
+        "start_char": 348,
+        "end_char": 352,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 353,
+        "end_char": 354,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "assessment.": {
+        "count": 1,
+        "positions": [
+          260
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          78
+        ]
+      },
+      "</p>": {
+        "count": 1,
+        "positions": [
+          303
+        ]
+      },
+      "diagnosticform": {
+        "count": 3,
+        "positions": [
+          11,
+          45,
+          315
+        ]
+      },
+      "assessment</h2>": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "fill": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "health": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "diagnosis.": {
+        "count": 1,
+        "positions": [
+          286
+        ]
+      },
+      "diagnostic()": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "'@/components/diagnosticform';": {
+        "count": 1,
+        "positions": [
+          31
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "the": {
+        "count": 1,
+        "positions": [
+          218
+        ]
+      },
+      "preliminary": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "please": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "provide": {
+        "count": 1,
+        "positions": [
+          230
+        ]
+      },
+      "your": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "<diagnosticform": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "import": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "not": {
+        "count": 1,
+        "positions": [
+          280
+        ]
+      },
+      "<p>": {
+        "count": 1,
+        "positions": [
+          176
+        ]
+      },
+      "</section>": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "<h2>ai": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          272
+        ]
+      },
+      "symptoms.": {
+        "count": 1,
+        "positions": [
+          208
+        ]
+      },
+      "<section>": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

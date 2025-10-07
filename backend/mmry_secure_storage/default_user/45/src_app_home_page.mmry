@@ -1,0 +1,360 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "src/app/home/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.9318801089918256
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 367,
+        "output_size": 426,
+        "stage_compression_ratio": 1.1607629427792916,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 9,
+          "compression_ratio": 1.1607629427792916,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 426,
+        "output_size": 201,
+        "stage_compression_ratio": 0.47183098591549294,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 426,
+          "compressed_size": 201,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 589,
+        "output_size": 354,
+        "stage_compression_ratio": 0.601018675721562,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 589,
+          "compressed_size": 354,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 0.9645776566757494,
+    "stage_count": 3,
+    "original_size": 367,
+    "final_size": 354,
+    "space_savings": 13,
+    "space_savings_percent": 3.5422343324250685
+  },
+  "original_size": 367,
+  "compressed_size": 354,
+  "compression_ratio": 0.9645776566757494,
+  "space_savings_percent": 3.5422343324250685,
+  "content_hash": "a1d5f2c0e411a05d",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkU9LAzEQxb+KItoePCTd7W4iFVREEOxBLIgQpPmza+mhpVVLkOJn9zcbD4HJvJf33kzCKLuc/LfLVt26rDqXzUS5rOt7l/v22uU4pd3TCUuKaiUYp3HZCy9wKpc7jvHUZnvDDcRU80vuarwOM1HntEjqJ5cDj9V0cQIxItNU2wsQS4mXj0cYffjAmlankaqfucRTwOQ2vG1+zuFA7rpi3/u5xB3DpZvCAjcDhLwhoSVZwl2n1dvBOd4yQpL4/vNd+HHDJUxe6Fhm7fzj7pDE0+0f7kDQSdPBPsd6vSkTClPrYWNiDo3apqXIQtbtjhks6SKYlUm9ZB9iIWGa4XyV9arJidv/l0JlbKWKtKnJaFEM2m3OykPZu6QxcSCAVcuykiGjZz8xidNrWbcE6tVVJXs5FrUE3ks6rLpa/vaXpi6zeTJEGacRaUDxk7+z/ax8jGpLN8omahl89Aff08vf",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 16,
+    "total_chars": 367,
+    "total_words": 36,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 83,
+        "length": 56,
+        "preview": "import FeaturedPosts from '../components/FeaturedP...",
+        "hash": "4c9fb30a"
+      },
+      "2": {
+        "start_char": 84,
+        "end_char": 134,
+        "length": 50,
+        "preview": "import Categories from '../components/Categories';",
+        "hash": "ba1e1a26"
+      },
+      "3": {
+        "start_char": 135,
+        "end_char": 185,
+        "length": 50,
+        "preview": "import Newsletter from '../components/Newsletter';",
+        "hash": "21c78809"
+      },
+      "4": {
+        "start_char": 186,
+        "end_char": 186,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 187,
+        "end_char": 219,
+        "length": 32,
+        "preview": "export default function Home() {",
+        "hash": "a5086d01"
+      },
+      "6": {
+        "start_char": 220,
+        "end_char": 230,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 231,
+        "end_char": 262,
+        "length": 31,
+        "preview": "    <div className=\"page home\">",
+        "hash": "95571747"
+      },
+      "8": {
+        "start_char": 263,
+        "end_char": 282,
+        "length": 19,
+        "preview": "      <h1>Home</h1>",
+        "hash": "a9bb431b"
+      },
+      "9": {
+        "start_char": 283,
+        "end_char": 306,
+        "length": 23,
+        "preview": "      <FeaturedPosts />",
+        "hash": "d75e87e4"
+      },
+      "10": {
+        "start_char": 307,
+        "end_char": 327,
+        "length": 20,
+        "preview": "      <Categories />",
+        "hash": "194ffc88"
+      },
+      "11": {
+        "start_char": 328,
+        "end_char": 348,
+        "length": 20,
+        "preview": "      <Newsletter />",
+        "hash": "80ba9454"
+      },
+      "12": {
+        "start_char": 349,
+        "end_char": 359,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 360,
+        "end_char": 364,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 365,
+        "end_char": 366,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 367,
+        "end_char": 367,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "<newsletter": {
+        "count": 1,
+        "positions": [
+          334
+        ]
+      },
+      "<h1>home</h1>": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "featuredposts": {
+        "count": 3,
+        "positions": [
+          34,
+          68,
+          290
+        ]
+      },
+      "'../components/categories';": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "<categories": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "'../components/featuredposts';": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          353
+        ]
+      },
+      "home\">": {
+        "count": 1,
+        "positions": [
+          256
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          202
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          48,
+          102,
+          153
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "newsletter": {
+        "count": 3,
+        "positions": [
+          142,
+          173,
+          335
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          84,
+          135
+        ]
+      },
+      "<featuredposts": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          194
+        ]
+      },
+      "home()": {
+        "count": 1,
+        "positions": [
+          211
+        ]
+      },
+      "categories": {
+        "count": 3,
+        "positions": [
+          91,
+          122,
+          314
+        ]
+      },
+      "'../components/newsletter';": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

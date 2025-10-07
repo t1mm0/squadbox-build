@@ -1,0 +1,251 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "timestamp": "2025-10-05T22:17:53.636063",
+  "files_stored": 24,
+  "total_original_size": 9057,
+  "total_compressed_size": 1463,
+  "compression_ratio": 0.16153251628574583,
+  "stored_files": [
+    {
+      "file_name": "tailwind.config.js",
+      "file_type": "javascript",
+      "original_size": 877,
+      "compressed_size": 32,
+      "compression_ratio": 0.036488027366020526,
+      "mmry_file_path": "",
+      "file_hash": "77357320c5bab9b1adb59b27023a56b82351f816f31a2a60e3008641ea4ab5a8",
+      "timestamp": "2025-10-05T22:17:53.642953"
+    },
+    {
+      "file_name": "project_structure.md",
+      "file_type": "text",
+      "original_size": 784,
+      "compressed_size": 32,
+      "compression_ratio": 0.04081632653061224,
+      "mmry_file_path": "",
+      "file_hash": "4a84d11fbd6d52728f6ba24e996d37991a9e3231abd4dade8cb615e536d2d37a",
+      "timestamp": "2025-10-05T22:17:53.652953"
+    },
+    {
+      "file_name": "build_manifest.json",
+      "file_type": "json",
+      "original_size": 769,
+      "compressed_size": 32,
+      "compression_ratio": 0.04161248374512354,
+      "mmry_file_path": "",
+      "file_hash": "30bfbb585ece7b8215fec3477332619e8f2730d8766091cc1a272714c15ac2e2",
+      "timestamp": "2025-10-05T22:17:53.664082"
+    },
+    {
+      "file_name": "next.config.js",
+      "file_type": "javascript",
+      "original_size": 198,
+      "compressed_size": 32,
+      "compression_ratio": 0.16161616161616163,
+      "mmry_file_path": "",
+      "file_hash": "9025c2a876898e5993e5a7c5f4495d68bc3a26edd5b43a4d35e5d4e407fbea80",
+      "timestamp": "2025-10-05T22:17:53.667737"
+    },
+    {
+      "file_name": "error.log",
+      "file_type": "text",
+      "original_size": 112,
+      "compressed_size": 32,
+      "compression_ratio": 0.2857142857142857,
+      "mmry_file_path": "",
+      "file_hash": "d0210e27aefd12182e9c10b9b1abf76f0adad2a6f8bbe1bf56ae4fb13e0b0f6d",
+      "timestamp": "2025-10-05T22:17:53.672883"
+    },
+    {
+      "file_name": "README.md",
+      "file_type": "text",
+      "original_size": 570,
+      "compressed_size": 32,
+      "compression_ratio": 0.056140350877192984,
+      "mmry_file_path": "",
+      "file_hash": "ff52cc3e15964fc2bc7fa58aa05fdeeb325f3a2c337fff6783b4163e1356cc55",
+      "timestamp": "2025-10-05T22:17:53.680980"
+    },
+    {
+      "file_name": "package.json",
+      "file_type": "json",
+      "original_size": 616,
+      "compressed_size": 32,
+      "compression_ratio": 0.05194805194805195,
+      "mmry_file_path": "",
+      "file_hash": "77111c16d9fcd7261cb3a06f6cf827f458ba271fd18b5992ee297737017f886c",
+      "timestamp": "2025-10-05T22:17:53.688441"
+    },
+    {
+      "file_name": "README.ai.md",
+      "file_type": "text",
+      "original_size": 73,
+      "compressed_size": 32,
+      "compression_ratio": 0.4383561643835616,
+      "mmry_file_path": "",
+      "file_hash": "a14fe58aa62cb14ebe9a28f8e0a064892f5ce0dc965d52bf1da16d7cb530b5ce",
+      "timestamp": "2025-10-05T22:17:53.692226"
+    },
+    {
+      "file_name": "build.log",
+      "file_type": "text",
+      "original_size": 956,
+      "compressed_size": 33,
+      "compression_ratio": 0.034518828451882845,
+      "mmry_file_path": "",
+      "file_hash": "81406d3680fb733818dfde23817cd5c433100bff9027b56234b7461f5ca011d4",
+      "timestamp": "2025-10-05T22:17:53.701887"
+    },
+    {
+      "file_name": "src/app/layout.jsx",
+      "file_type": "javascript",
+      "original_size": 309,
+      "compressed_size": 32,
+      "compression_ratio": 0.10355987055016182,
+      "mmry_file_path": "",
+      "file_hash": "6c634b330ebf1f4eab55ba3ec2584c01303e1829b5f8bbdebf76a4738f247f64",
+      "timestamp": "2025-10-05T22:17:53.706964"
+    },
+    {
+      "file_name": "src/app/page.jsx",
+      "file_type": "javascript",
+      "original_size": 466,
+      "compressed_size": 32,
+      "compression_ratio": 0.06866952789699571,
+      "mmry_file_path": "",
+      "file_hash": "9c8a54c511d41aa690adbb8a3daf1087955cb478e1bc8526f75222894dbfde00",
+      "timestamp": "2025-10-05T22:17:53.713608"
+    },
+    {
+      "file_name": "src/app/globals.css",
+      "file_type": "css",
+      "original_size": 211,
+      "compressed_size": 285,
+      "compression_ratio": 1.3507109004739337,
+      "mmry_file_path": "",
+      "file_hash": "f911f8a9f4a2b1f057987a7206e5c7d6ab799952ac9661e6f96b527bfab6f5cc",
+      "timestamp": "2025-10-05T22:17:53.719520"
+    },
+    {
+      "file_name": "src/app/home/page.jsx",
+      "file_type": "javascript",
+      "original_size": 466,
+      "compressed_size": 32,
+      "compression_ratio": 0.06866952789699571,
+      "mmry_file_path": "",
+      "file_hash": "fdc7b753bc2aa0a676e11914576a0aaa929ea616f9c600379d799d6646621e65",
+      "timestamp": "2025-10-05T22:17:53.724906"
+    },
+    {
+      "file_name": "src/app/contact/page.jsx",
+      "file_type": "javascript",
+      "original_size": 367,
+      "compressed_size": 32,
+      "compression_ratio": 0.08719346049046321,
+      "mmry_file_path": "",
+      "file_hash": "d811706f1a26103dd3bba13b1dc68576d4ad30f69601822d81e4e286ece67332",
+      "timestamp": "2025-10-05T22:17:53.728777"
+    },
+    {
+      "file_name": "src/app/projects/page.jsx",
+      "file_type": "javascript",
+      "original_size": 400,
+      "compressed_size": 32,
+      "compression_ratio": 0.08,
+      "mmry_file_path": "",
+      "file_hash": "2b1fb52108649d6458428e933aa87f0d8654412d21e61bfc0005520ec8f8d2fb",
+      "timestamp": "2025-10-05T22:17:53.733104"
+    },
+    {
+      "file_name": "src/app/about/page.jsx",
+      "file_type": "javascript",
+      "original_size": 415,
+      "compressed_size": 32,
+      "compression_ratio": 0.07710843373493977,
+      "mmry_file_path": "",
+      "file_hash": "b7bd3849e25d2c2c5d3bee11ebb06e90300ec61f2f09687fa9ef201c407959cc",
+      "timestamp": "2025-10-05T22:17:53.736986"
+    },
+    {
+      "file_name": "src/components/Header.jsx",
+      "file_type": "javascript",
+      "original_size": 170,
+      "compressed_size": 252,
+      "compression_ratio": 1.4823529411764707,
+      "mmry_file_path": "",
+      "file_hash": "1dec4ecbe4d89299d2a4ba2a24270950192ececb8abfec09b2cbc183ccaad582",
+      "timestamp": "2025-10-05T22:17:53.739347"
+    },
+    {
+      "file_name": "src/components/HeroSection.jsx",
+      "file_type": "javascript",
+      "original_size": 185,
+      "compressed_size": 32,
+      "compression_ratio": 0.17297297297297298,
+      "mmry_file_path": "",
+      "file_hash": "1b6aabaab6027287c19f9d7bd7937522a8735db02acb2af754dec49b9c44daaf",
+      "timestamp": "2025-10-05T22:17:53.743051"
+    },
+    {
+      "file_name": "src/components/ContactForm.jsx",
+      "file_type": "javascript",
+      "original_size": 185,
+      "compressed_size": 32,
+      "compression_ratio": 0.17297297297297298,
+      "mmry_file_path": "",
+      "file_hash": "f344019df29748e89ea01eb0912d8d9f17e8bdb35ed7e154dec98d38b20c6668",
+      "timestamp": "2025-10-05T22:17:53.746199"
+    },
+    {
+      "file_name": "src/components/Footer.jsx",
+      "file_type": "javascript",
+      "original_size": 170,
+      "compressed_size": 253,
+      "compression_ratio": 1.488235294117647,
+      "mmry_file_path": "",
+      "file_hash": "e39eaaeb5bae02465f5b5ec10dfba3805d76db9a28bb04719b71777a533a9b10",
+      "timestamp": "2025-10-05T22:17:53.748872"
+    },
+    {
+      "file_name": "src/components/ExperienceTimeline.jsx",
+      "file_type": "javascript",
+      "original_size": 206,
+      "compressed_size": 32,
+      "compression_ratio": 0.1553398058252427,
+      "mmry_file_path": "",
+      "file_hash": "c220d3bd9103be0b2f6dc12dfe67f4c9592f87fa68c187ae74f40e3763efc70a",
+      "timestamp": "2025-10-05T22:17:53.751949"
+    },
+    {
+      "file_name": "src/components/SkillsGrid.jsx",
+      "file_type": "javascript",
+      "original_size": 182,
+      "compressed_size": 32,
+      "compression_ratio": 0.17582417582417584,
+      "mmry_file_path": "",
+      "file_hash": "6df95199e9243eefc7138d61a492e38a5f2360d2fba26bb7bb37a8cac987cf3a",
+      "timestamp": "2025-10-05T22:17:53.755176"
+    },
+    {
+      "file_name": "src/components/SocialLinks.jsx",
+      "file_type": "javascript",
+      "original_size": 185,
+      "compressed_size": 32,
+      "compression_ratio": 0.17297297297297298,
+      "mmry_file_path": "",
+      "file_hash": "843c858e35e27f80fb09d294da601412edf84f07a3d8999066041f95586d0cce",
+      "timestamp": "2025-10-05T22:17:53.758843"
+    },
+    {
+      "file_name": "src/components/ProjectCard.jsx",
+      "file_type": "javascript",
+      "original_size": 185,
+      "compressed_size": 32,
+      "compression_ratio": 0.17297297297297298,
+      "mmry_file_path": "",
+      "file_hash": "12f17cfa30de84e8602482d9c429368c56f97d3778e2c7ddf8f48720d2f0b901",
+      "timestamp": "2025-10-05T22:17:53.761155"
+    }
+  ]
+}

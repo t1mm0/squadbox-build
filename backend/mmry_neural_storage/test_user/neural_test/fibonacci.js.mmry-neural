@@ -1,0 +1,60 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "fibonacci.js",
+  "file_type": "source",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.011101973684210526
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 70,
+        "output_size": 70,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "error": "ord() expected a character, but string of length 2 found"
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 70,
+        "output_size": 31,
+        "stage_compression_ratio": 0.44285714285714284,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 70,
+          "estimated_compressed_size": 34,
+          "entropy": 3.9532026480803095
+        }
+      }
+    ],
+    "total_compression_ratio": 0.44285714285714284,
+    "stage_count": 3,
+    "original_size": 70,
+    "final_size": 31,
+    "space_savings": 39,
+    "space_savings_percent": 55.714285714285715
+  },
+  "original_size": 70,
+  "compressed_size": 31,
+  "compression_ratio": 0.44285714285714284,
+  "space_savings_percent": 55.714285714285715,
+  "content_hash": "3659ad9e2d52b6a9",
+  "timestamp": 1754563189,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:34:const fibonacci = (n",
+  "content_encoding": "text"
+}

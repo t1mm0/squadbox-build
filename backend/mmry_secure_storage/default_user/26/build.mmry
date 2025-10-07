@@ -1,0 +1,631 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024295774647887326
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 719,
+        "output_size": 721,
+        "stage_compression_ratio": 1.0027816411682893,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 721,
+        "output_size": 2134,
+        "stage_compression_ratio": 2.9597780859916782,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 450,
+          "original_size": 719,
+          "compressed_size": 2134
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2134,
+        "output_size": 32,
+        "stage_compression_ratio": 0.01499531396438613,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2134,
+          "estimated_compressed_size": 866,
+          "entropy": 3.2478141962091303
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04450625869262865,
+    "stage_count": 3,
+    "original_size": 719,
+    "final_size": 32,
+    "space_savings": 687,
+    "space_savings_percent": 95.54937413073714
+  },
+  "original_size": 719,
+  "compressed_size": 32,
+  "compression_ratio": 0.04450625869262865,
+  "space_savings_percent": 95.54937413073714,
+  "content_hash": "84fc28a4de77f219",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:866:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 21,
+    "total_chars": 719,
+    "total_words": 82,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-08-07 13:12:37",
+        "hash": "6856f4cb"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 93,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "4": {
+        "start_char": 94,
+        "end_char": 191,
+        "length": 97,
+        "preview": "- Use tech stack: React, TypeScript, Next.js, Open...",
+        "hash": "910f4778"
+      },
+      "5": {
+        "start_char": 192,
+        "end_char": 221,
+        "length": 29,
+        "preview": "- Create page: Content Studio",
+        "hash": "5d23b007"
+      },
+      "6": {
+        "start_char": 222,
+        "end_char": 252,
+        "length": 30,
+        "preview": "- Create page: Project Manager",
+        "hash": "ccafe941"
+      },
+      "7": {
+        "start_char": 253,
+        "end_char": 287,
+        "length": 34,
+        "preview": "- Create page: Analytics Dashboard",
+        "hash": "3c0fdf7f"
+      },
+      "8": {
+        "start_char": 288,
+        "end_char": 317,
+        "length": 29,
+        "preview": "- Create page: Brand Settings",
+        "hash": "fd4b0af2"
+      },
+      "9": {
+        "start_char": 318,
+        "end_char": 502,
+        "length": 184,
+        "preview": "- Include components: AIContentEditor, TemplateSel...",
+        "hash": "08924606"
+      },
+      "10": {
+        "start_char": 503,
+        "end_char": 503,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "11": {
+        "start_char": 504,
+        "end_char": 540,
+        "length": 36,
+        "preview": "Using template: ai_content_generator",
+        "hash": "8cfe1691"
+      },
+      "12": {
+        "start_char": 541,
+        "end_char": 541,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "13": {
+        "start_char": 542,
+        "end_char": 583,
+        "length": 41,
+        "preview": "Applying template ai_content_generator...",
+        "hash": "ad36a347"
+      },
+      "14": {
+        "start_char": 584,
+        "end_char": 614,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "15": {
+        "start_char": 615,
+        "end_char": 648,
+        "length": 33,
+        "preview": "Generated 18 files from template.",
+        "hash": "569c78b0"
+      },
+      "16": {
+        "start_char": 649,
+        "end_char": 649,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "17": {
+        "start_char": 650,
+        "end_char": 676,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "18": {
+        "start_char": 677,
+        "end_char": 697,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "19": {
+        "start_char": 698,
+        "end_char": 718,
+        "length": 20,
+        "preview": "Generated: README.md",
+        "hash": "6e0c957a"
+      },
+      "20": {
+        "start_char": 719,
+        "end_char": 719,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "usagetracker,": {
+        "count": 1,
+        "positions": [
+          460
+        ]
+      },
+      "contentscheduler": {
+        "count": 1,
+        "positions": [
+          486
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          510
+        ]
+      },
+      "teaminvite,": {
+        "count": 1,
+        "positions": [
+          474
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          504
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          650
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "page:": {
+        "count": 4,
+        "positions": [
+          201,
+          231,
+          262,
+          297
+        ]
+      },
+      "content": {
+        "count": 6,
+        "positions": [
+          207,
+          342,
+          394,
+          486,
+          523,
+          563
+        ]
+      },
+      "brandvoicetrainer,": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "templateselector,": {
+        "count": 1,
+        "positions": [
+          357
+        ]
+      },
+      "template": {
+        "count": 5,
+        "positions": [
+          357,
+          510,
+          551,
+          584,
+          639
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          615,
+          677,
+          698
+        ]
+      },
+      "create": {
+        "count": 4,
+        "positions": [
+          194,
+          224,
+          255,
+          290
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          671
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          661
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          328
+        ]
+      },
+      "openai": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          593
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "ai_content_generator...": {
+        "count": 1,
+        "positions": [
+          560
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          666
+        ]
+      },
+      "ai_content_generator": {
+        "count": 2,
+        "positions": [
+          520,
+          560
+        ]
+      },
+      "13:12:37": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "seoanalyzer,": {
+        "count": 1,
+        "positions": [
+          432
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          601
+        ]
+      },
+      "css,": {
+        "count": 1,
+        "positions": [
+          180
+        ]
+      },
+      "aicontenteditor,": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "exportmanager,": {
+        "count": 1,
+        "positions": [
+          445
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          542
+        ]
+      },
+      "gpt,": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "redis,": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          320
+        ]
+      },
+      "readme.md": {
+        "count": 1,
+        "positions": [
+          709
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          628
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "contentoptimizer,": {
+        "count": 1,
+        "positions": [
+          394
+        ]
+      },
+      "typescript,": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "studio": {
+        "count": 1,
+        "positions": [
+          215
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "project": {
+        "count": 4,
+        "positions": [
+          37,
+          54,
+          62,
+          237
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          688
+        ]
+      },
+      "dashboard": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          634
+        ]
+      },
+      "brand": {
+        "count": 2,
+        "positions": [
+          303,
+          375
+        ]
+      },
+      "manager": {
+        "count": 2,
+        "positions": [
+          245,
+          451
+        ]
+      },
+      "postgresql,": {
+        "count": 1,
+        "positions": [
+          152
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          677,
+          698
+        ]
+      },
+      "stripe": {
+        "count": 1,
+        "positions": [
+          185
+        ]
+      },
+      "2025-08-07": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "settings": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "collaborationpanel,": {
+        "count": 1,
+        "positions": [
+          412
+        ]
+      },
+      "tailwind": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "analytics": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "template.": {
+        "count": 1,
+        "positions": [
+          639
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

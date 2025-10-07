@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "src/components/EnterpriseChatInterface.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03009526558891455
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 266,
+        "output_size": 262,
+        "stage_compression_ratio": 0.9849624060150376,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 262,
+        "output_size": 885,
+        "stage_compression_ratio": 3.377862595419847,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 189,
+          "original_size": 258,
+          "compressed_size": 885
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 885,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03615819209039548,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 885,
+          "estimated_compressed_size": 349,
+          "entropy": 3.1580557748439526
+        }
+      }
+    ],
+    "total_compression_ratio": 0.12030075187969924,
+    "stage_count": 3,
+    "original_size": 266,
+    "final_size": 32,
+    "space_savings": 234,
+    "space_savings_percent": 87.96992481203007
+  },
+  "original_size": 266,
+  "compressed_size": 32,
+  "compression_ratio": 0.12030075187969924,
+  "space_savings_percent": 87.96992481203007,
+  "content_hash": "c40dddeb80b5dbe7",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:349:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 13,
+    "total_chars": 266,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 96,
+        "length": 57,
+        "preview": "export default function EnterpriseChatInterface(Pr...",
+        "hash": "911e1244"
+      },
+      "5": {
+        "start_char": 97,
+        "end_char": 107,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 108,
+        "end_char": 163,
+        "length": 55,
+        "preview": "    <div className=\"component enterprisechatinterf...",
+        "hash": "3422bbf0"
+      },
+      "7": {
+        "start_char": 164,
+        "end_char": 202,
+        "length": 38,
+        "preview": "      <h2>EnterpriseChatInterface</h2>",
+        "hash": "e49f932e"
+      },
+      "8": {
+        "start_char": 203,
+        "end_char": 247,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 248,
+        "end_char": 258,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 259,
+        "end_char": 263,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 264,
+        "end_char": 265,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 266,
+        "end_char": 266,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          128,
+          213
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "enterprisechatinterface\">": {
+        "count": 1,
+        "positions": [
+          138
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          252
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          244
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          87
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "<h2>enterprisechatinterface</h2>": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          223
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          239
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      },
+      "enterprisechatinterface(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

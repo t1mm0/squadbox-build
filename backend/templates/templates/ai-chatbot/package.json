@@ -1,0 +1,64 @@
+{
+  "name": "ai-chatbot-learnable",
+  "version": "1.0.0",
+  "description": "An intelligent chatbot that learns from conversations and can be updated anytime",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "psql -d squadbox -f src/database/schema.sql",
+    "db:reset": "psql -d squadbox -c 'DROP SCHEMA public CASCADE; CREATE SCHEMA public;' && npm run db:migrate",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "openai": "^4.24.1",
+    "@langchain/openai": "^0.1.0",
+    "pg": "^8.11.0",
+    "@types/pg": "^8.10.0",
+    "redis": "^4.6.0",
+    "lucide-react": "^0.294.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "uuid": "^9.0.0",
+    "@types/uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "learning",
+    "conversation",
+    "nlp",
+    "openai",
+    "langchain",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "SquadBox AI",
+  "license": "MIT"
+}

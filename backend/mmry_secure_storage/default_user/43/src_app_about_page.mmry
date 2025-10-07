@@ -1,0 +1,387 @@
+{
+  "user_id": "default_user",
+  "project_id": "43",
+  "file_name": "src/app/about/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0860180412371134
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 415,
+        "output_size": 405,
+        "stage_compression_ratio": 0.9759036144578314,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 7
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 405,
+        "output_size": 1166,
+        "stage_compression_ratio": 2.8790123456790124,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 246,
+          "original_size": 398,
+          "compressed_size": 1166
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1166,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0274442538593482,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1166,
+          "estimated_compressed_size": 471,
+          "entropy": 3.2377199797163394
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07710843373493977,
+    "stage_count": 3,
+    "original_size": 415,
+    "final_size": 32,
+    "space_savings": 383,
+    "space_savings_percent": 92.28915662650601
+  },
+  "original_size": 415,
+  "compressed_size": 32,
+  "compression_ratio": 0.07710843373493977,
+  "space_savings_percent": 92.28915662650601,
+  "content_hash": "e51d3a7c6ba44d5b",
+  "timestamp": 1759698428,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:471:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698428,
+    "total_lines": 18,
+    "total_chars": 415,
+    "total_words": 42,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 63,
+        "length": 36,
+        "preview": "import Bio from '../components/Bio';",
+        "hash": "f2892ee7"
+      },
+      "2": {
+        "start_char": 64,
+        "end_char": 114,
+        "length": 50,
+        "preview": "import Experience from '../components/Experience';",
+        "hash": "3d59ba80"
+      },
+      "3": {
+        "start_char": 115,
+        "end_char": 163,
+        "length": 48,
+        "preview": "import Education from '../components/Education';",
+        "hash": "f69b1f18"
+      },
+      "4": {
+        "start_char": 164,
+        "end_char": 218,
+        "length": 54,
+        "preview": "import Testimonials from '../components/Testimonia...",
+        "hash": "b402d8df"
+      },
+      "5": {
+        "start_char": 219,
+        "end_char": 219,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 220,
+        "end_char": 253,
+        "length": 33,
+        "preview": "export default function About() {",
+        "hash": "53984dac"
+      },
+      "7": {
+        "start_char": 254,
+        "end_char": 264,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "8": {
+        "start_char": 265,
+        "end_char": 297,
+        "length": 32,
+        "preview": "    <div className=\"page about\">",
+        "hash": "6c4c7dab"
+      },
+      "9": {
+        "start_char": 298,
+        "end_char": 318,
+        "length": 20,
+        "preview": "      <h1>About</h1>",
+        "hash": "4787abce"
+      },
+      "10": {
+        "start_char": 319,
+        "end_char": 332,
+        "length": 13,
+        "preview": "      <Bio />",
+        "hash": "5e78dc9f"
+      },
+      "11": {
+        "start_char": 333,
+        "end_char": 353,
+        "length": 20,
+        "preview": "      <Experience />",
+        "hash": "fedd803a"
+      },
+      "12": {
+        "start_char": 354,
+        "end_char": 373,
+        "length": 19,
+        "preview": "      <Education />",
+        "hash": "810313f5"
+      },
+      "13": {
+        "start_char": 374,
+        "end_char": 396,
+        "length": 22,
+        "preview": "      <Testimonials />",
+        "hash": "6e6d2336"
+      },
+      "14": {
+        "start_char": 397,
+        "end_char": 407,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "15": {
+        "start_char": 408,
+        "end_char": 412,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "16": {
+        "start_char": 413,
+        "end_char": 414,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 415,
+        "end_char": 415,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "about()": {
+        "count": 1,
+        "positions": [
+          244
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          274
+        ]
+      },
+      "<education": {
+        "count": 1,
+        "positions": [
+          360
+        ]
+      },
+      "'../components/education';": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "testimonials": {
+        "count": 3,
+        "positions": [
+          171,
+          204,
+          381
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          401
+        ]
+      },
+      "<experience": {
+        "count": 1,
+        "positions": [
+          339
+        ]
+      },
+      "experience": {
+        "count": 3,
+        "positions": [
+          71,
+          102,
+          340
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "'../components/testimonials';": {
+        "count": 1,
+        "positions": [
+          189
+        ]
+      },
+      "from": {
+        "count": 5,
+        "positions": [
+          13,
+          38,
+          82,
+          132,
+          184
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "<h1>about</h1>": {
+        "count": 1,
+        "positions": [
+          304
+        ]
+      },
+      "<testimonials": {
+        "count": 1,
+        "positions": [
+          380
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      },
+      "bio": {
+        "count": 3,
+        "positions": [
+          34,
+          58,
+          326
+        ]
+      },
+      "education": {
+        "count": 3,
+        "positions": [
+          122,
+          152,
+          361
+        ]
+      },
+      "'../components/experience';": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "'../components/bio';": {
+        "count": 1,
+        "positions": [
+          43
+        ]
+      },
+      "about\">": {
+        "count": 1,
+        "positions": [
+          290
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          256
+        ]
+      },
+      "import": {
+        "count": 5,
+        "positions": [
+          0,
+          27,
+          64,
+          115,
+          164
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          227
+        ]
+      },
+      "<bio": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

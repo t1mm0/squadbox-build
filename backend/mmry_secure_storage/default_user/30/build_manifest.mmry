@@ -1,0 +1,517 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03071842783505154
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 648,
+        "output_size": 648,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 648,
+        "output_size": 1962,
+        "stage_compression_ratio": 3.0277777777777777,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 415,
+          "original_size": 643,
+          "compressed_size": 1962
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1962,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0163098878695209,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1962,
+          "estimated_compressed_size": 796,
+          "entropy": 3.249514959426124
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04938271604938271,
+    "stage_count": 3,
+    "original_size": 648,
+    "final_size": 32,
+    "space_savings": 616,
+    "space_savings_percent": 95.06172839506173
+  },
+  "original_size": 648,
+  "compressed_size": 32,
+  "compression_ratio": 0.04938271604938271,
+  "space_savings_percent": 95.06172839506173,
+  "content_hash": "adae41d20ba788a6",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:796:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 18,
+    "total_chars": 648,
+    "total_words": 58,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"30\",",
+        "hash": "fe8e4835"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 181,
+        "length": 105,
+        "preview": "    \"Use tech stack: React, TypeScript, Next.js, O...",
+        "hash": "5b62bfa9"
+      },
+      "5": {
+        "start_char": 182,
+        "end_char": 216,
+        "length": 34,
+        "preview": "    \"Create page: Chat Interface\",",
+        "hash": "0b286bbf"
+      },
+      "6": {
+        "start_char": 217,
+        "end_char": 256,
+        "length": 39,
+        "preview": "    \"Create page: Analytics Dashboard\",",
+        "hash": "fcc7daef"
+      },
+      "7": {
+        "start_char": 257,
+        "end_char": 292,
+        "length": 35,
+        "preview": "    \"Create page: Training Center\",",
+        "hash": "41ac47a4"
+      },
+      "8": {
+        "start_char": 293,
+        "end_char": 455,
+        "length": 162,
+        "preview": "    \"Include components: EnterpriseChatInterface, ...",
+        "hash": "1a3e52c9"
+      },
+      "9": {
+        "start_char": 456,
+        "end_char": 460,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "10": {
+        "start_char": 461,
+        "end_char": 500,
+        "length": 39,
+        "preview": "  \"template_id\": \"ai_chatbot_advanced\",",
+        "hash": "5d287698"
+      },
+      "11": {
+        "start_char": 501,
+        "end_char": 525,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "12": {
+        "start_char": 526,
+        "end_char": 551,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "13": {
+        "start_char": 552,
+        "end_char": 586,
+        "length": 34,
+        "preview": "  \"start_time\": 1754572914.244194,",
+        "hash": "2251bcaf"
+      },
+      "14": {
+        "start_char": 587,
+        "end_char": 606,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "15": {
+        "start_char": 607,
+        "end_char": 631,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "16": {
+        "start_char": 632,
+        "end_char": 646,
+        "length": 14,
+        "preview": "  \"errors\": []",
+        "hash": "ba2a80e7"
+      },
+      "17": {
+        "start_char": 647,
+        "end_char": 648,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "redis,": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "voiceinterface,": {
+        "count": 1,
+        "positions": [
+          421
+        ]
+      },
+      "sentimentanalyzer\"": {
+        "count": 1,
+        "positions": [
+          437
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "langchain,": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "center\",": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "knowledgebasemanager,": {
+        "count": 1,
+        "positions": [
+          399
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "page:": {
+        "count": 3,
+        "positions": [
+          194,
+          229,
+          269
+        ]
+      },
+      "[],": {
+        "count": 1,
+        "positions": [
+          628
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "\"ai_chatbot_advanced\",": {
+        "count": 1,
+        "positions": [
+          478
+        ]
+      },
+      "\"include": {
+        "count": 1,
+        "positions": [
+          297
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          609
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          463
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          519
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          538
+        ]
+      },
+      "openai": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "tailwind": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "enterprisechatinterface,": {
+        "count": 1,
+        "positions": [
+          318
+        ]
+      },
+      "interface\",": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "\"use": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "\"30\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "conversationlearning,": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          528
+        ]
+      },
+      "\"create": {
+        "count": 3,
+        "positions": [
+          186,
+          221,
+          261
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          634
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          601
+        ]
+      },
+      "analytics": {
+        "count": 2,
+        "positions": [
+          235,
+          388
+        ]
+      },
+      "training": {
+        "count": 2,
+        "positions": [
+          275,
+          365
+        ]
+      },
+      "chatanalytics,": {
+        "count": 1,
+        "positions": [
+          384
+        ]
+      },
+      "postgresql,": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "css\",": {
+        "count": 1,
+        "positions": [
+          176
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "1754572914.244194,": {
+        "count": 1,
+        "positions": [
+          568
+        ]
+      },
+      "trainingdashboard,": {
+        "count": 1,
+        "positions": [
+          365
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "gpt,": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          554
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          503
+        ]
+      },
+      "typescript,": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          306
+        ]
+      },
+      "chat": {
+        "count": 4,
+        "positions": [
+          200,
+          328,
+          384,
+          482
+        ]
+      },
+      "dashboard\",": {
+        "count": 1,
+        "positions": [
+          245
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          116
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          589
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

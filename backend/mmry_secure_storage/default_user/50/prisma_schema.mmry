@@ -1,0 +1,1356 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "prisma/schema.prisma",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02295918367346939
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 2359,
+        "output_size": 2245,
+        "stage_compression_ratio": 0.9516744383213226,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 71
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 2245,
+        "output_size": 4531,
+        "stage_compression_ratio": 2.01826280623608,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 928,
+          "original_size": 2174,
+          "compressed_size": 4531
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 4531,
+        "output_size": 33,
+        "stage_compression_ratio": 0.007283160450231737,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 4531,
+          "estimated_compressed_size": 1883,
+          "entropy": 3.3250804476740248
+        }
+      }
+    ],
+    "total_compression_ratio": 0.013988978380669776,
+    "stage_count": 3,
+    "original_size": 2359,
+    "final_size": 33,
+    "space_savings": 2326,
+    "space_savings_percent": 98.60110216193301
+  },
+  "original_size": 2359,
+  "compressed_size": 33,
+  "compression_ratio": 0.013988978380669776,
+  "space_savings_percent": 98.60110216193301,
+  "content_hash": "04ab79e9d2cfca60",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1883:[103][101][110][101]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 89,
+    "total_chars": 2359,
+    "total_words": 219,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 18,
+        "length": 18,
+        "preview": "generator client {",
+        "hash": "801b2425"
+      },
+      "1": {
+        "start_char": 19,
+        "end_char": 50,
+        "length": 31,
+        "preview": "  provider = \"prisma-client-js\"",
+        "hash": "4cc6b6ed"
+      },
+      "2": {
+        "start_char": 51,
+        "end_char": 52,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "3": {
+        "start_char": 53,
+        "end_char": 53,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 54,
+        "end_char": 69,
+        "length": 15,
+        "preview": "datasource db {",
+        "hash": "30300a27"
+      },
+      "5": {
+        "start_char": 70,
+        "end_char": 95,
+        "length": 25,
+        "preview": "  provider = \"postgresql\"",
+        "hash": "eda9c1ff"
+      },
+      "6": {
+        "start_char": 96,
+        "end_char": 128,
+        "length": 32,
+        "preview": "  url      = env(\"DATABASE_URL\")",
+        "hash": "0825caf0"
+      },
+      "7": {
+        "start_char": 129,
+        "end_char": 130,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 131,
+        "end_char": 131,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "9": {
+        "start_char": 132,
+        "end_char": 144,
+        "length": 12,
+        "preview": "model User {",
+        "hash": "3ac29ffb"
+      },
+      "10": {
+        "start_char": 145,
+        "end_char": 191,
+        "length": 46,
+        "preview": "  id            String    @id @default(cuid())",
+        "hash": "9b572636"
+      },
+      "11": {
+        "start_char": 192,
+        "end_char": 215,
+        "length": 23,
+        "preview": "  name          String?",
+        "hash": "aa920010"
+      },
+      "12": {
+        "start_char": 216,
+        "end_char": 249,
+        "length": 33,
+        "preview": "  email         String    @unique",
+        "hash": "dd25ea5c"
+      },
+      "13": {
+        "start_char": 250,
+        "end_char": 275,
+        "length": 25,
+        "preview": "  emailVerified DateTime?",
+        "hash": "6e66f061"
+      },
+      "14": {
+        "start_char": 276,
+        "end_char": 299,
+        "length": 23,
+        "preview": "  image         String?",
+        "hash": "72aa885a"
+      },
+      "15": {
+        "start_char": 300,
+        "end_char": 323,
+        "length": 23,
+        "preview": "  password      String?",
+        "hash": "6d891507"
+      },
+      "16": {
+        "start_char": 324,
+        "end_char": 364,
+        "length": 40,
+        "preview": "  role          Role      @default(USER)",
+        "hash": "f4c4ae86"
+      },
+      "17": {
+        "start_char": 365,
+        "end_char": 387,
+        "length": 22,
+        "preview": "  posts         Post[]",
+        "hash": "f8bc6c92"
+      },
+      "18": {
+        "start_char": 388,
+        "end_char": 413,
+        "length": 25,
+        "preview": "  comments      Comment[]",
+        "hash": "209bee19"
+      },
+      "19": {
+        "start_char": 414,
+        "end_char": 455,
+        "length": 41,
+        "preview": "  createdAt     DateTime  @default(now())",
+        "hash": "7006dc5f"
+      },
+      "20": {
+        "start_char": 456,
+        "end_char": 492,
+        "length": 36,
+        "preview": "  updatedAt     DateTime  @updatedAt",
+        "hash": "f7ca60c8"
+      },
+      "21": {
+        "start_char": 493,
+        "end_char": 494,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "22": {
+        "start_char": 495,
+        "end_char": 495,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "23": {
+        "start_char": 496,
+        "end_char": 508,
+        "length": 12,
+        "preview": "model Post {",
+        "hash": "9a4c0266"
+      },
+      "24": {
+        "start_char": 509,
+        "end_char": 555,
+        "length": 46,
+        "preview": "  id          String      @id @default(cuid())",
+        "hash": "1e19fadf"
+      },
+      "25": {
+        "start_char": 556,
+        "end_char": 576,
+        "length": 20,
+        "preview": "  title       String",
+        "hash": "c0986ba3"
+      },
+      "26": {
+        "start_char": 577,
+        "end_char": 610,
+        "length": 33,
+        "preview": "  slug        String      @unique",
+        "hash": "1b51693c"
+      },
+      "27": {
+        "start_char": 611,
+        "end_char": 631,
+        "length": 20,
+        "preview": "  content     String",
+        "hash": "1a99a497"
+      },
+      "28": {
+        "start_char": 632,
+        "end_char": 653,
+        "length": 21,
+        "preview": "  excerpt     String?",
+        "hash": "4b1a4f01"
+      },
+      "29": {
+        "start_char": 654,
+        "end_char": 675,
+        "length": 21,
+        "preview": "  coverImage  String?",
+        "hash": "01b08b3a"
+      },
+      "30": {
+        "start_char": 676,
+        "end_char": 717,
+        "length": 41,
+        "preview": "  published   Boolean     @default(false)",
+        "hash": "1ce0e2a3"
+      },
+      "31": {
+        "start_char": 718,
+        "end_char": 759,
+        "length": 41,
+        "preview": "  featured    Boolean     @default(false)",
+        "hash": "a0b8ba1a"
+      },
+      "32": {
+        "start_char": 760,
+        "end_char": 833,
+        "length": 73,
+        "preview": "  author      User        @relation(fields: [autho...",
+        "hash": "dace9118"
+      },
+      "33": {
+        "start_char": 834,
+        "end_char": 854,
+        "length": 20,
+        "preview": "  authorId    String",
+        "hash": "5c111402"
+      },
+      "34": {
+        "start_char": 855,
+        "end_char": 908,
+        "length": 53,
+        "preview": "  categories  Category[]  @relation(\"CategoryToPos...",
+        "hash": "4977fae0"
+      },
+      "35": {
+        "start_char": 909,
+        "end_char": 957,
+        "length": 48,
+        "preview": "  tags        Tag[]       @relation(\"PostToTag\")",
+        "hash": "de79d07b"
+      },
+      "36": {
+        "start_char": 958,
+        "end_char": 981,
+        "length": 23,
+        "preview": "  comments    Comment[]",
+        "hash": "9d23bdde"
+      },
+      "37": {
+        "start_char": 982,
+        "end_char": 1023,
+        "length": 41,
+        "preview": "  createdAt   DateTime    @default(now())",
+        "hash": "f0b5e19d"
+      },
+      "38": {
+        "start_char": 1024,
+        "end_char": 1060,
+        "length": 36,
+        "preview": "  updatedAt   DateTime    @updatedAt",
+        "hash": "ce3e1158"
+      },
+      "39": {
+        "start_char": 1061,
+        "end_char": 1062,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "40": {
+        "start_char": 1063,
+        "end_char": 1063,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "41": {
+        "start_char": 1064,
+        "end_char": 1080,
+        "length": 16,
+        "preview": "model Category {",
+        "hash": "91e74ea5"
+      },
+      "42": {
+        "start_char": 1081,
+        "end_char": 1125,
+        "length": 44,
+        "preview": "  id          String    @id @default(cuid())",
+        "hash": "28093f08"
+      },
+      "43": {
+        "start_char": 1126,
+        "end_char": 1157,
+        "length": 31,
+        "preview": "  name        String    @unique",
+        "hash": "5177299d"
+      },
+      "44": {
+        "start_char": 1158,
+        "end_char": 1189,
+        "length": 31,
+        "preview": "  slug        String    @unique",
+        "hash": "bf3df088"
+      },
+      "45": {
+        "start_char": 1190,
+        "end_char": 1211,
+        "length": 21,
+        "preview": "  description String?",
+        "hash": "f7f78d6d"
+      },
+      "46": {
+        "start_char": 1212,
+        "end_char": 1263,
+        "length": 51,
+        "preview": "  posts       Post[]    @relation(\"CategoryToPost\"...",
+        "hash": "06157fe4"
+      },
+      "47": {
+        "start_char": 1264,
+        "end_char": 1303,
+        "length": 39,
+        "preview": "  createdAt   DateTime  @default(now())",
+        "hash": "6798b05f"
+      },
+      "48": {
+        "start_char": 1304,
+        "end_char": 1338,
+        "length": 34,
+        "preview": "  updatedAt   DateTime  @updatedAt",
+        "hash": "6c687d6c"
+      },
+      "49": {
+        "start_char": 1339,
+        "end_char": 1340,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "50": {
+        "start_char": 1341,
+        "end_char": 1341,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "51": {
+        "start_char": 1342,
+        "end_char": 1353,
+        "length": 11,
+        "preview": "model Tag {",
+        "hash": "67e9726f"
+      },
+      "52": {
+        "start_char": 1354,
+        "end_char": 1398,
+        "length": 44,
+        "preview": "  id          String    @id @default(cuid())",
+        "hash": "28093f08"
+      },
+      "53": {
+        "start_char": 1399,
+        "end_char": 1430,
+        "length": 31,
+        "preview": "  name        String    @unique",
+        "hash": "5177299d"
+      },
+      "54": {
+        "start_char": 1431,
+        "end_char": 1462,
+        "length": 31,
+        "preview": "  slug        String    @unique",
+        "hash": "bf3df088"
+      },
+      "55": {
+        "start_char": 1463,
+        "end_char": 1509,
+        "length": 46,
+        "preview": "  posts       Post[]    @relation(\"PostToTag\")",
+        "hash": "3ee3ada1"
+      },
+      "56": {
+        "start_char": 1510,
+        "end_char": 1549,
+        "length": 39,
+        "preview": "  createdAt   DateTime  @default(now())",
+        "hash": "6798b05f"
+      },
+      "57": {
+        "start_char": 1550,
+        "end_char": 1584,
+        "length": 34,
+        "preview": "  updatedAt   DateTime  @updatedAt",
+        "hash": "6c687d6c"
+      },
+      "58": {
+        "start_char": 1585,
+        "end_char": 1586,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "59": {
+        "start_char": 1587,
+        "end_char": 1587,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "60": {
+        "start_char": 1588,
+        "end_char": 1603,
+        "length": 15,
+        "preview": "model Comment {",
+        "hash": "9f7217a4"
+      },
+      "61": {
+        "start_char": 1604,
+        "end_char": 1646,
+        "length": 42,
+        "preview": "  id        String    @id @default(cuid())",
+        "hash": "a84be58b"
+      },
+      "62": {
+        "start_char": 1647,
+        "end_char": 1665,
+        "length": 18,
+        "preview": "  content   String",
+        "hash": "10d95ffe"
+      },
+      "63": {
+        "start_char": 1666,
+        "end_char": 1752,
+        "length": 86,
+        "preview": "  post      Post      @relation(fields: [postId], ...",
+        "hash": "2f86cce0"
+      },
+      "64": {
+        "start_char": 1753,
+        "end_char": 1771,
+        "length": 18,
+        "preview": "  postId    String",
+        "hash": "c6ecfdc1"
+      },
+      "65": {
+        "start_char": 1772,
+        "end_char": 1841,
+        "length": 69,
+        "preview": "  author    User      @relation(fields: [authorId]...",
+        "hash": "3bc69f46"
+      },
+      "66": {
+        "start_char": 1842,
+        "end_char": 1860,
+        "length": 18,
+        "preview": "  authorId  String",
+        "hash": "e3487e82"
+      },
+      "67": {
+        "start_char": 1861,
+        "end_char": 1950,
+        "length": 89,
+        "preview": "  parent    Comment?  @relation(\"CommentToComment\"...",
+        "hash": "5d41efea"
+      },
+      "68": {
+        "start_char": 1951,
+        "end_char": 1970,
+        "length": 19,
+        "preview": "  parentId  String?",
+        "hash": "a0e20901"
+      },
+      "69": {
+        "start_char": 1971,
+        "end_char": 2022,
+        "length": 51,
+        "preview": "  replies   Comment[] @relation(\"CommentToComment\"...",
+        "hash": "d45fba0a"
+      },
+      "70": {
+        "start_char": 2023,
+        "end_char": 2060,
+        "length": 37,
+        "preview": "  createdAt DateTime  @default(now())",
+        "hash": "e4a9414f"
+      },
+      "71": {
+        "start_char": 2061,
+        "end_char": 2093,
+        "length": 32,
+        "preview": "  updatedAt DateTime  @updatedAt",
+        "hash": "d2e2ab8b"
+      },
+      "72": {
+        "start_char": 2094,
+        "end_char": 2095,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "73": {
+        "start_char": 2096,
+        "end_char": 2096,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "74": {
+        "start_char": 2097,
+        "end_char": 2115,
+        "length": 18,
+        "preview": "model Subscriber {",
+        "hash": "446fbf20"
+      },
+      "75": {
+        "start_char": 2116,
+        "end_char": 2158,
+        "length": 42,
+        "preview": "  id        String    @id @default(cuid())",
+        "hash": "a84be58b"
+      },
+      "76": {
+        "start_char": 2159,
+        "end_char": 2188,
+        "length": 29,
+        "preview": "  email     String    @unique",
+        "hash": "d4d946cc"
+      },
+      "77": {
+        "start_char": 2189,
+        "end_char": 2208,
+        "length": 19,
+        "preview": "  name      String?",
+        "hash": "b764424f"
+      },
+      "78": {
+        "start_char": 2209,
+        "end_char": 2246,
+        "length": 37,
+        "preview": "  confirmed Boolean   @default(false)",
+        "hash": "4977ac3b"
+      },
+      "79": {
+        "start_char": 2247,
+        "end_char": 2284,
+        "length": 37,
+        "preview": "  createdAt DateTime  @default(now())",
+        "hash": "e4a9414f"
+      },
+      "80": {
+        "start_char": 2285,
+        "end_char": 2317,
+        "length": 32,
+        "preview": "  updatedAt DateTime  @updatedAt",
+        "hash": "d2e2ab8b"
+      },
+      "81": {
+        "start_char": 2318,
+        "end_char": 2319,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "82": {
+        "start_char": 2320,
+        "end_char": 2320,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "83": {
+        "start_char": 2321,
+        "end_char": 2332,
+        "length": 11,
+        "preview": "enum Role {",
+        "hash": "fa987ebc"
+      },
+      "84": {
+        "start_char": 2333,
+        "end_char": 2339,
+        "length": 6,
+        "preview": "  USER",
+        "hash": "c2bc48ef"
+      },
+      "85": {
+        "start_char": 2340,
+        "end_char": 2348,
+        "length": 8,
+        "preview": "  AUTHOR",
+        "hash": "d734cfc3"
+      },
+      "86": {
+        "start_char": 2349,
+        "end_char": 2356,
+        "length": 7,
+        "preview": "  ADMIN",
+        "hash": "512abbfc"
+      },
+      "87": {
+        "start_char": 2357,
+        "end_char": 2358,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "88": {
+        "start_char": 2359,
+        "end_char": 2359,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "subscriber": {
+        "count": 1,
+        "positions": [
+          2103
+        ]
+      },
+      "datasource": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "replies": {
+        "count": 1,
+        "positions": [
+          1973
+        ]
+      },
+      "@relation(\"categorytopost\")": {
+        "count": 2,
+        "positions": [
+          881,
+          1236
+        ]
+      },
+      "author": {
+        "count": 7,
+        "positions": [
+          762,
+          805,
+          836,
+          1774,
+          1813,
+          1844,
+          2342
+        ]
+      },
+      "@default(user)": {
+        "count": 1,
+        "positions": [
+          350
+        ]
+      },
+      "category[]": {
+        "count": 1,
+        "positions": [
+          869
+        ]
+      },
+      "comments": {
+        "count": 2,
+        "positions": [
+          390,
+          960
+        ]
+      },
+      "content": {
+        "count": 2,
+        "positions": [
+          613,
+          1649
+        ]
+      },
+      "url": {
+        "count": 2,
+        "positions": [
+          98,
+          123
+        ]
+      },
+      "client": {
+        "count": 2,
+        "positions": [
+          10,
+          40
+        ]
+      },
+      "[id])": {
+        "count": 3,
+        "positions": [
+          828,
+          1836,
+          1945
+        ]
+      },
+      "@unique": {
+        "count": 7,
+        "positions": [
+          242,
+          603,
+          1150,
+          1182,
+          1423,
+          1455,
+          2181
+        ]
+      },
+      "env(\"database_url\")": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "provider": {
+        "count": 2,
+        "positions": [
+          21,
+          72
+        ]
+      },
+      "user": {
+        "count": 5,
+        "positions": [
+          138,
+          359,
+          774,
+          1784,
+          2335
+        ]
+      },
+      "slug": {
+        "count": 3,
+        "positions": [
+          579,
+          1160,
+          1433
+        ]
+      },
+      "name": {
+        "count": 4,
+        "positions": [
+          194,
+          1128,
+          1401,
+          2191
+        ]
+      },
+      "boolean": {
+        "count": 3,
+        "positions": [
+          690,
+          732,
+          2221
+        ]
+      },
+      "role": {
+        "count": 3,
+        "positions": [
+          326,
+          340,
+          2326
+        ]
+      },
+      "[authorid],": {
+        "count": 2,
+        "positions": [
+          804,
+          1812
+        ]
+      },
+      "@updatedat": {
+        "count": 6,
+        "positions": [
+          482,
+          1050,
+          1328,
+          1574,
+          2083,
+          2307
+        ]
+      },
+      "postid": {
+        "count": 2,
+        "positions": [
+          1707,
+          1755
+        ]
+      },
+      "emailverified": {
+        "count": 1,
+        "positions": [
+          252
+        ]
+      },
+      "ondelete:": {
+        "count": 1,
+        "positions": [
+          1734
+        ]
+      },
+      "tags": {
+        "count": 1,
+        "positions": [
+          911
+        ]
+      },
+      "authorid": {
+        "count": 4,
+        "positions": [
+          805,
+          836,
+          1813,
+          1844
+        ]
+      },
+      "comment[]": {
+        "count": 3,
+        "positions": [
+          404,
+          972,
+          1983
+        ]
+      },
+      "string?": {
+        "count": 8,
+        "positions": [
+          208,
+          292,
+          316,
+          646,
+          668,
+          1204,
+          1963,
+          2201
+        ]
+      },
+      "tag[]": {
+        "count": 1,
+        "positions": [
+          923
+        ]
+      },
+      "description": {
+        "count": 1,
+        "positions": [
+          1192
+        ]
+      },
+      "\"prisma-client-js\"": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "references:": {
+        "count": 4,
+        "positions": [
+          816,
+          1716,
+          1824,
+          1933
+        ]
+      },
+      "parent": {
+        "count": 3,
+        "positions": [
+          1863,
+          1922,
+          1953
+        ]
+      },
+      "@default(cuid())": {
+        "count": 6,
+        "positions": [
+          175,
+          539,
+          1109,
+          1382,
+          1630,
+          2142
+        ]
+      },
+      "comment?": {
+        "count": 1,
+        "positions": [
+          1873
+        ]
+      },
+      "excerpt": {
+        "count": 1,
+        "positions": [
+          634
+        ]
+      },
+      "password": {
+        "count": 1,
+        "positions": [
+          302
+        ]
+      },
+      "@default(false)": {
+        "count": 3,
+        "positions": [
+          702,
+          744,
+          2231
+        ]
+      },
+      "\"postgresql\"": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "cascade)": {
+        "count": 1,
+        "positions": [
+          1744
+        ]
+      },
+      "[parentid],": {
+        "count": 1,
+        "positions": [
+          1921
+        ]
+      },
+      "category": {
+        "count": 4,
+        "positions": [
+          869,
+          892,
+          1070,
+          1247
+        ]
+      },
+      "posts": {
+        "count": 3,
+        "positions": [
+          367,
+          1214,
+          1465
+        ]
+      },
+      "published": {
+        "count": 1,
+        "positions": [
+          678
+        ]
+      },
+      "datetime?": {
+        "count": 1,
+        "positions": [
+          266
+        ]
+      },
+      "categories": {
+        "count": 1,
+        "positions": [
+          857
+        ]
+      },
+      "image": {
+        "count": 2,
+        "positions": [
+          278,
+          661
+        ]
+      },
+      "createdat": {
+        "count": 6,
+        "positions": [
+          416,
+          984,
+          1266,
+          1512,
+          2025,
+          2249
+        ]
+      },
+      "post[]": {
+        "count": 3,
+        "positions": [
+          381,
+          1226,
+          1477
+        ]
+      },
+      "@id": {
+        "count": 6,
+        "positions": [
+          171,
+          535,
+          1105,
+          1378,
+          1626,
+          2138
+        ]
+      },
+      "@relation(\"commenttocomment\")": {
+        "count": 1,
+        "positions": [
+          1993
+        ]
+      },
+      "enum": {
+        "count": 1,
+        "positions": [
+          2321
+        ]
+      },
+      "string": {
+        "count": 27,
+        "positions": [
+          161,
+          208,
+          232,
+          292,
+          316,
+          523,
+          570,
+          591,
+          625,
+          646
+        ]
+      },
+      "coverimage": {
+        "count": 1,
+        "positions": [
+          656
+        ]
+      },
+      "@default(now())": {
+        "count": 6,
+        "positions": [
+          440,
+          1008,
+          1288,
+          1534,
+          2045,
+          2269
+        ]
+      },
+      "updatedat": {
+        "count": 12,
+        "positions": [
+          458,
+          483,
+          1026,
+          1051,
+          1306,
+          1329,
+          1552,
+          1575,
+          2063,
+          2084
+        ]
+      },
+      "email": {
+        "count": 3,
+        "positions": [
+          218,
+          252,
+          2161
+        ]
+      },
+      "@relation(\"commenttocomment\",": {
+        "count": 1,
+        "positions": [
+          1883
+        ]
+      },
+      "featured": {
+        "count": 1,
+        "positions": [
+          720
+        ]
+      },
+      "fields:": {
+        "count": 4,
+        "positions": [
+          796,
+          1698,
+          1804,
+          1913
+        ]
+      },
+      "title": {
+        "count": 1,
+        "positions": [
+          558
+        ]
+      },
+      "model": {
+        "count": 6,
+        "positions": [
+          132,
+          496,
+          1064,
+          1342,
+          1588,
+          2097
+        ]
+      },
+      "admin": {
+        "count": 1,
+        "positions": [
+          2351
+        ]
+      },
+      "comment": {
+        "count": 11,
+        "positions": [
+          390,
+          404,
+          960,
+          972,
+          1594,
+          1873,
+          1894,
+          1903,
+          1983,
+          2004
+        ]
+      },
+      "@relation(\"posttotag\")": {
+        "count": 2,
+        "positions": [
+          935,
+          1487
+        ]
+      },
+      "generator": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "confirmed": {
+        "count": 1,
+        "positions": [
+          2211
+        ]
+      },
+      "[postid],": {
+        "count": 1,
+        "positions": [
+          1706
+        ]
+      },
+      "post": {
+        "count": 16,
+        "positions": [
+          84,
+          367,
+          381,
+          502,
+          902,
+          946,
+          1214,
+          1226,
+          1257,
+          1465
+        ]
+      },
+      "tag": {
+        "count": 5,
+        "positions": [
+          911,
+          923,
+          952,
+          1348,
+          1504
+        ]
+      },
+      "@relation(fields:": {
+        "count": 3,
+        "positions": [
+          786,
+          1688,
+          1794
+        ]
+      },
+      "parentid": {
+        "count": 2,
+        "positions": [
+          1922,
+          1953
+        ]
+      },
+      "[id],": {
+        "count": 1,
+        "positions": [
+          1728
+        ]
+      },
+      "datetime": {
+        "count": 13,
+        "positions": [
+          266,
+          430,
+          472,
+          996,
+          1038,
+          1278,
+          1318,
+          1524,
+          1564,
+          2035
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 5,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "495ad9aba550",
+          "preview": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  ur..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "2043c936f12b",
+          "preview": "l Post {\n  id          String      @id @default(cuid())\n  title       String\n  slug        String   ..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1500,
+          "size": 500,
+          "hash": "614953393d2d",
+          "preview": "Time    @default(now())\n  updatedAt   DateTime    @updatedAt\n}\n\nmodel Category {\n  id          Strin..."
+        },
+        {
+          "id": 3,
+          "start_char": 1500,
+          "end_char": 2000,
+          "size": 500,
+          "hash": "032d59b9dbaa",
+          "preview": "stToTag\")\n  createdAt   DateTime  @default(now())\n  updatedAt   DateTime  @updatedAt\n}\n\nmodel Commen..."
+        },
+        {
+          "id": 4,
+          "start_char": 2000,
+          "end_char": 2359,
+          "size": 359,
+          "hash": "e38310d1f337",
+          "preview": "on(\"CommentToComment\")\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n}\n\nmod..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

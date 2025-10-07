@@ -1,0 +1,156 @@
+{
+  "user_id": "default_user",
+  "project_id": "43",
+  "file_name": "error.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.5142857142857143
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 112,
+        "output_size": 112,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 112,
+        "output_size": 442,
+        "stage_compression_ratio": 3.9464285714285716,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 96,
+          "original_size": 112,
+          "compressed_size": 442
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 442,
+        "output_size": 32,
+        "stage_compression_ratio": 0.07239819004524888,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 442,
+          "estimated_compressed_size": 169,
+          "entropy": 3.059327594548874
+        }
+      }
+    ],
+    "total_compression_ratio": 0.2857142857142857,
+    "stage_count": 3,
+    "original_size": 112,
+    "final_size": 32,
+    "space_savings": 80,
+    "space_savings_percent": 71.42857142857143
+  },
+  "original_size": 112,
+  "compressed_size": 32,
+  "compression_ratio": 0.2857142857142857,
+  "space_savings_percent": 71.42857142857143,
+  "content_hash": "23b311253a7f2d43",
+  "timestamp": 1759698428,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:169:[70][97][105][108][1",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698428,
+    "total_lines": 1,
+    "total_chars": 112,
+    "total_words": 11,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 112,
+        "length": 112,
+        "preview": "Failed to generate project: HTTPConnectionPool(hos...",
+        "hash": "8cfb8b95"
+      }
+    },
+    "word_index": {
+      "failed": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "(read": {
+        "count": 1,
+        "positions": [
+          94
+        ]
+      },
+      "generate": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "timeout=300)": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "timed": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "project:": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "port=11434):": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "httpconnectionpool(host='localhost',": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "out.": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "read": {
+        "count": 2,
+        "positions": [
+          78,
+          95
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

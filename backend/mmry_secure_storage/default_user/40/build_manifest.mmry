@@ -1,0 +1,474 @@
+{
+  "user_id": "default_user",
+  "project_id": "40",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012230820995962314
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 526,
+        "output_size": 526,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 526,
+        "output_size": 1550,
+        "stage_compression_ratio": 2.946768060836502,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 330,
+          "original_size": 521,
+          "compressed_size": 1550
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1550,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02064516129032258,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1550,
+          "estimated_compressed_size": 630,
+          "entropy": 3.2533027941722716
+        }
+      }
+    ],
+    "total_compression_ratio": 0.060836501901140684,
+    "stage_count": 3,
+    "original_size": 526,
+    "final_size": 32,
+    "space_savings": 494,
+    "space_savings_percent": 93.91634980988593
+  },
+  "original_size": 526,
+  "compressed_size": 32,
+  "compression_ratio": 0.060836501901140684,
+  "space_savings_percent": 93.91634980988593,
+  "content_hash": "1b611a4365813d71",
+  "timestamp": 1759698041,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:630:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698041,
+    "total_lines": 22,
+    "total_chars": 526,
+    "total_words": 49,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"40\",",
+        "hash": "717f0582"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 61,
+        "length": 37,
+        "preview": "  \"project_name\": \"Test Timeout Fix\",",
+        "hash": "79d01201"
+      },
+      "3": {
+        "start_char": 62,
+        "end_char": 81,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 82,
+        "end_char": 140,
+        "length": 58,
+        "preview": "    \"Create a simple test project to verify timeou...",
+        "hash": "50fd9ce2"
+      },
+      "5": {
+        "start_char": 141,
+        "end_char": 145,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 146,
+        "end_char": 179,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "7": {
+        "start_char": 180,
+        "end_char": 204,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 205,
+        "end_char": 230,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 231,
+        "end_char": 265,
+        "length": 34,
+        "preview": "  \"start_time\": 1759697732.960533,",
+        "hash": "7eae095e"
+      },
+      "10": {
+        "start_char": 266,
+        "end_char": 285,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 286,
+        "end_char": 310,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 311,
+        "end_char": 326,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 327,
+        "end_char": 379,
+        "length": 52,
+        "preview": "  \"team_id\": \"1992c25f-65b0-4e26-a8fb-1be1da091151...",
+        "hash": "e8948f13"
+      },
+      "14": {
+        "start_char": 380,
+        "end_char": 403,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "15": {
+        "start_char": 404,
+        "end_char": 414,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "16": {
+        "start_char": 415,
+        "end_char": 441,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "17": {
+        "start_char": 442,
+        "end_char": 472,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "18": {
+        "start_char": 473,
+        "end_char": 496,
+        "length": 23,
+        "preview": "    \"ollama_url\": null,",
+        "hash": "7e0595d5"
+      },
+      "19": {
+        "start_char": 497,
+        "end_char": 520,
+        "length": 23,
+        "preview": "    \"use_ollama\": false",
+        "hash": "7bf2ed87"
+      },
+      "20": {
+        "start_char": 521,
+        "end_char": 524,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "21": {
+        "start_char": 525,
+        "end_char": 526,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "simple": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "project": {
+        "count": 4,
+        "positions": [
+          5,
+          27,
+          108,
+          183
+        ]
+      },
+      "1759697732.960533,": {
+        "count": 1,
+        "positions": [
+          247
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          406
+        ]
+      },
+      "\"test": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "\"40\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          288
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          182
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          501
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          329
+        ]
+      },
+      "verify": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "fixes\"": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      },
+      "fix\",": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "null,": {
+        "count": 2,
+        "positions": [
+          280,
+          491
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          435,
+          466
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          446
+        ]
+      },
+      "\"create": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "timeout": {
+        "count": 2,
+        "positions": [
+          48,
+          126
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          419
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          382
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          307,
+          323
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          398
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          207
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          217
+        ]
+      },
+      "\"1992c25f-65b0-4e26-a8fb-1be1da091151\",": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          477
+        ]
+      },
+      "false": {
+        "count": 3,
+        "positions": [
+          435,
+          466,
+          515
+        ]
+      },
+      "test": {
+        "count": 2,
+        "positions": [
+          43,
+          103
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

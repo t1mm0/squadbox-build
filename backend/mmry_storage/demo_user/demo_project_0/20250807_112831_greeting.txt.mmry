@@ -1,0 +1,36 @@
+{
+  "mmry_version": "2.0",
+  "created_at": "2025-08-07T11:28:31.907914",
+  "compression_engine": "complete-v2",
+  "user_id": "demo_user",
+  "project_id": "demo_project_0",
+  "file_metadata": {
+    "file_name": "greeting.txt",
+    "file_path": "greeting.txt",
+    "file_type": "text",
+    "file_extension": ".txt",
+    "original_size": 6,
+    "content_hash": "334d016f755cd6dc58c53a86e183882f8ec14f52fb05345887c8a5edd42c87b7",
+    "mime_type": "text/plain"
+  },
+  "compression_info": {
+    "strategy": "smart",
+    "compression_type": "raw",
+    "compressed_size": 6,
+    "compression_ratio": 1.0,
+    "quality_score": 1.0,
+    "space_savings_bytes": 0,
+    "space_savings_percent": 0.0,
+    "folding_used": false,
+    "folding_efficiency": 0.0,
+    "pattern_score": 0.0
+  },
+  "compressed_content": "Hello!",
+  "vault_metadata": {
+    "access_count": 0,
+    "last_accessed": null,
+    "tags": [],
+    "description": "Simple greeting",
+    "is_favorite": false
+  }
+}

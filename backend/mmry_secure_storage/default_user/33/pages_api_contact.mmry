@@ -1,0 +1,573 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "pages/api/contact.ts**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.034438775510204085
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 636,
+        "output_size": 636,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 636,
+        "output_size": 1962,
+        "stage_compression_ratio": 3.0849056603773586,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 413,
+          "original_size": 633,
+          "compressed_size": 1962
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1962,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0163098878695209,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1962,
+          "estimated_compressed_size": 794,
+          "entropy": 3.2407562558235634
+        }
+      }
+    ],
+    "total_compression_ratio": 0.050314465408805034,
+    "stage_count": 3,
+    "original_size": 636,
+    "final_size": 32,
+    "space_savings": 604,
+    "space_savings_percent": 94.9685534591195
+  },
+  "original_size": 636,
+  "compressed_size": 32,
+  "compression_ratio": 0.050314465408805034,
+  "space_savings_percent": 94.9685534591195,
+  "content_hash": "074802578d8ea869",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:794:[116][115][10][105][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 23,
+    "total_chars": 636,
+    "total_words": 86,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 2,
+        "length": 2,
+        "preview": "ts",
+        "hash": "4d682ec4"
+      },
+      "1": {
+        "start_char": 3,
+        "end_char": 63,
+        "length": 60,
+        "preview": "import type { NextApiRequest, NextApiResponse } fr...",
+        "hash": "2014ab8c"
+      },
+      "2": {
+        "start_char": 64,
+        "end_char": 64,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "3": {
+        "start_char": 65,
+        "end_char": 103,
+        "length": 38,
+        "preview": "export default async function handler(",
+        "hash": "a5a2ddd9"
+      },
+      "4": {
+        "start_char": 104,
+        "end_char": 126,
+        "length": 22,
+        "preview": "  req: NextApiRequest,",
+        "hash": "03ce200a"
+      },
+      "5": {
+        "start_char": 127,
+        "end_char": 149,
+        "length": 22,
+        "preview": "  res: NextApiResponse",
+        "hash": "ea24a437"
+      },
+      "6": {
+        "start_char": 150,
+        "end_char": 153,
+        "length": 3,
+        "preview": ") {",
+        "hash": "f9b5e8e0"
+      },
+      "7": {
+        "start_char": 154,
+        "end_char": 184,
+        "length": 30,
+        "preview": "  if (req.method !== 'POST') {",
+        "hash": "cdca6c49"
+      },
+      "8": {
+        "start_char": 185,
+        "end_char": 220,
+        "length": 35,
+        "preview": "    res.setHeader('Allow', 'POST');",
+        "hash": "dbb0535b"
+      },
+      "9": {
+        "start_char": 221,
+        "end_char": 286,
+        "length": 65,
+        "preview": "    return res.status(405).json({ error: 'Method N...",
+        "hash": "3d7cd200"
+      },
+      "10": {
+        "start_char": 287,
+        "end_char": 290,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "11": {
+        "start_char": 291,
+        "end_char": 291,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "12": {
+        "start_char": 292,
+        "end_char": 336,
+        "length": 44,
+        "preview": "  const { name, email, message } = req.body;",
+        "hash": "e60243d4"
+      },
+      "13": {
+        "start_char": 337,
+        "end_char": 337,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "14": {
+        "start_char": 338,
+        "end_char": 374,
+        "length": 36,
+        "preview": "  if (!name || !email || !message) {",
+        "hash": "5c6be56b"
+      },
+      "15": {
+        "start_char": 375,
+        "end_char": 445,
+        "length": 70,
+        "preview": "    return res.status(400).json({ error: 'Missing ...",
+        "hash": "c4024762"
+      },
+      "16": {
+        "start_char": 446,
+        "end_char": 449,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "17": {
+        "start_char": 450,
+        "end_char": 450,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 451,
+        "end_char": 514,
+        "length": 63,
+        "preview": "  // In a real app you would send an email or stor...",
+        "hash": "e02c6d15"
+      },
+      "19": {
+        "start_char": 515,
+        "end_char": 583,
+        "length": 68,
+        "preview": "  console.log('Contact form submission:', { name, ...",
+        "hash": "92eefc07"
+      },
+      "20": {
+        "start_char": 584,
+        "end_char": 584,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "21": {
+        "start_char": 585,
+        "end_char": 634,
+        "length": 49,
+        "preview": "  return res.status(200).json({ success: true });",
+        "hash": "107b1865"
+      },
+      "22": {
+        "start_char": 635,
+        "end_char": 636,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "});": {
+        "count": 4,
+        "positions": [
+          283,
+          442,
+          580,
+          631
+        ]
+      },
+      "app": {
+        "count": 1,
+        "positions": [
+          466
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "req:": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "form": {
+        "count": 1,
+        "positions": [
+          538
+        ]
+      },
+      "handler(": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "true": {
+        "count": 1,
+        "positions": [
+          626
+        ]
+      },
+      "console.log('contact": {
+        "count": 1,
+        "positions": [
+          517
+        ]
+      },
+      "return": {
+        "count": 3,
+        "positions": [
+          225,
+          379,
+          587
+        ]
+      },
+      "error:": {
+        "count": 2,
+        "positions": [
+          255,
+          409
+        ]
+      },
+      "'post')": {
+        "count": 2,
+        "positions": [
+          175,
+          212
+        ]
+      },
+      "allowed'": {
+        "count": 1,
+        "positions": [
+          274
+        ]
+      },
+      "'post');": {
+        "count": 1,
+        "positions": [
+          212
+        ]
+      },
+      "message": {
+        "count": 4,
+        "positions": [
+          315,
+          364,
+          507,
+          572
+        ]
+      },
+      "req.body;": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "would": {
+        "count": 1,
+        "positions": [
+          474
+        ]
+      },
+      "(!name": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "nextapiresponse": {
+        "count": 2,
+        "positions": [
+          33,
+          134
+        ]
+      },
+      "(req.method": {
+        "count": 1,
+        "positions": [
+          159
+        ]
+      },
+      "res.status(405).json({": {
+        "count": 1,
+        "positions": [
+          232
+        ]
+      },
+      "!message)": {
+        "count": 1,
+        "positions": [
+          363
+        ]
+      },
+      "the": {
+        "count": 2,
+        "positions": [
+          195,
+          503
+        ]
+      },
+      "send": {
+        "count": 1,
+        "positions": [
+          480
+        ]
+      },
+      "real": {
+        "count": 1,
+        "positions": [
+          461
+        ]
+      },
+      "nextapirequest,": {
+        "count": 2,
+        "positions": [
+          17,
+          111
+        ]
+      },
+      "submission:',": {
+        "count": 1,
+        "positions": [
+          543
+        ]
+      },
+      "async": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          72
+        ]
+      },
+      "res.setheader('allow',": {
+        "count": 1,
+        "positions": [
+          189
+        ]
+      },
+      "'method": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "email,": {
+        "count": 2,
+        "positions": [
+          308,
+          565
+        ]
+      },
+      "fields'": {
+        "count": 1,
+        "positions": [
+          434
+        ]
+      },
+      "res:": {
+        "count": 1,
+        "positions": [
+          129
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          294
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "import": {
+        "count": 1,
+        "positions": [
+          3
+        ]
+      },
+      "email": {
+        "count": 4,
+        "positions": [
+          308,
+          354,
+          488,
+          565
+        ]
+      },
+      "not": {
+        "count": 1,
+        "positions": [
+          270
+        ]
+      },
+      "you": {
+        "count": 1,
+        "positions": [
+          470
+        ]
+      },
+      "store": {
+        "count": 1,
+        "positions": [
+          497
+        ]
+      },
+      "!email": {
+        "count": 1,
+        "positions": [
+          353
+        ]
+      },
+      "success:": {
+        "count": 1,
+        "positions": [
+          617
+        ]
+      },
+      "name,": {
+        "count": 2,
+        "positions": [
+          302,
+          559
+        ]
+      },
+      "required": {
+        "count": 1,
+        "positions": [
+          425
+        ]
+      },
+      "'missing": {
+        "count": 1,
+        "positions": [
+          416
+        ]
+      },
+      "!==": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "'next';": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "res.status(200).json({": {
+        "count": 1,
+        "positions": [
+          594
+        ]
+      },
+      "res.status(400).json({": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install additional dependencies for local LLM
+RUN pip install --no-cache-dir ollama-python requests httpx
+
+# Copy backend code
+COPY . .
+
+# Create directory for generated projects
+RUN mkdir -p /app/generated_projects
+
+# Run the API server
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

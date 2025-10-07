@@ -1,0 +1,354 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": ".gitignore**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.042224945533769064
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 196,
+        "output_size": 196,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 196,
+        "output_size": 689,
+        "stage_compression_ratio": 3.5153061224489797,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 146,
+          "original_size": 196,
+          "compressed_size": 689
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 689,
+        "output_size": 32,
+        "stage_compression_ratio": 0.04644412191582003,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 689,
+          "estimated_compressed_size": 272,
+          "entropy": 3.165758843752691
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16326530612244897,
+    "stage_count": 3,
+    "original_size": 196,
+    "final_size": 32,
+    "space_savings": 164,
+    "space_savings_percent": 83.6734693877551
+  },
+  "original_size": 196,
+  "compressed_size": 32,
+  "compression_ratio": 0.16326530612244897,
+  "space_savings_percent": 83.6734693877551,
+  "content_hash": "cc85dbb18d62687f",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:272:[103][105][116][105]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 21,
+    "total_chars": 196,
+    "total_words": 25,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 9,
+        "length": 9,
+        "preview": "gitignore",
+        "hash": "e6a354cd"
+      },
+      "1": {
+        "start_char": 10,
+        "end_char": 24,
+        "length": 14,
+        "preview": "# Node modules",
+        "hash": "a450cff4"
+      },
+      "2": {
+        "start_char": 25,
+        "end_char": 38,
+        "length": 13,
+        "preview": "node_modules/",
+        "hash": "acd06b18"
+      },
+      "3": {
+        "start_char": 39,
+        "end_char": 39,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 40,
+        "end_char": 54,
+        "length": 14,
+        "preview": "# Build output",
+        "hash": "4eca4760"
+      },
+      "5": {
+        "start_char": 55,
+        "end_char": 61,
+        "length": 6,
+        "preview": ".next/",
+        "hash": "712fa57f"
+      },
+      "6": {
+        "start_char": 62,
+        "end_char": 66,
+        "length": 4,
+        "preview": "out/",
+        "hash": "f09d5646"
+      },
+      "7": {
+        "start_char": 67,
+        "end_char": 73,
+        "length": 6,
+        "preview": "build/",
+        "hash": "4fef79e7"
+      },
+      "8": {
+        "start_char": 74,
+        "end_char": 74,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "9": {
+        "start_char": 75,
+        "end_char": 83,
+        "length": 8,
+        "preview": "# Prisma",
+        "hash": "52b0e9b8"
+      },
+      "10": {
+        "start_char": 84,
+        "end_char": 97,
+        "length": 13,
+        "preview": "prisma/dev.db",
+        "hash": "b52c208f"
+      },
+      "11": {
+        "start_char": 98,
+        "end_char": 109,
+        "length": 11,
+        "preview": "prisma/.env",
+        "hash": "3a94d8e1"
+      },
+      "12": {
+        "start_char": 110,
+        "end_char": 110,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "13": {
+        "start_char": 111,
+        "end_char": 117,
+        "length": 6,
+        "preview": "# Logs",
+        "hash": "15100900"
+      },
+      "14": {
+        "start_char": 118,
+        "end_char": 132,
+        "length": 14,
+        "preview": "npm-debug.log*",
+        "hash": "fc65c808"
+      },
+      "15": {
+        "start_char": 133,
+        "end_char": 148,
+        "length": 15,
+        "preview": "yarn-debug.log*",
+        "hash": "02f65a1f"
+      },
+      "16": {
+        "start_char": 149,
+        "end_char": 164,
+        "length": 15,
+        "preview": "yarn-error.log*",
+        "hash": "845888e0"
+      },
+      "17": {
+        "start_char": 165,
+        "end_char": 165,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "18": {
+        "start_char": 166,
+        "end_char": 176,
+        "length": 10,
+        "preview": "# OS files",
+        "hash": "da826b8e"
+      },
+      "19": {
+        "start_char": 177,
+        "end_char": 186,
+        "length": 9,
+        "preview": ".DS_Store",
+        "hash": "edb274d8"
+      },
+      "20": {
+        "start_char": 187,
+        "end_char": 196,
+        "length": 9,
+        "preview": "Thumbs.db",
+        "hash": "3420d63b"
+      }
+    },
+    "word_index": {
+      "logs": {
+        "count": 1,
+        "positions": [
+          113
+        ]
+      },
+      "prisma/dev.db": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "build/": {
+        "count": 1,
+        "positions": [
+          67
+        ]
+      },
+      "output": {
+        "count": 1,
+        "positions": [
+          48
+        ]
+      },
+      "gitignore": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "out/": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      },
+      ".ds_store": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "build": {
+        "count": 2,
+        "positions": [
+          42,
+          67
+        ]
+      },
+      ".next/": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "prisma/.env": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "npm-debug.log*": {
+        "count": 1,
+        "positions": [
+          118
+        ]
+      },
+      "prisma": {
+        "count": 3,
+        "positions": [
+          77,
+          84,
+          98
+        ]
+      },
+      "yarn-debug.log*": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "node": {
+        "count": 2,
+        "positions": [
+          12,
+          25
+        ]
+      },
+      "node_modules/": {
+        "count": 1,
+        "positions": [
+          25
+        ]
+      },
+      "thumbs.db": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "modules": {
+        "count": 2,
+        "positions": [
+          17,
+          30
+        ]
+      },
+      "yarn-error.log*": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

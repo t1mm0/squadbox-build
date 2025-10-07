@@ -1,0 +1,1409 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/components/DiagnosticForm.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024645313843508168
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 2371,
+        "output_size": 2132,
+        "stage_compression_ratio": 0.8991986503584986,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 68
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 2132,
+        "output_size": 5171,
+        "stage_compression_ratio": 2.425422138836773,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 1057,
+          "original_size": 2064,
+          "compressed_size": 5171
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 5171,
+        "output_size": 33,
+        "stage_compression_ratio": 0.006381744343453877,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 5171,
+          "estimated_compressed_size": 2134,
+          "entropy": 3.302357554964845
+        }
+      }
+    ],
+    "total_compression_ratio": 0.013918177983973008,
+    "stage_count": 3,
+    "original_size": 2371,
+    "final_size": 33,
+    "space_savings": 2338,
+    "space_savings_percent": 98.6081822016027
+  },
+  "original_size": 2371,
+  "compressed_size": 33,
+  "compression_ratio": 0.013918177983973008,
+  "space_savings_percent": 98.6081822016027,
+  "content_hash": "1f50df88666a681f",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:2134:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 87,
+    "total_chars": 2371,
+    "total_words": 195,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 37,
+        "length": 33,
+        "preview": "import { useState } from 'react';",
+        "hash": "3fea93a7"
+      },
+      "2": {
+        "start_char": 38,
+        "end_char": 95,
+        "length": 57,
+        "preview": "import LoadingSpinner from '@/components/LoadingSp...",
+        "hash": "122083d2"
+      },
+      "3": {
+        "start_char": 96,
+        "end_char": 145,
+        "length": 49,
+        "preview": "import ErrorAlert from '@/components/ErrorAlert';",
+        "hash": "c322219d"
+      },
+      "4": {
+        "start_char": 146,
+        "end_char": 146,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 147,
+        "end_char": 189,
+        "length": 42,
+        "preview": "export default function DiagnosticForm() {",
+        "hash": "33a9688d"
+      },
+      "6": {
+        "start_char": 190,
+        "end_char": 226,
+        "length": 36,
+        "preview": "  const [form, setForm] = useState({",
+        "hash": "cc43fdd6"
+      },
+      "7": {
+        "start_char": 227,
+        "end_char": 240,
+        "length": 13,
+        "preview": "    name: '',",
+        "hash": "243a6830"
+      },
+      "8": {
+        "start_char": 241,
+        "end_char": 255,
+        "length": 14,
+        "preview": "    email: '',",
+        "hash": "5bbd4dc5"
+      },
+      "9": {
+        "start_char": 256,
+        "end_char": 273,
+        "length": 17,
+        "preview": "    symptoms: '',",
+        "hash": "1be2a3ae"
+      },
+      "10": {
+        "start_char": 274,
+        "end_char": 279,
+        "length": 5,
+        "preview": "  });",
+        "hash": "4b3e23b8"
+      },
+      "11": {
+        "start_char": 280,
+        "end_char": 328,
+        "length": 48,
+        "preview": "  const [loading, setLoading] = useState(false);",
+        "hash": "908d1537"
+      },
+      "12": {
+        "start_char": 329,
+        "end_char": 387,
+        "length": 58,
+        "preview": "  const [error, setError] = useState<string | null...",
+        "hash": "a2627121"
+      },
+      "13": {
+        "start_char": 388,
+        "end_char": 448,
+        "length": 60,
+        "preview": "  const [result, setResult] = useState<string | nu...",
+        "hash": "a7e43e82"
+      },
+      "14": {
+        "start_char": 449,
+        "end_char": 449,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "15": {
+        "start_char": 450,
+        "end_char": 540,
+        "length": 90,
+        "preview": "  const handleChange = (e: React.ChangeEvent<HTMLI...",
+        "hash": "770d9d48"
+      },
+      "16": {
+        "start_char": 541,
+        "end_char": 599,
+        "length": 58,
+        "preview": "    setForm({ ...form, [e.target.name]: e.target.v...",
+        "hash": "b28ae273"
+      },
+      "17": {
+        "start_char": 600,
+        "end_char": 604,
+        "length": 4,
+        "preview": "  };",
+        "hash": "4ac3986f"
+      },
+      "18": {
+        "start_char": 605,
+        "end_char": 605,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "19": {
+        "start_char": 606,
+        "end_char": 660,
+        "length": 54,
+        "preview": "  const handleSubmit = async (e: React.FormEvent) ...",
+        "hash": "c005ac15"
+      },
+      "20": {
+        "start_char": 661,
+        "end_char": 684,
+        "length": 23,
+        "preview": "    e.preventDefault();",
+        "hash": "df56305d"
+      },
+      "21": {
+        "start_char": 685,
+        "end_char": 706,
+        "length": 21,
+        "preview": "    setLoading(true);",
+        "hash": "38943d3b"
+      },
+      "22": {
+        "start_char": 707,
+        "end_char": 726,
+        "length": 19,
+        "preview": "    setError(null);",
+        "hash": "63350527"
+      },
+      "23": {
+        "start_char": 727,
+        "end_char": 747,
+        "length": 20,
+        "preview": "    setResult(null);",
+        "hash": "efb5dc4a"
+      },
+      "24": {
+        "start_char": 748,
+        "end_char": 757,
+        "length": 9,
+        "preview": "    try {",
+        "hash": "8121f9d7"
+      },
+      "25": {
+        "start_char": 758,
+        "end_char": 808,
+        "length": 50,
+        "preview": "      const res = await fetch('/api/diagnostic', {",
+        "hash": "c96db9df"
+      },
+      "26": {
+        "start_char": 809,
+        "end_char": 832,
+        "length": 23,
+        "preview": "        method: 'POST',",
+        "hash": "127df892"
+      },
+      "27": {
+        "start_char": 833,
+        "end_char": 889,
+        "length": 56,
+        "preview": "        headers: { 'Content-Type': 'application/js...",
+        "hash": "d8696f01"
+      },
+      "28": {
+        "start_char": 890,
+        "end_char": 925,
+        "length": 35,
+        "preview": "        body: JSON.stringify(form),",
+        "hash": "fd036f76"
+      },
+      "29": {
+        "start_char": 926,
+        "end_char": 935,
+        "length": 9,
+        "preview": "      });",
+        "hash": "1bb30a5f"
+      },
+      "30": {
+        "start_char": 936,
+        "end_char": 999,
+        "length": 63,
+        "preview": "      if (!res.ok) throw new Error('Failed to get ...",
+        "hash": "ffec64ea"
+      },
+      "31": {
+        "start_char": 1000,
+        "end_char": 1036,
+        "length": 36,
+        "preview": "      const data = await res.json();",
+        "hash": "32155aa4"
+      },
+      "32": {
+        "start_char": 1037,
+        "end_char": 1066,
+        "length": 29,
+        "preview": "      setResult(data.result);",
+        "hash": "dc9ec5b6"
+      },
+      "33": {
+        "start_char": 1067,
+        "end_char": 1091,
+        "length": 24,
+        "preview": "    } catch (err: any) {",
+        "hash": "af33a0a4"
+      },
+      "34": {
+        "start_char": 1092,
+        "end_char": 1120,
+        "length": 28,
+        "preview": "      setError(err.message);",
+        "hash": "46339665"
+      },
+      "35": {
+        "start_char": 1121,
+        "end_char": 1136,
+        "length": 15,
+        "preview": "    } finally {",
+        "hash": "9e16ee9e"
+      },
+      "36": {
+        "start_char": 1137,
+        "end_char": 1161,
+        "length": 24,
+        "preview": "      setLoading(false);",
+        "hash": "ee468623"
+      },
+      "37": {
+        "start_char": 1162,
+        "end_char": 1167,
+        "length": 5,
+        "preview": "    }",
+        "hash": "ea5a1cbe"
+      },
+      "38": {
+        "start_char": 1168,
+        "end_char": 1172,
+        "length": 4,
+        "preview": "  };",
+        "hash": "4ac3986f"
+      },
+      "39": {
+        "start_char": 1173,
+        "end_char": 1173,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "40": {
+        "start_char": 1174,
+        "end_char": 1184,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "41": {
+        "start_char": 1185,
+        "end_char": 1230,
+        "length": 45,
+        "preview": "    <div className=\"diagnostic-form-wrapper\">",
+        "hash": "a7c659d9"
+      },
+      "42": {
+        "start_char": 1231,
+        "end_char": 1278,
+        "length": 47,
+        "preview": "      {error && <ErrorAlert message={error} />}",
+        "hash": "e7e889cf"
+      },
+      "43": {
+        "start_char": 1279,
+        "end_char": 1297,
+        "length": 18,
+        "preview": "      {result && (",
+        "hash": "7ba69534"
+      },
+      "44": {
+        "start_char": 1298,
+        "end_char": 1334,
+        "length": 36,
+        "preview": "        <div className=\"result-box\">",
+        "hash": "62bee645"
+      },
+      "45": {
+        "start_char": 1335,
+        "end_char": 1376,
+        "length": 41,
+        "preview": "          <h3>Your Assessment Result</h3>",
+        "hash": "2d90fe72"
+      },
+      "46": {
+        "start_char": 1377,
+        "end_char": 1402,
+        "length": 25,
+        "preview": "          <p>{result}</p>",
+        "hash": "c21dc193"
+      },
+      "47": {
+        "start_char": 1403,
+        "end_char": 1417,
+        "length": 14,
+        "preview": "        </div>",
+        "hash": "3068306f"
+      },
+      "48": {
+        "start_char": 1418,
+        "end_char": 1426,
+        "length": 8,
+        "preview": "      )}",
+        "hash": "8471bab7"
+      },
+      "49": {
+        "start_char": 1427,
+        "end_char": 1491,
+        "length": 64,
+        "preview": "      <form onSubmit={handleSubmit} className=\"dia...",
+        "hash": "43da0246"
+      },
+      "50": {
+        "start_char": 1492,
+        "end_char": 1507,
+        "length": 15,
+        "preview": "        <label>",
+        "hash": "e937117b"
+      },
+      "51": {
+        "start_char": 1508,
+        "end_char": 1522,
+        "length": 14,
+        "preview": "          Name",
+        "hash": "b98558ce"
+      },
+      "52": {
+        "start_char": 1523,
+        "end_char": 1539,
+        "length": 16,
+        "preview": "          <input",
+        "hash": "47174d26"
+      },
+      "53": {
+        "start_char": 1540,
+        "end_char": 1563,
+        "length": 23,
+        "preview": "            type=\"text\"",
+        "hash": "023d84bf"
+      },
+      "54": {
+        "start_char": 1564,
+        "end_char": 1587,
+        "length": 23,
+        "preview": "            name=\"name\"",
+        "hash": "02919700"
+      },
+      "55": {
+        "start_char": 1588,
+        "end_char": 1617,
+        "length": 29,
+        "preview": "            value={form.name}",
+        "hash": "a71fc060"
+      },
+      "56": {
+        "start_char": 1618,
+        "end_char": 1653,
+        "length": 35,
+        "preview": "            onChange={handleChange}",
+        "hash": "b5f307af"
+      },
+      "57": {
+        "start_char": 1654,
+        "end_char": 1674,
+        "length": 20,
+        "preview": "            required",
+        "hash": "e17b59ae"
+      },
+      "58": {
+        "start_char": 1675,
+        "end_char": 1687,
+        "length": 12,
+        "preview": "          />",
+        "hash": "4365fe01"
+      },
+      "59": {
+        "start_char": 1688,
+        "end_char": 1704,
+        "length": 16,
+        "preview": "        </label>",
+        "hash": "a5326856"
+      },
+      "60": {
+        "start_char": 1705,
+        "end_char": 1720,
+        "length": 15,
+        "preview": "        <label>",
+        "hash": "e937117b"
+      },
+      "61": {
+        "start_char": 1721,
+        "end_char": 1736,
+        "length": 15,
+        "preview": "          Email",
+        "hash": "35263b23"
+      },
+      "62": {
+        "start_char": 1737,
+        "end_char": 1753,
+        "length": 16,
+        "preview": "          <input",
+        "hash": "47174d26"
+      },
+      "63": {
+        "start_char": 1754,
+        "end_char": 1778,
+        "length": 24,
+        "preview": "            type=\"email\"",
+        "hash": "3904222e"
+      },
+      "64": {
+        "start_char": 1779,
+        "end_char": 1803,
+        "length": 24,
+        "preview": "            name=\"email\"",
+        "hash": "dc733f3c"
+      },
+      "65": {
+        "start_char": 1804,
+        "end_char": 1834,
+        "length": 30,
+        "preview": "            value={form.email}",
+        "hash": "85922a31"
+      },
+      "66": {
+        "start_char": 1835,
+        "end_char": 1870,
+        "length": 35,
+        "preview": "            onChange={handleChange}",
+        "hash": "b5f307af"
+      },
+      "67": {
+        "start_char": 1871,
+        "end_char": 1891,
+        "length": 20,
+        "preview": "            required",
+        "hash": "e17b59ae"
+      },
+      "68": {
+        "start_char": 1892,
+        "end_char": 1904,
+        "length": 12,
+        "preview": "          />",
+        "hash": "4365fe01"
+      },
+      "69": {
+        "start_char": 1905,
+        "end_char": 1921,
+        "length": 16,
+        "preview": "        </label>",
+        "hash": "a5326856"
+      },
+      "70": {
+        "start_char": 1922,
+        "end_char": 1937,
+        "length": 15,
+        "preview": "        <label>",
+        "hash": "e937117b"
+      },
+      "71": {
+        "start_char": 1938,
+        "end_char": 1956,
+        "length": 18,
+        "preview": "          Symptoms",
+        "hash": "d51ad68f"
+      },
+      "72": {
+        "start_char": 1957,
+        "end_char": 1976,
+        "length": 19,
+        "preview": "          <textarea",
+        "hash": "49056ce2"
+      },
+      "73": {
+        "start_char": 1977,
+        "end_char": 2004,
+        "length": 27,
+        "preview": "            name=\"symptoms\"",
+        "hash": "b7b1bc04"
+      },
+      "74": {
+        "start_char": 2005,
+        "end_char": 2038,
+        "length": 33,
+        "preview": "            value={form.symptoms}",
+        "hash": "746ac614"
+      },
+      "75": {
+        "start_char": 2039,
+        "end_char": 2074,
+        "length": 35,
+        "preview": "            onChange={handleChange}",
+        "hash": "b5f307af"
+      },
+      "76": {
+        "start_char": 2075,
+        "end_char": 2095,
+        "length": 20,
+        "preview": "            required",
+        "hash": "e17b59ae"
+      },
+      "77": {
+        "start_char": 2096,
+        "end_char": 2157,
+        "length": 61,
+        "preview": "            placeholder=\"Describe your symptoms in...",
+        "hash": "b43be1b3"
+      },
+      "78": {
+        "start_char": 2158,
+        "end_char": 2170,
+        "length": 12,
+        "preview": "          />",
+        "hash": "4365fe01"
+      },
+      "79": {
+        "start_char": 2171,
+        "end_char": 2187,
+        "length": 16,
+        "preview": "        </label>",
+        "hash": "a5326856"
+      },
+      "80": {
+        "start_char": 2188,
+        "end_char": 2261,
+        "length": 73,
+        "preview": "        <button type=\"submit\" className=\"btn-prima...",
+        "hash": "3d67389b"
+      },
+      "81": {
+        "start_char": 2262,
+        "end_char": 2321,
+        "length": 59,
+        "preview": "          {loading ? <LoadingSpinner /> : 'Get Ass...",
+        "hash": "52eaa9a2"
+      },
+      "82": {
+        "start_char": 2322,
+        "end_char": 2339,
+        "length": 17,
+        "preview": "        </button>",
+        "hash": "1f8c1625"
+      },
+      "83": {
+        "start_char": 2340,
+        "end_char": 2353,
+        "length": 13,
+        "preview": "      </form>",
+        "hash": "aba994e2"
+      },
+      "84": {
+        "start_char": 2354,
+        "end_char": 2364,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "85": {
+        "start_char": 2365,
+        "end_char": 2369,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "86": {
+        "start_char": 2370,
+        "end_char": 2371,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "throw": {
+        "count": 1,
+        "positions": [
+          955
+        ]
+      },
+      "type=\"text\"": {
+        "count": 1,
+        "positions": [
+          1552
+        ]
+      },
+      "...form,": {
+        "count": 1,
+        "positions": [
+          555
+        ]
+      },
+      "react.changeevent<htmlinputelement": {
+        "count": 1,
+        "positions": [
+          477
+        ]
+      },
+      "<div": {
+        "count": 2,
+        "positions": [
+          1189,
+          1306
+        ]
+      },
+      "detail...\"": {
+        "count": 1,
+        "positions": [
+          2147
+        ]
+      },
+      "name=\"email\"": {
+        "count": 1,
+        "positions": [
+          1791
+        ]
+      },
+      "<label>": {
+        "count": 3,
+        "positions": [
+          1500,
+          1713,
+          1930
+        ]
+      },
+      "</button>": {
+        "count": 1,
+        "positions": [
+          2330
+        ]
+      },
+      "usestate(false);": {
+        "count": 1,
+        "positions": [
+          312
+        ]
+      },
+      "react.formevent)": {
+        "count": 1,
+        "positions": [
+          639
+        ]
+      },
+      "onchange={handlechange}": {
+        "count": 3,
+        "positions": [
+          1630,
+          1847,
+          2051
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "value={form.name}": {
+        "count": 1,
+        "positions": [
+          1600
+        ]
+      },
+      "await": {
+        "count": 2,
+        "positions": [
+          776,
+          1019
+        ]
+      },
+      "(!res.ok)": {
+        "count": 1,
+        "positions": [
+          945
+        ]
+      },
+      "any)": {
+        "count": 1,
+        "positions": [
+          1085
+        ]
+      },
+      "method:": {
+        "count": 1,
+        "positions": [
+          817
+        ]
+      },
+      "<textarea": {
+        "count": 1,
+        "positions": [
+          1967
+        ]
+      },
+      "handlesubmit": {
+        "count": 2,
+        "positions": [
+          614,
+          1449
+        ]
+      },
+      "<loadingspinner": {
+        "count": 1,
+        "positions": [
+          2283
+        ]
+      },
+      "required": {
+        "count": 3,
+        "positions": [
+          1666,
+          1883,
+          2087
+        ]
+      },
+      "onsubmit={handlesubmit}": {
+        "count": 1,
+        "positions": [
+          1439
+        ]
+      },
+      "</label>": {
+        "count": 3,
+        "positions": [
+          1696,
+          1913,
+          2179
+        ]
+      },
+      "/>}": {
+        "count": 1,
+        "positions": [
+          1275
+        ]
+      },
+      "'@/components/loadingspinner';": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "data": {
+        "count": 2,
+        "positions": [
+          1012,
+          1053
+        ]
+      },
+      "res.json();": {
+        "count": 1,
+        "positions": [
+          1025
+        ]
+      },
+      "});": {
+        "count": 3,
+        "positions": [
+          276,
+          596,
+          932
+        ]
+      },
+      "classname=\"diagnostic-form\">": {
+        "count": 1,
+        "positions": [
+          1463
+        ]
+      },
+      "[loading,": {
+        "count": 1,
+        "positions": [
+          288
+        ]
+      },
+      "usestate({": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "assessment');": {
+        "count": 1,
+        "positions": [
+          986
+        ]
+      },
+      "setform({": {
+        "count": 1,
+        "positions": [
+          545
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "(err:": {
+        "count": 1,
+        "positions": [
+          1079
+        ]
+      },
+      "<input": {
+        "count": 2,
+        "positions": [
+          1533,
+          1747
+        ]
+      },
+      "result</h3>": {
+        "count": 1,
+        "positions": [
+          1365
+        ]
+      },
+      "setform]": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "(e:": {
+        "count": 2,
+        "positions": [
+          473,
+          635
+        ]
+      },
+      "setloading(true);": {
+        "count": 1,
+        "positions": [
+          689
+        ]
+      },
+      "your": {
+        "count": 2,
+        "positions": [
+          1349,
+          2130
+        ]
+      },
+      "const": {
+        "count": 8,
+        "positions": [
+          192,
+          282,
+          331,
+          390,
+          452,
+          608,
+          764,
+          1006
+        ]
+      },
+      "try": {
+        "count": 1,
+        "positions": [
+          752
+        ]
+      },
+      "name": {
+        "count": 12,
+        "positions": [
+          231,
+          574,
+          1199,
+          1316,
+          1468,
+          1518,
+          1576,
+          1582,
+          1612,
+          1791
+        ]
+      },
+      "<button": {
+        "count": 1,
+        "positions": [
+          2196
+        ]
+      },
+      "[result,": {
+        "count": 1,
+        "positions": [
+          396
+        ]
+      },
+      "type=\"email\"": {
+        "count": 1,
+        "positions": [
+          1766
+        ]
+      },
+      "handlechange": {
+        "count": 4,
+        "positions": [
+          458,
+          1640,
+          1857,
+          2061
+        ]
+      },
+      "<erroralert": {
+        "count": 1,
+        "positions": [
+          1247
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "{result": {
+        "count": 2,
+        "positions": [
+          1285,
+          1390
+        ]
+      },
+      "assessment": {
+        "count": 3,
+        "positions": [
+          986,
+          1354,
+          2309
+        ]
+      },
+      "e.preventdefault();": {
+        "count": 1,
+        "positions": [
+          665
+        ]
+      },
+      "setresult(data.result);": {
+        "count": 1,
+        "positions": [
+          1043
+        ]
+      },
+      "seterror]": {
+        "count": 1,
+        "positions": [
+          345
+        ]
+      },
+      "symptoms": {
+        "count": 5,
+        "positions": [
+          260,
+          1948,
+          1995,
+          2029,
+          2135
+        ]
+      },
+      "'application/json'": {
+        "count": 1,
+        "positions": [
+          868
+        ]
+      },
+      "</div>": {
+        "count": 2,
+        "positions": [
+          1411,
+          2358
+        ]
+      },
+      "assessment'}": {
+        "count": 1,
+        "positions": [
+          2309
+        ]
+      },
+      "new": {
+        "count": 1,
+        "positions": [
+          961
+        ]
+      },
+      "setloading]": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "json.stringify(form),": {
+        "count": 1,
+        "positions": [
+          904
+        ]
+      },
+      "[e.target.name]:": {
+        "count": 1,
+        "positions": [
+          564
+        ]
+      },
+      "<h3>your": {
+        "count": 1,
+        "positions": [
+          1345
+        ]
+      },
+      "placeholder=\"describe": {
+        "count": 1,
+        "positions": [
+          2108
+        ]
+      },
+      "'get": {
+        "count": 1,
+        "positions": [
+          2304
+        ]
+      },
+      "setresult(null);": {
+        "count": 1,
+        "positions": [
+          731
+        ]
+      },
+      "setloading(false);": {
+        "count": 1,
+        "positions": [
+          1143
+        ]
+      },
+      "default": {
+        "count": 2,
+        "positions": [
+          154,
+          674
+        ]
+      },
+      "get": {
+        "count": 4,
+        "positions": [
+          570,
+          586,
+          982,
+          2305
+        ]
+      },
+      "message={error}": {
+        "count": 1,
+        "positions": [
+          1259
+        ]
+      },
+      "res": {
+        "count": 12,
+        "positions": [
+          397,
+          408,
+          734,
+          770,
+          947,
+          1025,
+          1046,
+          1058,
+          1286,
+          1322
+        ]
+      },
+      "import": {
+        "count": 3,
+        "positions": [
+          4,
+          38,
+          96
+        ]
+      },
+      "email": {
+        "count": 5,
+        "positions": [
+          245,
+          1731,
+          1772,
+          1797,
+          1828
+        ]
+      },
+      "body:": {
+        "count": 1,
+        "positions": [
+          898
+        ]
+      },
+      "headers:": {
+        "count": 1,
+        "positions": [
+          841
+        ]
+      },
+      "name=\"symptoms\"": {
+        "count": 1,
+        "positions": [
+          1989
+        ]
+      },
+      "name=\"name\"": {
+        "count": 1,
+        "positions": [
+          1576
+        ]
+      },
+      "'content-type':": {
+        "count": 1,
+        "positions": [
+          852
+        ]
+      },
+      "</form>": {
+        "count": 1,
+        "positions": [
+          2346
+        ]
+      },
+      "email:": {
+        "count": 1,
+        "positions": [
+          245
+        ]
+      },
+      "loadingspinner": {
+        "count": 3,
+        "positions": [
+          45,
+          79,
+          2284
+        ]
+      },
+      "<form": {
+        "count": 1,
+        "positions": [
+          1433
+        ]
+      },
+      "symptoms:": {
+        "count": 1,
+        "positions": [
+          260
+        ]
+      },
+      "'',": {
+        "count": 3,
+        "positions": [
+          237,
+          252,
+          270
+        ]
+      },
+      "catch": {
+        "count": 1,
+        "positions": [
+          1073
+        ]
+      },
+      "[error,": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          162
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          29
+        ]
+      },
+      "'post',": {
+        "count": 1,
+        "positions": [
+          825
+        ]
+      },
+      "classname=\"result-box\">": {
+        "count": 1,
+        "positions": [
+          1311
+        ]
+      },
+      "classname=\"btn-primary\"": {
+        "count": 1,
+        "positions": [
+          2218
+        ]
+      },
+      "setresult]": {
+        "count": 1,
+        "positions": [
+          405
+        ]
+      },
+      "[form,": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          1176
+        ]
+      },
+      "error('failed": {
+        "count": 1,
+        "positions": [
+          965
+        ]
+      },
+      "seterror(err.message);": {
+        "count": 1,
+        "positions": [
+          1098
+        ]
+      },
+      "htmltextareaelement>)": {
+        "count": 1,
+        "positions": [
+          514
+        ]
+      },
+      "'@/components/erroralert';": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 5,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "c1eae9b62d78",
+          "preview": "tsx\nimport { useState } from 'react';\nimport LoadingSpinner from '@/components/LoadingSpinner';\nimpo..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "d20a4bc35487",
+          "preview": "nputElement | HTMLTextAreaElement>) => {\n    setForm({ ...form, [e.target.name]: e.target.value });\n..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1500,
+          "size": 500,
+          "hash": "69ae7e8d4922",
+          "preview": "      const data = await res.json();\n      setResult(data.result);\n    } catch (err: any) {\n      se..."
+        },
+        {
+          "id": 3,
+          "start_char": 1500,
+          "end_char": 2000,
+          "size": 500,
+          "hash": "3aef887d8796",
+          "preview": "<label>\n          Name\n          <input\n            type=\"text\"\n            name=\"name\"\n            ..."
+        },
+        {
+          "id": 4,
+          "start_char": 2000,
+          "end_char": 2371,
+          "size": 371,
+          "hash": "4fcf12651fa7",
+          "preview": "oms\"\n            value={form.symptoms}\n            onChange={handleChange}\n            required\n    ..."
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

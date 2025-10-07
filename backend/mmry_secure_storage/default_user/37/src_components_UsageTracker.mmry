@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "37",
+  "file_name": "src/components/UsageTracker.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.08125
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 233,
+        "output_size": 229,
+        "stage_compression_ratio": 0.9828326180257511,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 229,
+        "output_size": 821,
+        "stage_compression_ratio": 3.5851528384279474,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 176,
+          "original_size": 225,
+          "compressed_size": 821
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 821,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0389768574908648,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 821,
+          "estimated_compressed_size": 323,
+          "entropy": 3.1533837816814505
+        }
+      }
+    ],
+    "total_compression_ratio": 0.13733905579399142,
+    "stage_count": 3,
+    "original_size": 233,
+    "final_size": 32,
+    "space_savings": 201,
+    "space_savings_percent": 86.26609442060087
+  },
+  "original_size": 233,
+  "compressed_size": 32,
+  "compression_ratio": 0.13733905579399142,
+  "space_savings_percent": 86.26609442060087,
+  "content_hash": "9df2ca4244c4cd9a",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:323:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 13,
+    "total_chars": 233,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 85,
+        "length": 46,
+        "preview": "export default function UsageTracker(Props ) {",
+        "hash": "363c8dcf"
+      },
+      "5": {
+        "start_char": 86,
+        "end_char": 96,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 97,
+        "end_char": 141,
+        "length": 44,
+        "preview": "    <div className=\"component usagetracker\">",
+        "hash": "99371e2d"
+      },
+      "7": {
+        "start_char": 142,
+        "end_char": 169,
+        "length": 27,
+        "preview": "      <h2>UsageTracker</h2>",
+        "hash": "f2ae9feb"
+      },
+      "8": {
+        "start_char": 170,
+        "end_char": 214,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 215,
+        "end_char": 225,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 226,
+        "end_char": 230,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 231,
+        "end_char": 232,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 233,
+        "end_char": 233,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "<h2>usagetracker</h2>": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          101
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          176
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "usagetracker\">": {
+        "count": 1,
+        "positions": [
+          127
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          117,
+          180
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          76
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          206
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          211
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          88
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "usagetracker(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

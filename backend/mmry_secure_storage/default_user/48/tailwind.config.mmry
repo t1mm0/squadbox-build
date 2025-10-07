@@ -1,0 +1,620 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "tailwind.config.js",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19635119726339795
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 877,
+        "output_size": 797,
+        "stage_compression_ratio": 0.9087799315849487,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 28
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 797,
+        "output_size": 2190,
+        "stage_compression_ratio": 2.7478042659974906,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 462,
+          "original_size": 769,
+          "compressed_size": 2190
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2190,
+        "output_size": 32,
+        "stage_compression_ratio": 0.014611872146118721,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2190,
+          "estimated_compressed_size": 886,
+          "entropy": 3.2401347118106525
+        }
+      }
+    ],
+    "total_compression_ratio": 0.036488027366020526,
+    "stage_count": 3,
+    "original_size": 877,
+    "final_size": 32,
+    "space_savings": 845,
+    "space_savings_percent": 96.35119726339795
+  },
+  "original_size": 877,
+  "compressed_size": 32,
+  "compression_ratio": 0.036488027366020526,
+  "space_savings_percent": 96.35119726339795,
+  "content_hash": "b66109d706acad60",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:886:[47][42][42][32][64]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 37,
+    "total_chars": 877,
+    "total_words": 85,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 43,
+        "length": 43,
+        "preview": "/** @type {import('tailwindcss').Config} */",
+        "hash": "666e92f7"
+      },
+      "1": {
+        "start_char": 44,
+        "end_char": 62,
+        "length": 18,
+        "preview": "module.exports = {",
+        "hash": "21c3427d"
+      },
+      "2": {
+        "start_char": 63,
+        "end_char": 75,
+        "length": 12,
+        "preview": "  content: [",
+        "hash": "8e5041b5"
+      },
+      "3": {
+        "start_char": 76,
+        "end_char": 115,
+        "length": 39,
+        "preview": "    './src/pages/**/*.{js,ts,jsx,tsx}',",
+        "hash": "c9609068"
+      },
+      "4": {
+        "start_char": 116,
+        "end_char": 160,
+        "length": 44,
+        "preview": "    './src/components/**/*.{js,ts,jsx,tsx}',",
+        "hash": "bdf9dda9"
+      },
+      "5": {
+        "start_char": 161,
+        "end_char": 198,
+        "length": 37,
+        "preview": "    './src/app/**/*.{js,ts,jsx,tsx}',",
+        "hash": "7a7f0fd2"
+      },
+      "6": {
+        "start_char": 199,
+        "end_char": 203,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "7": {
+        "start_char": 204,
+        "end_char": 214,
+        "length": 10,
+        "preview": "  theme: {",
+        "hash": "ea9f8eee"
+      },
+      "8": {
+        "start_char": 215,
+        "end_char": 228,
+        "length": 13,
+        "preview": "    extend: {",
+        "hash": "ca85a0ed"
+      },
+      "9": {
+        "start_char": 229,
+        "end_char": 244,
+        "length": 15,
+        "preview": "      colors: {",
+        "hash": "02ab8e91"
+      },
+      "10": {
+        "start_char": 245,
+        "end_char": 272,
+        "length": 27,
+        "preview": "        primary: '#3490dc',",
+        "hash": "81cfaae1"
+      },
+      "11": {
+        "start_char": 273,
+        "end_char": 302,
+        "length": 29,
+        "preview": "        secondary: '#ffed4a',",
+        "hash": "efec3f2f"
+      },
+      "12": {
+        "start_char": 303,
+        "end_char": 327,
+        "length": 24,
+        "preview": "        dark: '#1a202c',",
+        "hash": "789afdc3"
+      },
+      "13": {
+        "start_char": 328,
+        "end_char": 336,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "14": {
+        "start_char": 337,
+        "end_char": 356,
+        "length": 19,
+        "preview": "      fontFamily: {",
+        "hash": "6b155d27"
+      },
+      "15": {
+        "start_char": 357,
+        "end_char": 395,
+        "length": 38,
+        "preview": "        sans: ['Inter', 'sans-serif'],",
+        "hash": "87154458"
+      },
+      "16": {
+        "start_char": 396,
+        "end_char": 442,
+        "length": 46,
+        "preview": "        mono: ['JetBrains Mono', 'monospace'],",
+        "hash": "451ed69d"
+      },
+      "17": {
+        "start_char": 443,
+        "end_char": 451,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "18": {
+        "start_char": 452,
+        "end_char": 470,
+        "length": 18,
+        "preview": "      animation: {",
+        "hash": "1ae4d892"
+      },
+      "19": {
+        "start_char": 471,
+        "end_char": 514,
+        "length": 43,
+        "preview": "        'fade-in': 'fadeIn 1s ease-in-out',",
+        "hash": "2bfc199b"
+      },
+      "20": {
+        "start_char": 515,
+        "end_char": 559,
+        "length": 44,
+        "preview": "        'slide-up': 'slideUp 0.5s ease-out',",
+        "hash": "aeb2f9f4"
+      },
+      "21": {
+        "start_char": 560,
+        "end_char": 568,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "22": {
+        "start_char": 569,
+        "end_char": 587,
+        "length": 18,
+        "preview": "      keyframes: {",
+        "hash": "1557446d"
+      },
+      "23": {
+        "start_char": 588,
+        "end_char": 605,
+        "length": 17,
+        "preview": "        fadeIn: {",
+        "hash": "7d6083ea"
+      },
+      "24": {
+        "start_char": 606,
+        "end_char": 637,
+        "length": 31,
+        "preview": "          '0%': { opacity: 0 },",
+        "hash": "ecbd7d00"
+      },
+      "25": {
+        "start_char": 638,
+        "end_char": 671,
+        "length": 33,
+        "preview": "          '100%': { opacity: 1 },",
+        "hash": "01451658"
+      },
+      "26": {
+        "start_char": 672,
+        "end_char": 682,
+        "length": 10,
+        "preview": "        },",
+        "hash": "1eb5603b"
+      },
+      "27": {
+        "start_char": 683,
+        "end_char": 701,
+        "length": 18,
+        "preview": "        slideUp: {",
+        "hash": "9aa2d432"
+      },
+      "28": {
+        "start_char": 702,
+        "end_char": 764,
+        "length": 62,
+        "preview": "          '0%': { transform: 'translateY(20px)', o...",
+        "hash": "6e342ea8"
+      },
+      "29": {
+        "start_char": 765,
+        "end_char": 826,
+        "length": 61,
+        "preview": "          '100%': { transform: 'translateY(0)', op...",
+        "hash": "57d033b3"
+      },
+      "30": {
+        "start_char": 827,
+        "end_char": 837,
+        "length": 10,
+        "preview": "        },",
+        "hash": "1eb5603b"
+      },
+      "31": {
+        "start_char": 838,
+        "end_char": 846,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "32": {
+        "start_char": 847,
+        "end_char": 853,
+        "length": 6,
+        "preview": "    },",
+        "hash": "4f94b621"
+      },
+      "33": {
+        "start_char": 854,
+        "end_char": 858,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "34": {
+        "start_char": 859,
+        "end_char": 873,
+        "length": 14,
+        "preview": "  plugins: [],",
+        "hash": "c63b71ec"
+      },
+      "35": {
+        "start_char": 874,
+        "end_char": 876,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "36": {
+        "start_char": 877,
+        "end_char": 877,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "['inter',": {
+        "count": 1,
+        "positions": [
+          371
+        ]
+      },
+      "{import('tailwindcss').config}": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "colors:": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "extend:": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "'./src/app/**/*.{js,ts,jsx,tsx}',": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "sans:": {
+        "count": 1,
+        "positions": [
+          365
+        ]
+      },
+      "ease-in-out',": {
+        "count": 1,
+        "positions": [
+          501
+        ]
+      },
+      "fadein:": {
+        "count": 1,
+        "positions": [
+          596
+        ]
+      },
+      "'./src/pages/**/*.{js,ts,jsx,tsx}',": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "fontfamily:": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "/**": {
+        "count": 4,
+        "positions": [
+          0,
+          92,
+          137,
+          175
+        ]
+      },
+      "'#ffed4a',": {
+        "count": 1,
+        "positions": [
+          292
+        ]
+      },
+      "opacity:": {
+        "count": 4,
+        "positions": [
+          624,
+          658,
+          751,
+          813
+        ]
+      },
+      "'translatey(20px)',": {
+        "count": 1,
+        "positions": [
+          731
+        ]
+      },
+      "keyframes:": {
+        "count": 1,
+        "positions": [
+          575
+        ]
+      },
+      "mono:": {
+        "count": 1,
+        "positions": [
+          404
+        ]
+      },
+      "@type": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "secondary:": {
+        "count": 1,
+        "positions": [
+          281
+        ]
+      },
+      "content:": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "'monospace'],": {
+        "count": 1,
+        "positions": [
+          429
+        ]
+      },
+      "0.5s": {
+        "count": 1,
+        "positions": [
+          544
+        ]
+      },
+      "ease-out',": {
+        "count": 1,
+        "positions": [
+          549
+        ]
+      },
+      "'sans-serif'],": {
+        "count": 1,
+        "positions": [
+          381
+        ]
+      },
+      "'./src/components/**/*.{js,ts,jsx,tsx}',": {
+        "count": 1,
+        "positions": [
+          120
+        ]
+      },
+      "module.exports": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "animation:": {
+        "count": 1,
+        "positions": [
+          458
+        ]
+      },
+      "primary:": {
+        "count": 1,
+        "positions": [
+          253
+        ]
+      },
+      "dark:": {
+        "count": 1,
+        "positions": [
+          311
+        ]
+      },
+      "'#3490dc',": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "'100%':": {
+        "count": 2,
+        "positions": [
+          648,
+          775
+        ]
+      },
+      "'translatey(0)',": {
+        "count": 1,
+        "positions": [
+          796
+        ]
+      },
+      "'#1a202c',": {
+        "count": 1,
+        "positions": [
+          317
+        ]
+      },
+      "mono',": {
+        "count": 1,
+        "positions": [
+          422
+        ]
+      },
+      "'0%':": {
+        "count": 2,
+        "positions": [
+          616,
+          712
+        ]
+      },
+      "slideup:": {
+        "count": 1,
+        "positions": [
+          691
+        ]
+      },
+      "transform:": {
+        "count": 2,
+        "positions": [
+          720,
+          785
+        ]
+      },
+      "'fadein": {
+        "count": 1,
+        "positions": [
+          490
+        ]
+      },
+      "'slide-up':": {
+        "count": 1,
+        "positions": [
+          523
+        ]
+      },
+      "'fade-in':": {
+        "count": 1,
+        "positions": [
+          479
+        ]
+      },
+      "'slideup": {
+        "count": 1,
+        "positions": [
+          535
+        ]
+      },
+      "[],": {
+        "count": 1,
+        "positions": [
+          870
+        ]
+      },
+      "['jetbrains": {
+        "count": 1,
+        "positions": [
+          410
+        ]
+      },
+      "plugins:": {
+        "count": 1,
+        "positions": [
+          861
+        ]
+      },
+      "theme:": {
+        "count": 1,
+        "positions": [
+          206
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

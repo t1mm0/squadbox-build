@@ -1,0 +1,213 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-30",
+  "total_templates": 12,
+  "categories": {
+    "web_applications": {
+      "name": "Web Applications",
+      "description": "Complete web applications for various use cases",
+      "templates": [
+        {
+          "id": "ecommerce-platform-pro",
+          "name": "E-commerce Platform Pro",
+          "description": "Complete e-commerce solution with payment processing and AI recommendations",
+          "difficulty": "intermediate",
+          "estimated_time": "4-6 hours",
+          "downloads": 1250,
+          "rating": 4.8,
+          "featured": true,
+          "live_demo": "https://ecommerce-demo.squadbox.uk",
+          "path": "web-applications/ecommerce-platform"
+        },
+        {
+          "id": "saas-dashboard-pro",
+          "name": "SaaS Dashboard Pro",
+          "description": "Multi-tenant SaaS platform with billing and white-label capabilities",
+          "difficulty": "advanced",
+          "estimated_time": "6-8 hours",
+          "downloads": 980,
+          "rating": 4.9,
+          "featured": true,
+          "live_demo": "https://saas-demo.squadbox.uk",
+          "path": "web-applications/saas-dashboard"
+        },
+        {
+          "id": "landing-page-builder",
+          "name": "Landing Page Builder",
+          "description": "High-converting landing pages with A/B testing and analytics",
+          "difficulty": "beginner",
+          "estimated_time": "2-3 hours",
+          "downloads": 2100,
+          "rating": 4.6,
+          "featured": false,
+          "live_demo": "https://landing-demo.squadbox.uk",
+          "path": "web-applications/landing-page-builder"
+        },
+        {
+          "id": "analytics-dashboard",
+          "name": "Analytics Dashboard",
+          "description": "Real-time analytics dashboard with data visualization",
+          "difficulty": "intermediate",
+          "estimated_time": "3-4 hours",
+          "downloads": 750,
+          "rating": 4.7,
+          "featured": false,
+          "live_demo": "https://analytics-demo.squadbox.uk",
+          "path": "web-applications/analytics-dashboard"
+        }
+      ]
+    },
+    "mobile_applications": {
+      "name": "Mobile Applications",
+      "description": "Cross-platform mobile applications for iOS and Android",
+      "templates": [
+        {
+          "id": "react-native-app-pro",
+          "name": "React Native App Pro",
+          "description": "Cross-platform mobile app with offline capabilities and push notifications",
+          "difficulty": "intermediate",
+          "estimated_time": "5-7 hours",
+          "downloads": 850,
+          "rating": 4.7,
+          "featured": true,
+          "live_demo": "https://mobile-demo.squadbox.uk",
+          "path": "mobile-applications/react-native-app"
+        },
+        {
+          "id": "flutter-app-pro",
+          "name": "Flutter App Pro",
+          "description": "Native performance Flutter app with advanced UI components",
+          "difficulty": "intermediate",
+          "estimated_time": "4-6 hours",
+          "downloads": 620,
+          "rating": 4.5,
+          "featured": false,
+          "live_demo": "https://flutter-demo.squadbox.uk",
+          "path": "mobile-applications/flutter-app"
+        }
+      ]
+    },
+    "api_services": {
+      "name": "API Services",
+      "description": "Backend API services and microservices",
+      "templates": [
+        {
+          "id": "rest-api-pro",
+          "name": "REST API Pro",
+          "description": "Production-ready REST API with authentication and documentation",
+          "difficulty": "intermediate",
+          "estimated_time": "3-4 hours",
+          "downloads": 1100,
+          "rating": 4.8,
+          "featured": false,
+          "live_demo": "https://api-demo.squadbox.uk",
+          "path": "api-services/rest-api"
+        },
+        {
+          "id": "graphql-api-pro",
+          "name": "GraphQL API Pro",
+          "description": "Flexible GraphQL API with real-time subscriptions",
+          "difficulty": "advanced",
+          "estimated_time": "4-5 hours",
+          "downloads": 480,
+          "rating": 4.6,
+          "featured": false,
+          "live_demo": "https://graphql-demo.squadbox.uk",
+          "path": "api-services/graphql-api"
+        }
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Solutions",
+      "description": "Enterprise-grade applications with advanced security and compliance",
+      "templates": [
+        {
+          "id": "mmry-innovation-enterprise",
+          "name": "MMRY Innovation Enterprise",
+          "description": "Advanced file management with quantum encryption and graph database",
+          "difficulty": "advanced",
+          "estimated_time": "8-10 hours",
+          "downloads": 850,
+          "rating": 4.9,
+          "featured": true,
+          "live_demo": "https://mmry-demo.squadbox.uk",
+          "path": "enterprise/mmry-innovation"
+        },
+        {
+          "id": "healthcare-portal",
+          "name": "Healthcare Portal",
+          "description": "HIPAA-compliant healthcare application with patient management",
+          "difficulty": "advanced",
+          "estimated_time": "6-8 hours",
+          "downloads": 320,
+          "rating": 4.8,
+          "featured": false,
+          "live_demo": "https://healthcare-demo.squadbox.uk",
+          "path": "enterprise/healthcare-portal"
+        }
+      ]
+    },
+    "specialized": {
+      "name": "Specialized Applications",
+      "description": "Specialized applications for specific use cases",
+      "templates": [
+        {
+          "id": "ai-chat-application",
+          "name": "AI Chat Application",
+          "description": "Conversational AI application with natural language processing",
+          "difficulty": "advanced",
+          "estimated_time": "5-7 hours",
+          "downloads": 650,
+          "rating": 4.7,
+          "featured": false,
+          "live_demo": "https://ai-chat-demo.squadbox.uk",
+          "path": "specialized/ai-chat-application"
+        },
+        {
+          "id": "blockchain-dashboard",
+          "name": "Blockchain Dashboard",
+          "description": "Cryptocurrency and DeFi dashboard with real-time data",
+          "difficulty": "advanced",
+          "estimated_time": "6-8 hours",
+          "downloads": 420,
+          "rating": 4.5,
+          "featured": false,
+          "live_demo": "https://blockchain-demo.squadbox.uk",
+          "path": "specialized/blockchain-dashboard"
+        }
+      ]
+    }
+  },
+  "featured_templates": [
+    "ecommerce-platform-pro",
+    "saas-dashboard-pro",
+    "react-native-app-pro",
+    "mmry-innovation-enterprise"
+  ],
+  "popular_templates": [
+    "landing-page-builder",
+    "ecommerce-platform-pro",
+    "rest-api-pro",
+    "saas-dashboard-pro",
+    "react-native-app-pro"
+  ],
+  "new_templates": [
+    "ai-chat-application",
+    "blockchain-dashboard",
+    "healthcare-portal"
+  ],
+  "difficulty_distribution": {
+    "beginner": 1,
+    "intermediate": 6,
+    "advanced": 5
+  },
+  "average_rating": 4.7,
+  "total_downloads": 10420,
+  "site_info": {
+    "live_url": "https://squadbox.uk",
+    "template_library": "https://squadbox.uk/templates",
+    "documentation": "https://docs.squadbox.uk",
+    "support": "https://help.squadbox.uk",
+    "discord": "https://discord.gg/squadbox"
+  }
+} 

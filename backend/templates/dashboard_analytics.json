@@ -1,0 +1,95 @@
+{
+  "id": "dashboard-analytics",
+  "name": "Enterprise Analytics Dashboard",
+  "description": "Comprehensive analytics dashboard with real-time data visualization, custom reporting, and business intelligence features. Perfect for enterprise-level data analysis.",
+  "category": "dashboard",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "features": [
+    "Real-time data visualization",
+    "Custom dashboard builder",
+    "Advanced chart library",
+    "Data export & reporting",
+    "Multi-tenant architecture",
+    "Role-based access control",
+    "API integrations",
+    "Scheduled reports",
+    "Alert & notification system",
+    "Performance monitoring",
+    "White-label ready",
+    "Mobile responsive design",
+    "Interactive widgets",
+    "Data filtering & drilling"
+  ],
+  "icon": "BarChart3",
+  "tags": ["dashboard", "analytics", "enterprise", "data-visualization", "business-intelligence"],
+  "access_tier": "enterprise",
+  "popular": true,
+  "featured": true,
+  "downloads": 850,
+  "rating": 4.9,
+  "tech_stack": ["React", "TypeScript", "Next.js", "D3.js", "Chart.js", "PostgreSQL", "GraphQL", "Redis", "Tailwind CSS"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "d3": "^7.8.0",
+          "chart.js": "^4.4.0",
+          "react-chartjs-2": "^5.2.0",
+          "graphql": "^16.8.0",
+          "@apollo/client": "^3.8.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Main Dashboard",
+        "sections": ["overview-widgets", "chart-grid", "real-time-metrics", "quick-actions"]
+      },
+      {
+        "name": "Reports Center",
+        "sections": ["report-builder", "scheduled-reports", "export-options", "report-history"]
+      },
+      {
+        "name": "Data Sources",
+        "sections": ["connection-manager", "data-preview", "sync-status", "api-endpoints"]
+      },
+      {
+        "name": "Settings",
+        "sections": ["user-management", "permissions", "appearance", "notifications"]
+      }
+    ],
+    "components": [
+      "DashboardGrid",
+      "ChartWidget",
+      "DataTable",
+      "ReportBuilder",
+      "MetricsOverview",
+      "RealTimeChart",
+      "DataConnector",
+      "UserManagement",
+      "NotificationCenter",
+      "ExportManager"
+    ]
+  }
+}

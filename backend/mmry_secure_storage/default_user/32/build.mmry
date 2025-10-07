@@ -1,0 +1,444 @@
+{
+  "user_id": "default_user",
+  "project_id": "32",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.022979797979797982
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 401,
+        "output_size": 403,
+        "stage_compression_ratio": 1.0049875311720697,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 403,
+        "output_size": 1302,
+        "stage_compression_ratio": 3.230769230769231,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 277,
+          "original_size": 401,
+          "compressed_size": 1302
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1302,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02457757296466974,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1302,
+          "estimated_compressed_size": 522,
+          "entropy": 3.2134830917463817
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0798004987531172,
+    "stage_count": 3,
+    "original_size": 401,
+    "final_size": 32,
+    "space_savings": 369,
+    "space_savings_percent": 92.01995012468828
+  },
+  "original_size": 401,
+  "compressed_size": 32,
+  "compression_ratio": 0.0798004987531172,
+  "space_savings_percent": 92.01995012468828,
+  "content_hash": "9a4fb5b2efefe6b6",
+  "timestamp": 1755082505,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:522:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1755082505,
+    "total_lines": 19,
+    "total_chars": 401,
+    "total_words": 48,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-08-13 11:55:02",
+        "hash": "e74cbade"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 93,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "4": {
+        "start_char": 94,
+        "end_char": 111,
+        "length": 17,
+        "preview": "- - modern design",
+        "hash": "877edb49"
+      },
+      "5": {
+        "start_char": 112,
+        "end_char": 134,
+        "length": 22,
+        "preview": "- - full functionality",
+        "hash": "15df861d"
+      },
+      "6": {
+        "start_char": 135,
+        "end_char": 148,
+        "length": 13,
+        "preview": "- -sql-sechma",
+        "hash": "90b3a2b8"
+      },
+      "7": {
+        "start_char": 149,
+        "end_char": 179,
+        "length": 30,
+        "preview": "- -postgressqul localonnection",
+        "hash": "6a14e95f"
+      },
+      "8": {
+        "start_char": 180,
+        "end_char": 180,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "9": {
+        "start_char": 181,
+        "end_char": 218,
+        "length": 37,
+        "preview": "Using template: landing_page_template",
+        "hash": "2db786eb"
+      },
+      "10": {
+        "start_char": 219,
+        "end_char": 219,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "11": {
+        "start_char": 220,
+        "end_char": 262,
+        "length": 42,
+        "preview": "Applying template landing_page_template...",
+        "hash": "7e97ea12"
+      },
+      "12": {
+        "start_char": 263,
+        "end_char": 293,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "13": {
+        "start_char": 294,
+        "end_char": 327,
+        "length": 33,
+        "preview": "Generated 17 files from template.",
+        "hash": "e97896c0"
+      },
+      "14": {
+        "start_char": 328,
+        "end_char": 328,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "15": {
+        "start_char": 329,
+        "end_char": 355,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "16": {
+        "start_char": 356,
+        "end_char": 376,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "17": {
+        "start_char": 377,
+        "end_char": 400,
+        "length": 23,
+        "preview": "Generated: README.ai.md",
+        "hash": "9a7cb76c"
+      },
+      "18": {
+        "start_char": 401,
+        "end_char": 401,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "-postgressqul": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "-sql-sechma": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          367
+        ]
+      },
+      "project": {
+        "count": 3,
+        "positions": [
+          37,
+          54,
+          62
+        ]
+      },
+      "modern": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "landing_page_template": {
+        "count": 2,
+        "positions": [
+          197,
+          238
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          181
+        ]
+      },
+      "full": {
+        "count": 2,
+        "positions": [
+          116,
+          287
+        ]
+      },
+      "landing_page_template...": {
+        "count": 1,
+        "positions": [
+          238
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          294,
+          356,
+          377
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          340
+        ]
+      },
+      "11:55:02": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "design": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "template": {
+        "count": 6,
+        "positions": [
+          187,
+          210,
+          229,
+          251,
+          263,
+          318
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          272
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          345
+        ]
+      },
+      "readme.ai.md": {
+        "count": 1,
+        "positions": [
+          388
+        ]
+      },
+      "functionality": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          350
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          280
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "localonnection": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "template.": {
+        "count": 2,
+        "positions": [
+          251,
+          318
+        ]
+      },
+      "2025-08-13": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          329
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          356,
+          377
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "user_id": "default_user",
+  "project_id": "38",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19627039627039627
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 859,
+        "output_size": 859,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 12
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 859,
+        "output_size": 2412,
+        "stage_compression_ratio": 2.8079161816065192,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 512,
+          "original_size": 847,
+          "compressed_size": 2412
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2412,
+        "output_size": 32,
+        "stage_compression_ratio": 0.013266998341625208,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2412,
+          "estimated_compressed_size": 984,
+          "entropy": 3.263903349672513
+        }
+      }
+    ],
+    "total_compression_ratio": 0.037252619324796274,
+    "stage_count": 3,
+    "original_size": 859,
+    "final_size": 32,
+    "space_savings": 827,
+    "space_savings_percent": 96.27473806752037
+  },
+  "original_size": 859,
+  "compressed_size": 32,
+  "compression_ratio": 0.037252619324796274,
+  "space_savings_percent": 96.27473806752037,
+  "content_hash": "7b5ba1e8c0f43543",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:984:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 29,
+    "total_chars": 859,
+    "total_words": 78,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"38\",",
+        "hash": "73d20574"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 144,
+        "length": 68,
+        "preview": "    \"Use tech stack: Next.js, MDX, TailwindCSS, Pr...",
+        "hash": "c5694822"
+      },
+      "5": {
+        "start_char": 145,
+        "end_char": 169,
+        "length": 24,
+        "preview": "    \"Create page: Home\",",
+        "hash": "f4e636b4"
+      },
+      "6": {
+        "start_char": 170,
+        "end_char": 195,
+        "length": 25,
+        "preview": "    \"Create page: Posts\",",
+        "hash": "b46831c6"
+      },
+      "7": {
+        "start_char": 196,
+        "end_char": 227,
+        "length": 31,
+        "preview": "    \"Create page: Post Detail\",",
+        "hash": "cb332aa5"
+      },
+      "8": {
+        "start_char": 228,
+        "end_char": 253,
+        "length": 25,
+        "preview": "    \"Create page: About\",",
+        "hash": "84e0938d"
+      },
+      "9": {
+        "start_char": 254,
+        "end_char": 281,
+        "length": 27,
+        "preview": "    \"Create page: Contact\",",
+        "hash": "e8e0f735"
+      },
+      "10": {
+        "start_char": 282,
+        "end_char": 307,
+        "length": 25,
+        "preview": "    \"Create page: Admin\",",
+        "hash": "d672caa0"
+      },
+      "11": {
+        "start_char": 308,
+        "end_char": 453,
+        "length": 145,
+        "preview": "    \"Include components: Header, Footer, PostCard,...",
+        "hash": "d1afac51"
+      },
+      "12": {
+        "start_char": 454,
+        "end_char": 458,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "13": {
+        "start_char": 459,
+        "end_char": 492,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "14": {
+        "start_char": 493,
+        "end_char": 517,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "15": {
+        "start_char": 518,
+        "end_char": 543,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "16": {
+        "start_char": 544,
+        "end_char": 579,
+        "length": 35,
+        "preview": "  \"start_time\": 1759697184.4544158,",
+        "hash": "36cd888e"
+      },
+      "17": {
+        "start_char": 580,
+        "end_char": 599,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "18": {
+        "start_char": 600,
+        "end_char": 624,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "19": {
+        "start_char": 625,
+        "end_char": 640,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "20": {
+        "start_char": 641,
+        "end_char": 693,
+        "length": 52,
+        "preview": "  \"team_id\": \"b4cf9d4c-d4b4-4de5-b2bc-603a0763e102...",
+        "hash": "7333d78f"
+      },
+      "21": {
+        "start_char": 694,
+        "end_char": 717,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "22": {
+        "start_char": 718,
+        "end_char": 728,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "23": {
+        "start_char": 729,
+        "end_char": 755,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "24": {
+        "start_char": 756,
+        "end_char": 786,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "25": {
+        "start_char": 787,
+        "end_char": 830,
+        "length": 43,
+        "preview": "    \"ollama_url\": \"http://localhost:11434\",",
+        "hash": "83c9464e"
+      },
+      "26": {
+        "start_char": 831,
+        "end_char": 853,
+        "length": 22,
+        "preview": "    \"use_ollama\": true",
+        "hash": "62e4ce3f"
+      },
+      "27": {
+        "start_char": 854,
+        "end_char": 857,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "28": {
+        "start_char": 858,
+        "end_char": 859,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "page:": {
+        "count": 6,
+        "positions": [
+          157,
+          182,
+          208,
+          240,
+          266,
+          294
+        ]
+      },
+      "\"create": {
+        "count": 6,
+        "positions": [
+          149,
+          174,
+          200,
+          232,
+          258,
+          286
+        ]
+      },
+      "\"b4cf9d4c-d4b4-4de5-b2bc-603a0763e102\",": {
+        "count": 1,
+        "positions": [
+          654
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          621,
+          637
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          696
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          791
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          111
+        ]
+      },
+      "post": {
+        "count": 5,
+        "positions": [
+          132,
+          188,
+          214,
+          349,
+          427
+        ]
+      },
+      "\"use": {
+        "count": 4,
+        "positions": [
+          80,
+          733,
+          760,
+          835
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          333
+        ]
+      },
+      "searchbar,": {
+        "count": 1,
+        "positions": [
+          416
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          835
+        ]
+      },
+      "mediauploader\"": {
+        "count": 1,
+        "positions": [
+          439
+        ]
+      },
+      "commentsection,": {
+        "count": 1,
+        "positions": [
+          370
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          476
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          594
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          760
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "posts\",": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "detail\",": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "newsletterform,": {
+        "count": 1,
+        "positions": [
+          386
+        ]
+      },
+      "categorylist,": {
+        "count": 1,
+        "positions": [
+          402
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          530
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          643
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          495
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          321
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          520
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          582
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          511
+        ]
+      },
+      "\"include": {
+        "count": 1,
+        "positions": [
+          312
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          749,
+          780
+        ]
+      },
+      "contact\",": {
+        "count": 1,
+        "positions": [
+          272
+        ]
+      },
+      "posteditor,": {
+        "count": 1,
+        "positions": [
+          427
+        ]
+      },
+      "true": {
+        "count": 2,
+        "positions": [
+          712,
+          849
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          461
+        ]
+      },
+      "authorbio,": {
+        "count": 1,
+        "positions": [
+          359
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "mdx,": {
+        "count": 1,
+        "positions": [
+          106
+        ]
+      },
+      "postgresql\",": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          602
+        ]
+      },
+      "\"38\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "admin\",": {
+        "count": 1,
+        "positions": [
+          300
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          720
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "postcard,": {
+        "count": 1,
+        "positions": [
+          349
+        ]
+      },
+      "prisma,": {
+        "count": 1,
+        "positions": [
+          124
+        ]
+      },
+      "1759697184.4544158,": {
+        "count": 1,
+        "positions": [
+          560
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          733
+        ]
+      },
+      "footer,": {
+        "count": 1,
+        "positions": [
+          341
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          712
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          627
+        ]
+      },
+      "about\",": {
+        "count": 1,
+        "positions": [
+          246
+        ]
+      },
+      "\"http://localhost:11434\",": {
+        "count": 1,
+        "positions": [
+          805
+        ]
+      },
+      "home\",": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          546
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

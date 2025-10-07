@@ -1,0 +1,101 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "binary.bin",
+  "file_type": "binary",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.014598214285714287
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 28,
+        "output_size": 28,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 28,
+        "output_size": 48,
+        "stage_compression_ratio": 1.7142857142857142,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 10,
+          "original_size": 28,
+          "compressed_size": 48
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 48,
+        "output_size": 31,
+        "stage_compression_ratio": 0.6458333333333334,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 48,
+          "estimated_compressed_size": 18,
+          "entropy": 3.098870523901816
+        }
+      }
+    ],
+    "total_compression_ratio": 1.1071428571428572,
+    "stage_count": 3,
+    "original_size": 28,
+    "final_size": 31,
+    "space_savings": -3,
+    "space_savings_percent": -10.714285714285714
+  },
+  "original_size": 28,
+  "compressed_size": 31,
+  "compression_ratio": 1.1071428571428572,
+  "space_savings_percent": -10.714285714285714,
+  "content_hash": "5d973b443ecc2575",
+  "timestamp": 1754563556,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:18:[48][49][257][259][2",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563556,
+    "total_lines": 1,
+    "total_chars": 28,
+    "total_words": 1,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 28,
+        "length": 28,
+        "preview": "0101010101010101010101010101",
+        "hash": "47346501"
+      }
+    },
+    "word_index": {
+      "0101010101010101010101010101": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

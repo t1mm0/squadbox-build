@@ -1,0 +1,404 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/app/project-manager/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.01849410669975186
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 514,
+        "output_size": 504,
+        "stage_compression_ratio": 0.980544747081712,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 7
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 504,
+        "output_size": 1407,
+        "stage_compression_ratio": 2.7916666666666665,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 295,
+          "original_size": 497,
+          "compressed_size": 1407
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1407,
+        "output_size": 32,
+        "stage_compression_ratio": 0.022743425728500355,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1407,
+          "estimated_compressed_size": 572,
+          "entropy": 3.2566967763325363
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0622568093385214,
+    "stage_count": 3,
+    "original_size": 514,
+    "final_size": 32,
+    "space_savings": 482,
+    "space_savings_percent": 93.77431906614785
+  },
+  "original_size": 514,
+  "compressed_size": 32,
+  "compression_ratio": 0.0622568093385214,
+  "space_savings_percent": 93.77431906614785,
+  "content_hash": "4257138e75adf0c1",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:572:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 18,
+    "total_chars": 514,
+    "total_words": 45,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 79,
+        "length": 52,
+        "preview": "import ProjectList from '../components/ProjectList...",
+        "hash": "9c688b49"
+      },
+      "2": {
+        "start_char": 80,
+        "end_char": 144,
+        "length": 64,
+        "preview": "import TeamCollaboration from '../components/TeamC...",
+        "hash": "15f10baf"
+      },
+      "3": {
+        "start_char": 145,
+        "end_char": 205,
+        "length": 60,
+        "preview": "import ContentCalendar from '../components/Content...",
+        "hash": "ddb1a5ed"
+      },
+      "4": {
+        "start_char": 206,
+        "end_char": 264,
+        "length": 58,
+        "preview": "import WorkflowStatus from '../components/Workflow...",
+        "hash": "1c5eef67"
+      },
+      "5": {
+        "start_char": 265,
+        "end_char": 265,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 266,
+        "end_char": 309,
+        "length": 43,
+        "preview": "export default function Project manager() {",
+        "hash": "65d1c74e"
+      },
+      "7": {
+        "start_char": 310,
+        "end_char": 320,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "8": {
+        "start_char": 321,
+        "end_char": 363,
+        "length": 42,
+        "preview": "    <div className=\"page project manager\">",
+        "hash": "5b6e38c5"
+      },
+      "9": {
+        "start_char": 364,
+        "end_char": 394,
+        "length": 30,
+        "preview": "      <h1>Project Manager</h1>",
+        "hash": "286d820e"
+      },
+      "10": {
+        "start_char": 395,
+        "end_char": 416,
+        "length": 21,
+        "preview": "      <ProjectList />",
+        "hash": "3090177f"
+      },
+      "11": {
+        "start_char": 417,
+        "end_char": 444,
+        "length": 27,
+        "preview": "      <TeamCollaboration />",
+        "hash": "cd33de78"
+      },
+      "12": {
+        "start_char": 445,
+        "end_char": 470,
+        "length": 25,
+        "preview": "      <ContentCalendar />",
+        "hash": "08007995"
+      },
+      "13": {
+        "start_char": 471,
+        "end_char": 495,
+        "length": 24,
+        "preview": "      <WorkflowStatus />",
+        "hash": "e365726f"
+      },
+      "14": {
+        "start_char": 496,
+        "end_char": 506,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "15": {
+        "start_char": 507,
+        "end_char": 511,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "16": {
+        "start_char": 512,
+        "end_char": 513,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 514,
+        "end_char": 514,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "manager()": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          273
+        ]
+      },
+      "<projectlist": {
+        "count": 1,
+        "positions": [
+          401
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          281
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      },
+      "manager\">": {
+        "count": 1,
+        "positions": [
+          354
+        ]
+      },
+      "'../components/teamcollaboration';": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "<teamcollaboration": {
+        "count": 1,
+        "positions": [
+          423
+        ]
+      },
+      "projectlist": {
+        "count": 3,
+        "positions": [
+          34,
+          66,
+          402
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          500
+        ]
+      },
+      "workflowstatus": {
+        "count": 3,
+        "positions": [
+          213,
+          248,
+          478
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "<h1>project": {
+        "count": 1,
+        "positions": [
+          370
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          312
+        ]
+      },
+      "teamcollaboration": {
+        "count": 3,
+        "positions": [
+          87,
+          125,
+          424
+        ]
+      },
+      "'../components/workflowstatus';": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "project": {
+        "count": 6,
+        "positions": [
+          34,
+          66,
+          290,
+          346,
+          374,
+          402
+        ]
+      },
+      "manager</h1>": {
+        "count": 1,
+        "positions": [
+          382
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          330
+        ]
+      },
+      "<workflowstatus": {
+        "count": 1,
+        "positions": [
+          477
+        ]
+      },
+      "'../components/projectlist';": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "<contentcalendar": {
+        "count": 1,
+        "positions": [
+          451
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          266
+        ]
+      },
+      "from": {
+        "count": 5,
+        "positions": [
+          13,
+          46,
+          105,
+          168,
+          228
+        ]
+      },
+      "import": {
+        "count": 5,
+        "positions": [
+          0,
+          27,
+          80,
+          145,
+          206
+        ]
+      },
+      "'../components/contentcalendar';": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "contentcalendar": {
+        "count": 3,
+        "positions": [
+          152,
+          188,
+          452
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

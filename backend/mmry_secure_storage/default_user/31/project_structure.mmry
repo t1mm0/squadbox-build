@@ -1,0 +1,926 @@
+{
+  "user_id": "default_user",
+  "project_id": "31",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018565077704722054
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 845,
+        "output_size": 845,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 845,
+        "output_size": 2300,
+        "stage_compression_ratio": 2.7218934911242605,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 478,
+          "original_size": 845,
+          "compressed_size": 2300
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2300,
+        "output_size": 32,
+        "stage_compression_ratio": 0.01391304347826087,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2300,
+          "estimated_compressed_size": 940,
+          "entropy": 3.2706911016739815
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0378698224852071,
+    "stage_count": 3,
+    "original_size": 845,
+    "final_size": 32,
+    "space_savings": 813,
+    "space_savings_percent": 96.21301775147928
+  },
+  "original_size": 845,
+  "compressed_size": 32,
+  "compression_ratio": 0.0378698224852071,
+  "space_savings_percent": 96.21301775147928,
+  "content_hash": "2d7778e7008d3e0d",
+  "timestamp": 1754573228,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:940:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754573228,
+    "total_lines": 57,
+    "total_chars": 845,
+    "total_words": 123,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 22,
+        "length": 22,
+        "preview": "# My Project Structure",
+        "hash": "8917c60b"
+      },
+      "1": {
+        "start_char": 23,
+        "end_char": 23,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "Template: Landing Page Template",
+        "hash": "1660511a"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 56,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 57,
+        "end_char": 74,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 75,
+        "end_char": 75,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 76,
+        "end_char": 82,
+        "length": 6,
+        "preview": "- Hero",
+        "hash": "53ebf327"
+      },
+      "7": {
+        "start_char": 83,
+        "end_char": 95,
+        "length": 12,
+        "preview": "  - headline",
+        "hash": "64e4843e"
+      },
+      "8": {
+        "start_char": 96,
+        "end_char": 111,
+        "length": 15,
+        "preview": "  - subheadline",
+        "hash": "367b5167"
+      },
+      "9": {
+        "start_char": 112,
+        "end_char": 126,
+        "length": 14,
+        "preview": "  - cta-button",
+        "hash": "11a9c1fe"
+      },
+      "10": {
+        "start_char": 127,
+        "end_char": 141,
+        "length": 14,
+        "preview": "  - hero-image",
+        "hash": "afe5210b"
+      },
+      "11": {
+        "start_char": 142,
+        "end_char": 152,
+        "length": 10,
+        "preview": "- Features",
+        "hash": "63096376"
+      },
+      "12": {
+        "start_char": 153,
+        "end_char": 169,
+        "length": 16,
+        "preview": "  - feature-grid",
+        "hash": "5c346fa3"
+      },
+      "13": {
+        "start_char": 170,
+        "end_char": 187,
+        "length": 17,
+        "preview": "  - feature-cards",
+        "hash": "ae43a498"
+      },
+      "14": {
+        "start_char": 188,
+        "end_char": 198,
+        "length": 10,
+        "preview": "- Benefits",
+        "hash": "b1f72649"
+      },
+      "15": {
+        "start_char": 199,
+        "end_char": 215,
+        "length": 16,
+        "preview": "  - benefit-list",
+        "hash": "5b75ce78"
+      },
+      "16": {
+        "start_char": 216,
+        "end_char": 231,
+        "length": 15,
+        "preview": "  - testimonial",
+        "hash": "d70295e7"
+      },
+      "17": {
+        "start_char": 232,
+        "end_char": 246,
+        "length": 14,
+        "preview": "- Social Proof",
+        "hash": "bdb9241f"
+      },
+      "18": {
+        "start_char": 247,
+        "end_char": 256,
+        "length": 9,
+        "preview": "  - logos",
+        "hash": "0baa11ea"
+      },
+      "19": {
+        "start_char": 257,
+        "end_char": 273,
+        "length": 16,
+        "preview": "  - testimonials",
+        "hash": "6008dd16"
+      },
+      "20": {
+        "start_char": 274,
+        "end_char": 290,
+        "length": 16,
+        "preview": "  - case-studies",
+        "hash": "a71901bd"
+      },
+      "21": {
+        "start_char": 291,
+        "end_char": 300,
+        "length": 9,
+        "preview": "- Pricing",
+        "hash": "dc0b4f3a"
+      },
+      "22": {
+        "start_char": 301,
+        "end_char": 318,
+        "length": 17,
+        "preview": "  - pricing-table",
+        "hash": "c269c65d"
+      },
+      "23": {
+        "start_char": 319,
+        "end_char": 326,
+        "length": 7,
+        "preview": "  - faq",
+        "hash": "ba4f3cf4"
+      },
+      "24": {
+        "start_char": 327,
+        "end_char": 343,
+        "length": 16,
+        "preview": "- Call to Action",
+        "hash": "a91fc5cf"
+      },
+      "25": {
+        "start_char": 344,
+        "end_char": 359,
+        "length": 15,
+        "preview": "  - signup-form",
+        "hash": "6bd6bb3b"
+      },
+      "26": {
+        "start_char": 360,
+        "end_char": 374,
+        "length": 14,
+        "preview": "  - cta-button",
+        "hash": "11a9c1fe"
+      },
+      "27": {
+        "start_char": 375,
+        "end_char": 388,
+        "length": 13,
+        "preview": "  - guarantee",
+        "hash": "0e597c0e"
+      },
+      "28": {
+        "start_char": 389,
+        "end_char": 397,
+        "length": 8,
+        "preview": "- Footer",
+        "hash": "f237ecf8"
+      },
+      "29": {
+        "start_char": 398,
+        "end_char": 407,
+        "length": 9,
+        "preview": "  - links",
+        "hash": "861bbea0"
+      },
+      "30": {
+        "start_char": 408,
+        "end_char": 418,
+        "length": 10,
+        "preview": "  - social",
+        "hash": "4a7b1b74"
+      },
+      "31": {
+        "start_char": 419,
+        "end_char": 428,
+        "length": 9,
+        "preview": "  - legal",
+        "hash": "30d07b90"
+      },
+      "32": {
+        "start_char": 429,
+        "end_char": 429,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "33": {
+        "start_char": 430,
+        "end_char": 443,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "34": {
+        "start_char": 444,
+        "end_char": 444,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "35": {
+        "start_char": 445,
+        "end_char": 453,
+        "length": 8,
+        "preview": "- Header",
+        "hash": "8bdb89f1"
+      },
+      "36": {
+        "start_char": 454,
+        "end_char": 465,
+        "length": 11,
+        "preview": "- LogoCloud",
+        "hash": "960f74c0"
+      },
+      "37": {
+        "start_char": 466,
+        "end_char": 479,
+        "length": 13,
+        "preview": "- FeatureCard",
+        "hash": "a4f40290"
+      },
+      "38": {
+        "start_char": 480,
+        "end_char": 497,
+        "length": 17,
+        "preview": "- TestimonialCard",
+        "hash": "f8aa97a4"
+      },
+      "39": {
+        "start_char": 498,
+        "end_char": 511,
+        "length": 13,
+        "preview": "- PricingCard",
+        "hash": "d17f9402"
+      },
+      "40": {
+        "start_char": 512,
+        "end_char": 524,
+        "length": 12,
+        "preview": "- SignupForm",
+        "hash": "541cad2f"
+      },
+      "41": {
+        "start_char": 525,
+        "end_char": 536,
+        "length": 11,
+        "preview": "- CTAButton",
+        "hash": "c1e641ee"
+      },
+      "42": {
+        "start_char": 537,
+        "end_char": 542,
+        "length": 5,
+        "preview": "- FAQ",
+        "hash": "58847ee8"
+      },
+      "43": {
+        "start_char": 543,
+        "end_char": 558,
+        "length": 15,
+        "preview": "- FooterSection",
+        "hash": "cba3f9d7"
+      },
+      "44": {
+        "start_char": 559,
+        "end_char": 559,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "45": {
+        "start_char": 560,
+        "end_char": 573,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "46": {
+        "start_char": 574,
+        "end_char": 574,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "47": {
+        "start_char": 575,
+        "end_char": 584,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "48": {
+        "start_char": 585,
+        "end_char": 598,
+        "length": 13,
+        "preview": "- TailwindCSS",
+        "hash": "44ce2250"
+      },
+      "49": {
+        "start_char": 599,
+        "end_char": 616,
+        "length": 17,
+        "preview": "- React Hook Form",
+        "hash": "867c8e99"
+      },
+      "50": {
+        "start_char": 617,
+        "end_char": 627,
+        "length": 10,
+        "preview": "- SendGrid",
+        "hash": "975e03bb"
+      },
+      "51": {
+        "start_char": 628,
+        "end_char": 628,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "52": {
+        "start_char": 629,
+        "end_char": 651,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "53": {
+        "start_char": 652,
+        "end_char": 652,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "54": {
+        "start_char": 653,
+        "end_char": 718,
+        "length": 65,
+        "preview": "- Use tech stack: Next.js, TailwindCSS, React Hook...",
+        "hash": "499a2e66"
+      },
+      "55": {
+        "start_char": 719,
+        "end_char": 844,
+        "length": 125,
+        "preview": "- Include components: Header, LogoCloud, FeatureCa...",
+        "hash": "f64351e0"
+      },
+      "56": {
+        "start_char": 845,
+        "end_char": 845,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "pricingcard": {
+        "count": 2,
+        "positions": [
+          500,
+          790
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          632
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          664
+        ]
+      },
+      "landing": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "proof": {
+        "count": 1,
+        "positions": [
+          241
+        ]
+      },
+      "hero-image": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "links": {
+        "count": 1,
+        "positions": [
+          402
+        ]
+      },
+      "form,": {
+        "count": 2,
+        "positions": [
+          704,
+          809
+        ]
+      },
+      "pricing": {
+        "count": 4,
+        "positions": [
+          293,
+          305,
+          500,
+          790
+        ]
+      },
+      "project": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      },
+      "feature-cards": {
+        "count": 1,
+        "positions": [
+          174
+        ]
+      },
+      "action": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          741
+        ]
+      },
+      "faq,": {
+        "count": 1,
+        "positions": [
+          826
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          13
+        ]
+      },
+      "ctabutton": {
+        "count": 2,
+        "positions": [
+          527,
+          815
+        ]
+      },
+      "tailwindcss,": {
+        "count": 1,
+        "positions": [
+          680
+        ]
+      },
+      "feature-grid": {
+        "count": 1,
+        "positions": [
+          157
+        ]
+      },
+      "testimonial": {
+        "count": 4,
+        "positions": [
+          220,
+          261,
+          482,
+          773
+        ]
+      },
+      "guarantee": {
+        "count": 1,
+        "positions": [
+          379
+        ]
+      },
+      "form": {
+        "count": 5,
+        "positions": [
+          355,
+          520,
+          612,
+          704,
+          809
+        ]
+      },
+      "signup-form": {
+        "count": 1,
+        "positions": [
+          348
+        ]
+      },
+      "headline": {
+        "count": 2,
+        "positions": [
+          87,
+          103
+        ]
+      },
+      "signupform": {
+        "count": 2,
+        "positions": [
+          514,
+          803
+        ]
+      },
+      "template": {
+        "count": 2,
+        "positions": [
+          24,
+          47
+        ]
+      },
+      "featurecard": {
+        "count": 2,
+        "positions": [
+          468,
+          760
+        ]
+      },
+      "call": {
+        "count": 1,
+        "positions": [
+          329
+        ]
+      },
+      "case-studies": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "logocloud,": {
+        "count": 1,
+        "positions": [
+          749
+        ]
+      },
+      "social": {
+        "count": 2,
+        "positions": [
+          234,
+          412
+        ]
+      },
+      "logocloud": {
+        "count": 2,
+        "positions": [
+          456,
+          749
+        ]
+      },
+      "logos": {
+        "count": 1,
+        "positions": [
+          251
+        ]
+      },
+      "components": {
+        "count": 2,
+        "positions": [
+          433,
+          729
+        ]
+      },
+      "footersection": {
+        "count": 2,
+        "positions": [
+          545,
+          831
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "sendgrid": {
+        "count": 2,
+        "positions": [
+          619,
+          710
+        ]
+      },
+      "featurecard,": {
+        "count": 1,
+        "positions": [
+          760
+        ]
+      },
+      "pricingcard,": {
+        "count": 1,
+        "positions": [
+          790
+        ]
+      },
+      "legal": {
+        "count": 1,
+        "positions": [
+          423
+        ]
+      },
+      "subheadline": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          601,
+          693
+        ]
+      },
+      "stack": {
+        "count": 2,
+        "positions": [
+          568,
+          664
+        ]
+      },
+      "page": {
+        "count": 2,
+        "positions": [
+          42,
+          60
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          639
+        ]
+      },
+      "tech": {
+        "count": 2,
+        "positions": [
+          563,
+          659
+        ]
+      },
+      "testimonialcard": {
+        "count": 2,
+        "positions": [
+          482,
+          773
+        ]
+      },
+      "tailwindcss": {
+        "count": 2,
+        "positions": [
+          587,
+          680
+        ]
+      },
+      "next.js": {
+        "count": 2,
+        "positions": [
+          577,
+          671
+        ]
+      },
+      "testimonialcard,": {
+        "count": 1,
+        "positions": [
+          773
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          671
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          655
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          729
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          721
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          60
+        ]
+      },
+      "signupform,": {
+        "count": 1,
+        "positions": [
+          803
+        ]
+      },
+      "faq": {
+        "count": 3,
+        "positions": [
+          323,
+          539,
+          826
+        ]
+      },
+      "footer": {
+        "count": 3,
+        "positions": [
+          391,
+          545,
+          831
+        ]
+      },
+      "ctabutton,": {
+        "count": 1,
+        "positions": [
+          815
+        ]
+      },
+      "hero": {
+        "count": 2,
+        "positions": [
+          78,
+          131
+        ]
+      },
+      "header": {
+        "count": 2,
+        "positions": [
+          447,
+          741
+        ]
+      },
+      "benefits": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "features": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "cta-button": {
+        "count": 2,
+        "positions": [
+          116,
+          364
+        ]
+      },
+      "benefit-list": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      },
+      "testimonials": {
+        "count": 1,
+        "positions": [
+          261
+        ]
+      },
+      "hook": {
+        "count": 2,
+        "positions": [
+          607,
+          699
+        ]
+      },
+      "pricing-table": {
+        "count": 1,
+        "positions": [
+          305
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

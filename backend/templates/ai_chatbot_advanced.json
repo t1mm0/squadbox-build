@@ -1,0 +1,85 @@
+{
+  "id": "ai-chatbot-advanced",
+  "name": "Enterprise AI Chatbot",
+  "description": "Advanced AI chatbot with learning capabilities, conversation memory, and enterprise features. Perfect for businesses needing sophisticated AI interactions.",
+  "category": "ai",
+  "difficulty": "advanced",
+  "estimatedTime": "3 hours",
+  "features": [
+    "Advanced conversation learning",
+    "Real-time training updates",
+    "Context awareness & memory",
+    "Multi-language support",
+    "Customizable AI personality",
+    "Analytics & insights dashboard",
+    "Conversation export/import",
+    "API integrations",
+    "Enterprise security",
+    "Custom knowledge base",
+    "Voice interaction support",
+    "Sentiment analysis"
+  ],
+  "icon": "MessageSquare",
+  "tags": ["ai", "chatbot", "enterprise", "learning", "nlp", "voice"],
+  "access_tier": "pro",
+  "popular": true,
+  "featured": true,
+  "downloads": 1250,
+  "rating": 4.8,
+  "tech_stack": ["React", "TypeScript", "Next.js", "OpenAI GPT", "LangChain", "PostgreSQL", "Redis", "Tailwind CSS"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "openai": "^4.0.0",
+          "langchain": "^0.0.200",
+          "postgres": "^3.4.0",
+          "redis": "^4.6.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Chat Interface",
+        "sections": ["chat-window", "conversation-history", "settings-panel"]
+      },
+      {
+        "name": "Analytics Dashboard",
+        "sections": ["conversation-metrics", "performance-stats", "user-insights"]
+      },
+      {
+        "name": "Training Center", 
+        "sections": ["knowledge-base", "conversation-training", "model-tuning"]
+      }
+    ],
+    "components": [
+      "EnterpriseChatInterface",
+      "ConversationLearning",
+      "TrainingDashboard", 
+      "ChatAnalytics",
+      "KnowledgeBaseManager",
+      "VoiceInterface",
+      "SentimentAnalyzer"
+    ]
+  }
+}

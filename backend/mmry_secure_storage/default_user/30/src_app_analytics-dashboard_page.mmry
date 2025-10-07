@@ -1,0 +1,365 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "src/app/analytics-dashboard/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018431056701030925
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 454,
+        "output_size": 446,
+        "stage_compression_ratio": 0.9823788546255506,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 446,
+        "output_size": 1345,
+        "stage_compression_ratio": 3.015695067264574,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 283,
+          "original_size": 440,
+          "compressed_size": 1345
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1345,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02379182156133829,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1345,
+          "estimated_compressed_size": 542,
+          "entropy": 3.225884903785107
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07048458149779736,
+    "stage_count": 3,
+    "original_size": 454,
+    "final_size": 32,
+    "space_savings": 422,
+    "space_savings_percent": 92.95154185022027
+  },
+  "original_size": 454,
+  "compressed_size": 32,
+  "compression_ratio": 0.07048458149779736,
+  "space_savings_percent": 92.95154185022027,
+  "content_hash": "d89b6c6302d2d078",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:542:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 16,
+    "total_chars": 454,
+    "total_words": 39,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 95,
+        "length": 68,
+        "preview": "import ConversationMetrics from '../components/Con...",
+        "hash": "41cf15d1"
+      },
+      "2": {
+        "start_char": 96,
+        "end_char": 158,
+        "length": 62,
+        "preview": "import PerformanceStats from '../components/Perfor...",
+        "hash": "224efde6"
+      },
+      "3": {
+        "start_char": 159,
+        "end_char": 213,
+        "length": 54,
+        "preview": "import UserInsights from '../components/UserInsigh...",
+        "hash": "a6b2ef21"
+      },
+      "4": {
+        "start_char": 214,
+        "end_char": 214,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 215,
+        "end_char": 262,
+        "length": 47,
+        "preview": "export default function Analytics dashboard() {",
+        "hash": "36e19d04"
+      },
+      "6": {
+        "start_char": 263,
+        "end_char": 273,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 274,
+        "end_char": 320,
+        "length": 46,
+        "preview": "    <div className=\"page analytics dashboard\">",
+        "hash": "2707aa15"
+      },
+      "8": {
+        "start_char": 321,
+        "end_char": 355,
+        "length": 34,
+        "preview": "      <h1>Analytics Dashboard</h1>",
+        "hash": "b3c2856d"
+      },
+      "9": {
+        "start_char": 356,
+        "end_char": 385,
+        "length": 29,
+        "preview": "      <ConversationMetrics />",
+        "hash": "07d6ec0f"
+      },
+      "10": {
+        "start_char": 386,
+        "end_char": 412,
+        "length": 26,
+        "preview": "      <PerformanceStats />",
+        "hash": "4e65c5f3"
+      },
+      "11": {
+        "start_char": 413,
+        "end_char": 435,
+        "length": 22,
+        "preview": "      <UserInsights />",
+        "hash": "255a3128"
+      },
+      "12": {
+        "start_char": 436,
+        "end_char": 446,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 447,
+        "end_char": 451,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 452,
+        "end_char": 453,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 454,
+        "end_char": 454,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "function": {
+        "count": 1,
+        "positions": [
+          230
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          96,
+          159
+        ]
+      },
+      "<conversationmetrics": {
+        "count": 1,
+        "positions": [
+          362
+        ]
+      },
+      "'../components/performancestats';": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          440
+        ]
+      },
+      "dashboard()": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "userinsights": {
+        "count": 3,
+        "positions": [
+          166,
+          199,
+          420
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          54,
+          120,
+          179
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          215
+        ]
+      },
+      "'../components/conversationmetrics';": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "conversationmetrics": {
+        "count": 3,
+        "positions": [
+          34,
+          74,
+          363
+        ]
+      },
+      "<userinsights": {
+        "count": 1,
+        "positions": [
+          419
+        ]
+      },
+      "analytics": {
+        "count": 3,
+        "positions": [
+          239,
+          299,
+          331
+        ]
+      },
+      "performancestats": {
+        "count": 3,
+        "positions": [
+          103,
+          140,
+          393
+        ]
+      },
+      "dashboard</h1>": {
+        "count": 1,
+        "positions": [
+          341
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "<performancestats": {
+        "count": 1,
+        "positions": [
+          392
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "'../components/userinsights';": {
+        "count": 1,
+        "positions": [
+          184
+        ]
+      },
+      "dashboard\">": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "<h1>analytics": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          265
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

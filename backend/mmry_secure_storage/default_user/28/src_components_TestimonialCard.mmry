@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "28",
+  "file_name": "src/components/TestimonialCard.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024211045364891517
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 197,
+        "output_size": 193,
+        "stage_compression_ratio": 0.9796954314720813,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 193,
+        "output_size": 687,
+        "stage_compression_ratio": 3.5595854922279795,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 147,
+          "original_size": 189,
+          "compressed_size": 687
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 687,
+        "output_size": 32,
+        "stage_compression_ratio": 0.046579330422125184,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 687,
+          "estimated_compressed_size": 270,
+          "entropy": 3.154803084052269
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16243654822335024,
+    "stage_count": 3,
+    "original_size": 197,
+    "final_size": 32,
+    "space_savings": 165,
+    "space_savings_percent": 83.75634517766497
+  },
+  "original_size": 197,
+  "compressed_size": 32,
+  "compression_ratio": 0.16243654822335024,
+  "space_savings_percent": 83.75634517766497,
+  "content_hash": "34882e77734360d4",
+  "timestamp": 1754569366,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:270:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754569366,
+    "total_lines": 9,
+    "total_chars": 197,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 43,
+        "length": 43,
+        "preview": "export default function TestimonialCard() {",
+        "hash": "8d2973e8"
+      },
+      "1": {
+        "start_char": 44,
+        "end_char": 54,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 55,
+        "end_char": 102,
+        "length": 47,
+        "preview": "    <div className=\"component testimonialcard\">",
+        "hash": "0e8fcdc3"
+      },
+      "3": {
+        "start_char": 103,
+        "end_char": 133,
+        "length": 30,
+        "preview": "      <h2>TestimonialCard</h2>",
+        "hash": "7f62704e"
+      },
+      "4": {
+        "start_char": 134,
+        "end_char": 178,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 179,
+        "end_char": 189,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 190,
+        "end_char": 194,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 195,
+        "end_char": 196,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 197,
+        "end_char": 197,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "testimonialcard\">": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "<h2>testimonialcard</h2>": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          183
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          75,
+          144
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "testimonialcard()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          162
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

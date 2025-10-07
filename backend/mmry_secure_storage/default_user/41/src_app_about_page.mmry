@@ -1,0 +1,315 @@
+{
+  "user_id": "default_user",
+  "project_id": "41",
+  "file_name": "src/app/about/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.18857142857142856
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 280,
+        "output_size": 274,
+        "stage_compression_ratio": 0.9785714285714285,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 274,
+        "output_size": 878,
+        "stage_compression_ratio": 3.204379562043796,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 187,
+          "original_size": 269,
+          "compressed_size": 878
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 878,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03644646924829157,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 878,
+          "estimated_compressed_size": 351,
+          "entropy": 3.201280136588462
+        }
+      }
+    ],
+    "total_compression_ratio": 0.11428571428571428,
+    "stage_count": 3,
+    "original_size": 280,
+    "final_size": 32,
+    "space_savings": 248,
+    "space_savings_percent": 88.57142857142857
+  },
+  "original_size": 280,
+  "compressed_size": 32,
+  "compression_ratio": 0.11428571428571428,
+  "space_savings_percent": 88.57142857142857,
+  "content_hash": "25e5cff7c02661a9",
+  "timestamp": 1759698112,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:351:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698112,
+    "total_lines": 14,
+    "total_chars": 280,
+    "total_words": 30,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 75,
+        "length": 48,
+        "preview": "import AuthorBio from '../components/AuthorBio';",
+        "hash": "43a89def"
+      },
+      "2": {
+        "start_char": 76,
+        "end_char": 122,
+        "length": 46,
+        "preview": "import BlogInfo from '../components/BlogInfo';",
+        "hash": "2b941b76"
+      },
+      "3": {
+        "start_char": 123,
+        "end_char": 123,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 124,
+        "end_char": 157,
+        "length": 33,
+        "preview": "export default function About() {",
+        "hash": "53984dac"
+      },
+      "5": {
+        "start_char": 158,
+        "end_char": 168,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 169,
+        "end_char": 201,
+        "length": 32,
+        "preview": "    <div className=\"page about\">",
+        "hash": "6c4c7dab"
+      },
+      "7": {
+        "start_char": 202,
+        "end_char": 222,
+        "length": 20,
+        "preview": "      <h1>About</h1>",
+        "hash": "4787abce"
+      },
+      "8": {
+        "start_char": 223,
+        "end_char": 242,
+        "length": 19,
+        "preview": "      <AuthorBio />",
+        "hash": "c3ba4d6e"
+      },
+      "9": {
+        "start_char": 243,
+        "end_char": 261,
+        "length": 18,
+        "preview": "      <BlogInfo />",
+        "hash": "d14e30d7"
+      },
+      "10": {
+        "start_char": 262,
+        "end_char": 272,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "11": {
+        "start_char": 273,
+        "end_char": 277,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "12": {
+        "start_char": 278,
+        "end_char": 279,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "13": {
+        "start_char": 280,
+        "end_char": 280,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "about()": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          178
+        ]
+      },
+      "bloginfo": {
+        "count": 3,
+        "positions": [
+          83,
+          112,
+          250
+        ]
+      },
+      "'../components/authorbio';": {
+        "count": 1,
+        "positions": [
+          49
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          266
+        ]
+      },
+      "authorbio": {
+        "count": 3,
+        "positions": [
+          34,
+          64,
+          230
+        ]
+      },
+      "<authorbio": {
+        "count": 1,
+        "positions": [
+          229
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          139
+        ]
+      },
+      "<bloginfo": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "from": {
+        "count": 3,
+        "positions": [
+          13,
+          44,
+          92
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "<h1>about</h1>": {
+        "count": 1,
+        "positions": [
+          208
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          124
+        ]
+      },
+      "'../components/bloginfo';": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "about\">": {
+        "count": 1,
+        "positions": [
+          194
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "import": {
+        "count": 3,
+        "positions": [
+          0,
+          27,
+          76
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.00616470223325062
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 707,
+        "output_size": 707,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 707,
+        "output_size": 2049,
+        "stage_compression_ratio": 2.898161244695898,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 432,
+          "original_size": 701,
+          "compressed_size": 2049
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2049,
+        "output_size": 32,
+        "stage_compression_ratio": 0.015617374328940947,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2049,
+          "estimated_compressed_size": 834,
+          "entropy": 3.2569112603787413
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04526166902404526,
+    "stage_count": 3,
+    "original_size": 707,
+    "final_size": 32,
+    "space_savings": 675,
+    "space_savings_percent": 95.47383309759547
+  },
+  "original_size": 707,
+  "compressed_size": 32,
+  "compression_ratio": 0.04526166902404526,
+  "space_savings_percent": 95.47383309759547,
+  "content_hash": "c938289594537c67",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:834:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 19,
+    "total_chars": 707,
+    "total_words": 65,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"26\",",
+        "hash": "95752fd1"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 55,
+        "length": 31,
+        "preview": "  \"project_name\": \"My Project\",",
+        "hash": "b4609ce3"
+      },
+      "3": {
+        "start_char": 56,
+        "end_char": 75,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 76,
+        "end_char": 178,
+        "length": 102,
+        "preview": "    \"Use tech stack: React, TypeScript, Next.js, O...",
+        "hash": "3eaa759f"
+      },
+      "5": {
+        "start_char": 179,
+        "end_char": 213,
+        "length": 34,
+        "preview": "    \"Create page: Content Studio\",",
+        "hash": "ed3de866"
+      },
+      "6": {
+        "start_char": 214,
+        "end_char": 249,
+        "length": 35,
+        "preview": "    \"Create page: Project Manager\",",
+        "hash": "a7c12f42"
+      },
+      "7": {
+        "start_char": 250,
+        "end_char": 289,
+        "length": 39,
+        "preview": "    \"Create page: Analytics Dashboard\",",
+        "hash": "fcc7daef"
+      },
+      "8": {
+        "start_char": 290,
+        "end_char": 324,
+        "length": 34,
+        "preview": "    \"Create page: Brand Settings\",",
+        "hash": "96090676"
+      },
+      "9": {
+        "start_char": 325,
+        "end_char": 513,
+        "length": 188,
+        "preview": "    \"Include components: AIContentEditor, Template...",
+        "hash": "97f6f112"
+      },
+      "10": {
+        "start_char": 514,
+        "end_char": 518,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "11": {
+        "start_char": 519,
+        "end_char": 559,
+        "length": 40,
+        "preview": "  \"template_id\": \"ai_content_generator\",",
+        "hash": "6826a9ea"
+      },
+      "12": {
+        "start_char": 560,
+        "end_char": 584,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "13": {
+        "start_char": 585,
+        "end_char": 610,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "14": {
+        "start_char": 611,
+        "end_char": 645,
+        "length": 34,
+        "preview": "  \"start_time\": 1754568757.578549,",
+        "hash": "93d74ea2"
+      },
+      "15": {
+        "start_char": 646,
+        "end_char": 665,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "16": {
+        "start_char": 666,
+        "end_char": 690,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "17": {
+        "start_char": 691,
+        "end_char": 705,
+        "length": 14,
+        "preview": "  \"errors\": []",
+        "hash": "ba2a80e7"
+      },
+      "18": {
+        "start_char": 706,
+        "end_char": 707,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "usagetracker,": {
+        "count": 1,
+        "positions": [
+          470
+        ]
+      },
+      "teaminvite,": {
+        "count": 1,
+        "positions": [
+          484
+        ]
+      },
+      "stripe\",": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          597
+        ]
+      },
+      "settings\",": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          521
+        ]
+      },
+      "null,": {
+        "count": 1,
+        "positions": [
+          660
+        ]
+      },
+      "content": {
+        "count": 5,
+        "positions": [
+          197,
+          352,
+          404,
+          496,
+          540
+        ]
+      },
+      "page:": {
+        "count": 4,
+        "positions": [
+          191,
+          226,
+          262,
+          302
+        ]
+      },
+      "brandvoicetrainer,": {
+        "count": 1,
+        "positions": [
+          385
+        ]
+      },
+      "templateselector,": {
+        "count": 1,
+        "positions": [
+          367
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          578
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          587
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          613
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          116
+        ]
+      },
+      "[],": {
+        "count": 1,
+        "positions": [
+          687
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          338
+        ]
+      },
+      "openai": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "\"ai_content_generator\",": {
+        "count": 1,
+        "positions": [
+          536
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          85
+        ]
+      },
+      "seoanalyzer,": {
+        "count": 1,
+        "positions": [
+          442
+        ]
+      },
+      "\"my": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "css,": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "aicontenteditor,": {
+        "count": 1,
+        "positions": [
+          350
+        ]
+      },
+      "\"create": {
+        "count": 4,
+        "positions": [
+          183,
+          218,
+          254,
+          294
+        ]
+      },
+      "exportmanager,": {
+        "count": 1,
+        "positions": [
+          455
+        ]
+      },
+      "project\",": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "gpt,": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "redis,": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "studio\",": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "dashboard\",": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "1754568757.578549,": {
+        "count": 1,
+        "positions": [
+          627
+        ]
+      },
+      "contentoptimizer,": {
+        "count": 1,
+        "positions": [
+          404
+        ]
+      },
+      "typescript,": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "project": {
+        "count": 5,
+        "positions": [
+          5,
+          27,
+          46,
+          232,
+          563
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          668
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          648
+        ]
+      },
+      "\"26\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "manager\",": {
+        "count": 1,
+        "positions": [
+          240
+        ]
+      },
+      "contentscheduler\"": {
+        "count": 1,
+        "positions": [
+          496
+        ]
+      },
+      "\"use": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "brand": {
+        "count": 2,
+        "positions": [
+          308,
+          385
+        ]
+      },
+      "\"include": {
+        "count": 1,
+        "positions": [
+          329
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "postgresql,": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          562
+        ]
+      },
+      "collaborationpanel,": {
+        "count": 1,
+        "positions": [
+          422
+        ]
+      },
+      "tailwind": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "analytics": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

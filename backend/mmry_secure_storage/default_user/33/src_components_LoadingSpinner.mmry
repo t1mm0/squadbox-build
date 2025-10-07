@@ -1,0 +1,242 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/components/LoadingSpinner.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.031011945983379502
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 198,
+        "output_size": 190,
+        "stage_compression_ratio": 0.9595959595959596,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 190,
+        "output_size": 623,
+        "stage_compression_ratio": 3.278947368421053,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 133,
+          "original_size": 184,
+          "compressed_size": 623
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 623,
+        "output_size": 32,
+        "stage_compression_ratio": 0.051364365971107544,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 623,
+          "estimated_compressed_size": 245,
+          "entropy": 3.1469939662510487
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16161616161616163,
+    "stage_count": 3,
+    "original_size": 198,
+    "final_size": 32,
+    "space_savings": 166,
+    "space_savings_percent": 83.83838383838383
+  },
+  "original_size": 198,
+  "compressed_size": 32,
+  "compression_ratio": 0.16161616161616163,
+  "space_savings_percent": 83.83838383838383,
+  "content_hash": "879cecd977e60670",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:245:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 11,
+    "total_chars": 198,
+    "total_words": 18,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 46,
+        "length": 42,
+        "preview": "export default function LoadingSpinner() {",
+        "hash": "01beb03a"
+      },
+      "2": {
+        "start_char": 47,
+        "end_char": 57,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "3": {
+        "start_char": 58,
+        "end_char": 108,
+        "length": 50,
+        "preview": "    <div className=\"spinner\" aria-label=\"Loading\">",
+        "hash": "0654e2c6"
+      },
+      "4": {
+        "start_char": 109,
+        "end_char": 126,
+        "length": 17,
+        "preview": "      <div></div>",
+        "hash": "0e3d0bc6"
+      },
+      "5": {
+        "start_char": 127,
+        "end_char": 144,
+        "length": 17,
+        "preview": "      <div></div>",
+        "hash": "0e3d0bc6"
+      },
+      "6": {
+        "start_char": 145,
+        "end_char": 162,
+        "length": 17,
+        "preview": "      <div></div>",
+        "hash": "0e3d0bc6"
+      },
+      "7": {
+        "start_char": 163,
+        "end_char": 180,
+        "length": 17,
+        "preview": "      <div></div>",
+        "hash": "0e3d0bc6"
+      },
+      "8": {
+        "start_char": 181,
+        "end_char": 191,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "9": {
+        "start_char": 192,
+        "end_char": 196,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "10": {
+        "start_char": 197,
+        "end_char": 198,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          11
+        ]
+      },
+      "aria-label=\"loading\">": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "</div>": {
+        "count": 5,
+        "positions": [
+          120,
+          138,
+          156,
+          174,
+          185
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "classname=\"spinner\"": {
+        "count": 1,
+        "positions": [
+          67
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "<div></div>": {
+        "count": 4,
+        "positions": [
+          115,
+          133,
+          151,
+          169
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "<div": {
+        "count": 5,
+        "positions": [
+          62,
+          115,
+          133,
+          151,
+          169
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          49
+        ]
+      },
+      "loadingspinner()": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

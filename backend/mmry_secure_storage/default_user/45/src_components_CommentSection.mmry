@@ -1,0 +1,257 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "src/components/CommentSection.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.734020618556701
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 194,
+        "output_size": 216,
+        "stage_compression_ratio": 1.1134020618556701,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 5,
+          "compression_ratio": 1.1134020618556701,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 216,
+        "output_size": 149,
+        "stage_compression_ratio": 0.6898148148148148,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 216,
+          "compressed_size": 149,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 417,
+        "output_size": 256,
+        "stage_compression_ratio": 0.6139088729016786,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 417,
+          "compressed_size": 256,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.3195876288659794,
+    "stage_count": 3,
+    "original_size": 194,
+    "final_size": 256,
+    "space_savings": -62,
+    "space_savings_percent": -31.958762886597935
+  },
+  "original_size": 194,
+  "compressed_size": 256,
+  "compression_ratio": 1.3195876288659794,
+  "space_savings_percent": -31.958762886597935,
+  "content_hash": "558f51bfd878168f",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkMtKBDEQRb9lYGTEZ/Ujdnorgw/cSDsgSEBSSTeiMMi4ycpv99TERaVTt26dqo5uSig5PoUS86kPRYeWfAwlCZLfrk7cJWrTkw3bldn6a4RxHUrTrT8QYigz5jERC6H/EV+xtMfC3sxwG0J2BqbnZnoORcTojMtYHFO8XKC6GkcOYkpwVKxKjO+6r3Njng6/V0D9wwuZ3FF1kDx8Mar75tJVyJzqX42xcnIE6pMVpF50qDsKXx9vbSOWnfWLtDHfPR2its+ZDbAJ2v0cMMLPFJfOmtqJBp3sCpTS0oNIzRvHbFsbwTFUqGnbV0nHTzvqm0R7l+XxfPMH3D+NpQ==",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 9,
+    "total_chars": 194,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 42,
+        "length": 42,
+        "preview": "export default function CommentSection() {",
+        "hash": "bbdc7353"
+      },
+      "1": {
+        "start_char": 43,
+        "end_char": 53,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 54,
+        "end_char": 100,
+        "length": 46,
+        "preview": "    <div className=\"component commentsection\">",
+        "hash": "d0c577d3"
+      },
+      "3": {
+        "start_char": 101,
+        "end_char": 130,
+        "length": 29,
+        "preview": "      <h2>CommentSection</h2>",
+        "hash": "e49573fe"
+      },
+      "4": {
+        "start_char": 131,
+        "end_char": 175,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 176,
+        "end_char": 186,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 187,
+        "end_char": 191,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 192,
+        "end_char": 193,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 194,
+        "end_char": 194,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          74,
+          141
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          180
+        ]
+      },
+      "commentsection()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "commentsection\">": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "<h2>commentsection</h2>": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          137
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          159
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

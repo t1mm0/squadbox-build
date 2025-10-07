@@ -1,0 +1,224 @@
+.project-dashboard {
+  padding: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projects-list,
+.project-details {
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projects-table th {
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.projects-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.projects-table tr.selected {
+  background-color: rgba(59, 130, 246, 0.2);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-badge.complete {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: rgb(16, 185, 129);
+}
+
+.status-badge.failed {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: rgb(239, 68, 68);
+}
+
+.status-badge.initializing,
+.status-badge.generating {
+  background-color: rgba(245, 158, 11, 0.2);
+  color: rgb(245, 158, 11);
+}
+
+.status-badge.unknown {
+  background-color: rgba(156, 163, 175, 0.2);
+  color: rgb(156, 163, 175);
+}
+
+.download-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.no-selection,
+.loading,
+.error,
+.no-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.error {
+  color: rgb(239, 68, 68);
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.detail-section {
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.detail-section h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0.25rem;
+}
+
+.requirements-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.requirements-list li {
+  margin-bottom: 0.5rem;
+}
+
+.files-container {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.files-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.files-table th,
+.files-table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.files-table th {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.file-path {
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.build-log {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.errors {
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.error-list {
+  color: rgb(239, 68, 68);
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}

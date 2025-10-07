@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "src/components/CategoryList.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.030667249417249416
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 188,
+        "output_size": 184,
+        "stage_compression_ratio": 0.9787234042553191,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 184,
+        "output_size": 655,
+        "stage_compression_ratio": 3.5597826086956523,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 140,
+          "original_size": 180,
+          "compressed_size": 655
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 655,
+        "output_size": 32,
+        "stage_compression_ratio": 0.04885496183206107,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 655,
+          "estimated_compressed_size": 258,
+          "entropy": 3.156651840004603
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1702127659574468,
+    "stage_count": 3,
+    "original_size": 188,
+    "final_size": 32,
+    "space_savings": 156,
+    "space_savings_percent": 82.97872340425532
+  },
+  "original_size": 188,
+  "compressed_size": 32,
+  "compression_ratio": 0.1702127659574468,
+  "space_savings_percent": 82.97872340425532,
+  "content_hash": "2d7ba1d55ca3cb9e",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:258:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 9,
+    "total_chars": 188,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 40,
+        "length": 40,
+        "preview": "export default function CategoryList() {",
+        "hash": "ae8e2c4a"
+      },
+      "1": {
+        "start_char": 41,
+        "end_char": 51,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 52,
+        "end_char": 96,
+        "length": 44,
+        "preview": "    <div className=\"component categorylist\">",
+        "hash": "2d72d913"
+      },
+      "3": {
+        "start_char": 97,
+        "end_char": 124,
+        "length": 27,
+        "preview": "      <h2>CategoryList</h2>",
+        "hash": "937977df"
+      },
+      "4": {
+        "start_char": 125,
+        "end_char": 169,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 170,
+        "end_char": 180,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 181,
+        "end_char": 185,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 186,
+        "end_char": 187,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 188,
+        "end_char": 188,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "categorylist()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          174
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          72,
+          135
+        ]
+      },
+      "categorylist\">": {
+        "count": 1,
+        "positions": [
+          82
+        ]
+      },
+      "<h2>categorylist</h2>": {
+        "count": 1,
+        "positions": [
+          103
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          145
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          43
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          166
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          161
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          153
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

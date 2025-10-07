@@ -1,0 +1,315 @@
+{
+  "user_id": "default_user",
+  "project_id": "44",
+  "file_name": "src/app/contact/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.5681063122923588
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 301,
+        "output_size": 295,
+        "stage_compression_ratio": 0.9800664451827242,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 295,
+        "output_size": 918,
+        "stage_compression_ratio": 3.111864406779661,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 195,
+          "original_size": 290,
+          "compressed_size": 918
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 918,
+        "output_size": 32,
+        "stage_compression_ratio": 0.034858387799564274,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 918,
+          "estimated_compressed_size": 367,
+          "entropy": 3.205103378971757
+        }
+      }
+    ],
+    "total_compression_ratio": 0.10631229235880399,
+    "stage_count": 3,
+    "original_size": 301,
+    "final_size": 32,
+    "space_savings": 269,
+    "space_savings_percent": 89.3687707641196
+  },
+  "original_size": 301,
+  "compressed_size": 32,
+  "compression_ratio": 0.10631229235880399,
+  "space_savings_percent": 89.3687707641196,
+  "content_hash": "73367317309278f9",
+  "timestamp": 1759698606,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:367:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698606,
+    "total_lines": 14,
+    "total_chars": 301,
+    "total_words": 30,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 79,
+        "length": 52,
+        "preview": "import ContactForm from '../components/ContactForm...",
+        "hash": "f7233d0e"
+      },
+      "2": {
+        "start_char": 80,
+        "end_char": 132,
+        "length": 52,
+        "preview": "import SocialLinks from '../components/SocialLinks...",
+        "hash": "b04a6f04"
+      },
+      "3": {
+        "start_char": 133,
+        "end_char": 133,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 134,
+        "end_char": 169,
+        "length": 35,
+        "preview": "export default function Contact() {",
+        "hash": "22b3e3bf"
+      },
+      "5": {
+        "start_char": 170,
+        "end_char": 180,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 181,
+        "end_char": 215,
+        "length": 34,
+        "preview": "    <div className=\"page contact\">",
+        "hash": "6a6c2a96"
+      },
+      "7": {
+        "start_char": 216,
+        "end_char": 238,
+        "length": 22,
+        "preview": "      <h1>Contact</h1>",
+        "hash": "3b51b1e6"
+      },
+      "8": {
+        "start_char": 239,
+        "end_char": 260,
+        "length": 21,
+        "preview": "      <ContactForm />",
+        "hash": "1d339ce5"
+      },
+      "9": {
+        "start_char": 261,
+        "end_char": 282,
+        "length": 21,
+        "preview": "      <SocialLinks />",
+        "hash": "e47b1a66"
+      },
+      "10": {
+        "start_char": 283,
+        "end_char": 293,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "11": {
+        "start_char": 294,
+        "end_char": 298,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "12": {
+        "start_char": 299,
+        "end_char": 300,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "13": {
+        "start_char": 301,
+        "end_char": 301,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "<h1>contact</h1>": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "<sociallinks": {
+        "count": 1,
+        "positions": [
+          267
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          190
+        ]
+      },
+      "contact()": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      },
+      "<contactform": {
+        "count": 1,
+        "positions": [
+          245
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          185
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          287
+        ]
+      },
+      "'../components/contactform';": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "contactform": {
+        "count": 3,
+        "positions": [
+          34,
+          66,
+          246
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "from": {
+        "count": 3,
+        "positions": [
+          13,
+          46,
+          99
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          172
+        ]
+      },
+      "import": {
+        "count": 3,
+        "positions": [
+          0,
+          27,
+          80
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          141
+        ]
+      },
+      "sociallinks": {
+        "count": 3,
+        "positions": [
+          87,
+          119,
+          268
+        ]
+      },
+      "contact\">": {
+        "count": 1,
+        "positions": [
+          206
+        ]
+      },
+      "'../components/sociallinks';": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

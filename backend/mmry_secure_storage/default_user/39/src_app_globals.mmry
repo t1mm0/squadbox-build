@@ -1,0 +1,284 @@
+{
+  "user_id": "default_user",
+  "project_id": "39",
+  "file_name": "src/app/globals.css",
+  "file_type": "css",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.1848341232227488
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 211,
+        "output_size": 211,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 211,
+        "output_size": 754,
+        "stage_compression_ratio": 3.5734597156398102,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 161,
+          "original_size": 211,
+          "compressed_size": 754
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 754,
+        "output_size": 32,
+        "stage_compression_ratio": 0.042440318302387266,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 754,
+          "estimated_compressed_size": 295,
+          "entropy": 3.1388066007318765
+        }
+      }
+    ],
+    "total_compression_ratio": 0.15165876777251186,
+    "stage_count": 3,
+    "original_size": 211,
+    "final_size": 32,
+    "space_savings": 179,
+    "space_savings_percent": 84.83412322274881
+  },
+  "original_size": 211,
+  "compressed_size": 32,
+  "compression_ratio": 0.15165876777251186,
+  "space_savings_percent": 84.83412322274881,
+  "content_hash": "32d5577093248757",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:295:[64][116][97][105][1",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 14,
+    "total_chars": 211,
+    "total_words": 22,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 15,
+        "length": 15,
+        "preview": "@tailwind base;",
+        "hash": "75dd2074"
+      },
+      "1": {
+        "start_char": 16,
+        "end_char": 37,
+        "length": 21,
+        "preview": "@tailwind components;",
+        "hash": "c2b992f3"
+      },
+      "2": {
+        "start_char": 38,
+        "end_char": 58,
+        "length": 20,
+        "preview": "@tailwind utilities;",
+        "hash": "3236cd27"
+      },
+      "3": {
+        "start_char": 59,
+        "end_char": 59,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 60,
+        "end_char": 67,
+        "length": 7,
+        "preview": ":root {",
+        "hash": "28c011f5"
+      },
+      "5": {
+        "start_char": 68,
+        "end_char": 95,
+        "length": 27,
+        "preview": "  --primary-color: #3490dc;",
+        "hash": "278dfa47"
+      },
+      "6": {
+        "start_char": 96,
+        "end_char": 125,
+        "length": 29,
+        "preview": "  --secondary-color: #ffed4a;",
+        "hash": "06497bb9"
+      },
+      "7": {
+        "start_char": 126,
+        "end_char": 150,
+        "length": 24,
+        "preview": "  --dark-color: #1a202c;",
+        "hash": "745283ea"
+      },
+      "8": {
+        "start_char": 151,
+        "end_char": 152,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "9": {
+        "start_char": 153,
+        "end_char": 153,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "10": {
+        "start_char": 154,
+        "end_char": 160,
+        "length": 6,
+        "preview": "body {",
+        "hash": "dcdfe917"
+      },
+      "11": {
+        "start_char": 161,
+        "end_char": 208,
+        "length": 47,
+        "preview": "  @apply bg-gray-50 text-gray-900 min-h-screen;",
+        "hash": "f8da78b0"
+      },
+      "12": {
+        "start_char": 209,
+        "end_char": 210,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "13": {
+        "start_char": 211,
+        "end_char": 211,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "components;": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "text-gray-900": {
+        "count": 1,
+        "positions": [
+          181
+        ]
+      },
+      "#3490dc;": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "--primary-color:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "--secondary-color:": {
+        "count": 1,
+        "positions": [
+          98
+        ]
+      },
+      "#ffed4a;": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      },
+      "--dark-color:": {
+        "count": 1,
+        "positions": [
+          128
+        ]
+      },
+      "@apply": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "bg-gray-50": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "base;": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "#1a202c;": {
+        "count": 1,
+        "positions": [
+          142
+        ]
+      },
+      "utilities;": {
+        "count": 1,
+        "positions": [
+          48
+        ]
+      },
+      ":root": {
+        "count": 1,
+        "positions": [
+          60
+        ]
+      },
+      "@tailwind": {
+        "count": 3,
+        "positions": [
+          0,
+          16,
+          38
+        ]
+      },
+      "body": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "min-h-screen;": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

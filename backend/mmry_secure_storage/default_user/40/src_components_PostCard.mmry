@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "40",
+  "file_name": "src/components/PostCard.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.028308823529411765
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 176,
+        "output_size": 172,
+        "stage_compression_ratio": 0.9772727272727273,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 172,
+        "output_size": 628,
+        "stage_compression_ratio": 3.6511627906976742,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 135,
+          "original_size": 168,
+          "compressed_size": 628
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 628,
+        "output_size": 32,
+        "stage_compression_ratio": 0.050955414012738856,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 628,
+          "estimated_compressed_size": 246,
+          "entropy": 3.141470425855741
+        }
+      }
+    ],
+    "total_compression_ratio": 0.18181818181818182,
+    "stage_count": 3,
+    "original_size": 176,
+    "final_size": 32,
+    "space_savings": 144,
+    "space_savings_percent": 81.81818181818183
+  },
+  "original_size": 176,
+  "compressed_size": 32,
+  "compression_ratio": 0.18181818181818182,
+  "space_savings_percent": 81.81818181818183,
+  "content_hash": "85cfa30873ce0358",
+  "timestamp": 1759698041,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:246:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698041,
+    "total_lines": 9,
+    "total_chars": 176,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "export default function PostCard() {",
+        "hash": "09999d80"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 47,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 48,
+        "end_char": 88,
+        "length": 40,
+        "preview": "    <div className=\"component postcard\">",
+        "hash": "649a4450"
+      },
+      "3": {
+        "start_char": 89,
+        "end_char": 112,
+        "length": 23,
+        "preview": "      <h2>PostCard</h2>",
+        "hash": "c47898b7"
+      },
+      "4": {
+        "start_char": 113,
+        "end_char": 157,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 158,
+        "end_char": 168,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 169,
+        "end_char": 173,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 174,
+        "end_char": 175,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 176,
+        "end_char": 176,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          68,
+          123
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "postcard\">": {
+        "count": 1,
+        "positions": [
+          78
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          52
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          162
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "<h2>postcard</h2>": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "postcard()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          141
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          57
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

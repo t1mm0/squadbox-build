@@ -1,0 +1,344 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "next.config.js**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018389423076923074
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 291,
+        "output_size": 291,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 291,
+        "output_size": 999,
+        "stage_compression_ratio": 3.4329896907216493,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 213,
+          "original_size": 289,
+          "compressed_size": 999
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 999,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03203203203203203,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 999,
+          "estimated_compressed_size": 396,
+          "entropy": 3.173595019561195
+        }
+      }
+    ],
+    "total_compression_ratio": 0.10996563573883161,
+    "stage_count": 3,
+    "original_size": 291,
+    "final_size": 32,
+    "space_savings": 259,
+    "space_savings_percent": 89.00343642611683
+  },
+  "original_size": 291,
+  "compressed_size": 32,
+  "compression_ratio": 0.10996563573883161,
+  "space_savings_percent": 89.00343642611683,
+  "content_hash": "c69e261fa4ef09fb",
+  "timestamp": 1759013437,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:396:[106][115][10][47][4",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013437,
+    "total_lines": 15,
+    "total_chars": 291,
+    "total_words": 37,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 2,
+        "length": 2,
+        "preview": "js",
+        "hash": "32981a13"
+      },
+      "1": {
+        "start_char": 3,
+        "end_char": 43,
+        "length": 40,
+        "preview": "/** @type {import('next').NextConfig} */",
+        "hash": "5e73760a"
+      },
+      "2": {
+        "start_char": 44,
+        "end_char": 64,
+        "length": 20,
+        "preview": "const nextConfig = {",
+        "hash": "d51ba477"
+      },
+      "3": {
+        "start_char": 65,
+        "end_char": 89,
+        "length": 24,
+        "preview": "  reactStrictMode: true,",
+        "hash": "0a4beec4"
+      },
+      "4": {
+        "start_char": 90,
+        "end_char": 138,
+        "length": 48,
+        "preview": "  // Enable Image Optimization for static assets",
+        "hash": "71457036"
+      },
+      "5": {
+        "start_char": 139,
+        "end_char": 150,
+        "length": 11,
+        "preview": "  images: {",
+        "hash": "9e9f7507"
+      },
+      "6": {
+        "start_char": 151,
+        "end_char": 167,
+        "length": 16,
+        "preview": "    domains: [],",
+        "hash": "e6a6981d"
+      },
+      "7": {
+        "start_char": 168,
+        "end_char": 172,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "8": {
+        "start_char": 173,
+        "end_char": 207,
+        "length": 34,
+        "preview": "  // Enable TypeScript strict mode",
+        "hash": "1a1070d7"
+      },
+      "9": {
+        "start_char": 208,
+        "end_char": 223,
+        "length": 15,
+        "preview": "  typescript: {",
+        "hash": "e8766e23"
+      },
+      "10": {
+        "start_char": 224,
+        "end_char": 253,
+        "length": 29,
+        "preview": "    ignoreBuildErrors: false,",
+        "hash": "9397abf8"
+      },
+      "11": {
+        "start_char": 254,
+        "end_char": 258,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "12": {
+        "start_char": 259,
+        "end_char": 261,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "13": {
+        "start_char": 262,
+        "end_char": 262,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "14": {
+        "start_char": 263,
+        "end_char": 291,
+        "length": 28,
+        "preview": "module.exports = nextConfig;",
+        "hash": "c1ec6060"
+      }
+    },
+    "word_index": {
+      "domains:": {
+        "count": 1,
+        "positions": [
+          155
+        ]
+      },
+      "nextconfig": {
+        "count": 3,
+        "positions": [
+          29,
+          50,
+          280
+        ]
+      },
+      "[],": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "assets": {
+        "count": 1,
+        "positions": [
+          132
+        ]
+      },
+      "image": {
+        "count": 2,
+        "positions": [
+          102,
+          141
+        ]
+      },
+      "typescript": {
+        "count": 2,
+        "positions": [
+          185,
+          210
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "typescript:": {
+        "count": 1,
+        "positions": [
+          210
+        ]
+      },
+      "/**": {
+        "count": 1,
+        "positions": [
+          3
+        ]
+      },
+      "enable": {
+        "count": 2,
+        "positions": [
+          95,
+          178
+        ]
+      },
+      "strict": {
+        "count": 2,
+        "positions": [
+          72,
+          196
+        ]
+      },
+      "static": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "nextconfig;": {
+        "count": 1,
+        "positions": [
+          280
+        ]
+      },
+      "module.exports": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "mode": {
+        "count": 2,
+        "positions": [
+          78,
+          203
+        ]
+      },
+      "@type": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "ignorebuilderrors:": {
+        "count": 1,
+        "positions": [
+          228
+        ]
+      },
+      "{import('next').nextconfig}": {
+        "count": 1,
+        "positions": [
+          13
+        ]
+      },
+      "false,": {
+        "count": 1,
+        "positions": [
+          247
+        ]
+      },
+      "optimization": {
+        "count": 1,
+        "positions": [
+          108
+        ]
+      },
+      "images:": {
+        "count": 1,
+        "positions": [
+          141
+        ]
+      },
+      "reactstrictmode:": {
+        "count": 1,
+        "positions": [
+          67
+        ]
+      },
+      "for": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

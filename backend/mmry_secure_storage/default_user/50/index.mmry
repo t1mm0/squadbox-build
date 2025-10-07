@@ -1,0 +1,391 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "index.html",
+  "file_type": "html",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 412,
+        "output_size": 404,
+        "stage_compression_ratio": 0.9805825242718447,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 8
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 404,
+        "output_size": 1303,
+        "stage_compression_ratio": 3.2252475247524752,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 277,
+          "original_size": 396,
+          "compressed_size": 1303
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1303,
+        "output_size": 32,
+        "stage_compression_ratio": 0.024558710667689946,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1303,
+          "estimated_compressed_size": 523,
+          "entropy": 3.2144314202506137
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07766990291262135,
+    "stage_count": 3,
+    "original_size": 412,
+    "final_size": 32,
+    "space_savings": 380,
+    "space_savings_percent": 92.23300970873787
+  },
+  "original_size": 412,
+  "compressed_size": 32,
+  "compression_ratio": 0.07766990291262135,
+  "space_savings_percent": 92.23300970873787,
+  "content_hash": "da5258c41417fd24",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:523:[60][33][68][79][67]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 15,
+    "total_chars": 412,
+    "total_words": 36,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 15,
+        "length": 15,
+        "preview": "<!DOCTYPE html>",
+        "hash": "fe364450"
+      },
+      "1": {
+        "start_char": 16,
+        "end_char": 32,
+        "length": 16,
+        "preview": "<html lang=\"en\">",
+        "hash": "066af1a2"
+      },
+      "2": {
+        "start_char": 33,
+        "end_char": 39,
+        "length": 6,
+        "preview": "<head>",
+        "hash": "babd0daf"
+      },
+      "3": {
+        "start_char": 40,
+        "end_char": 66,
+        "length": 26,
+        "preview": "    <meta charset=\"UTF-8\">",
+        "hash": "dc420904"
+      },
+      "4": {
+        "start_char": 67,
+        "end_char": 141,
+        "length": 74,
+        "preview": "    <meta name=\"viewport\" content=\"width=device-wi...",
+        "hash": "d24c7e30"
+      },
+      "5": {
+        "start_char": 142,
+        "end_char": 178,
+        "length": 36,
+        "preview": "    <title>Generated Project</title>",
+        "hash": "4b4ea0f3"
+      },
+      "6": {
+        "start_char": 179,
+        "end_char": 224,
+        "length": 45,
+        "preview": "    <link rel=\"stylesheet\" href=\"styles.css\">",
+        "hash": "67c5e239"
+      },
+      "7": {
+        "start_char": 225,
+        "end_char": 232,
+        "length": 7,
+        "preview": "</head>",
+        "hash": "0efa13d1"
+      },
+      "8": {
+        "start_char": 233,
+        "end_char": 239,
+        "length": 6,
+        "preview": "<body>",
+        "hash": "bc1d3a13"
+      },
+      "9": {
+        "start_char": 240,
+        "end_char": 267,
+        "length": 27,
+        "preview": "    <div class=\"container\">",
+        "hash": "c4be14ee"
+      },
+      "10": {
+        "start_char": 268,
+        "end_char": 302,
+        "length": 34,
+        "preview": "        <h1>Generated Project</h1>",
+        "hash": "4e4ac289"
+      },
+      "11": {
+        "start_char": 303,
+        "end_char": 385,
+        "length": 82,
+        "preview": "        <p>This project was generated as a fallbac...",
+        "hash": "5482e77e"
+      },
+      "12": {
+        "start_char": 386,
+        "end_char": 396,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 397,
+        "end_char": 404,
+        "length": 7,
+        "preview": "</body>",
+        "hash": "a0bf95a3"
+      },
+      "14": {
+        "start_char": 405,
+        "end_char": 412,
+        "length": 7,
+        "preview": "</html>",
+        "hash": "308065b5"
+      }
+    },
+    "word_index": {
+      "generation": {
+        "count": 1,
+        "positions": [
+          363
+        ]
+      },
+      "content=\"width=device-width,": {
+        "count": 1,
+        "positions": [
+          93
+        ]
+      },
+      "<body>": {
+        "count": 1,
+        "positions": [
+          233
+        ]
+      },
+      "class=\"container\">": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "was": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "</body>": {
+        "count": 1,
+        "positions": [
+          397
+        ]
+      },
+      "<html": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "href=\"styles.css\">": {
+        "count": 1,
+        "positions": [
+          206
+        ]
+      },
+      "<p>this": {
+        "count": 1,
+        "positions": [
+          311
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          390
+        ]
+      },
+      "<meta": {
+        "count": 2,
+        "positions": [
+          44,
+          71
+        ]
+      },
+      "initial-scale=1.0\">": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          153,
+          280,
+          331
+        ]
+      },
+      "html>": {
+        "count": 2,
+        "positions": [
+          10,
+          407
+        ]
+      },
+      "failed.</p>": {
+        "count": 1,
+        "positions": [
+          374
+        ]
+      },
+      "<!doctype": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "project": {
+        "count": 3,
+        "positions": [
+          163,
+          290,
+          319
+        ]
+      },
+      "charset=\"utf-8\">": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "lang=\"en\">": {
+        "count": 1,
+        "positions": [
+          22
+        ]
+      },
+      "<head>": {
+        "count": 1,
+        "positions": [
+          33
+        ]
+      },
+      "fallback": {
+        "count": 1,
+        "positions": [
+          346
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          244
+        ]
+      },
+      "<title>generated": {
+        "count": 1,
+        "positions": [
+          146
+        ]
+      },
+      "project</title>": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "name=\"viewport\"": {
+        "count": 1,
+        "positions": [
+          77
+        ]
+      },
+      "rel=\"stylesheet\"": {
+        "count": 1,
+        "positions": [
+          189
+        ]
+      },
+      "project</h1>": {
+        "count": 1,
+        "positions": [
+          290
+        ]
+      },
+      "</html>": {
+        "count": 1,
+        "positions": [
+          405
+        ]
+      },
+      "<link": {
+        "count": 1,
+        "positions": [
+          183
+        ]
+      },
+      "when": {
+        "count": 1,
+        "positions": [
+          355
+        ]
+      },
+      "<h1>generated": {
+        "count": 1,
+        "positions": [
+          276
+        ]
+      },
+      "</head>": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

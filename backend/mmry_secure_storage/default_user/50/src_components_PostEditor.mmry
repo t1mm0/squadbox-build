@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "src/components/PostEditor.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03586512261580381
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 182,
+        "output_size": 178,
+        "stage_compression_ratio": 0.978021978021978,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 178,
+        "output_size": 635,
+        "stage_compression_ratio": 3.567415730337079,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 136,
+          "original_size": 174,
+          "compressed_size": 635
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 635,
+        "output_size": 32,
+        "stage_compression_ratio": 0.050393700787401574,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 635,
+          "estimated_compressed_size": 249,
+          "entropy": 3.146614379534947
+        }
+      }
+    ],
+    "total_compression_ratio": 0.17582417582417584,
+    "stage_count": 3,
+    "original_size": 182,
+    "final_size": 32,
+    "space_savings": 150,
+    "space_savings_percent": 82.41758241758241
+  },
+  "original_size": 182,
+  "compressed_size": 32,
+  "compression_ratio": 0.17582417582417584,
+  "space_savings_percent": 82.41758241758241,
+  "content_hash": "1da2de40c7c30a9c",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:249:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 9,
+    "total_chars": 182,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 38,
+        "length": 38,
+        "preview": "export default function PostEditor() {",
+        "hash": "e9aabcf3"
+      },
+      "1": {
+        "start_char": 39,
+        "end_char": 49,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 50,
+        "end_char": 92,
+        "length": 42,
+        "preview": "    <div className=\"component posteditor\">",
+        "hash": "241caf3f"
+      },
+      "3": {
+        "start_char": 93,
+        "end_char": 118,
+        "length": 25,
+        "preview": "      <h2>PostEditor</h2>",
+        "hash": "12b42084"
+      },
+      "4": {
+        "start_char": 119,
+        "end_char": 163,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 164,
+        "end_char": 174,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 175,
+        "end_char": 179,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 180,
+        "end_char": 181,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 182,
+        "end_char": 182,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          168
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          70,
+          129
+        ]
+      },
+      "posteditor()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          139
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          41
+        ]
+      },
+      "posteditor\">": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "<h2>posteditor</h2>": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          155
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

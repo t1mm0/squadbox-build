@@ -1,0 +1,101 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "patterns.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.011101973684210526
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 25,
+        "output_size": 12,
+        "stage_compression_ratio": 0.48,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 3
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 12,
+        "output_size": 35,
+        "stage_compression_ratio": 2.9166666666666665,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 8,
+          "original_size": 9,
+          "compressed_size": 35
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 35,
+        "output_size": 31,
+        "stage_compression_ratio": 0.8857142857142857,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 35,
+          "estimated_compressed_size": 12,
+          "entropy": 2.9578544455163946
+        }
+      }
+    ],
+    "total_compression_ratio": 1.24,
+    "stage_count": 3,
+    "original_size": 25,
+    "final_size": 31,
+    "space_savings": -6,
+    "space_savings_percent": -24.0
+  },
+  "original_size": 25,
+  "compressed_size": 31,
+  "compression_ratio": 1.24,
+  "space_savings_percent": -24.0,
+  "content_hash": "ea0a190b32e58a3f",
+  "timestamp": 1754563556,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:12:[167][57][97][167][5",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563556,
+    "total_lines": 1,
+    "total_chars": 25,
+    "total_words": 1,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 25,
+        "length": 25,
+        "preview": "aaaaaaaaabbbbbbbbcccccccc",
+        "hash": "877ad0d5"
+      }
+    },
+    "word_index": {
+      "aaaaaaaaabbbbbbbbcccccccc": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

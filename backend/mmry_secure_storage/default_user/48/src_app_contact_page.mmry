@@ -1,0 +1,351 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "src/app/contact/page.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19128065395095367
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 367,
+        "output_size": 359,
+        "stage_compression_ratio": 0.9782016348773842,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 359,
+        "output_size": 1058,
+        "stage_compression_ratio": 2.947075208913649,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 224,
+          "original_size": 353,
+          "compressed_size": 1058
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1058,
+        "output_size": 32,
+        "stage_compression_ratio": 0.030245746691871456,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1058,
+          "estimated_compressed_size": 428,
+          "entropy": 3.2375328857025143
+        }
+      }
+    ],
+    "total_compression_ratio": 0.08719346049046321,
+    "stage_count": 3,
+    "original_size": 367,
+    "final_size": 32,
+    "space_savings": 335,
+    "space_savings_percent": 91.28065395095368
+  },
+  "original_size": 367,
+  "compressed_size": 32,
+  "compression_ratio": 0.08719346049046321,
+  "space_savings_percent": 91.28065395095368,
+  "content_hash": "143a13ae05e13b39",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:428:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 16,
+    "total_chars": 367,
+    "total_words": 36,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 79,
+        "length": 52,
+        "preview": "import ContactForm from '../components/ContactForm...",
+        "hash": "f7233d0e"
+      },
+      "2": {
+        "start_char": 80,
+        "end_char": 132,
+        "length": 52,
+        "preview": "import SocialLinks from '../components/SocialLinks...",
+        "hash": "b04a6f04"
+      },
+      "3": {
+        "start_char": 133,
+        "end_char": 179,
+        "length": 46,
+        "preview": "import Location from '../components/Location';",
+        "hash": "16c8b6d1"
+      },
+      "4": {
+        "start_char": 180,
+        "end_char": 180,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 181,
+        "end_char": 216,
+        "length": 35,
+        "preview": "export default function Contact() {",
+        "hash": "22b3e3bf"
+      },
+      "6": {
+        "start_char": 217,
+        "end_char": 227,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 228,
+        "end_char": 262,
+        "length": 34,
+        "preview": "    <div className=\"page contact\">",
+        "hash": "6a6c2a96"
+      },
+      "8": {
+        "start_char": 263,
+        "end_char": 285,
+        "length": 22,
+        "preview": "      <h1>Contact</h1>",
+        "hash": "3b51b1e6"
+      },
+      "9": {
+        "start_char": 286,
+        "end_char": 307,
+        "length": 21,
+        "preview": "      <ContactForm />",
+        "hash": "1d339ce5"
+      },
+      "10": {
+        "start_char": 308,
+        "end_char": 329,
+        "length": 21,
+        "preview": "      <SocialLinks />",
+        "hash": "e47b1a66"
+      },
+      "11": {
+        "start_char": 330,
+        "end_char": 348,
+        "length": 18,
+        "preview": "      <Location />",
+        "hash": "f999ef64"
+      },
+      "12": {
+        "start_char": 349,
+        "end_char": 359,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 360,
+        "end_char": 364,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 365,
+        "end_char": 366,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 367,
+        "end_char": 367,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "<location": {
+        "count": 1,
+        "positions": [
+          336
+        ]
+      },
+      "<h1>contact</h1>": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "<sociallinks": {
+        "count": 1,
+        "positions": [
+          314
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          237
+        ]
+      },
+      "'../components/location';": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "contact()": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "<contactform": {
+        "count": 1,
+        "positions": [
+          292
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          232
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          353
+        ]
+      },
+      "'../components/contactform';": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "contactform": {
+        "count": 3,
+        "positions": [
+          34,
+          66,
+          293
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          196
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          46,
+          99,
+          149
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          181
+        ]
+      },
+      "location": {
+        "count": 3,
+        "positions": [
+          140,
+          169,
+          337
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          80,
+          133
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "sociallinks": {
+        "count": 3,
+        "positions": [
+          87,
+          119,
+          315
+        ]
+      },
+      "contact\">": {
+        "count": 1,
+        "positions": [
+          253
+        ]
+      },
+      "'../components/sociallinks';": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

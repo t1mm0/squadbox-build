@@ -1,0 +1,503 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "project_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03032749077490775
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 832,
+        "output_size": 832,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 23
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 832,
+        "output_size": 2019,
+        "stage_compression_ratio": 2.4266826923076925,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 422,
+          "original_size": 809,
+          "compressed_size": 2019
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2019,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0158494304110946,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2019,
+          "estimated_compressed_size": 821,
+          "entropy": 3.254214437102795
+        }
+      }
+    ],
+    "total_compression_ratio": 0.038461538461538464,
+    "stage_count": 3,
+    "original_size": 832,
+    "final_size": 32,
+    "space_savings": 800,
+    "space_savings_percent": 96.15384615384616
+  },
+  "original_size": 832,
+  "compressed_size": 32,
+  "compression_ratio": 0.038461538461538464,
+  "space_savings_percent": 96.15384615384616,
+  "content_hash": "4cff4f3600a331a6",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:821:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 31,
+    "total_chars": 832,
+    "total_words": 41,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 26,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "2": {
+        "start_char": 27,
+        "end_char": 46,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "3": {
+        "start_char": 47,
+        "end_char": 96,
+        "length": 49,
+        "preview": "    \"clinical diagnotistc mental Helath AI in UK\"",
+        "hash": "1bbcfbfe"
+      },
+      "4": {
+        "start_char": 97,
+        "end_char": 101,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "5": {
+        "start_char": 102,
+        "end_char": 124,
+        "length": 22,
+        "preview": "  \"files_generated\": [",
+        "hash": "52a446a7"
+      },
+      "6": {
+        "start_char": 125,
+        "end_char": 146,
+        "length": 21,
+        "preview": "    \"package.json**\",",
+        "hash": "427357f0"
+      },
+      "7": {
+        "start_char": 147,
+        "end_char": 170,
+        "length": 23,
+        "preview": "    \"next.config.js**\",",
+        "hash": "04854d92"
+      },
+      "8": {
+        "start_char": 171,
+        "end_char": 193,
+        "length": 22,
+        "preview": "    \"tsconfig.json**\",",
+        "hash": "b5b6e84c"
+      },
+      "9": {
+        "start_char": 194,
+        "end_char": 223,
+        "length": 29,
+        "preview": "    \"prisma/schema.prisma**\",",
+        "hash": "3cf9257a"
+      },
+      "10": {
+        "start_char": 224,
+        "end_char": 250,
+        "length": 26,
+        "preview": "    \"src/lib/prisma.ts**\",",
+        "hash": "56d9949c"
+      },
+      "11": {
+        "start_char": 251,
+        "end_char": 278,
+        "length": 27,
+        "preview": "    \"src/app/layout.tsx**\",",
+        "hash": "59c68beb"
+      },
+      "12": {
+        "start_char": 279,
+        "end_char": 304,
+        "length": 25,
+        "preview": "    \"src/app/page.tsx**\",",
+        "hash": "a616ddc4"
+      },
+      "13": {
+        "start_char": 305,
+        "end_char": 336,
+        "length": 31,
+        "preview": "    \"src/app/about/page.tsx**\",",
+        "hash": "5cff5d2f"
+      },
+      "14": {
+        "start_char": 337,
+        "end_char": 370,
+        "length": 33,
+        "preview": "    \"src/app/contact/page.tsx**\",",
+        "hash": "50e5454c"
+      },
+      "15": {
+        "start_char": 371,
+        "end_char": 407,
+        "length": 36,
+        "preview": "    \"src/app/diagnostic/page.tsx**\",",
+        "hash": "805150e2"
+      },
+      "16": {
+        "start_char": 408,
+        "end_char": 442,
+        "length": 34,
+        "preview": "    \"src/components/Navbar.tsx**\",",
+        "hash": "32b4ff9c"
+      },
+      "17": {
+        "start_char": 443,
+        "end_char": 477,
+        "length": 34,
+        "preview": "    \"src/components/Footer.tsx**\",",
+        "hash": "8125cd58"
+      },
+      "18": {
+        "start_char": 478,
+        "end_char": 520,
+        "length": 42,
+        "preview": "    \"src/components/DiagnosticForm.tsx**\",",
+        "hash": "de2d53d2"
+      },
+      "19": {
+        "start_char": 521,
+        "end_char": 563,
+        "length": 42,
+        "preview": "    \"src/components/LoadingSpinner.tsx**\",",
+        "hash": "0f278843"
+      },
+      "20": {
+        "start_char": 564,
+        "end_char": 602,
+        "length": 38,
+        "preview": "    \"src/components/ErrorAlert.tsx**\",",
+        "hash": "f5c28c8d"
+      },
+      "21": {
+        "start_char": 603,
+        "end_char": 636,
+        "length": 33,
+        "preview": "    \"src/styles/variables.css**\",",
+        "hash": "a9c2438d"
+      },
+      "22": {
+        "start_char": 637,
+        "end_char": 668,
+        "length": 31,
+        "preview": "    \"src/styles/globals.css**\",",
+        "hash": "3289c6ef"
+      },
+      "23": {
+        "start_char": 669,
+        "end_char": 701,
+        "length": 32,
+        "preview": "    \"pages/api/diagnostic.ts**\",",
+        "hash": "831e476e"
+      },
+      "24": {
+        "start_char": 702,
+        "end_char": 731,
+        "length": 29,
+        "preview": "    \"pages/api/contact.ts**\",",
+        "hash": "accb9cda"
+      },
+      "25": {
+        "start_char": 732,
+        "end_char": 758,
+        "length": 26,
+        "preview": "    \"public/index.html**\",",
+        "hash": "65dd3889"
+      },
+      "26": {
+        "start_char": 759,
+        "end_char": 777,
+        "length": 18,
+        "preview": "    \"README.md**\",",
+        "hash": "e29b2367"
+      },
+      "27": {
+        "start_char": 778,
+        "end_char": 796,
+        "length": 18,
+        "preview": "    \".gitignore**\"",
+        "hash": "d41d1ff9"
+      },
+      "28": {
+        "start_char": 797,
+        "end_char": 801,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "29": {
+        "start_char": 802,
+        "end_char": 830,
+        "length": 28,
+        "preview": "  \"build_status\": \"complete\"",
+        "hash": "bfc5b6e5"
+      },
+      "30": {
+        "start_char": 831,
+        "end_char": 832,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"complete\"": {
+        "count": 1,
+        "positions": [
+          820
+        ]
+      },
+      "\"prisma/schema.prisma**\",": {
+        "count": 1,
+        "positions": [
+          198
+        ]
+      },
+      "\"src/app/about/page.tsx**\",": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          20
+        ]
+      },
+      "\"src/lib/prisma.ts**\",": {
+        "count": 1,
+        "positions": [
+          228
+        ]
+      },
+      "\"public/index.html**\",": {
+        "count": 1,
+        "positions": [
+          736
+        ]
+      },
+      "\"clinical": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "diagnotistc": {
+        "count": 1,
+        "positions": [
+          61
+        ]
+      },
+      "\"tsconfig.json**\",": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "\"src/styles/globals.css**\",": {
+        "count": 1,
+        "positions": [
+          641
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"src/app/diagnostic/page.tsx**\",": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "\"next.config.js**\",": {
+        "count": 1,
+        "positions": [
+          151
+        ]
+      },
+      "\"src/styles/variables.css**\",": {
+        "count": 1,
+        "positions": [
+          607
+        ]
+      },
+      "mental": {
+        "count": 1,
+        "positions": [
+          73
+        ]
+      },
+      "\"src/components/footer.tsx**\",": {
+        "count": 1,
+        "positions": [
+          447
+        ]
+      },
+      "uk\"": {
+        "count": 1,
+        "positions": [
+          93
+        ]
+      },
+      "\".gitignore**\"": {
+        "count": 1,
+        "positions": [
+          782
+        ]
+      },
+      "\"src/app/layout.tsx**\",": {
+        "count": 1,
+        "positions": [
+          255
+        ]
+      },
+      "\"src/components/loadingspinner.tsx**\",": {
+        "count": 1,
+        "positions": [
+          525
+        ]
+      },
+      "\"src/components/navbar.tsx**\",": {
+        "count": 1,
+        "positions": [
+          412
+        ]
+      },
+      "\"readme.md**\",": {
+        "count": 1,
+        "positions": [
+          763
+        ]
+      },
+      "helath": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "\"src/components/erroralert.tsx**\",": {
+        "count": 1,
+        "positions": [
+          568
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "\"src/components/diagnosticform.tsx**\",": {
+        "count": 1,
+        "positions": [
+          482
+        ]
+      },
+      "\"build_status\":": {
+        "count": 1,
+        "positions": [
+          804
+        ]
+      },
+      "\"package.json**\",": {
+        "count": 1,
+        "positions": [
+          129
+        ]
+      },
+      "\"src/app/contact/page.tsx**\",": {
+        "count": 1,
+        "positions": [
+          341
+        ]
+      },
+      "\"src/app/page.tsx**\",": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "\"pages/api/diagnostic.ts**\",": {
+        "count": 1,
+        "positions": [
+          673
+        ]
+      },
+      "\"pages/api/contact.ts**\",": {
+        "count": 1,
+        "positions": [
+          706
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          29
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

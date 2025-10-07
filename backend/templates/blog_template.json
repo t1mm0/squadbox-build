@@ -1,0 +1,144 @@
+{
+  "name": "Blog Template",
+  "description": "A modern blog website with content management system",
+  "tech_stack": ["Next.js", "MDX", "TailwindCSS", "Prisma", "PostgreSQL"],
+  "structure": {
+    "pages": [
+      {
+        "name": "Home",
+        "sections": ["featured-posts", "categories", "newsletter"]
+      },
+      {
+        "name": "Posts",
+        "sections": ["post-list", "post-filters", "pagination"]
+      },
+      {
+        "name": "Post Detail",
+        "sections": ["post-header", "post-content", "post-author", "related-posts", "comments"]
+      },
+      {
+        "name": "About",
+        "sections": ["author-bio", "blog-info"]
+      },
+      {
+        "name": "Contact",
+        "sections": ["contact-form", "social-links"]
+      },
+      {
+        "name": "Admin",
+        "sections": ["login", "post-editor", "media-library", "comment-management", "analytics"]
+      }
+    ],
+    "components": [
+      "Header", "Footer", "PostCard", "AuthorBio", "CommentSection", "NewsletterForm", 
+      "CategoryList", "SearchBar", "PostEditor", "MediaUploader"
+    ]
+  },
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint",
+          "prisma:generate": "prisma generate",
+          "prisma:migrate": "prisma migrate dev",
+          "prisma:studio": "prisma studio"
+        },
+        "dependencies": {
+          "next": "^14.0.3",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "tailwindcss": "^3.3.5",
+          "postcss": "^8.4.31",
+          "autoprefixer": "^10.4.16",
+          "@prisma/client": "^5.6.0",
+          "next-mdx-remote": "^4.4.1",
+          "date-fns": "^2.30.0",
+          "gray-matter": "^4.0.3",
+          "react-hook-form": "^7.48.2",
+          "next-auth": "^4.24.4",
+          "rehype-prism-plus": "^1.6.3",
+          "remark-gfm": "^3.0.1"
+        },
+        "devDependencies": {
+          "eslint": "^8.54.0",
+          "eslint-config-next": "^14.0.3",
+          "prisma": "^5.6.0",
+          "typescript": "^5.3.2",
+          "@types/react": "^18.2.38",
+          "@types/node": "^20.9.5"
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "content": "# {{project_name}}\n\nA modern blog website built with Next.js, MDX, and Prisma.\n\n## Features\n\n- Fully responsive design\n- SEO optimized with Next.js\n- Markdown/MDX content support\n- Categories and tags\n- Code syntax highlighting\n- Comment system\n- Newsletter subscription\n- Admin dashboard\n- Authentication with NextAuth.js\n\n## Getting Started\n\n```bash\n# Install dependencies\nnpm install\n\n# Generate Prisma client\nnpm run prisma:generate\n\n# Run migrations (requires database setup)\nnpm run prisma:migrate\n\n# Run development server\nnpm run dev\n\n# Build for production\nnpm run build\n\n# Start production server\nnpm start\n```\n\n## Environment Variables\n\nCreate a `.env.local` file with the following:\n\n```\nDATABASE_URL=\"postgresql://user:password@localhost:5432/blogdb\"\nNEXTAUTH_SECRET=\"your-nextauth-secret\"\n```\n\n## Deployment\n\nThis application can be deployed to Vercel or any platform supporting Node.js and PostgreSQL.\n"
+    },
+    {
+      "path": "prisma/schema.prisma",
+      "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  url      = env(\"DATABASE_URL\")\n}\n\nmodel User {\n  id            String    @id @default(cuid())\n  name          String?\n  email         String    @unique\n  emailVerified DateTime?\n  image         String?\n  password      String?\n  role          Role      @default(USER)\n  posts         Post[]\n  comments      Comment[]\n  createdAt     DateTime  @default(now())\n  updatedAt     DateTime  @updatedAt\n}\n\nmodel Post {\n  id          String      @id @default(cuid())\n  title       String\n  slug        String      @unique\n  content     String\n  excerpt     String?\n  coverImage  String?\n  published   Boolean     @default(false)\n  featured    Boolean     @default(false)\n  author      User        @relation(fields: [authorId], references: [id])\n  authorId    String\n  categories  Category[]  @relation(\"CategoryToPost\")\n  tags        Tag[]       @relation(\"PostToTag\")\n  comments    Comment[]\n  createdAt   DateTime    @default(now())\n  updatedAt   DateTime    @updatedAt\n}\n\nmodel Category {\n  id          String    @id @default(cuid())\n  name        String    @unique\n  slug        String    @unique\n  description String?\n  posts       Post[]    @relation(\"CategoryToPost\")\n  createdAt   DateTime  @default(now())\n  updatedAt   DateTime  @updatedAt\n}\n\nmodel Tag {\n  id          String    @id @default(cuid())\n  name        String    @unique\n  slug        String    @unique\n  posts       Post[]    @relation(\"PostToTag\")\n  createdAt   DateTime  @default(now())\n  updatedAt   DateTime  @updatedAt\n}\n\nmodel Comment {\n  id        String    @id @default(cuid())\n  content   String\n  post      Post      @relation(fields: [postId], references: [id], onDelete: Cascade)\n  postId    String\n  author    User      @relation(fields: [authorId], references: [id])\n  authorId  String\n  parent    Comment?  @relation(\"CommentToComment\", fields: [parentId], references: [id])\n  parentId  String?\n  replies   Comment[] @relation(\"CommentToComment\")\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n}\n\nmodel Subscriber {\n  id        String    @id @default(cuid())\n  email     String    @unique\n  name      String?\n  confirmed Boolean   @default(false)\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n}\n\nenum Role {\n  USER\n  AUTHOR\n  ADMIN\n}\n"
+    },
+    {
+      "path": "next.config.js",
+      "content": "/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    domains: ['images.unsplash.com', 'via.placeholder.com'],\n  },\n  experimental: {\n    serverComponentsExternalPackages: ['@prisma/client'],\n  },\n};\n\nmodule.exports = nextConfig;\n"
+    }
+  ],
+  "schema": {
+    "users": {
+      "id": "UUID PRIMARY KEY",
+      "name": "VARCHAR(100)",
+      "email": "VARCHAR(255) UNIQUE",
+      "password": "VARCHAR(255)",
+      "image": "VARCHAR(255)",
+      "role": "VARCHAR(20)",
+      "created_at": "TIMESTAMP",
+      "updated_at": "TIMESTAMP"
+    },
+    "posts": {
+      "id": "UUID PRIMARY KEY",
+      "title": "VARCHAR(255)",
+      "slug": "VARCHAR(255) UNIQUE",
+      "content": "TEXT",
+      "excerpt": "TEXT",
+      "cover_image": "VARCHAR(255)",
+      "published": "BOOLEAN",
+      "featured": "BOOLEAN",
+      "author_id": "UUID REFERENCES users(id)",
+      "created_at": "TIMESTAMP",
+      "updated_at": "TIMESTAMP"
+    },
+    "categories": {
+      "id": "UUID PRIMARY KEY",
+      "name": "VARCHAR(100) UNIQUE",
+      "slug": "VARCHAR(100) UNIQUE",
+      "description": "TEXT",
+      "created_at": "TIMESTAMP"
+    },
+    "post_categories": {
+      "post_id": "UUID REFERENCES posts(id)",
+      "category_id": "UUID REFERENCES categories(id)",
+      "PRIMARY KEY": "(post_id, category_id)"
+    },
+    "comments": {
+      "id": "UUID PRIMARY KEY",
+      "content": "TEXT",
+      "post_id": "UUID REFERENCES posts(id)",
+      "user_id": "UUID REFERENCES users(id)",
+      "parent_id": "UUID REFERENCES comments(id)",
+      "created_at": "TIMESTAMP"
+    }
+  },
+  "example_data": {
+    "blog_info": {
+      "title": "Modern Blog",
+      "tagline": "Insights on Technology and Design",
+      "description": "A blog dedicated to sharing thoughts and insights about web development, design, and technology trends."
+    }
+  }
+}

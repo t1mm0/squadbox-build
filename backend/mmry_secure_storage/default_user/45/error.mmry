@@ -1,0 +1,165 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "error.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.8571428571428573
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 112,
+        "output_size": 127,
+        "stage_compression_ratio": 1.1339285714285714,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 4,
+          "compression_ratio": 1.1339285714285714,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 127,
+        "output_size": 113,
+        "stage_compression_ratio": 0.889763779527559,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 127,
+          "compressed_size": 113,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 265,
+        "output_size": 197,
+        "stage_compression_ratio": 0.7433962264150943,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 265,
+          "compressed_size": 197,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.7589285714285714,
+    "stage_count": 3,
+    "original_size": 112,
+    "final_size": 197,
+    "space_savings": -85,
+    "space_savings_percent": -75.89285714285714
+  },
+  "original_size": 112,
+  "compressed_size": 197,
+  "compression_ratio": 1.7589285714285714,
+  "space_savings_percent": -75.89285714285714,
+  "content_hash": "23b311253a7f2d43",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNolj0ELgkAQhX9LJyWoVl3NPQidhDQjhSJioNZdvQVlHoYO/vbe5mF2337zeDPbekxs9ackNsbVvqpT4nYbAisAQbTI4g1QTCzQMlKWZ9+H0Ki+qNboBQ1xL/6GkcYXRALBCpYuwStAG2lKPS67aSJOuzyf3rgBtf0ep6GFqwPABO0gtI5OgEhVoVy6IbGUAdIs0lrZuGlFdajdKmpeX8Q3uMUdp8YH9BYlanBJHEQubHhihqUB2sh5Mdtnq6v3AwWVWYE=",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 1,
+    "total_chars": 112,
+    "total_words": 11,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 112,
+        "length": 112,
+        "preview": "Failed to generate project: HTTPConnectionPool(hos...",
+        "hash": "8cfb8b95"
+      }
+    },
+    "word_index": {
+      "failed": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "(read": {
+        "count": 1,
+        "positions": [
+          94
+        ]
+      },
+      "generate": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "timeout=300)": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "timed": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "project:": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "port=11434):": {
+        "count": 1,
+        "positions": [
+          65
+        ]
+      },
+      "httpconnectionpool(host='localhost',": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "out.": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "read": {
+        "count": 2,
+        "positions": [
+          78,
+          95
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

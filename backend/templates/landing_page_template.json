@@ -1,0 +1,135 @@
+{
+  "name": "Landing Page Template",
+  "description": "A high-converting marketing landing page with signup form",
+  "tech_stack": ["Next.js", "TailwindCSS", "React Hook Form", "SendGrid"],
+  "structure": {
+    "sections": [
+      {
+        "name": "Hero",
+        "components": ["headline", "subheadline", "cta-button", "hero-image"]
+      },
+      {
+        "name": "Features",
+        "components": ["feature-grid", "feature-cards"]
+      },
+      {
+        "name": "Benefits",
+        "components": ["benefit-list", "testimonial"]
+      },
+      {
+        "name": "Social Proof",
+        "components": ["logos", "testimonials", "case-studies"]
+      },
+      {
+        "name": "Pricing",
+        "components": ["pricing-table", "faq"]
+      },
+      {
+        "name": "Call to Action",
+        "components": ["signup-form", "cta-button", "guarantee"]
+      },
+      {
+        "name": "Footer",
+        "components": ["links", "social", "legal"]
+      }
+    ],
+    "components": [
+      "Header", "LogoCloud", "FeatureCard", "TestimonialCard", "PricingCard", 
+      "SignupForm", "CTAButton", "FAQ", "FooterSection"
+    ]
+  },
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.3",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "tailwindcss": "^3.3.5",
+          "postcss": "^8.4.31",
+          "autoprefixer": "^10.4.16",
+          "@tailwindcss/forms": "^0.5.7",
+          "react-hook-form": "^7.48.2",
+          "framer-motion": "^10.16.5",
+          "react-icons": "^4.12.0",
+          "react-intersection-observer": "^9.5.3",
+          "@sendgrid/mail": "^7.7.0",
+          "@headlessui/react": "^1.7.17"
+        },
+        "devDependencies": {
+          "eslint": "^8.54.0",
+          "eslint-config-next": "^14.0.3",
+          "typescript": "^5.3.2",
+          "@types/react": "^18.2.38",
+          "@types/node": "^20.9.5"
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "content": "# {{project_name}}\n\nA high-converting marketing landing page built with Next.js and TailwindCSS.\n\n## Features\n\n- Responsive design for all devices\n- Modern and clean UI with animations\n- Lead capture form with validation\n- Integration with SendGrid for email collection\n- A/B testing ready\n- SEO optimized\n\n## Getting Started\n\n```bash\n# Install dependencies\nnpm install\n\n# Run development server\nnpm run dev\n\n# Build for production\nnpm run build\n\n# Start production server\nnpm start\n```\n\n## Environment Variables\n\nCreate a `.env.local` file with the following:\n\n```\nSENDGRID_API_KEY=your_sendgrid_api_key\nCONTACT_EMAIL=your_email@example.com\n```\n\n## Deployment\n\nThis landing page can be easily deployed to Vercel, Netlify, or any static hosting service.\n\n```bash\n# Deploy to Vercel\nvercel\n```\n\n## Customizing\n\n- Update content in `src/data/content.js`\n- Replace images in `public/images/`\n- Adjust colors in `tailwind.config.js`\n"
+    },
+    {
+      "path": "tailwind.config.js",
+      "content": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\n    './src/pages/**/*.{js,ts,jsx,tsx}',\n    './src/components/**/*.{js,ts,jsx,tsx}',\n    './src/app/**/*.{js,ts,jsx,tsx}',\n  ],\n  theme: {\n    extend: {\n      colors: {\n        primary: {\n          50: '#f0f9ff',\n          100: '#e0f2fe',\n          200: '#bae6fd',\n          300: '#7dd3fc',\n          400: '#38bdf8',\n          500: '#0ea5e9',\n          600: '#0284c7',\n          700: '#0369a1',\n          800: '#075985',\n          900: '#0c4a6e',\n        },\n        secondary: {\n          50: '#fdf2f8',\n          100: '#fce7f3',\n          200: '#fbcfe8',\n          300: '#f9a8d4',\n          400: '#f472b6',\n          500: '#ec4899',\n          600: '#db2777',\n          700: '#be185d',\n          800: '#9d174d',\n          900: '#831843',\n        }\n      },\n      fontFamily: {\n        sans: ['Inter var', 'Inter', 'system-ui', 'sans-serif'],\n        heading: ['Cal Sans', 'Inter', 'system-ui', 'sans-serif'],\n      },\n      animation: {\n        'fade-in': 'fadeIn 1s ease-in-out',\n        'slide-up': 'slideUp 0.5s ease-out',\n        'slide-in-right': 'slideInRight 0.5s ease-out',\n      },\n      keyframes: {\n        fadeIn: {\n          '0%': { opacity: 0 },\n          '100%': { opacity: 1 },\n        },\n        slideUp: {\n          '0%': { transform: 'translateY(20px)', opacity: 0 },\n          '100%': { transform: 'translateY(0)', opacity: 1 },\n        },\n        slideInRight: {\n          '0%': { transform: 'translateX(20px)', opacity: 0 },\n          '100%': { transform: 'translateX(0)', opacity: 1 },\n        },\n      },\n    },\n  },\n  plugins: [\n    require('@tailwindcss/forms'),\n  ],\n};\n"
+    },
+    {
+      "path": "next.config.js",
+      "content": "/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    domains: ['images.unsplash.com', 'via.placeholder.com'],\n  },\n};\n\nmodule.exports = nextConfig;\n"
+    },
+    {
+      "path": "src/data/content.js",
+      "content": "export const content = {\n  // Site metadata\n  site: {\n    title: \"Product Name - Tagline Goes Here\",\n    description: \"A brief compelling description of your product or service that appears in search results.\",\n    domain: \"yourdomain.com\"\n  },\n  \n  // Hero section\n  hero: {\n    headline: \"Main value proposition headline\",\n    subheadline: \"Supporting statement that explains your product and its benefits.\",\n    ctaText: \"Get Started\",\n    secondaryCtaText: \"Learn More\",\n    image: \"/images/hero-image.jpg\"\n  },\n  \n  // Features section\n  features: {\n    headline: \"Why Choose Us\",\n    subheadline: \"Discover what sets our product apart from the competition.\",\n    featureList: [\n      {\n        title: \"Feature One\",\n        description: \"Description of the first main feature and its benefits.\",\n        icon: \"sparkles\"\n      },\n      {\n        title: \"Feature Two\",\n        description: \"Description of the second main feature and its benefits.\",\n        icon: \"shield-check\"\n      },\n      {\n        title: \"Feature Three\",\n        description: \"Description of the third main feature and its benefits.\",\n        icon: \"lightning-bolt\"\n      }\n    ]\n  },\n  \n  // Testimonials section\n  testimonials: {\n    headline: \"What Our Customers Say\",\n    testimonialList: [\n      {\n        quote: \"This product has completely transformed our business operations. We've seen a 30% increase in productivity.\",\n        author: \"Jane Smith\",\n        role: \"CEO, Company Inc.\",\n        image: \"/images/testimonial-1.jpg\"\n      },\n      {\n        quote: \"The ease of use and powerful features make this the best solution we've tried. Highly recommended!\",\n        author: \"John Doe\",\n        role: \"Marketing Director, Agency Co.\",\n        image: \"/images/testimonial-2.jpg\"\n      }\n    ]\n  },\n  \n  // Pricing section\n  pricing: {\n    headline: \"Simple, Transparent Pricing\",\n    subheadline: \"No hidden fees or long-term contracts. Choose the plan that works for you.\",\n    plans: [\n      {\n        name: \"Basic\",\n        price: \"$9\",\n        period: \"/month\",\n        description: \"Perfect for individuals and small projects\",\n        features: [\n          \"Feature one\",\n          \"Feature two\",\n          \"Feature three\"\n        ],\n        ctaText: \"Start Free Trial\"\n      },\n      {\n        name: \"Pro\",\n        price: \"$29\",\n        period: \"/month\",\n        description: \"Ideal for growing businesses\",\n        features: [\n          \"Everything in Basic\",\n          \"Additional feature one\",\n          \"Additional feature two\",\n          \"Additional feature three\"\n        ],\n        ctaText: \"Start Free Trial\",\n        highlighted: true\n      },\n      {\n        name: \"Enterprise\",\n        price: \"$99\",\n        period: \"/month\",\n        description: \"For large organizations with advanced needs\",\n        features: [\n          \"Everything in Pro\",\n          \"Premium feature one\",\n          \"Premium feature two\",\n          \"Premium feature three\",\n          \"Priority support\"\n        ],\n        ctaText: \"Contact Sales\"\n      }\n    ]\n  },\n  \n  // FAQ section\n  faq: {\n    headline: \"Frequently Asked Questions\",\n    questions: [\n      {\n        question: \"What is your product?\",\n        answer: \"Our product is a [brief description]. It helps [target audience] to [key benefit].\"\n      },\n      {\n        question: \"How does the free trial work?\",\n        answer: \"Our free trial gives you full access to all features for 14 days. No credit card required.\"\n      },\n      {\n        question: \"Do you offer refunds?\",\n        answer: \"Yes, we offer a 30-day money-back guarantee if you're not satisfied with our product.\"\n      },\n      {\n        question: \"How can I get support?\",\n        answer: \"We provide 24/7 support via email and live chat. Our dedicated team is always ready to help.\"\n      }\n    ]\n  },\n  \n  // CTA section\n  cta: {\n    headline: \"Ready to get started?\",\n    subheadline: \"Join thousands of satisfied customers using our product.\",\n    ctaText: \"Sign Up Now\",\n    secondaryCtaText: \"Contact Sales\"\n  },\n  \n  // Footer\n  footer: {\n    companyName: \"Your Company Name\",\n    tagline: \"Brief company description or tagline.\",\n    links: {\n      product: [\n        { text: \"Features\", url: \"#features\" },\n        { text: \"Pricing\", url: \"#pricing\" },\n        { text: \"FAQ\", url: \"#faq\" }\n      ],\n      company: [\n        { text: \"About\", url: \"/about\" },\n        { text: \"Contact\", url: \"/contact\" },\n        { text: \"Careers\", url: \"/careers\" }\n      ],\n      legal: [\n        { text: \"Privacy\", url: \"/privacy\" },\n        { text: \"Terms\", url: \"/terms\" }\n      ]\n    },\n    social: [\n      { platform: \"twitter\", url: \"https://twitter.com/yourcompany\" },\n      { platform: \"linkedin\", url: \"https://linkedin.com/company/yourcompany\" },\n      { platform: \"facebook\", url: \"https://facebook.com/yourcompany\" }\n    ],\n    copyright: `© ${new Date().getFullYear()} Your Company Name. All rights reserved.`\n  }\n};\n\nexport default content;\n"
+    }
+  ],
+  "schema": {
+    "leads": {
+      "id": "UUID PRIMARY KEY",
+      "email": "VARCHAR(255) UNIQUE",
+      "name": "VARCHAR(100)",
+      "source": "VARCHAR(100)",
+      "created_at": "TIMESTAMP",
+      "utm_source": "VARCHAR(100)",
+      "utm_medium": "VARCHAR(100)",
+      "utm_campaign": "VARCHAR(100)"
+    },
+    "subscribers": {
+      "id": "UUID PRIMARY KEY",
+      "email": "VARCHAR(255) UNIQUE",
+      "name": "VARCHAR(100)",
+      "subscribed": "BOOLEAN",
+      "created_at": "TIMESTAMP"
+    }
+  },
+  "example_data": {
+    "product_info": {
+      "name": "ProductName",
+      "tagline": "A catchy tagline that explains the product value",
+      "description": "A more detailed description of your product, focusing on its main benefits and solutions.",
+      "features": [
+        {
+          "title": "Easy to Use",
+          "description": "Our product is designed to be simple and intuitive for everyone."
+        },
+        {
+          "title": "Powerful Analytics",
+          "description": "Gain insights from comprehensive data visualization and reporting."
+        },
+        {
+          "title": "24/7 Support",
+          "description": "Our dedicated team is always available to help with any issues."
+        }
+      ]
+    }
+  }
+}

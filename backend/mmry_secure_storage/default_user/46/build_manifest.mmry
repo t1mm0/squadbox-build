@@ -1,0 +1,471 @@
+{
+  "user_id": "default_user",
+  "project_id": "46",
+  "file_name": "build_manifest.json",
+  "file_type": "json",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.1698529411764706
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 529,
+        "output_size": 529,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 5
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 529,
+        "output_size": 1601,
+        "stage_compression_ratio": 3.0264650283553873,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 341,
+          "original_size": 524,
+          "compressed_size": 1601
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1601,
+        "output_size": 32,
+        "stage_compression_ratio": 0.019987507807620236,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1601,
+          "estimated_compressed_size": 648,
+          "entropy": 3.2400838093859434
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06049149338374291,
+    "stage_count": 3,
+    "original_size": 529,
+    "final_size": 32,
+    "space_savings": 497,
+    "space_savings_percent": 93.95085066162571
+  },
+  "original_size": 529,
+  "compressed_size": 32,
+  "compression_ratio": 0.06049149338374291,
+  "space_savings_percent": 93.95085066162571,
+  "content_hash": "008e69c37acb36d4",
+  "timestamp": 1759698822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:648:[123][10][32][32][34",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698822,
+    "total_lines": 22,
+    "total_chars": 529,
+    "total_words": 47,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 1,
+        "length": 1,
+        "preview": "{",
+        "hash": "f95b70fd"
+      },
+      "1": {
+        "start_char": 2,
+        "end_char": 23,
+        "length": 21,
+        "preview": "  \"project_id\": \"46\",",
+        "hash": "62acad2d"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 65,
+        "length": 41,
+        "preview": "  \"project_name\": \"Optimized Model Test\",",
+        "hash": "66e7ff95"
+      },
+      "3": {
+        "start_char": 66,
+        "end_char": 85,
+        "length": 19,
+        "preview": "  \"requirements\": [",
+        "hash": "399b8bb4"
+      },
+      "4": {
+        "start_char": 86,
+        "end_char": 142,
+        "length": 56,
+        "preview": "    \"Test with llama3.2:latest model for agentic c...",
+        "hash": "a7d7abbe"
+      },
+      "5": {
+        "start_char": 143,
+        "end_char": 147,
+        "length": 4,
+        "preview": "  ],",
+        "hash": "542a1b05"
+      },
+      "6": {
+        "start_char": 148,
+        "end_char": 181,
+        "length": 33,
+        "preview": "  \"template_id\": \"blog_template\",",
+        "hash": "ccb548da"
+      },
+      "7": {
+        "start_char": 182,
+        "end_char": 206,
+        "length": 24,
+        "preview": "  \"project_type\": \"web\",",
+        "hash": "e2a1a9e8"
+      },
+      "8": {
+        "start_char": 207,
+        "end_char": 232,
+        "length": 25,
+        "preview": "  \"status\": \"generating\",",
+        "hash": "0d6583db"
+      },
+      "9": {
+        "start_char": 233,
+        "end_char": 268,
+        "length": 35,
+        "preview": "  \"start_time\": 1759698514.7235389,",
+        "hash": "22cad919"
+      },
+      "10": {
+        "start_char": 269,
+        "end_char": 288,
+        "length": 19,
+        "preview": "  \"end_time\": null,",
+        "hash": "adfe23c7"
+      },
+      "11": {
+        "start_char": 289,
+        "end_char": 313,
+        "length": 24,
+        "preview": "  \"files_generated\": [],",
+        "hash": "7edb484f"
+      },
+      "12": {
+        "start_char": 314,
+        "end_char": 329,
+        "length": 15,
+        "preview": "  \"errors\": [],",
+        "hash": "aa1201a6"
+      },
+      "13": {
+        "start_char": 330,
+        "end_char": 382,
+        "length": 52,
+        "preview": "  \"team_id\": \"7d357417-ce5c-4ddb-850d-a02321af0719...",
+        "hash": "9fd2c7ba"
+      },
+      "14": {
+        "start_char": 383,
+        "end_char": 406,
+        "length": 23,
+        "preview": "  \"agentic_team\": true,",
+        "hash": "a73af44d"
+      },
+      "15": {
+        "start_char": 407,
+        "end_char": 417,
+        "length": 10,
+        "preview": "  \"llm\": {",
+        "hash": "f030535c"
+      },
+      "16": {
+        "start_char": 418,
+        "end_char": 444,
+        "length": 26,
+        "preview": "    \"user_api_key\": false,",
+        "hash": "eeda5d52"
+      },
+      "17": {
+        "start_char": 445,
+        "end_char": 475,
+        "length": 30,
+        "preview": "    \"use_personal_key\": false,",
+        "hash": "a9e5d9ad"
+      },
+      "18": {
+        "start_char": 476,
+        "end_char": 499,
+        "length": 23,
+        "preview": "    \"ollama_url\": null,",
+        "hash": "7e0595d5"
+      },
+      "19": {
+        "start_char": 500,
+        "end_char": 523,
+        "length": 23,
+        "preview": "    \"use_ollama\": false",
+        "hash": "7bf2ed87"
+      },
+      "20": {
+        "start_char": 524,
+        "end_char": 527,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "21": {
+        "start_char": 528,
+        "end_char": 529,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "\"optimized": {
+        "count": 1,
+        "positions": [
+          42
+        ]
+      },
+      "\"web\",": {
+        "count": 1,
+        "positions": [
+          200
+        ]
+      },
+      "\"blog_template\",": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "\"end_time\":": {
+        "count": 1,
+        "positions": [
+          271
+        ]
+      },
+      "\"project_id\":": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "\"llm\":": {
+        "count": 1,
+        "positions": [
+          409
+        ]
+      },
+      "llama3.2:latest": {
+        "count": 1,
+        "positions": [
+          101
+        ]
+      },
+      "\"test": {
+        "count": 1,
+        "positions": [
+          90
+        ]
+      },
+      "\"template_id\":": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "\"files_generated\":": {
+        "count": 1,
+        "positions": [
+          291
+        ]
+      },
+      "\"7d357417-ce5c-4ddb-850d-a02321af0719\",": {
+        "count": 1,
+        "positions": [
+          343
+        ]
+      },
+      "\"project_type\":": {
+        "count": 1,
+        "positions": [
+          184
+        ]
+      },
+      "\"use_ollama\":": {
+        "count": 1,
+        "positions": [
+          504
+        ]
+      },
+      "model": {
+        "count": 2,
+        "positions": [
+          53,
+          117
+        ]
+      },
+      "for": {
+        "count": 1,
+        "positions": [
+          123
+        ]
+      },
+      "\"team_id\":": {
+        "count": 1,
+        "positions": [
+          332
+        ]
+      },
+      "1759698514.7235389,": {
+        "count": 1,
+        "positions": [
+          249
+        ]
+      },
+      "\"46\",": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "\"errors\":": {
+        "count": 1,
+        "positions": [
+          316
+        ]
+      },
+      "agentic": {
+        "count": 2,
+        "positions": [
+          127,
+          386
+        ]
+      },
+      "\"requirements\":": {
+        "count": 1,
+        "positions": [
+          68
+        ]
+      },
+      "test\",": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      },
+      "null,": {
+        "count": 2,
+        "positions": [
+          283,
+          494
+        ]
+      },
+      "false,": {
+        "count": 2,
+        "positions": [
+          438,
+          469
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "\"use_personal_key\":": {
+        "count": 1,
+        "positions": [
+          449
+        ]
+      },
+      "\"start_time\":": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "\"project_name\":": {
+        "count": 1,
+        "positions": [
+          26
+        ]
+      },
+      "\"user_api_key\":": {
+        "count": 1,
+        "positions": [
+          422
+        ]
+      },
+      "\"agentic_team\":": {
+        "count": 1,
+        "positions": [
+          385
+        ]
+      },
+      "[],": {
+        "count": 2,
+        "positions": [
+          310,
+          326
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          401
+        ]
+      },
+      "\"status\":": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      },
+      "\"generating\",": {
+        "count": 1,
+        "positions": [
+          219
+        ]
+      },
+      "\"ollama_url\":": {
+        "count": 1,
+        "positions": [
+          480
+        ]
+      },
+      "false": {
+        "count": 3,
+        "positions": [
+          438,
+          469,
+          518
+        ]
+      },
+      "coding\"": {
+        "count": 1,
+        "positions": [
+          135
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

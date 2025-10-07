@@ -1,0 +1,158 @@
+{
+  "name": "E-Commerce Template",
+  "description": "A full-featured e-commerce website with product catalog, cart, and checkout",
+  "tech_stack": ["Next.js", "TailwindCSS", "Prisma", "PostgreSQL", "Stripe", "NextAuth"],
+  "structure": {
+    "pages": [
+      {
+        "name": "Home",
+        "sections": ["featured-products", "categories", "promotions", "testimonials"]
+      },
+      {
+        "name": "Products",
+        "sections": ["product-grid", "filters", "sorting", "pagination"]
+      },
+      {
+        "name": "Product Detail",
+        "sections": ["product-images", "product-info", "specifications", "reviews", "related-products"]
+      },
+      {
+        "name": "Cart",
+        "sections": ["cart-items", "cart-summary", "shipping-options"]
+      },
+      {
+        "name": "Checkout",
+        "sections": ["shipping-info", "payment", "order-review", "confirmation"]
+      },
+      {
+        "name": "User Account",
+        "sections": ["profile", "orders", "wishlist", "addresses", "payment-methods"]
+      },
+      {
+        "name": "Admin",
+        "sections": ["dashboard", "product-management", "order-management", "customer-management", "analytics"]
+      }
+    ],
+    "components": [
+      "Header", "Footer", "ProductCard", "CategoryNav", "CartDrawer", "SearchBar", 
+      "ProductGallery", "AddToCartButton", "ReviewForm", "CheckoutForm", "OrderSummary"
+    ]
+  },
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint",
+          "prisma:generate": "prisma generate",
+          "prisma:migrate": "prisma migrate dev",
+          "seed": "node prisma/seed.js"
+        },
+        "dependencies": {
+          "next": "^14.0.3",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "tailwindcss": "^3.3.5",
+          "postcss": "^8.4.31",
+          "autoprefixer": "^10.4.16",
+          "@prisma/client": "^5.6.0",
+          "next-auth": "^4.24.4",
+          "@stripe/stripe-js": "^2.1.11",
+          "stripe": "^14.4.0",
+          "react-hook-form": "^7.48.2",
+          "zod": "^3.22.4",
+          "@headlessui/react": "^1.7.17",
+          "@heroicons/react": "^2.0.18",
+          "bcryptjs": "^2.4.3",
+          "react-hot-toast": "^2.4.1",
+          "swr": "^2.2.4"
+        },
+        "devDependencies": {
+          "eslint": "^8.54.0",
+          "eslint-config-next": "^14.0.3",
+          "prisma": "^5.6.0",
+          "typescript": "^5.3.2",
+          "@types/react": "^18.2.38",
+          "@types/node": "^20.9.5",
+          "@types/bcryptjs": "^2.4.6"
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "content": "# {{project_name}}\n\nA modern e-commerce platform built with Next.js, Prisma, and Stripe.\n\n## Features\n\n- Responsive design for all devices\n- Product catalog with categories and filters\n- User accounts and authentication\n- Shopping cart with persistent storage\n- Secure checkout with Stripe\n- Order history and tracking\n- Admin dashboard for product and order management\n- SEO optimized\n\n## Getting Started\n\n```bash\n# Install dependencies\nnpm install\n\n# Generate Prisma client\nnpm run prisma:generate\n\n# Run migrations\nnpm run prisma:migrate\n\n# Seed the database with initial data\nnpm run seed\n\n# Run development server\nnpm run dev\n\n# Build for production\nnpm run build\n\n# Start production server\nnpm start\n```\n\n## Environment Variables\n\nCreate a `.env.local` file with the following:\n\n```\nDATABASE_URL=\"postgresql://user:password@localhost:5432/ecommercedb\"\nNEXTAUTH_SECRET=\"your-nextauth-secret\"\nNEXTAUTH_URL=\"http://localhost:3000\"\nSTRIPE_SECRET_KEY=\"sk_test_...\"\nSTRIPE_PUBLIC_KEY=\"pk_test_...\"\nSTRIPE_WEBHOOK_SECRET=\"whsec_...\"\n```\n\n## Deployment\n\nThis application can be deployed to Vercel or any platform supporting Next.js, Node.js and PostgreSQL.\n"
+    },
+    {
+      "path": "prisma/schema.prisma",
+      "content": "generator client {\n  provider = \"prisma-client-js\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n  url      = env(\"DATABASE_URL\")\n}\n\nmodel User {\n  id            String    @id @default(cuid())\n  name          String?\n  email         String    @unique\n  emailVerified DateTime?\n  image         String?\n  password      String?\n  role          Role      @default(CUSTOMER)\n  orders        Order[]\n  addresses     Address[]\n  reviews       Review[]\n  createdAt     DateTime  @default(now())\n  updatedAt     DateTime  @updatedAt\n}\n\nmodel Product {\n  id          String      @id @default(cuid())\n  name        String\n  slug        String      @unique\n  description String?\n  price       Float\n  compareAt   Float?\n  images      String[]    @default([])\n  stock       Int         @default(0)\n  sku         String      @unique\n  category    Category    @relation(fields: [categoryId], references: [id])\n  categoryId  String\n  options     Json?\n  featured    Boolean     @default(false)\n  orderItems  OrderItem[]\n  reviews     Review[]\n  createdAt   DateTime    @default(now())\n  updatedAt   DateTime    @updatedAt\n}\n\nmodel Category {\n  id          String    @id @default(cuid())\n  name        String    @unique\n  slug        String    @unique\n  description String?\n  image       String?\n  products    Product[]\n  parentId    String?\n  parent      Category? @relation(\"SubCategories\", fields: [parentId], references: [id])\n  children    Category[] @relation(\"SubCategories\")\n  createdAt   DateTime  @default(now())\n  updatedAt   DateTime  @updatedAt\n}\n\nmodel Order {\n  id              String      @id @default(cuid())\n  user            User        @relation(fields: [userId], references: [id])\n  userId          String\n  items           OrderItem[]\n  status          OrderStatus @default(PENDING)\n  total           Float\n  shippingAddress String\n  paymentId       String?\n  paymentMethod   String\n  createdAt       DateTime    @default(now())\n  updatedAt       DateTime    @updatedAt\n}\n\nmodel OrderItem {\n  id        String  @id @default(cuid())\n  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)\n  orderId   String\n  product   Product @relation(fields: [productId], references: [id])\n  productId String\n  quantity  Int\n  price     Float\n  options   Json?\n}\n\nmodel Address {\n  id        String    @id @default(cuid())\n  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)\n  userId    String\n  type      AddressType @default(SHIPPING)\n  name      String\n  street    String\n  city      String\n  state     String\n  zipCode   String\n  country   String\n  isDefault Boolean   @default(false)\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n}\n\nmodel Review {\n  id        String    @id @default(cuid())\n  product   Product   @relation(fields: [productId], references: [id], onDelete: Cascade)\n  productId String\n  user      User      @relation(fields: [userId], references: [id])\n  userId    String\n  rating    Int\n  comment   String?\n  title     String?\n  createdAt DateTime  @default(now())\n  updatedAt DateTime  @updatedAt\n}\n\nenum Role {\n  ADMIN\n  STAFF\n  CUSTOMER\n}\n\nenum OrderStatus {\n  PENDING\n  PROCESSING\n  SHIPPED\n  DELIVERED\n  CANCELLED\n}\n\nenum AddressType {\n  SHIPPING\n  BILLING\n}\n"
+    },
+    {
+      "path": "next.config.js",
+      "content": "/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  images: {\n    domains: ['images.unsplash.com', 'via.placeholder.com'],\n  },\n  experimental: {\n    serverComponentsExternalPackages: ['@prisma/client'],\n  },\n};\n\nmodule.exports = nextConfig;\n"
+    }
+  ],
+  "schema": {
+    "users": {
+      "id": "UUID PRIMARY KEY",
+      "name": "VARCHAR(100)",
+      "email": "VARCHAR(255) UNIQUE",
+      "password": "VARCHAR(255)",
+      "role": "VARCHAR(20)",
+      "created_at": "TIMESTAMP"
+    },
+    "products": {
+      "id": "UUID PRIMARY KEY",
+      "name": "VARCHAR(255)",
+      "slug": "VARCHAR(255) UNIQUE",
+      "description": "TEXT",
+      "price": "DECIMAL(10,2)",
+      "stock": "INT",
+      "category_id": "UUID REFERENCES categories(id)",
+      "images": "JSON",
+      "featured": "BOOLEAN",
+      "created_at": "TIMESTAMP"
+    },
+    "categories": {
+      "id": "UUID PRIMARY KEY",
+      "name": "VARCHAR(100)",
+      "slug": "VARCHAR(100) UNIQUE",
+      "description": "TEXT",
+      "image": "VARCHAR(255)",
+      "parent_id": "UUID REFERENCES categories(id)"
+    },
+    "orders": {
+      "id": "UUID PRIMARY KEY",
+      "user_id": "UUID REFERENCES users(id)",
+      "status": "VARCHAR(50)",
+      "total": "DECIMAL(10,2)",
+      "shipping_address": "TEXT",
+      "payment_id": "VARCHAR(255)",
+      "created_at": "TIMESTAMP"
+    },
+    "order_items": {
+      "id": "UUID PRIMARY KEY",
+      "order_id": "UUID REFERENCES orders(id)",
+      "product_id": "UUID REFERENCES products(id)",
+      "quantity": "INT",
+      "price": "DECIMAL(10,2)"
+    }
+  },
+  "example_data": {
+    "store_info": {
+      "name": "Modern Shop",
+      "tagline": "Quality Products for Every Need",
+      "logo": "/images/logo.png",
+      "contact": {
+        "email": "info@modernshop.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Commerce St, Shopping City, SC 12345"
+      }
+    }
+  }
+}

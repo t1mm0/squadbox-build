@@ -1,0 +1,404 @@
+{
+  "user_id": "default_user",
+  "project_id": "37",
+  "file_name": "src/app/content-studio/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02459598432908913
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 508,
+        "output_size": 498,
+        "stage_compression_ratio": 0.9803149606299213,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 7
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 498,
+        "output_size": 1392,
+        "stage_compression_ratio": 2.7951807228915664,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 292,
+          "original_size": 491,
+          "compressed_size": 1392
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1392,
+        "output_size": 32,
+        "stage_compression_ratio": 0.022988505747126436,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1392,
+          "estimated_compressed_size": 568,
+          "entropy": 3.2645517590691004
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06299212598425197,
+    "stage_count": 3,
+    "original_size": 508,
+    "final_size": 32,
+    "space_savings": 476,
+    "space_savings_percent": 93.7007874015748
+  },
+  "original_size": 508,
+  "compressed_size": 32,
+  "compression_ratio": 0.06299212598425197,
+  "space_savings_percent": 93.7007874015748,
+  "content_hash": "495d141b6fc65428",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:568:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 18,
+    "total_chars": 508,
+    "total_words": 45,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 83,
+        "length": 56,
+        "preview": "import ContentEditor from '../components/ContentEd...",
+        "hash": "6a56600d"
+      },
+      "2": {
+        "start_char": 84,
+        "end_char": 140,
+        "length": 56,
+        "preview": "import AiSuggestions from '../components/AiSuggest...",
+        "hash": "a679b355"
+      },
+      "3": {
+        "start_char": 141,
+        "end_char": 201,
+        "length": 60,
+        "preview": "import TemplateLibrary from '../components/Templat...",
+        "hash": "945ee57b"
+      },
+      "4": {
+        "start_char": 202,
+        "end_char": 262,
+        "length": 60,
+        "preview": "import BrandVoicePanel from '../components/BrandVo...",
+        "hash": "5a5552f2"
+      },
+      "5": {
+        "start_char": 263,
+        "end_char": 263,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 264,
+        "end_char": 306,
+        "length": 42,
+        "preview": "export default function Content studio() {",
+        "hash": "60546dfa"
+      },
+      "7": {
+        "start_char": 307,
+        "end_char": 317,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "8": {
+        "start_char": 318,
+        "end_char": 359,
+        "length": 41,
+        "preview": "    <div className=\"page content studio\">",
+        "hash": "a223825c"
+      },
+      "9": {
+        "start_char": 360,
+        "end_char": 389,
+        "length": 29,
+        "preview": "      <h1>Content Studio</h1>",
+        "hash": "4a2a9454"
+      },
+      "10": {
+        "start_char": 390,
+        "end_char": 413,
+        "length": 23,
+        "preview": "      <ContentEditor />",
+        "hash": "669f0d78"
+      },
+      "11": {
+        "start_char": 414,
+        "end_char": 437,
+        "length": 23,
+        "preview": "      <AiSuggestions />",
+        "hash": "df2aed1a"
+      },
+      "12": {
+        "start_char": 438,
+        "end_char": 463,
+        "length": 25,
+        "preview": "      <TemplateLibrary />",
+        "hash": "4bdfd5af"
+      },
+      "13": {
+        "start_char": 464,
+        "end_char": 489,
+        "length": 25,
+        "preview": "      <BrandVoicePanel />",
+        "hash": "a9d7c16b"
+      },
+      "14": {
+        "start_char": 490,
+        "end_char": 500,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "15": {
+        "start_char": 501,
+        "end_char": 505,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "16": {
+        "start_char": 506,
+        "end_char": 507,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 508,
+        "end_char": 508,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "import": {
+        "count": 5,
+        "positions": [
+          0,
+          27,
+          84,
+          141,
+          202
+        ]
+      },
+      "<h1>content": {
+        "count": 1,
+        "positions": [
+          366
+        ]
+      },
+      "<contenteditor": {
+        "count": 1,
+        "positions": [
+          396
+        ]
+      },
+      "templatelibrary": {
+        "count": 3,
+        "positions": [
+          148,
+          184,
+          445
+        ]
+      },
+      "aisuggestions": {
+        "count": 3,
+        "positions": [
+          91,
+          125,
+          421
+        ]
+      },
+      "studio</h1>": {
+        "count": 1,
+        "positions": [
+          378
+        ]
+      },
+      "content": {
+        "count": 6,
+        "positions": [
+          34,
+          68,
+          288,
+          343,
+          370,
+          397
+        ]
+      },
+      "from": {
+        "count": 5,
+        "positions": [
+          13,
+          48,
+          105,
+          164,
+          225
+        ]
+      },
+      "'../components/aisuggestions';": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          322
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          494
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "<brandvoicepanel": {
+        "count": 1,
+        "positions": [
+          470
+        ]
+      },
+      "contenteditor": {
+        "count": 3,
+        "positions": [
+          34,
+          68,
+          397
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "'../components/brandvoicepanel';": {
+        "count": 1,
+        "positions": [
+          230
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          271
+        ]
+      },
+      "<templatelibrary": {
+        "count": 1,
+        "positions": [
+          444
+        ]
+      },
+      "'../components/templatelibrary';": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "'../components/contenteditor';": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          327
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          309
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          264
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          279
+        ]
+      },
+      "studio\">": {
+        "count": 1,
+        "positions": [
+          351
+        ]
+      },
+      "brandvoicepanel": {
+        "count": 3,
+        "positions": [
+          209,
+          245,
+          471
+        ]
+      },
+      "studio()": {
+        "count": 1,
+        "positions": [
+          296
+        ]
+      },
+      "<aisuggestions": {
+        "count": 1,
+        "positions": [
+          420
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

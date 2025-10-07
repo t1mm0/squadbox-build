@@ -1,0 +1,331 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/lib/prisma.ts**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03446969696969697
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 266,
+        "output_size": 266,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 1
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 266,
+        "output_size": 890,
+        "stage_compression_ratio": 3.345864661654135,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 191,
+          "original_size": 265,
+          "compressed_size": 890
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 890,
+        "output_size": 32,
+        "stage_compression_ratio": 0.035955056179775284,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 890,
+          "estimated_compressed_size": 351,
+          "entropy": 3.1593300193208846
+        }
+      }
+    ],
+    "total_compression_ratio": 0.12030075187969924,
+    "stage_count": 3,
+    "original_size": 266,
+    "final_size": 32,
+    "space_savings": 234,
+    "space_savings_percent": 87.96992481203007
+  },
+  "original_size": 266,
+  "compressed_size": 32,
+  "compression_ratio": 0.12030075187969924,
+  "space_savings_percent": 87.96992481203007,
+  "content_hash": "699cd35ad851eef1",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:351:[116][115][10][105][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 14,
+    "total_chars": 266,
+    "total_words": 34,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 2,
+        "length": 2,
+        "preview": "ts",
+        "hash": "4d682ec4"
+      },
+      "1": {
+        "start_char": 3,
+        "end_char": 49,
+        "length": 46,
+        "preview": "import { PrismaClient } from '@prisma/client';",
+        "hash": "411a2258"
+      },
+      "2": {
+        "start_char": 50,
+        "end_char": 50,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "3": {
+        "start_char": 51,
+        "end_char": 67,
+        "length": 16,
+        "preview": "declare global {",
+        "hash": "059298f3"
+      },
+      "4": {
+        "start_char": 68,
+        "end_char": 107,
+        "length": 39,
+        "preview": "  var prisma: PrismaClient | undefined;",
+        "hash": "22dc4d0d"
+      },
+      "5": {
+        "start_char": 108,
+        "end_char": 109,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "6": {
+        "start_char": 110,
+        "end_char": 110,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "7": {
+        "start_char": 111,
+        "end_char": 132,
+        "length": 21,
+        "preview": "export const prisma =",
+        "hash": "c9179542"
+      },
+      "8": {
+        "start_char": 133,
+        "end_char": 151,
+        "length": 18,
+        "preview": "  global.prisma ||",
+        "hash": "fe85ed94"
+      },
+      "9": {
+        "start_char": 152,
+        "end_char": 172,
+        "length": 20,
+        "preview": "  new PrismaClient({",
+        "hash": "5fc27050"
+      },
+      "10": {
+        "start_char": 173,
+        "end_char": 192,
+        "length": 19,
+        "preview": "    log: ['query'],",
+        "hash": "91b2570c"
+      },
+      "11": {
+        "start_char": 193,
+        "end_char": 198,
+        "length": 5,
+        "preview": "  });",
+        "hash": "4b3e23b8"
+      },
+      "12": {
+        "start_char": 199,
+        "end_char": 199,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "13": {
+        "start_char": 200,
+        "end_char": 266,
+        "length": 66,
+        "preview": "if (process.env.NODE_ENV !== 'production') global....",
+        "hash": "dfcb3d73"
+      }
+    },
+    "word_index": {
+      "});": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      },
+      "'production')": {
+        "count": 1,
+        "positions": [
+          229
+        ]
+      },
+      "global.prisma": {
+        "count": 2,
+        "positions": [
+          135,
+          243
+        ]
+      },
+      "prisma;": {
+        "count": 1,
+        "positions": [
+          259
+        ]
+      },
+      "prismaclient": {
+        "count": 3,
+        "positions": [
+          12,
+          82,
+          158
+        ]
+      },
+      "global": {
+        "count": 3,
+        "positions": [
+          59,
+          135,
+          243
+        ]
+      },
+      "declare": {
+        "count": 1,
+        "positions": [
+          51
+        ]
+      },
+      "'@prisma/client';": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "new": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "['query'],": {
+        "count": 1,
+        "positions": [
+          182
+        ]
+      },
+      "(process.env.node_env": {
+        "count": 1,
+        "positions": [
+          203
+        ]
+      },
+      "prisma": {
+        "count": 9,
+        "positions": [
+          12,
+          34,
+          74,
+          82,
+          124,
+          142,
+          158,
+          250,
+          259
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          27
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          118
+        ]
+      },
+      "import": {
+        "count": 1,
+        "positions": [
+          3
+        ]
+      },
+      "undefined;": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      },
+      "prismaclient({": {
+        "count": 1,
+        "positions": [
+          158
+        ]
+      },
+      "log:": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "var": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "!==": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          111
+        ]
+      },
+      "prisma:": {
+        "count": 1,
+        "positions": [
+          74
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

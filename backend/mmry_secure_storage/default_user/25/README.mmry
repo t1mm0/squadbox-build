@@ -1,0 +1,970 @@
+{
+  "user_id": "default_user",
+  "project_id": "25",
+  "file_name": "README.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018394970414201184
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 923,
+        "output_size": 929,
+        "stage_compression_ratio": 1.0065005417118094,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 929,
+        "output_size": 2767,
+        "stage_compression_ratio": 2.9784714747039827,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 584,
+          "original_size": 923,
+          "compressed_size": 2767
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2767,
+        "output_size": 33,
+        "stage_compression_ratio": 0.011926273942898446,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2767,
+          "estimated_compressed_size": 1132,
+          "entropy": 3.2745590426131526
+        }
+      }
+    ],
+    "total_compression_ratio": 0.035752979414951244,
+    "stage_count": 3,
+    "original_size": 923,
+    "final_size": 33,
+    "space_savings": 890,
+    "space_savings_percent": 96.42470205850488
+  },
+  "original_size": 923,
+  "compressed_size": 33,
+  "compression_ratio": 0.035752979414951244,
+  "space_savings_percent": 96.42470205850488,
+  "content_hash": "bebdc5253e036939",
+  "timestamp": 1754567822,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1132:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754567822,
+    "total_lines": 53,
+    "total_chars": 923,
+    "total_words": 133,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 12,
+        "length": 12,
+        "preview": "# My Project",
+        "hash": "6d7a42ee"
+      },
+      "1": {
+        "start_char": 13,
+        "end_char": 13,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 14,
+        "end_char": 90,
+        "length": 76,
+        "preview": "A high-converting marketing landing page built wit...",
+        "hash": "991c249a"
+      },
+      "3": {
+        "start_char": 91,
+        "end_char": 91,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 92,
+        "end_char": 103,
+        "length": 11,
+        "preview": "## Features",
+        "hash": "544a9618"
+      },
+      "5": {
+        "start_char": 104,
+        "end_char": 104,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 105,
+        "end_char": 140,
+        "length": 35,
+        "preview": "- Responsive design for all devices",
+        "hash": "4813c68f"
+      },
+      "7": {
+        "start_char": 141,
+        "end_char": 178,
+        "length": 37,
+        "preview": "- Modern and clean UI with animations",
+        "hash": "c521e715"
+      },
+      "8": {
+        "start_char": 179,
+        "end_char": 214,
+        "length": 35,
+        "preview": "- Lead capture form with validation",
+        "hash": "5c10cf74"
+      },
+      "9": {
+        "start_char": 215,
+        "end_char": 263,
+        "length": 48,
+        "preview": "- Integration with SendGrid for email collection",
+        "hash": "61a844e2"
+      },
+      "10": {
+        "start_char": 264,
+        "end_char": 283,
+        "length": 19,
+        "preview": "- A/B testing ready",
+        "hash": "5f12a2f1"
+      },
+      "11": {
+        "start_char": 284,
+        "end_char": 299,
+        "length": 15,
+        "preview": "- SEO optimized",
+        "hash": "971c1080"
+      },
+      "12": {
+        "start_char": 300,
+        "end_char": 300,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "13": {
+        "start_char": 301,
+        "end_char": 319,
+        "length": 18,
+        "preview": "## Getting Started",
+        "hash": "f2d4cd63"
+      },
+      "14": {
+        "start_char": 320,
+        "end_char": 320,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "15": {
+        "start_char": 321,
+        "end_char": 328,
+        "length": 7,
+        "preview": "```bash",
+        "hash": "bbb5a8a3"
+      },
+      "16": {
+        "start_char": 329,
+        "end_char": 351,
+        "length": 22,
+        "preview": "# Install dependencies",
+        "hash": "5cc892f1"
+      },
+      "17": {
+        "start_char": 352,
+        "end_char": 363,
+        "length": 11,
+        "preview": "npm install",
+        "hash": "d53119ba"
+      },
+      "18": {
+        "start_char": 364,
+        "end_char": 364,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "19": {
+        "start_char": 365,
+        "end_char": 389,
+        "length": 24,
+        "preview": "# Run development server",
+        "hash": "9e2ea5be"
+      },
+      "20": {
+        "start_char": 390,
+        "end_char": 401,
+        "length": 11,
+        "preview": "npm run dev",
+        "hash": "e3abe2c5"
+      },
+      "21": {
+        "start_char": 402,
+        "end_char": 402,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "22": {
+        "start_char": 403,
+        "end_char": 425,
+        "length": 22,
+        "preview": "# Build for production",
+        "hash": "fe11e3f8"
+      },
+      "23": {
+        "start_char": 426,
+        "end_char": 439,
+        "length": 13,
+        "preview": "npm run build",
+        "hash": "f7382045"
+      },
+      "24": {
+        "start_char": 440,
+        "end_char": 440,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "25": {
+        "start_char": 441,
+        "end_char": 466,
+        "length": 25,
+        "preview": "# Start production server",
+        "hash": "d8820761"
+      },
+      "26": {
+        "start_char": 467,
+        "end_char": 476,
+        "length": 9,
+        "preview": "npm start",
+        "hash": "8b86e6df"
+      },
+      "27": {
+        "start_char": 477,
+        "end_char": 480,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "28": {
+        "start_char": 481,
+        "end_char": 481,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "29": {
+        "start_char": 482,
+        "end_char": 506,
+        "length": 24,
+        "preview": "## Environment Variables",
+        "hash": "877680ce"
+      },
+      "30": {
+        "start_char": 507,
+        "end_char": 507,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "31": {
+        "start_char": 508,
+        "end_char": 554,
+        "length": 46,
+        "preview": "Create a `.env.local` file with the following:",
+        "hash": "178abbd8"
+      },
+      "32": {
+        "start_char": 555,
+        "end_char": 555,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "33": {
+        "start_char": 556,
+        "end_char": 559,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "34": {
+        "start_char": 560,
+        "end_char": 598,
+        "length": 38,
+        "preview": "SENDGRID_API_KEY=your_sendgrid_api_key",
+        "hash": "4a6f9a7c"
+      },
+      "35": {
+        "start_char": 599,
+        "end_char": 635,
+        "length": 36,
+        "preview": "CONTACT_EMAIL=your_email@example.com",
+        "hash": "3eabd658"
+      },
+      "36": {
+        "start_char": 636,
+        "end_char": 639,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "37": {
+        "start_char": 640,
+        "end_char": 640,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "38": {
+        "start_char": 641,
+        "end_char": 654,
+        "length": 13,
+        "preview": "## Deployment",
+        "hash": "3e4a80f6"
+      },
+      "39": {
+        "start_char": 655,
+        "end_char": 655,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "40": {
+        "start_char": 656,
+        "end_char": 747,
+        "length": 91,
+        "preview": "This landing page can be easily deployed to Vercel...",
+        "hash": "845cd5bb"
+      },
+      "41": {
+        "start_char": 748,
+        "end_char": 748,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "42": {
+        "start_char": 749,
+        "end_char": 756,
+        "length": 7,
+        "preview": "```bash",
+        "hash": "bbb5a8a3"
+      },
+      "43": {
+        "start_char": 757,
+        "end_char": 775,
+        "length": 18,
+        "preview": "# Deploy to Vercel",
+        "hash": "98457f04"
+      },
+      "44": {
+        "start_char": 776,
+        "end_char": 782,
+        "length": 6,
+        "preview": "vercel",
+        "hash": "3399d02f"
+      },
+      "45": {
+        "start_char": 783,
+        "end_char": 786,
+        "length": 3,
+        "preview": "```",
+        "hash": "30228849"
+      },
+      "46": {
+        "start_char": 787,
+        "end_char": 787,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "47": {
+        "start_char": 788,
+        "end_char": 802,
+        "length": 14,
+        "preview": "## Customizing",
+        "hash": "18ceee5e"
+      },
+      "48": {
+        "start_char": 803,
+        "end_char": 803,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "49": {
+        "start_char": 804,
+        "end_char": 845,
+        "length": 41,
+        "preview": "- Update content in `src/data/content.js`",
+        "hash": "02890b3f"
+      },
+      "50": {
+        "start_char": 846,
+        "end_char": 882,
+        "length": 36,
+        "preview": "- Replace images in `public/images/`",
+        "hash": "3c4e12a5"
+      },
+      "51": {
+        "start_char": 883,
+        "end_char": 922,
+        "length": 39,
+        "preview": "- Adjust colors in `tailwind.config.js`",
+        "hash": "0fbea576"
+      },
+      "52": {
+        "start_char": 923,
+        "end_char": 923,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "build": {
+        "count": 2,
+        "positions": [
+          405,
+          434
+        ]
+      },
+      "lead": {
+        "count": 1,
+        "positions": [
+          181
+        ]
+      },
+      "easily": {
+        "count": 1,
+        "positions": [
+          681
+        ]
+      },
+      "project": {
+        "count": 1,
+        "positions": [
+          5
+        ]
+      },
+      "service.": {
+        "count": 1,
+        "positions": [
+          739
+        ]
+      },
+      "marketing": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "devices": {
+        "count": 1,
+        "positions": [
+          133
+        ]
+      },
+      "a/b": {
+        "count": 1,
+        "positions": [
+          266
+        ]
+      },
+      "clean": {
+        "count": 1,
+        "positions": [
+          154
+        ]
+      },
+      "start": {
+        "count": 3,
+        "positions": [
+          312,
+          443,
+          471
+        ]
+      },
+      "`tailwind.config.js`": {
+        "count": 1,
+        "positions": [
+          902
+        ]
+      },
+      "landing": {
+        "count": 2,
+        "positions": [
+          42,
+          661
+        ]
+      },
+      "deployed": {
+        "count": 1,
+        "positions": [
+          688
+        ]
+      },
+      "colors": {
+        "count": 1,
+        "positions": [
+          892
+        ]
+      },
+      "collection": {
+        "count": 1,
+        "positions": [
+          253
+        ]
+      },
+      "design": {
+        "count": 1,
+        "positions": [
+          118
+        ]
+      },
+      "for": {
+        "count": 4,
+        "positions": [
+          125,
+          194,
+          243,
+          411
+        ]
+      },
+      "sendgrid_api_key=your_sendgrid_api_key": {
+        "count": 1,
+        "positions": [
+          560
+        ]
+      },
+      "`public/images/`": {
+        "count": 1,
+        "positions": [
+          866
+        ]
+      },
+      "with": {
+        "count": 5,
+        "positions": [
+          61,
+          163,
+          199,
+          229,
+          535
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          312
+        ]
+      },
+      "hosting": {
+        "count": 1,
+        "positions": [
+          731
+        ]
+      },
+      "tailwindcss.": {
+        "count": 1,
+        "positions": [
+          78
+        ]
+      },
+      "npm": {
+        "count": 4,
+        "positions": [
+          352,
+          390,
+          426,
+          467
+        ]
+      },
+      "`src/data/content.js`": {
+        "count": 1,
+        "positions": [
+          824
+        ]
+      },
+      "vercel": {
+        "count": 3,
+        "positions": [
+          700,
+          769,
+          776
+        ]
+      },
+      "responsive": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "capture": {
+        "count": 1,
+        "positions": [
+          186
+        ]
+      },
+      "adjust": {
+        "count": 1,
+        "positions": [
+          885
+        ]
+      },
+      "run": {
+        "count": 3,
+        "positions": [
+          367,
+          394,
+          430
+        ]
+      },
+      "```": {
+        "count": 6,
+        "positions": [
+          321,
+          477,
+          556,
+          636,
+          749,
+          783
+        ]
+      },
+      "any": {
+        "count": 1,
+        "positions": [
+          720
+        ]
+      },
+      "deploy": {
+        "count": 3,
+        "positions": [
+          644,
+          688,
+          759
+        ]
+      },
+      "content": {
+        "count": 2,
+        "positions": [
+          813,
+          834
+        ]
+      },
+      "environment": {
+        "count": 1,
+        "positions": [
+          485
+        ]
+      },
+      "contact_email=your_email@example.com": {
+        "count": 1,
+        "positions": [
+          599
+        ]
+      },
+      "install": {
+        "count": 2,
+        "positions": [
+          331,
+          356
+        ]
+      },
+      "development": {
+        "count": 1,
+        "positions": [
+          371
+        ]
+      },
+      "images": {
+        "count": 2,
+        "positions": [
+          856,
+          874
+        ]
+      },
+      "can": {
+        "count": 1,
+        "positions": [
+          674
+        ]
+      },
+      "vercel,": {
+        "count": 1,
+        "positions": [
+          700
+        ]
+      },
+      "netlify,": {
+        "count": 1,
+        "positions": [
+          708
+        ]
+      },
+      "form": {
+        "count": 1,
+        "positions": [
+          194
+        ]
+      },
+      "ready": {
+        "count": 1,
+        "positions": [
+          278
+        ]
+      },
+      "getting": {
+        "count": 1,
+        "positions": [
+          304
+        ]
+      },
+      "high-converting": {
+        "count": 1,
+        "positions": [
+          16
+        ]
+      },
+      "variables": {
+        "count": 1,
+        "positions": [
+          497
+        ]
+      },
+      "`.env.local`": {
+        "count": 1,
+        "positions": [
+          517
+        ]
+      },
+      "email": {
+        "count": 3,
+        "positions": [
+          247,
+          607,
+          618
+        ]
+      },
+      "integration": {
+        "count": 1,
+        "positions": [
+          217
+        ]
+      },
+      "the": {
+        "count": 1,
+        "positions": [
+          540
+        ]
+      },
+      "sendgrid": {
+        "count": 3,
+        "positions": [
+          234,
+          560,
+          582
+        ]
+      },
+      "```bash": {
+        "count": 2,
+        "positions": [
+          321,
+          749
+        ]
+      },
+      "file": {
+        "count": 1,
+        "positions": [
+          530
+        ]
+      },
+      "page": {
+        "count": 2,
+        "positions": [
+          50,
+          669
+        ]
+      },
+      "deployment": {
+        "count": 1,
+        "positions": [
+          644
+        ]
+      },
+      "next.js": {
+        "count": 1,
+        "positions": [
+          66
+        ]
+      },
+      "following:": {
+        "count": 1,
+        "positions": [
+          544
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          656
+        ]
+      },
+      "update": {
+        "count": 1,
+        "positions": [
+          806
+        ]
+      },
+      "all": {
+        "count": 3,
+        "positions": [
+          129,
+          335,
+          360
+        ]
+      },
+      "features": {
+        "count": 1,
+        "positions": [
+          95
+        ]
+      },
+      "built": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "and": {
+        "count": 4,
+        "positions": [
+          43,
+          74,
+          150,
+          662
+        ]
+      },
+      "validation": {
+        "count": 1,
+        "positions": [
+          204
+        ]
+      },
+      "optimized": {
+        "count": 1,
+        "positions": [
+          290
+        ]
+      },
+      "dependencies": {
+        "count": 1,
+        "positions": [
+          339
+        ]
+      },
+      "animations": {
+        "count": 1,
+        "positions": [
+          168
+        ]
+      },
+      "production": {
+        "count": 2,
+        "positions": [
+          415,
+          449
+        ]
+      },
+      "dev": {
+        "count": 3,
+        "positions": [
+          133,
+          371,
+          398
+        ]
+      },
+      "replace": {
+        "count": 1,
+        "positions": [
+          848
+        ]
+      },
+      "testing": {
+        "count": 1,
+        "positions": [
+          270
+        ]
+      },
+      "modern": {
+        "count": 1,
+        "positions": [
+          143
+        ]
+      },
+      "seo": {
+        "count": 1,
+        "positions": [
+          286
+        ]
+      },
+      "server": {
+        "count": 2,
+        "positions": [
+          383,
+          460
+        ]
+      },
+      "static": {
+        "count": 1,
+        "positions": [
+          724
+        ]
+      },
+      "create": {
+        "count": 1,
+        "positions": [
+          508
+        ]
+      },
+      "customizing": {
+        "count": 1,
+        "positions": [
+          791
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

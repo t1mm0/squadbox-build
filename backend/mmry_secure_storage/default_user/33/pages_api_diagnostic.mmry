@@ -1,0 +1,1199 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "pages/api/diagnostic.ts**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.018470275768535264
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 1589,
+        "output_size": 1559,
+        "stage_compression_ratio": 0.9811202013845186,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 26
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 1559,
+        "output_size": 3939,
+        "stage_compression_ratio": 2.526619627966645,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 819,
+          "original_size": 1533,
+          "compressed_size": 3939
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 3939,
+        "output_size": 33,
+        "stage_compression_ratio": 0.008377760853008377,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 3939,
+          "estimated_compressed_size": 1627,
+          "entropy": 3.305532029592036
+        }
+      }
+    ],
+    "total_compression_ratio": 0.02076777847702958,
+    "stage_count": 3,
+    "original_size": 1589,
+    "final_size": 33,
+    "space_savings": 1556,
+    "space_savings_percent": 97.92322215229704
+  },
+  "original_size": 1589,
+  "compressed_size": 33,
+  "compression_ratio": 0.02076777847702958,
+  "space_savings_percent": 97.92322215229704,
+  "content_hash": "9e0882c26a34adb5",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:1627:[116][115][10][105][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 66,
+    "total_chars": 1589,
+    "total_words": 173,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 2,
+        "length": 2,
+        "preview": "ts",
+        "hash": "4d682ec4"
+      },
+      "1": {
+        "start_char": 3,
+        "end_char": 63,
+        "length": 60,
+        "preview": "import type { NextApiRequest, NextApiResponse } fr...",
+        "hash": "2014ab8c"
+      },
+      "2": {
+        "start_char": 64,
+        "end_char": 102,
+        "length": 38,
+        "preview": "import { prisma } from '@/lib/prisma';",
+        "hash": "72541002"
+      },
+      "3": {
+        "start_char": 103,
+        "end_char": 103,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 104,
+        "end_char": 123,
+        "length": 19,
+        "preview": "const diagnoses = [",
+        "hash": "809a6dc2"
+      },
+      "5": {
+        "start_char": 124,
+        "end_char": 157,
+        "length": 33,
+        "preview": "  'Generalized Anxiety Disorder',",
+        "hash": "d1aa4e97"
+      },
+      "6": {
+        "start_char": 158,
+        "end_char": 188,
+        "length": 30,
+        "preview": "  'Major Depressive Disorder',",
+        "hash": "0c2051ec"
+      },
+      "7": {
+        "start_char": 189,
+        "end_char": 224,
+        "length": 35,
+        "preview": "  'Post-Traumatic Stress Disorder',",
+        "hash": "bf0c2451"
+      },
+      "8": {
+        "start_char": 225,
+        "end_char": 259,
+        "length": 34,
+        "preview": "  'Obsessive-Compulsive Disorder',",
+        "hash": "68dbebc4"
+      },
+      "9": {
+        "start_char": 260,
+        "end_char": 281,
+        "length": 21,
+        "preview": "  'Bipolar Disorder',",
+        "hash": "b03b3504"
+      },
+      "10": {
+        "start_char": 282,
+        "end_char": 300,
+        "length": 18,
+        "preview": "  'Schizophrenia',",
+        "hash": "4fa1b8f6"
+      },
+      "11": {
+        "start_char": 301,
+        "end_char": 329,
+        "length": 28,
+        "preview": "  'Social Anxiety Disorder',",
+        "hash": "d5b38502"
+      },
+      "12": {
+        "start_char": 330,
+        "end_char": 349,
+        "length": 19,
+        "preview": "  'Panic Disorder',",
+        "hash": "7fbfdb70"
+      },
+      "13": {
+        "start_char": 350,
+        "end_char": 395,
+        "length": 45,
+        "preview": "  'Depersonalization/Derealization Disorder',",
+        "hash": "9c85789a"
+      },
+      "14": {
+        "start_char": 396,
+        "end_char": 420,
+        "length": 24,
+        "preview": "  'Adjustment Disorder',",
+        "hash": "a3ff03a7"
+      },
+      "15": {
+        "start_char": 421,
+        "end_char": 423,
+        "length": 2,
+        "preview": "];",
+        "hash": "7ec2c744"
+      },
+      "16": {
+        "start_char": 424,
+        "end_char": 424,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "17": {
+        "start_char": 425,
+        "end_char": 456,
+        "length": 31,
+        "preview": "function getRandomDiagnosis() {",
+        "hash": "40128ae4"
+      },
+      "18": {
+        "start_char": 457,
+        "end_char": 522,
+        "length": 65,
+        "preview": "  return diagnoses[Math.floor(Math.random() * diag...",
+        "hash": "07aa7477"
+      },
+      "19": {
+        "start_char": 523,
+        "end_char": 524,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "20": {
+        "start_char": 525,
+        "end_char": 525,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "21": {
+        "start_char": 526,
+        "end_char": 564,
+        "length": 38,
+        "preview": "export default async function handler(",
+        "hash": "a5a2ddd9"
+      },
+      "22": {
+        "start_char": 565,
+        "end_char": 587,
+        "length": 22,
+        "preview": "  req: NextApiRequest,",
+        "hash": "03ce200a"
+      },
+      "23": {
+        "start_char": 588,
+        "end_char": 610,
+        "length": 22,
+        "preview": "  res: NextApiResponse",
+        "hash": "ea24a437"
+      },
+      "24": {
+        "start_char": 611,
+        "end_char": 614,
+        "length": 3,
+        "preview": ") {",
+        "hash": "f9b5e8e0"
+      },
+      "25": {
+        "start_char": 615,
+        "end_char": 645,
+        "length": 30,
+        "preview": "  if (req.method !== 'POST') {",
+        "hash": "cdca6c49"
+      },
+      "26": {
+        "start_char": 646,
+        "end_char": 681,
+        "length": 35,
+        "preview": "    res.setHeader('Allow', 'POST');",
+        "hash": "dbb0535b"
+      },
+      "27": {
+        "start_char": 682,
+        "end_char": 747,
+        "length": 65,
+        "preview": "    return res.status(405).json({ error: 'Method N...",
+        "hash": "3d7cd200"
+      },
+      "28": {
+        "start_char": 748,
+        "end_char": 751,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "29": {
+        "start_char": 752,
+        "end_char": 752,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "30": {
+        "start_char": 753,
+        "end_char": 798,
+        "length": 45,
+        "preview": "  const { name, email, symptoms } = req.body;",
+        "hash": "33fff37b"
+      },
+      "31": {
+        "start_char": 799,
+        "end_char": 799,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "32": {
+        "start_char": 800,
+        "end_char": 837,
+        "length": 37,
+        "preview": "  if (!name || !email || !symptoms) {",
+        "hash": "de48810d"
+      },
+      "33": {
+        "start_char": 838,
+        "end_char": 908,
+        "length": 70,
+        "preview": "    return res.status(400).json({ error: 'Missing ...",
+        "hash": "c4024762"
+      },
+      "34": {
+        "start_char": 909,
+        "end_char": 912,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "35": {
+        "start_char": 913,
+        "end_char": 913,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "36": {
+        "start_char": 914,
+        "end_char": 921,
+        "length": 7,
+        "preview": "  try {",
+        "hash": "b16fb59d"
+      },
+      "37": {
+        "start_char": 922,
+        "end_char": 948,
+        "length": 26,
+        "preview": "    // Find or create user",
+        "hash": "309e6aee"
+      },
+      "38": {
+        "start_char": 949,
+        "end_char": 994,
+        "length": 45,
+        "preview": "    let user = await prisma.user.findUnique({",
+        "hash": "7d4e904a"
+      },
+      "39": {
+        "start_char": 995,
+        "end_char": 1018,
+        "length": 23,
+        "preview": "      where: { email },",
+        "hash": "d118d823"
+      },
+      "40": {
+        "start_char": 1019,
+        "end_char": 1026,
+        "length": 7,
+        "preview": "    });",
+        "hash": "f7421838"
+      },
+      "41": {
+        "start_char": 1027,
+        "end_char": 1027,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "42": {
+        "start_char": 1028,
+        "end_char": 1044,
+        "length": 16,
+        "preview": "    if (!user) {",
+        "hash": "ec746531"
+      },
+      "43": {
+        "start_char": 1045,
+        "end_char": 1084,
+        "length": 39,
+        "preview": "      user = await prisma.user.create({",
+        "hash": "61125536"
+      },
+      "44": {
+        "start_char": 1085,
+        "end_char": 1115,
+        "length": 30,
+        "preview": "        data: { name, email },",
+        "hash": "37258bb8"
+      },
+      "45": {
+        "start_char": 1116,
+        "end_char": 1125,
+        "length": 9,
+        "preview": "      });",
+        "hash": "1bb30a5f"
+      },
+      "46": {
+        "start_char": 1126,
+        "end_char": 1131,
+        "length": 5,
+        "preview": "    }",
+        "hash": "ea5a1cbe"
+      },
+      "47": {
+        "start_char": 1132,
+        "end_char": 1132,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "48": {
+        "start_char": 1133,
+        "end_char": 1163,
+        "length": 30,
+        "preview": "    // Create diagnosis record",
+        "hash": "9b246889"
+      },
+      "49": {
+        "start_char": 1164,
+        "end_char": 1217,
+        "length": 53,
+        "preview": "    const diagnosis = await prisma.diagnosis.creat...",
+        "hash": "a9ab4f84"
+      },
+      "50": {
+        "start_char": 1218,
+        "end_char": 1231,
+        "length": 13,
+        "preview": "      data: {",
+        "hash": "c119409f"
+      },
+      "51": {
+        "start_char": 1232,
+        "end_char": 1256,
+        "length": 24,
+        "preview": "        userId: user.id,",
+        "hash": "6e71d770"
+      },
+      "52": {
+        "start_char": 1257,
+        "end_char": 1274,
+        "length": 17,
+        "preview": "        symptoms,",
+        "hash": "20be3480"
+      },
+      "53": {
+        "start_char": 1275,
+        "end_char": 1312,
+        "length": 37,
+        "preview": "        result: getRandomDiagnosis(),",
+        "hash": "d94b0183"
+      },
+      "54": {
+        "start_char": 1313,
+        "end_char": 1321,
+        "length": 8,
+        "preview": "      },",
+        "hash": "fd2ad8ea"
+      },
+      "55": {
+        "start_char": 1322,
+        "end_char": 1329,
+        "length": 7,
+        "preview": "    });",
+        "hash": "f7421838"
+      },
+      "56": {
+        "start_char": 1330,
+        "end_char": 1330,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "57": {
+        "start_char": 1331,
+        "end_char": 1364,
+        "length": 33,
+        "preview": "    return res.status(200).json({",
+        "hash": "071c7795"
+      },
+      "58": {
+        "start_char": 1365,
+        "end_char": 1396,
+        "length": 31,
+        "preview": "      result: diagnosis.result,",
+        "hash": "1b5a0c7f"
+      },
+      "59": {
+        "start_char": 1397,
+        "end_char": 1434,
+        "length": 37,
+        "preview": "      createdAt: diagnosis.createdAt,",
+        "hash": "2985275c"
+      },
+      "60": {
+        "start_char": 1435,
+        "end_char": 1442,
+        "length": 7,
+        "preview": "    });",
+        "hash": "f7421838"
+      },
+      "61": {
+        "start_char": 1443,
+        "end_char": 1462,
+        "length": 19,
+        "preview": "  } catch (error) {",
+        "hash": "553a6998"
+      },
+      "62": {
+        "start_char": 1463,
+        "end_char": 1514,
+        "length": 51,
+        "preview": "    console.error('API /diagnostic error:', error)...",
+        "hash": "633f0c74"
+      },
+      "63": {
+        "start_char": 1515,
+        "end_char": 1583,
+        "length": 68,
+        "preview": "    return res.status(500).json({ error: 'Internal...",
+        "hash": "081aa062"
+      },
+      "64": {
+        "start_char": 1584,
+        "end_char": 1587,
+        "length": 3,
+        "preview": "  }",
+        "hash": "7eefb90d"
+      },
+      "65": {
+        "start_char": 1588,
+        "end_char": 1589,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "createdat:": {
+        "count": 1,
+        "positions": [
+          1403
+        ]
+      },
+      "diagnoses.length)];": {
+        "count": 1,
+        "positions": [
+          503
+        ]
+      },
+      "(!user)": {
+        "count": 1,
+        "positions": [
+          1035
+        ]
+      },
+      "handler(": {
+        "count": 1,
+        "positions": [
+          556
+        ]
+      },
+      "create": {
+        "count": 6,
+        "positions": [
+          937,
+          1076,
+          1140,
+          1209,
+          1403,
+          1424
+        ]
+      },
+      "'depersonalization/derealization": {
+        "count": 1,
+        "positions": [
+          352
+        ]
+      },
+      "symptoms,": {
+        "count": 1,
+        "positions": [
+          1265
+        ]
+      },
+      "'post')": {
+        "count": 2,
+        "positions": [
+          636,
+          673
+        ]
+      },
+      "'post-traumatic": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "(!name": {
+        "count": 1,
+        "positions": [
+          805
+        ]
+      },
+      "nextapiresponse": {
+        "count": 2,
+        "positions": [
+          33,
+          595
+        ]
+      },
+      "/diagnostic": {
+        "count": 1,
+        "positions": [
+          1486
+        ]
+      },
+      "let": {
+        "count": 1,
+        "positions": [
+          953
+        ]
+      },
+      "await": {
+        "count": 3,
+        "positions": [
+          964,
+          1058,
+          1186
+        ]
+      },
+      "res.setheader('allow',": {
+        "count": 1,
+        "positions": [
+          650
+        ]
+      },
+      "diagnoses[math.floor(math.random()": {
+        "count": 1,
+        "positions": [
+          466
+        ]
+      },
+      "email,": {
+        "count": 1,
+        "positions": [
+          769
+        ]
+      },
+      "depressive": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "'method": {
+        "count": 1,
+        "positions": [
+          723
+        ]
+      },
+      "required": {
+        "count": 1,
+        "positions": [
+          888
+        ]
+      },
+      "'internal": {
+        "count": 1,
+        "positions": [
+          1556
+        ]
+      },
+      "result:": {
+        "count": 2,
+        "positions": [
+          1283,
+          1371
+        ]
+      },
+      "user.id,": {
+        "count": 1,
+        "positions": [
+          1248
+        ]
+      },
+      "res.status(200).json({": {
+        "count": 1,
+        "positions": [
+          1342
+        ]
+      },
+      "user": {
+        "count": 8,
+        "positions": [
+          944,
+          957,
+          977,
+          1037,
+          1051,
+          1071,
+          1240,
+          1248
+        ]
+      },
+      "});": {
+        "count": 7,
+        "positions": [
+          744,
+          905,
+          1023,
+          1122,
+          1326,
+          1439,
+          1580
+        ]
+      },
+      "'generalized": {
+        "count": 1,
+        "positions": [
+          126
+        ]
+      },
+      "stress": {
+        "count": 1,
+        "positions": [
+          207
+        ]
+      },
+      "req:": {
+        "count": 1,
+        "positions": [
+          567
+        ]
+      },
+      "diagnoses": {
+        "count": 3,
+        "positions": [
+          110,
+          466,
+          503
+        ]
+      },
+      "allowed'": {
+        "count": 1,
+        "positions": [
+          735
+        ]
+      },
+      "'bipolar": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "'@/lib/prisma';": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "res.status(405).json({": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "userid:": {
+        "count": 1,
+        "positions": [
+          1240
+        ]
+      },
+      "getrandomdiagnosis()": {
+        "count": 2,
+        "positions": [
+          434,
+          1291
+        ]
+      },
+      "data:": {
+        "count": 2,
+        "positions": [
+          1093,
+          1224
+        ]
+      },
+      "where:": {
+        "count": 1,
+        "positions": [
+          1001
+        ]
+      },
+      "const": {
+        "count": 3,
+        "positions": [
+          104,
+          755,
+          1168
+        ]
+      },
+      "try": {
+        "count": 1,
+        "positions": [
+          916
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "not": {
+        "count": 1,
+        "positions": [
+          731
+        ]
+      },
+      "'obsessive-compulsive": {
+        "count": 1,
+        "positions": [
+          227
+        ]
+      },
+      "name,": {
+        "count": 2,
+        "positions": [
+          763,
+          1101
+        ]
+      },
+      "prisma.diagnosis.create({": {
+        "count": 1,
+        "positions": [
+          1192
+        ]
+      },
+      "error);": {
+        "count": 1,
+        "positions": [
+          1507
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          526
+        ]
+      },
+      "record": {
+        "count": 1,
+        "positions": [
+          1157
+        ]
+      },
+      "prisma.user.create({": {
+        "count": 1,
+        "positions": [
+          1064
+        ]
+      },
+      "prisma.user.findunique({": {
+        "count": 1,
+        "positions": [
+          970
+        ]
+      },
+      "getrandomdiagnosis(),": {
+        "count": 1,
+        "positions": [
+          1291
+        ]
+      },
+      "req.body;": {
+        "count": 1,
+        "positions": [
+          789
+        ]
+      },
+      "'post');": {
+        "count": 1,
+        "positions": [
+          673
+        ]
+      },
+      "symptoms": {
+        "count": 3,
+        "positions": [
+          776,
+          826,
+          1265
+        ]
+      },
+      "!symptoms)": {
+        "count": 1,
+        "positions": [
+          825
+        ]
+      },
+      "'schizophrenia',": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "'panic": {
+        "count": 1,
+        "positions": [
+          332
+        ]
+      },
+      "nextapirequest,": {
+        "count": 2,
+        "positions": [
+          17,
+          572
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          533
+        ]
+      },
+      "fields'": {
+        "count": 1,
+        "positions": [
+          897
+        ]
+      },
+      "prisma": {
+        "count": 5,
+        "positions": [
+          73,
+          94,
+          970,
+          1064,
+          1192
+        ]
+      },
+      "res:": {
+        "count": 1,
+        "positions": [
+          590
+        ]
+      },
+      "import": {
+        "count": 2,
+        "positions": [
+          3,
+          64
+        ]
+      },
+      "email": {
+        "count": 4,
+        "positions": [
+          769,
+          816,
+          1010,
+          1107
+        ]
+      },
+      "console.error('api": {
+        "count": 1,
+        "positions": [
+          1467
+        ]
+      },
+      "!email": {
+        "count": 1,
+        "positions": [
+          815
+        ]
+      },
+      "'missing": {
+        "count": 1,
+        "positions": [
+          879
+        ]
+      },
+      "!==": {
+        "count": 1,
+        "positions": [
+          632
+        ]
+      },
+      "diagnosis.result,": {
+        "count": 1,
+        "positions": [
+          1379
+        ]
+      },
+      "diagnosis": {
+        "count": 7,
+        "positions": [
+          443,
+          1147,
+          1174,
+          1199,
+          1300,
+          1379,
+          1414
+        ]
+      },
+      "'social": {
+        "count": 1,
+        "positions": [
+          303
+        ]
+      },
+      "diagnosis.createdat,": {
+        "count": 1,
+        "positions": [
+          1414
+        ]
+      },
+      "catch": {
+        "count": 1,
+        "positions": [
+          1447
+        ]
+      },
+      "function": {
+        "count": 2,
+        "positions": [
+          425,
+          547
+        ]
+      },
+      "'adjustment": {
+        "count": 1,
+        "positions": [
+          398
+        ]
+      },
+      "res.status(500).json({": {
+        "count": 1,
+        "positions": [
+          1526
+        ]
+      },
+      "(error)": {
+        "count": 1,
+        "positions": [
+          1453
+        ]
+      },
+      "return": {
+        "count": 5,
+        "positions": [
+          459,
+          686,
+          842,
+          1335,
+          1519
+        ]
+      },
+      "error:": {
+        "count": 4,
+        "positions": [
+          716,
+          872,
+          1498,
+          1549
+        ]
+      },
+      "find": {
+        "count": 2,
+        "positions": [
+          929,
+          982
+        ]
+      },
+      "anxiety": {
+        "count": 2,
+        "positions": [
+          139,
+          311
+        ]
+      },
+      "(req.method": {
+        "count": 1,
+        "positions": [
+          620
+        ]
+      },
+      "async": {
+        "count": 1,
+        "positions": [
+          541
+        ]
+      },
+      "from": {
+        "count": 2,
+        "positions": [
+          51,
+          82
+        ]
+      },
+      "disorder',": {
+        "count": 9,
+        "positions": [
+          147,
+          178,
+          214,
+          249,
+          271,
+          319,
+          339,
+          385,
+          410
+        ]
+      },
+      "'major": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "server": {
+        "count": 1,
+        "positions": [
+          1566
+        ]
+      },
+      "error'": {
+        "count": 1,
+        "positions": [
+          1573
+        ]
+      },
+      "error:',": {
+        "count": 1,
+        "positions": [
+          1498
+        ]
+      },
+      "'next';": {
+        "count": 1,
+        "positions": [
+          56
+        ]
+      },
+      "res.status(400).json({": {
+        "count": 1,
+        "positions": [
+          849
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {
+      "segment_size": 500,
+      "total_segments": 4,
+      "segments": [
+        {
+          "id": 0,
+          "start_char": 0,
+          "end_char": 500,
+          "size": 500,
+          "hash": "28c04f7478e1",
+          "preview": "ts\nimport type { NextApiRequest, NextApiResponse } from 'next';\nimport { prisma } from '@/lib/prisma..."
+        },
+        {
+          "id": 1,
+          "start_char": 500,
+          "end_char": 1000,
+          "size": 500,
+          "hash": "c12bf3ed18ac",
+          "preview": " * diagnoses.length)];\n}\n\nexport default async function handler(\n  req: NextApiRequest,\n  res: NextA..."
+        },
+        {
+          "id": 2,
+          "start_char": 1000,
+          "end_char": 1500,
+          "size": 500,
+          "hash": "a1262be4cd52",
+          "preview": " where: { email },\n    });\n\n    if (!user) {\n      user = await prisma.user.create({\n        data: {..."
+        },
+        {
+          "id": 3,
+          "start_char": 1500,
+          "end_char": 1589,
+          "size": 89,
+          "hash": "d9c1a59126a2",
+          "preview": "ror:', error);\n    return res.status(500).json({ error: 'Internal Server Error' });\n  }\n}"
+        }
+      ]
+    },
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

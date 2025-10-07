@@ -1,0 +1,368 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/app/training-center/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024128540305010892
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 433,
+        "output_size": 425,
+        "stage_compression_ratio": 0.9815242494226328,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 425,
+        "output_size": 1215,
+        "stage_compression_ratio": 2.8588235294117648,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 256,
+          "original_size": 419,
+          "compressed_size": 1215
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1215,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02633744855967078,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1215,
+          "estimated_compressed_size": 491,
+          "entropy": 3.2343295270255816
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07390300230946882,
+    "stage_count": 3,
+    "original_size": 433,
+    "final_size": 32,
+    "space_savings": 401,
+    "space_savings_percent": 92.60969976905312
+  },
+  "original_size": 433,
+  "compressed_size": 32,
+  "compression_ratio": 0.07390300230946882,
+  "space_savings_percent": 92.60969976905312,
+  "content_hash": "449044c1148f85b5",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:491:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 16,
+    "total_chars": 433,
+    "total_words": 39,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 83,
+        "length": 56,
+        "preview": "import KnowledgeBase from '../components/Knowledge...",
+        "hash": "2fb87f63"
+      },
+      "2": {
+        "start_char": 84,
+        "end_char": 154,
+        "length": 70,
+        "preview": "import ConversationTraining from '../components/Co...",
+        "hash": "bd5d39fc"
+      },
+      "3": {
+        "start_char": 155,
+        "end_char": 207,
+        "length": 52,
+        "preview": "import ModelTuning from '../components/ModelTuning...",
+        "hash": "c0f00f63"
+      },
+      "4": {
+        "start_char": 208,
+        "end_char": 208,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 209,
+        "end_char": 252,
+        "length": 43,
+        "preview": "export default function Training center() {",
+        "hash": "1b636a1a"
+      },
+      "6": {
+        "start_char": 253,
+        "end_char": 263,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 264,
+        "end_char": 306,
+        "length": 42,
+        "preview": "    <div className=\"page training center\">",
+        "hash": "a9ae658b"
+      },
+      "8": {
+        "start_char": 307,
+        "end_char": 337,
+        "length": 30,
+        "preview": "      <h1>Training Center</h1>",
+        "hash": "99695071"
+      },
+      "9": {
+        "start_char": 338,
+        "end_char": 361,
+        "length": 23,
+        "preview": "      <KnowledgeBase />",
+        "hash": "19250863"
+      },
+      "10": {
+        "start_char": 362,
+        "end_char": 392,
+        "length": 30,
+        "preview": "      <ConversationTraining />",
+        "hash": "e8e1b7f0"
+      },
+      "11": {
+        "start_char": 393,
+        "end_char": 414,
+        "length": 21,
+        "preview": "      <ModelTuning />",
+        "hash": "b8d5e08b"
+      },
+      "12": {
+        "start_char": 415,
+        "end_char": 425,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 426,
+        "end_char": 430,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 431,
+        "end_char": 432,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 433,
+        "end_char": 433,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "knowledgebase": {
+        "count": 3,
+        "positions": [
+          34,
+          68,
+          345
+        ]
+      },
+      "center</h1>": {
+        "count": 1,
+        "positions": [
+          326
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          224
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "center\">": {
+        "count": 1,
+        "positions": [
+          298
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          273
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          255
+        ]
+      },
+      "<modeltuning": {
+        "count": 1,
+        "positions": [
+          399
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          419
+        ]
+      },
+      "'../components/knowledgebase';": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          48,
+          112,
+          174
+        ]
+      },
+      "<knowledgebase": {
+        "count": 1,
+        "positions": [
+          344
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          84,
+          155
+        ]
+      },
+      "conversationtraining": {
+        "count": 3,
+        "positions": [
+          91,
+          132,
+          369
+        ]
+      },
+      "'../components/modeltuning';": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "<conversationtraining": {
+        "count": 1,
+        "positions": [
+          368
+        ]
+      },
+      "'../components/conversationtraining';": {
+        "count": 1,
+        "positions": [
+          117
+        ]
+      },
+      "training": {
+        "count": 6,
+        "positions": [
+          103,
+          144,
+          233,
+          289,
+          317,
+          381
+        ]
+      },
+      "modeltuning": {
+        "count": 3,
+        "positions": [
+          162,
+          194,
+          400
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "center()": {
+        "count": 1,
+        "positions": [
+          242
+        ]
+      },
+      "<h1>training": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

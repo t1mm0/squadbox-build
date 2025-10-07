@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "src/components/ExperienceTimeline.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.18446601941747573
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 206,
+        "output_size": 202,
+        "stage_compression_ratio": 0.9805825242718447,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 202,
+        "output_size": 709,
+        "stage_compression_ratio": 3.50990099009901,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 151,
+          "original_size": 198,
+          "compressed_size": 709
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 709,
+        "output_size": 32,
+        "stage_compression_ratio": 0.045133991537376586,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 709,
+          "estimated_compressed_size": 279,
+          "entropy": 3.158635541397415
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1553398058252427,
+    "stage_count": 3,
+    "original_size": 206,
+    "final_size": 32,
+    "space_savings": 174,
+    "space_savings_percent": 84.46601941747572
+  },
+  "original_size": 206,
+  "compressed_size": 32,
+  "compression_ratio": 0.1553398058252427,
+  "space_savings_percent": 84.46601941747572,
+  "content_hash": "b85ea27a923491d4",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:279:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 9,
+    "total_chars": 206,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 46,
+        "length": 46,
+        "preview": "export default function ExperienceTimeline() {",
+        "hash": "d3f0cf99"
+      },
+      "1": {
+        "start_char": 47,
+        "end_char": 57,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 58,
+        "end_char": 108,
+        "length": 50,
+        "preview": "    <div className=\"component experiencetimeline\">",
+        "hash": "6aa0e3eb"
+      },
+      "3": {
+        "start_char": 109,
+        "end_char": 142,
+        "length": 33,
+        "preview": "      <h2>ExperienceTimeline</h2>",
+        "hash": "935e2ff1"
+      },
+      "4": {
+        "start_char": 143,
+        "end_char": 187,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 188,
+        "end_char": 198,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 199,
+        "end_char": 203,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 204,
+        "end_char": 205,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 206,
+        "end_char": 206,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          184
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          78,
+          153
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      },
+      "experiencetimeline\">": {
+        "count": 1,
+        "positions": [
+          88
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          192
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          49
+        ]
+      },
+      "experiencetimeline()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          149
+        ]
+      },
+      "<h2>experiencetimeline</h2>": {
+        "count": 1,
+        "positions": [
+          115
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          171
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          67
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

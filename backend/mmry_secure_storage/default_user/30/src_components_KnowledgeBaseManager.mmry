@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "src/components/KnowledgeBaseManager.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.024261992619926197
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 257,
+        "output_size": 253,
+        "stage_compression_ratio": 0.9844357976653697,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 253,
+        "output_size": 895,
+        "stage_compression_ratio": 3.5375494071146245,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 191,
+          "original_size": 249,
+          "compressed_size": 895
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 895,
+        "output_size": 32,
+        "stage_compression_ratio": 0.035754189944134075,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 895,
+          "estimated_compressed_size": 351,
+          "entropy": 3.1401495196186002
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1245136186770428,
+    "stage_count": 3,
+    "original_size": 257,
+    "final_size": 32,
+    "space_savings": 225,
+    "space_savings_percent": 87.54863813229572
+  },
+  "original_size": 257,
+  "compressed_size": 32,
+  "compression_ratio": 0.1245136186770428,
+  "space_savings_percent": 87.54863813229572,
+  "content_hash": "538b62e8b0efa867",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:351:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 13,
+    "total_chars": 257,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 93,
+        "length": 54,
+        "preview": "export default function KnowledgeBaseManager(Props...",
+        "hash": "b2b1c52e"
+      },
+      "5": {
+        "start_char": 94,
+        "end_char": 104,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 105,
+        "end_char": 157,
+        "length": 52,
+        "preview": "    <div className=\"component knowledgebasemanager...",
+        "hash": "cae2fcc1"
+      },
+      "7": {
+        "start_char": 158,
+        "end_char": 193,
+        "length": 35,
+        "preview": "      <h2>KnowledgeBaseManager</h2>",
+        "hash": "0da52755"
+      },
+      "8": {
+        "start_char": 194,
+        "end_char": 238,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 239,
+        "end_char": 249,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 250,
+        "end_char": 254,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 255,
+        "end_char": 256,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 257,
+        "end_char": 257,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          125,
+          204
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          243
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          235
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          84
+        ]
+      },
+      "knowledgebasemanager(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          114
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          109
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          214
+        ]
+      },
+      "<h2>knowledgebasemanager</h2>": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          230
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          200
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "knowledgebasemanager\">": {
+        "count": 1,
+        "positions": [
+          135
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

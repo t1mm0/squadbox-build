@@ -1,0 +1,49 @@
+{
+  "id": "landing-page-beginner",
+  "name": "High-Converting Landing Page",
+  "description": "Create a professional landing page that converts visitors into customers in 20 minutes! Perfect for small businesses and startups.",
+  "category": "landing-page",
+  "difficulty": "beginner",
+  "estimatedTime": "20 minutes",
+  "features": [
+    "Pre-built conversion sections",
+    "Lead capture forms",
+    "A/B testing setup",
+    "Mobile-optimized design",
+    "Social proof elements",
+    "Call-to-action buttons",
+    "Analytics integration",
+    "Email marketing setup",
+    "SEO optimization",
+    "Fast loading speed"
+  ],
+  "icon": "Target",
+  "tags": ["landing-page", "beginner", "conversion", "small-business", "startup", "lead-generation"],
+  "access_tier": "free",
+  "popular": true,
+  "featured": true,
+  "downloads": 3800,
+  "rating": 4.6,
+  "tech_stack": {
+    "frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Next.js", "Node.js"],
+    "analytics": ["Google Analytics", "Hotjar"],
+    "forms": ["Formspree", "Netlify Forms"],
+    "deployment": ["Vercel", "Netlify"]
+  },
+  "marketing_highlights": [
+    "Create landing page in 20 minutes",
+    "Built for conversions",
+    "Mobile optimized",
+    "A/B testing ready",
+    "Lead capture forms",
+    "Free hosting included"
+  ],
+  "customer_pain_points": [
+    "Need to convert visitors quickly",
+    "Want professional design",
+    "Need lead capture forms",
+    "Want mobile optimization",
+    "Need analytics tracking"
+  ]
+} 

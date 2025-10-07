@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/components/TeamInvite.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.023347107438016528
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 227,
+        "output_size": 223,
+        "stage_compression_ratio": 0.9823788546255506,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 223,
+        "output_size": 804,
+        "stage_compression_ratio": 3.6053811659192827,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 172,
+          "original_size": 219,
+          "compressed_size": 804
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 804,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03980099502487562,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 804,
+          "estimated_compressed_size": 314,
+          "entropy": 3.132523983119958
+        }
+      }
+    ],
+    "total_compression_ratio": 0.14096916299559473,
+    "stage_count": 3,
+    "original_size": 227,
+    "final_size": 32,
+    "space_savings": 195,
+    "space_savings_percent": 85.90308370044053
+  },
+  "original_size": 227,
+  "compressed_size": 32,
+  "compression_ratio": 0.14096916299559473,
+  "space_savings_percent": 85.90308370044053,
+  "content_hash": "dc11d2988a05810d",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:314:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 13,
+    "total_chars": 227,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 83,
+        "length": 44,
+        "preview": "export default function TeamInvite(Props ) {",
+        "hash": "375d4527"
+      },
+      "5": {
+        "start_char": 84,
+        "end_char": 94,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 95,
+        "end_char": 137,
+        "length": 42,
+        "preview": "    <div className=\"component teaminvite\">",
+        "hash": "c1d749c2"
+      },
+      "7": {
+        "start_char": 138,
+        "end_char": 163,
+        "length": 25,
+        "preview": "      <h2>TeamInvite</h2>",
+        "hash": "886b6c02"
+      },
+      "8": {
+        "start_char": 164,
+        "end_char": 208,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 209,
+        "end_char": 219,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 220,
+        "end_char": 224,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 225,
+        "end_char": 226,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 227,
+        "end_char": 227,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          99
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          184
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          192
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          74
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          115,
+          174
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          200
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          213
+        ]
+      },
+      "<h2>teaminvite</h2>": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "teaminvite\">": {
+        "count": 1,
+        "positions": [
+          125
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          86
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          104
+        ]
+      },
+      "teaminvite(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

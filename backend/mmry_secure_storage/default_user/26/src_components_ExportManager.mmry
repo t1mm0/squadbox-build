@@ -1,0 +1,300 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/components/ExportManager.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03025990099009901
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 236,
+        "output_size": 232,
+        "stage_compression_ratio": 0.9830508474576272,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 232,
+        "output_size": 817,
+        "stage_compression_ratio": 3.521551724137931,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 175,
+          "original_size": 228,
+          "compressed_size": 817
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 817,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03916768665850673,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 817,
+          "estimated_compressed_size": 322,
+          "entropy": 3.1556538791399573
+        }
+      }
+    ],
+    "total_compression_ratio": 0.13559322033898305,
+    "stage_count": 3,
+    "original_size": 236,
+    "final_size": 32,
+    "space_savings": 204,
+    "space_savings_percent": 86.4406779661017
+  },
+  "original_size": 236,
+  "compressed_size": 32,
+  "compression_ratio": 0.13559322033898305,
+  "space_savings_percent": 86.4406779661017,
+  "content_hash": "72996097b3bbc859",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:322:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 13,
+    "total_chars": 236,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 86,
+        "length": 47,
+        "preview": "export default function ExportManager(Props ) {",
+        "hash": "9a03e15e"
+      },
+      "5": {
+        "start_char": 87,
+        "end_char": 97,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 98,
+        "end_char": 143,
+        "length": 45,
+        "preview": "    <div className=\"component exportmanager\">",
+        "hash": "44853cf0"
+      },
+      "7": {
+        "start_char": 144,
+        "end_char": 172,
+        "length": 28,
+        "preview": "      <h2>ExportManager</h2>",
+        "hash": "5429a38e"
+      },
+      "8": {
+        "start_char": 173,
+        "end_char": 217,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 218,
+        "end_char": 228,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 229,
+        "end_char": 233,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 234,
+        "end_char": 235,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 236,
+        "end_char": 236,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "exportmanager\">": {
+        "count": 1,
+        "positions": [
+          128
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          102
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          193
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          201
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          77
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          118,
+          183
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          179
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          214
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          209
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          222
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "export": {
+        "count": 4,
+        "positions": [
+          39,
+          63,
+          128,
+          154
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "<h2>exportmanager</h2>": {
+        "count": 1,
+        "positions": [
+          150
+        ]
+      },
+      "exportmanager(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

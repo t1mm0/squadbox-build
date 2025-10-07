@@ -1,0 +1,368 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/app/chat-interface/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.02451923076923077
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 424,
+        "output_size": 416,
+        "stage_compression_ratio": 0.9811320754716981,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 6
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 416,
+        "output_size": 1238,
+        "stage_compression_ratio": 2.9759615384615383,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 260,
+          "original_size": 410,
+          "compressed_size": 1238
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1238,
+        "output_size": 32,
+        "stage_compression_ratio": 0.025848142164781908,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1238,
+          "estimated_compressed_size": 498,
+          "entropy": 3.2189489623650602
+        }
+      }
+    ],
+    "total_compression_ratio": 0.07547169811320754,
+    "stage_count": 3,
+    "original_size": 424,
+    "final_size": 32,
+    "space_savings": 392,
+    "space_savings_percent": 92.45283018867924
+  },
+  "original_size": 424,
+  "compressed_size": 32,
+  "compression_ratio": 0.07547169811320754,
+  "space_savings_percent": 92.45283018867924,
+  "content_hash": "7ee0a3226c26f288",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:498:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 16,
+    "total_chars": 424,
+    "total_words": 39,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 77,
+        "length": 50,
+        "preview": "import ChatWindow from '../components/ChatWindow';",
+        "hash": "3f4a1028"
+      },
+      "2": {
+        "start_char": 78,
+        "end_char": 146,
+        "length": 68,
+        "preview": "import ConversationHistory from '../components/Con...",
+        "hash": "bded4f18"
+      },
+      "3": {
+        "start_char": 147,
+        "end_char": 203,
+        "length": 56,
+        "preview": "import SettingsPanel from '../components/SettingsP...",
+        "hash": "d0630786"
+      },
+      "4": {
+        "start_char": 204,
+        "end_char": 204,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "5": {
+        "start_char": 205,
+        "end_char": 247,
+        "length": 42,
+        "preview": "export default function Chat interface() {",
+        "hash": "89658501"
+      },
+      "6": {
+        "start_char": 248,
+        "end_char": 258,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "7": {
+        "start_char": 259,
+        "end_char": 300,
+        "length": 41,
+        "preview": "    <div className=\"page chat interface\">",
+        "hash": "526d15ea"
+      },
+      "8": {
+        "start_char": 301,
+        "end_char": 330,
+        "length": 29,
+        "preview": "      <h1>Chat Interface</h1>",
+        "hash": "79ee3830"
+      },
+      "9": {
+        "start_char": 331,
+        "end_char": 351,
+        "length": 20,
+        "preview": "      <ChatWindow />",
+        "hash": "657f0f88"
+      },
+      "10": {
+        "start_char": 352,
+        "end_char": 381,
+        "length": 29,
+        "preview": "      <ConversationHistory />",
+        "hash": "724b3dcf"
+      },
+      "11": {
+        "start_char": 382,
+        "end_char": 405,
+        "length": 23,
+        "preview": "      <SettingsPanel />",
+        "hash": "a1e5c997"
+      },
+      "12": {
+        "start_char": 406,
+        "end_char": 416,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "13": {
+        "start_char": 417,
+        "end_char": 421,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "14": {
+        "start_char": 422,
+        "end_char": 423,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "15": {
+        "start_char": 424,
+        "end_char": 424,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "function": {
+        "count": 1,
+        "positions": [
+          220
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "'../components/conversationhistory';": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      },
+      "<conversationhistory": {
+        "count": 1,
+        "positions": [
+          358
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          263
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          268
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          250
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          410
+        ]
+      },
+      "interface()": {
+        "count": 1,
+        "positions": [
+          234
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          212
+        ]
+      },
+      "interface\">": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "interface</h1>": {
+        "count": 1,
+        "positions": [
+          316
+        ]
+      },
+      "'../components/settingspanel';": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "<chatwindow": {
+        "count": 1,
+        "positions": [
+          337
+        ]
+      },
+      "from": {
+        "count": 4,
+        "positions": [
+          13,
+          45,
+          105,
+          168
+        ]
+      },
+      "import": {
+        "count": 4,
+        "positions": [
+          0,
+          27,
+          78,
+          147
+        ]
+      },
+      "'../components/chatwindow';": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "<settingspanel": {
+        "count": 1,
+        "positions": [
+          388
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "settingspanel": {
+        "count": 3,
+        "positions": [
+          154,
+          188,
+          389
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          205
+        ]
+      },
+      "chat": {
+        "count": 6,
+        "positions": [
+          34,
+          65,
+          229,
+          284,
+          311,
+          338
+        ]
+      },
+      "chatwindow": {
+        "count": 3,
+        "positions": [
+          34,
+          65,
+          338
+        ]
+      },
+      "conversationhistory": {
+        "count": 3,
+        "positions": [
+          85,
+          125,
+          359
+        ]
+      },
+      "<h1>chat": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "dashboard-app-advanced",
+  "name": "Enterprise Dashboard & Analytics",
+  "description": "Build a powerful enterprise dashboard with advanced analytics, real-time data visualization, and business intelligence features. Perfect for large organizations.",
+  "category": "dashboard",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "features": [
+    "Advanced data visualization",
+    "Real-time analytics",
+    "Custom reporting engine",
+    "Multi-tenant architecture",
+    "Role-based access control",
+    "Data export/import",
+    "API integrations",
+    "Custom widgets",
+    "Scheduled reports",
+    "Alert system",
+    "Performance monitoring",
+    "White-label solution"
+  ],
+  "icon": "BarChart3",
+  "tags": ["dashboard", "advanced", "enterprise", "analytics", "business-intelligence", "data-visualization"],
+  "access_tier": "enterprise",
+  "popular": true,
+  "featured": true,
+  "downloads": 850,
+  "rating": 4.9,
+  "tech_stack": {
+    "frontend": ["React", "TypeScript", "D3.js", "Chart.js"],
+    "backend": ["Next.js", "Node.js", "GraphQL"],
+    "database": ["PostgreSQL", "Redis", "TimescaleDB"],
+    "analytics": ["Apache Superset", "Grafana"],
+    "deployment": ["Kubernetes", "Docker", "AWS"]
+  },
+  "marketing_highlights": [
+    "Enterprise-grade dashboard",
+    "Advanced data visualization",
+    "Real-time analytics",
+    "Multi-tenant ready",
+    "White-label solution",
+    "24/7 enterprise support"
+  ],
+  "customer_pain_points": [
+    "Need complex data visualization",
+    "Want real-time analytics",
+    "Need multi-tenant architecture",
+    "Want custom reporting",
+    "Need enterprise security"
+  ]
+} 

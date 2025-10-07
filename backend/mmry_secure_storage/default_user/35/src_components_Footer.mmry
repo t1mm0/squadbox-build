@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "35",
+  "file_name": "src/components/Footer.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.5435294117647059
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 170,
+        "output_size": 166,
+        "stage_compression_ratio": 0.9764705882352941,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 166,
+        "output_size": 606,
+        "stage_compression_ratio": 3.6506024096385543,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 130,
+          "original_size": 162,
+          "compressed_size": 606
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 606,
+        "output_size": 32,
+        "stage_compression_ratio": 0.052805280528052806,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 606,
+          "estimated_compressed_size": 234,
+          "entropy": 3.0988731012098745
+        }
+      }
+    ],
+    "total_compression_ratio": 0.18823529411764706,
+    "stage_count": 3,
+    "original_size": 170,
+    "final_size": 32,
+    "space_savings": 138,
+    "space_savings_percent": 81.17647058823529
+  },
+  "original_size": 170,
+  "compressed_size": 32,
+  "compression_ratio": 0.18823529411764706,
+  "space_savings_percent": 81.17647058823529,
+  "content_hash": "d77054509e6de6c8",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:234:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 9,
+    "total_chars": 170,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 34,
+        "length": 34,
+        "preview": "export default function Footer() {",
+        "hash": "c2517f72"
+      },
+      "1": {
+        "start_char": 35,
+        "end_char": 45,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 46,
+        "end_char": 84,
+        "length": 38,
+        "preview": "    <div className=\"component footer\">",
+        "hash": "e4ad6a30"
+      },
+      "3": {
+        "start_char": 85,
+        "end_char": 106,
+        "length": 21,
+        "preview": "      <h2>Footer</h2>",
+        "hash": "d49a4478"
+      },
+      "4": {
+        "start_char": 107,
+        "end_char": 151,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 152,
+        "end_char": 162,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 163,
+        "end_char": 167,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 168,
+        "end_char": 169,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 170,
+        "end_char": 170,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          55
+        ]
+      },
+      "footer\">": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          127
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          113
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          135
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          66,
+          117
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          143
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          37
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "footer()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "<h2>footer</h2>": {
+        "count": 1,
+        "positions": [
+          91
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

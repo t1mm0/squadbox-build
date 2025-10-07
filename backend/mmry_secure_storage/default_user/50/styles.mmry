@@ -1,0 +1,188 @@
+{
+  "user_id": "default_user",
+  "project_id": "50",
+  "file_name": "styles.css",
+  "file_type": "css",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.012014563106796116
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 135,
+        "output_size": 136,
+        "stage_compression_ratio": 1.0074074074074073,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 1
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 136,
+        "output_size": 500,
+        "stage_compression_ratio": 3.676470588235294,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 107,
+          "original_size": 135,
+          "compressed_size": 500
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 500,
+        "output_size": 32,
+        "stage_compression_ratio": 0.064,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 500,
+          "estimated_compressed_size": 195,
+          "entropy": 3.126484020443895
+        }
+      }
+    ],
+    "total_compression_ratio": 0.23703703703703705,
+    "stage_count": 3,
+    "original_size": 135,
+    "final_size": 32,
+    "space_savings": 103,
+    "space_savings_percent": 76.29629629629629
+  },
+  "original_size": 135,
+  "compressed_size": 32,
+  "compression_ratio": 0.23703703703703705,
+  "space_savings_percent": 76.29629629629629,
+  "content_hash": "8ca05f2184a5fa0b",
+  "timestamp": 1759700096,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:195:[98][111][100][121][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759700096,
+    "total_lines": 3,
+    "total_chars": 135,
+    "total_words": 23,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 66,
+        "length": 66,
+        "preview": "body { font-family: Arial, sans-serif; margin: 0; ...",
+        "hash": "c5a41adf"
+      },
+      "1": {
+        "start_char": 67,
+        "end_char": 115,
+        "length": 48,
+        "preview": ".container { max-width: 800px; margin: 0 auto; }",
+        "hash": "88050ae8"
+      },
+      "2": {
+        "start_char": 116,
+        "end_char": 135,
+        "length": 19,
+        "preview": "h1 { color: #333; }",
+        "hash": "743a7809"
+      }
+    },
+    "word_index": {
+      "body": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "max-width:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "800px;": {
+        "count": 1,
+        "positions": [
+          91
+        ]
+      },
+      "#333;": {
+        "count": 1,
+        "positions": [
+          128
+        ]
+      },
+      "20px;": {
+        "count": 1,
+        "positions": [
+          59
+        ]
+      },
+      "padding:": {
+        "count": 1,
+        "positions": [
+          50
+        ]
+      },
+      ".container": {
+        "count": 1,
+        "positions": [
+          67
+        ]
+      },
+      "auto;": {
+        "count": 1,
+        "positions": [
+          108
+        ]
+      },
+      "sans-serif;": {
+        "count": 1,
+        "positions": [
+          27
+        ]
+      },
+      "font-family:": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "arial,": {
+        "count": 1,
+        "positions": [
+          20
+        ]
+      },
+      "color:": {
+        "count": 1,
+        "positions": [
+          121
+        ]
+      },
+      "margin:": {
+        "count": 2,
+        "positions": [
+          39,
+          98
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

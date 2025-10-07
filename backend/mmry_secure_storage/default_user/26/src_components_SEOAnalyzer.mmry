@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/components/SEOAnalyzer.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03505102040816326
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 230,
+        "output_size": 226,
+        "stage_compression_ratio": 0.9826086956521739,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 226,
+        "output_size": 815,
+        "stage_compression_ratio": 3.606194690265487,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 175,
+          "original_size": 222,
+          "compressed_size": 815
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 815,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0392638036809816,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 815,
+          "estimated_compressed_size": 319,
+          "entropy": 3.1387651979091102
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1391304347826087,
+    "stage_count": 3,
+    "original_size": 230,
+    "final_size": 32,
+    "space_savings": 198,
+    "space_savings_percent": 86.08695652173914
+  },
+  "original_size": 230,
+  "compressed_size": 32,
+  "compression_ratio": 0.1391304347826087,
+  "space_savings_percent": 86.08695652173914,
+  "content_hash": "dd731f5dfd5bc957",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:319:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 13,
+    "total_chars": 230,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 84,
+        "length": 45,
+        "preview": "export default function SEOAnalyzer(Props ) {",
+        "hash": "c69a4d82"
+      },
+      "5": {
+        "start_char": 85,
+        "end_char": 95,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 96,
+        "end_char": 139,
+        "length": 43,
+        "preview": "    <div className=\"component seoanalyzer\">",
+        "hash": "0642a344"
+      },
+      "7": {
+        "start_char": 140,
+        "end_char": 166,
+        "length": 26,
+        "preview": "      <h2>SEOAnalyzer</h2>",
+        "hash": "0e980f8b"
+      },
+      "8": {
+        "start_char": 167,
+        "end_char": 211,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 212,
+        "end_char": 222,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 223,
+        "end_char": 227,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 228,
+        "end_char": 229,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 230,
+        "end_char": 230,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "<h2>seoanalyzer</h2>": {
+        "count": 1,
+        "positions": [
+          146
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          75
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          116,
+          177
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          173
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          208
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          203
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          216
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          87
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "seoanalyzer\">": {
+        "count": 1,
+        "positions": [
+          126
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "seoanalyzer(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

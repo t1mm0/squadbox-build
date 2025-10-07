@@ -1,0 +1,95 @@
+{
+  "id": "ai-content-generator",
+  "name": "AI Content Generation Platform",
+  "description": "AI-powered content generation platform with multiple content types, brand voice customization, and collaborative features. Perfect for content creators and marketing teams.",
+  "category": "ai",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "features": [
+    "AI text generation",
+    "Multiple content types",
+    "Brand voice training",
+    "Template library",
+    "Collaborative editing",
+    "Content optimization",
+    "SEO suggestions",
+    "Plagiarism detection",
+    "Export to multiple formats",
+    "Content scheduling",
+    "Team collaboration",
+    "Usage analytics",
+    "API access",
+    "Custom prompts"
+  ],
+  "icon": "Wand2",
+  "tags": ["ai", "content", "generation", "copywriting", "marketing", "collaboration"],
+  "access_tier": "pro",
+  "popular": true,
+  "featured": true,
+  "downloads": 1900,
+  "rating": 4.8,
+  "tech_stack": ["React", "TypeScript", "Next.js", "OpenAI GPT", "PostgreSQL", "Redis", "Tailwind CSS", "Stripe"],
+  "base_files": [
+    {
+      "path": "package.json",
+      "content": {
+        "name": "{{project_name}}",
+        "version": "1.0.0",
+        "private": true,
+        "scripts": {
+          "dev": "next dev",
+          "build": "next build",
+          "start": "next start",
+          "lint": "next lint"
+        },
+        "dependencies": {
+          "next": "^14.0.0",
+          "react": "^18.0.0",
+          "react-dom": "^18.0.0",
+          "typescript": "^5.0.0",
+          "@types/node": "^20.0.0",
+          "@types/react": "^18.0.0",
+          "@types/react-dom": "^18.0.0",
+          "tailwindcss": "^3.0.0",
+          "openai": "^4.0.0",
+          "@prisma/client": "^5.0.0",
+          "prisma": "^5.0.0",
+          "redis": "^4.6.0",
+          "stripe": "^14.0.0"
+        }
+      }
+    }
+  ],
+  "structure": {
+    "pages": [
+      {
+        "name": "Content Studio",
+        "sections": ["content-editor", "ai-suggestions", "template-library", "brand-voice-panel"]
+      },
+      {
+        "name": "Project Manager",
+        "sections": ["project-list", "team-collaboration", "content-calendar", "workflow-status"]
+      },
+      {
+        "name": "Analytics Dashboard",
+        "sections": ["content-performance", "usage-metrics", "ai-insights", "optimization-tips"]
+      },
+      {
+        "name": "Brand Settings",
+        "sections": ["voice-training", "style-guide", "custom-prompts", "integration-settings"]
+      }
+    ],
+    "components": [
+      "AIContentEditor",
+      "TemplateSelector",
+      "BrandVoiceTrainer",
+      "ContentOptimizer",
+      "CollaborationPanel",
+      "SEOAnalyzer",
+      "ExportManager",
+      "UsageTracker",
+      "TeamInvite",
+      "ContentScheduler"
+    ]
+  }
+}

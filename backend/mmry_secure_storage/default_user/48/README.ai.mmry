@@ -1,0 +1,153 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "README.ai.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.14464285714285716
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 73,
+        "output_size": 73,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 73,
+        "output_size": 285,
+        "stage_compression_ratio": 3.904109589041096,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 61,
+          "original_size": 73,
+          "compressed_size": 285
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 285,
+        "output_size": 32,
+        "stage_compression_ratio": 0.11228070175438597,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 285,
+          "estimated_compressed_size": 108,
+          "entropy": 3.051379383808881
+        }
+      }
+    ],
+    "total_compression_ratio": 0.4383561643835616,
+    "stage_count": 3,
+    "original_size": 73,
+    "final_size": 32,
+    "space_savings": 41,
+    "space_savings_percent": 56.16438356164384
+  },
+  "original_size": 73,
+  "compressed_size": 32,
+  "compression_ratio": 0.4383561643835616,
+  "space_savings_percent": 56.16438356164384,
+  "content_hash": "f286b63251a00e68",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:108:[35][32][80][114][11",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 3,
+    "total_chars": 73,
+    "total_words": 10,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 27,
+        "length": 27,
+        "preview": "# Project Generation Failed",
+        "hash": "4578bf52"
+      },
+      "1": {
+        "start_char": 28,
+        "end_char": 28,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 29,
+        "end_char": 73,
+        "length": 44,
+        "preview": "An error occurred during project generation.",
+        "hash": "988d0b0a"
+      }
+    },
+    "word_index": {
+      "failed": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "occurred": {
+        "count": 1,
+        "positions": [
+          38
+        ]
+      },
+      "during": {
+        "count": 1,
+        "positions": [
+          47
+        ]
+      },
+      "project": {
+        "count": 2,
+        "positions": [
+          2,
+          54
+        ]
+      },
+      "error": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "generation": {
+        "count": 2,
+        "positions": [
+          10,
+          62
+        ]
+      },
+      "generation.": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

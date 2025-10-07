@@ -1,0 +1,297 @@
+{
+  "user_id": "default_user",
+  "project_id": "26",
+  "file_name": "src/components/TemplateSelector.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.01849410669975186
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 245,
+        "output_size": 241,
+        "stage_compression_ratio": 0.9836734693877551,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 241,
+        "output_size": 849,
+        "stage_compression_ratio": 3.5228215767634854,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 181,
+          "original_size": 237,
+          "compressed_size": 849
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 849,
+        "output_size": 32,
+        "stage_compression_ratio": 0.03769140164899882,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 849,
+          "estimated_compressed_size": 333,
+          "entropy": 3.141812964783636
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1306122448979592,
+    "stage_count": 3,
+    "original_size": 245,
+    "final_size": 32,
+    "space_savings": 213,
+    "space_savings_percent": 86.93877551020408
+  },
+  "original_size": 245,
+  "compressed_size": 32,
+  "compression_ratio": 0.1306122448979592,
+  "space_savings_percent": 86.93877551020408,
+  "content_hash": "c99a94dd4a937027",
+  "timestamp": 1754568757,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:333:[10][116][121][112][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754568757,
+    "total_lines": 13,
+    "total_chars": 245,
+    "total_words": 31,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 0,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "1": {
+        "start_char": 1,
+        "end_char": 15,
+        "length": 14,
+        "preview": "type Props = {",
+        "hash": "be06fb44"
+      },
+      "2": {
+        "start_char": 16,
+        "end_char": 35,
+        "length": 19,
+        "preview": "  // Add props here",
+        "hash": "cfb469c5"
+      },
+      "3": {
+        "start_char": 36,
+        "end_char": 38,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "4": {
+        "start_char": 39,
+        "end_char": 89,
+        "length": 50,
+        "preview": "export default function TemplateSelector(Props ) {",
+        "hash": "a0667dec"
+      },
+      "5": {
+        "start_char": 90,
+        "end_char": 100,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "6": {
+        "start_char": 101,
+        "end_char": 149,
+        "length": 48,
+        "preview": "    <div className=\"component templateselector\">",
+        "hash": "14a21189"
+      },
+      "7": {
+        "start_char": 150,
+        "end_char": 181,
+        "length": 31,
+        "preview": "      <h2>TemplateSelector</h2>",
+        "hash": "8383c3f0"
+      },
+      "8": {
+        "start_char": 182,
+        "end_char": 226,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "9": {
+        "start_char": 227,
+        "end_char": 237,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "10": {
+        "start_char": 238,
+        "end_char": 242,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "11": {
+        "start_char": 243,
+        "end_char": 244,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "12": {
+        "start_char": 245,
+        "end_char": 245,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "default": {
+        "count": 1,
+        "positions": [
+          46
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          54
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          202
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          210
+        ]
+      },
+      "props": {
+        "count": 3,
+        "positions": [
+          6,
+          25,
+          80
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          121,
+          192
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          188
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          223
+        ]
+      },
+      "here": {
+        "count": 2,
+        "positions": [
+          31,
+          218
+        ]
+      },
+      "<h2>templateselector</h2>": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          231
+        ]
+      },
+      "templateselector\">": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "templateselector(props": {
+        "count": 1,
+        "positions": [
+          63
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          92
+        ]
+      },
+      "type": {
+        "count": 1,
+        "positions": [
+          1
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          39
+        ]
+      },
+      "add": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          110
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

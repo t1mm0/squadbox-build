@@ -1,0 +1,286 @@
+{
+  "user_id": "default_user",
+  "project_id": "45",
+  "file_name": "next.config.js",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.7541218637992831
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 279,
+        "output_size": 303,
+        "stage_compression_ratio": 1.086021505376344,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 3,
+          "compression_ratio": 1.086021505376344,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 303,
+        "output_size": 219,
+        "stage_compression_ratio": 0.7227722772277227,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 303,
+          "compressed_size": 219,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 610,
+        "output_size": 374,
+        "stage_compression_ratio": 0.6131147540983607,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 610,
+          "compressed_size": 374,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.3405017921146953,
+    "stage_count": 3,
+    "original_size": 279,
+    "final_size": 374,
+    "space_savings": -95,
+    "space_savings_percent": -34.05017921146953
+  },
+  "original_size": 279,
+  "compressed_size": 374,
+  "compression_ratio": 1.3405017921146953,
+  "space_savings_percent": -34.05017921146953,
+  "content_hash": "2f28580ac283142b",
+  "timestamp": 1759698722,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNotkulKxDAUhV9FFBQXtO20NnFDBRUVN0RUCGKapm7jIDo4EfHd/Y71R9J7z93OPWkzl1xq/dX5ybFL2WCHK7jUtC6FziXPCeZ1PA80mHapWyW5wMhLl4w/2APKbjaw8VvLMTSIFHHy2iVrh7cUdw0pA75BV5x9mFzwpcYWnAy7vqMgfj3hkputfoIplrvx8rJLsRSZs++Pxes1UZgi7EWc2W0FO4hZyDbqVanJOhMh0QI0FAcvUpcMyQnAsu60FIaBptHM4n53cYWsoqcfPEJE/yhZhG7CoF0AypUrtgB22KnlNhNrwacaPQGqECOqezX4WZI2ASC3/XqmYFuTb62XyhTr8RF3nCEc+wkt7YJ9AQhu5N6l5L+6lZRXDylJUt1vn2e9AsZKzadDUNr46NwXQTEpuXyhzff7F2kIvv1LhBvCX37KyqFWnVz1TxAbO6J1BQ32lb8pNs9/9bwoqPiWzuF17yM9SM0vYjKks37uF9Og1C0=",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698722,
+    "total_lines": 13,
+    "total_chars": 279,
+    "total_words": 25,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 40,
+        "length": 40,
+        "preview": "/** @type {import('next').NextConfig} */",
+        "hash": "5e73760a"
+      },
+      "1": {
+        "start_char": 41,
+        "end_char": 61,
+        "length": 20,
+        "preview": "const nextConfig = {",
+        "hash": "d51ba477"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 86,
+        "length": 24,
+        "preview": "  reactStrictMode: true,",
+        "hash": "0a4beec4"
+      },
+      "3": {
+        "start_char": 87,
+        "end_char": 98,
+        "length": 11,
+        "preview": "  images: {",
+        "hash": "9e9f7507"
+      },
+      "4": {
+        "start_char": 99,
+        "end_char": 159,
+        "length": 60,
+        "preview": "    domains: ['images.unsplash.com', 'via.placehol...",
+        "hash": "cd8b6298"
+      },
+      "5": {
+        "start_char": 160,
+        "end_char": 164,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "6": {
+        "start_char": 165,
+        "end_char": 182,
+        "length": 17,
+        "preview": "  experimental: {",
+        "hash": "19a0ab51"
+      },
+      "7": {
+        "start_char": 183,
+        "end_char": 240,
+        "length": 57,
+        "preview": "    serverComponentsExternalPackages: ['@prisma/cl...",
+        "hash": "ced1cffa"
+      },
+      "8": {
+        "start_char": 241,
+        "end_char": 245,
+        "length": 4,
+        "preview": "  },",
+        "hash": "2a8a1a2a"
+      },
+      "9": {
+        "start_char": 246,
+        "end_char": 248,
+        "length": 2,
+        "preview": "};",
+        "hash": "2145c1b6"
+      },
+      "10": {
+        "start_char": 249,
+        "end_char": 249,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "11": {
+        "start_char": 250,
+        "end_char": 278,
+        "length": 28,
+        "preview": "module.exports = nextConfig;",
+        "hash": "c1ec6060"
+      },
+      "12": {
+        "start_char": 279,
+        "end_char": 279,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "nextconfig;": {
+        "count": 1,
+        "positions": [
+          267
+        ]
+      },
+      "/**": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "['@prisma/client'],": {
+        "count": 1,
+        "positions": [
+          221
+        ]
+      },
+      "experimental:": {
+        "count": 1,
+        "positions": [
+          167
+        ]
+      },
+      "nextconfig": {
+        "count": 3,
+        "positions": [
+          26,
+          47,
+          267
+        ]
+      },
+      "'via.placeholder.com'],": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "images:": {
+        "count": 1,
+        "positions": [
+          89
+        ]
+      },
+      "reactstrictmode:": {
+        "count": 1,
+        "positions": [
+          64
+        ]
+      },
+      "domains:": {
+        "count": 1,
+        "positions": [
+          103
+        ]
+      },
+      "module.exports": {
+        "count": 1,
+        "positions": [
+          250
+        ]
+      },
+      "servercomponentsexternalpackages:": {
+        "count": 1,
+        "positions": [
+          187
+        ]
+      },
+      "['images.unsplash.com',": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "const": {
+        "count": 1,
+        "positions": [
+          41
+        ]
+      },
+      "true,": {
+        "count": 1,
+        "positions": [
+          81
+        ]
+      },
+      "{import('next').nextconfig}": {
+        "count": 1,
+        "positions": [
+          10
+        ]
+      },
+      "@type": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

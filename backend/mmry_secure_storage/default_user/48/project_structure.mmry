@@ -1,0 +1,822 @@
+{
+  "user_id": "default_user",
+  "project_id": "48",
+  "file_name": "project_structure.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.19591836734693877
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 784,
+        "output_size": 784,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 784,
+        "output_size": 2095,
+        "stage_compression_ratio": 2.6721938775510203,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 434,
+          "original_size": 784,
+          "compressed_size": 2095
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2095,
+        "output_size": 32,
+        "stage_compression_ratio": 0.015274463007159905,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2095,
+          "estimated_compressed_size": 858,
+          "entropy": 3.2790563603880574
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04081632653061224,
+    "stage_count": 3,
+    "original_size": 784,
+    "final_size": 32,
+    "space_savings": 752,
+    "space_savings_percent": 95.91836734693877
+  },
+  "original_size": 784,
+  "compressed_size": 32,
+  "compression_ratio": 0.04081632653061224,
+  "space_savings_percent": 95.91836734693877,
+  "content_hash": "fc773163bcea3bae",
+  "timestamp": 1759699073,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:858:[35][32][77][121][32",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759699073,
+    "total_lines": 52,
+    "total_chars": 784,
+    "total_words": 111,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 22,
+        "length": 22,
+        "preview": "# My Project Structure",
+        "hash": "8917c60b"
+      },
+      "1": {
+        "start_char": 23,
+        "end_char": 23,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 24,
+        "end_char": 52,
+        "length": 28,
+        "preview": "Template: Portfolio Template",
+        "hash": "aac208f6"
+      },
+      "3": {
+        "start_char": 53,
+        "end_char": 53,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "4": {
+        "start_char": 54,
+        "end_char": 71,
+        "length": 17,
+        "preview": "## Pages/Sections",
+        "hash": "f489f23c"
+      },
+      "5": {
+        "start_char": 72,
+        "end_char": 72,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 73,
+        "end_char": 79,
+        "length": 6,
+        "preview": "- Home",
+        "hash": "fec7ef99"
+      },
+      "7": {
+        "start_char": 80,
+        "end_char": 88,
+        "length": 8,
+        "preview": "  - hero",
+        "hash": "4cb1044e"
+      },
+      "8": {
+        "start_char": 89,
+        "end_char": 98,
+        "length": 9,
+        "preview": "  - about",
+        "hash": "3de11221"
+      },
+      "9": {
+        "start_char": 99,
+        "end_char": 109,
+        "length": 10,
+        "preview": "  - skills",
+        "hash": "abb08bc2"
+      },
+      "10": {
+        "start_char": 110,
+        "end_char": 131,
+        "length": 21,
+        "preview": "  - featured-projects",
+        "hash": "e8139b6e"
+      },
+      "11": {
+        "start_char": 132,
+        "end_char": 143,
+        "length": 11,
+        "preview": "  - contact",
+        "hash": "e4c4053a"
+      },
+      "12": {
+        "start_char": 144,
+        "end_char": 154,
+        "length": 10,
+        "preview": "- Projects",
+        "hash": "62d257c9"
+      },
+      "13": {
+        "start_char": 155,
+        "end_char": 171,
+        "length": 16,
+        "preview": "  - project-list",
+        "hash": "bb269761"
+      },
+      "14": {
+        "start_char": 172,
+        "end_char": 191,
+        "length": 19,
+        "preview": "  - project-details",
+        "hash": "b0275762"
+      },
+      "15": {
+        "start_char": 192,
+        "end_char": 212,
+        "length": 20,
+        "preview": "  - related-projects",
+        "hash": "848ae255"
+      },
+      "16": {
+        "start_char": 213,
+        "end_char": 220,
+        "length": 7,
+        "preview": "- About",
+        "hash": "59d1c831"
+      },
+      "17": {
+        "start_char": 221,
+        "end_char": 228,
+        "length": 7,
+        "preview": "  - bio",
+        "hash": "8a9816c2"
+      },
+      "18": {
+        "start_char": 229,
+        "end_char": 243,
+        "length": 14,
+        "preview": "  - experience",
+        "hash": "c7748dba"
+      },
+      "19": {
+        "start_char": 244,
+        "end_char": 257,
+        "length": 13,
+        "preview": "  - education",
+        "hash": "a56e59f9"
+      },
+      "20": {
+        "start_char": 258,
+        "end_char": 274,
+        "length": 16,
+        "preview": "  - testimonials",
+        "hash": "6008dd16"
+      },
+      "21": {
+        "start_char": 275,
+        "end_char": 284,
+        "length": 9,
+        "preview": "- Contact",
+        "hash": "a82996d3"
+      },
+      "22": {
+        "start_char": 285,
+        "end_char": 301,
+        "length": 16,
+        "preview": "  - contact-form",
+        "hash": "26ab85ee"
+      },
+      "23": {
+        "start_char": 302,
+        "end_char": 318,
+        "length": 16,
+        "preview": "  - social-links",
+        "hash": "a8a89c64"
+      },
+      "24": {
+        "start_char": 319,
+        "end_char": 331,
+        "length": 12,
+        "preview": "  - location",
+        "hash": "1ff75ba9"
+      },
+      "25": {
+        "start_char": 332,
+        "end_char": 332,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "26": {
+        "start_char": 333,
+        "end_char": 346,
+        "length": 13,
+        "preview": "## Components",
+        "hash": "2bdb48cf"
+      },
+      "27": {
+        "start_char": 347,
+        "end_char": 347,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "28": {
+        "start_char": 348,
+        "end_char": 356,
+        "length": 8,
+        "preview": "- Header",
+        "hash": "8bdb89f1"
+      },
+      "29": {
+        "start_char": 357,
+        "end_char": 365,
+        "length": 8,
+        "preview": "- Footer",
+        "hash": "f237ecf8"
+      },
+      "30": {
+        "start_char": 366,
+        "end_char": 379,
+        "length": 13,
+        "preview": "- ProjectCard",
+        "hash": "3e7f62ca"
+      },
+      "31": {
+        "start_char": 380,
+        "end_char": 392,
+        "length": 12,
+        "preview": "- SkillsGrid",
+        "hash": "3aba503e"
+      },
+      "32": {
+        "start_char": 393,
+        "end_char": 406,
+        "length": 13,
+        "preview": "- ContactForm",
+        "hash": "850cded5"
+      },
+      "33": {
+        "start_char": 407,
+        "end_char": 420,
+        "length": 13,
+        "preview": "- SocialLinks",
+        "hash": "55f2e3aa"
+      },
+      "34": {
+        "start_char": 421,
+        "end_char": 434,
+        "length": 13,
+        "preview": "- HeroSection",
+        "hash": "f8a3f0fc"
+      },
+      "35": {
+        "start_char": 435,
+        "end_char": 455,
+        "length": 20,
+        "preview": "- ExperienceTimeline",
+        "hash": "dad89181"
+      },
+      "36": {
+        "start_char": 456,
+        "end_char": 456,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "37": {
+        "start_char": 457,
+        "end_char": 470,
+        "length": 13,
+        "preview": "## Tech Stack",
+        "hash": "cf757487"
+      },
+      "38": {
+        "start_char": 471,
+        "end_char": 471,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "39": {
+        "start_char": 472,
+        "end_char": 479,
+        "length": 7,
+        "preview": "- React",
+        "hash": "4324dc0b"
+      },
+      "40": {
+        "start_char": 480,
+        "end_char": 489,
+        "length": 9,
+        "preview": "- Next.js",
+        "hash": "431d5a55"
+      },
+      "41": {
+        "start_char": 490,
+        "end_char": 503,
+        "length": 13,
+        "preview": "- TailwindCSS",
+        "hash": "44ce2250"
+      },
+      "42": {
+        "start_char": 504,
+        "end_char": 504,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "43": {
+        "start_char": 505,
+        "end_char": 527,
+        "length": 22,
+        "preview": "## Custom Requirements",
+        "hash": "4c0453eb"
+      },
+      "44": {
+        "start_char": 528,
+        "end_char": 528,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "45": {
+        "start_char": 529,
+        "end_char": 574,
+        "length": 45,
+        "preview": "- Use tech stack: React, Next.js, TailwindCSS",
+        "hash": "ea06d6d9"
+      },
+      "46": {
+        "start_char": 575,
+        "end_char": 594,
+        "length": 19,
+        "preview": "- Create page: Home",
+        "hash": "571bb8f9"
+      },
+      "47": {
+        "start_char": 595,
+        "end_char": 618,
+        "length": 23,
+        "preview": "- Create page: Projects",
+        "hash": "1c35a22e"
+      },
+      "48": {
+        "start_char": 619,
+        "end_char": 639,
+        "length": 20,
+        "preview": "- Create page: About",
+        "hash": "28c329e5"
+      },
+      "49": {
+        "start_char": 640,
+        "end_char": 662,
+        "length": 22,
+        "preview": "- Create page: Contact",
+        "hash": "c89b9fed"
+      },
+      "50": {
+        "start_char": 663,
+        "end_char": 783,
+        "length": 120,
+        "preview": "- Include components: Header, Footer, ProjectCard,...",
+        "hash": "378a09e4"
+      },
+      "51": {
+        "start_char": 784,
+        "end_char": 784,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "herosection,": {
+        "count": 1,
+        "positions": [
+          752
+        ]
+      },
+      "projectcard,": {
+        "count": 1,
+        "positions": [
+          701
+        ]
+      },
+      "stack": {
+        "count": 2,
+        "positions": [
+          465,
+          540
+        ]
+      },
+      "sociallinks,": {
+        "count": 1,
+        "positions": [
+          739
+        ]
+      },
+      "project": {
+        "count": 9,
+        "positions": [
+          5,
+          123,
+          146,
+          159,
+          176,
+          204,
+          368,
+          610,
+          701
+        ]
+      },
+      "structure": {
+        "count": 1,
+        "positions": [
+          13
+        ]
+      },
+      "components": {
+        "count": 2,
+        "positions": [
+          336,
+          673
+        ]
+      },
+      "custom": {
+        "count": 1,
+        "positions": [
+          508
+        ]
+      },
+      "page:": {
+        "count": 4,
+        "positions": [
+          584,
+          604,
+          628,
+          649
+        ]
+      },
+      "next.js": {
+        "count": 2,
+        "positions": [
+          482,
+          554
+        ]
+      },
+      "skillsgrid,": {
+        "count": 1,
+        "positions": [
+          714
+        ]
+      },
+      "create": {
+        "count": 4,
+        "positions": [
+          577,
+          597,
+          621,
+          642
+        ]
+      },
+      "projectcard": {
+        "count": 2,
+        "positions": [
+          368,
+          701
+        ]
+      },
+      "hero": {
+        "count": 3,
+        "positions": [
+          84,
+          423,
+          752
+        ]
+      },
+      "about": {
+        "count": 3,
+        "positions": [
+          93,
+          215,
+          634
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          547
+        ]
+      },
+      "header,": {
+        "count": 1,
+        "positions": [
+          685
+        ]
+      },
+      "skillsgrid": {
+        "count": 2,
+        "positions": [
+          382,
+          714
+        ]
+      },
+      "project-details": {
+        "count": 1,
+        "positions": [
+          176
+        ]
+      },
+      "contact": {
+        "count": 6,
+        "positions": [
+          136,
+          277,
+          289,
+          395,
+          655,
+          726
+        ]
+      },
+      "testimonials": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          554
+        ]
+      },
+      "contactform": {
+        "count": 2,
+        "positions": [
+          395,
+          726
+        ]
+      },
+      "experience": {
+        "count": 3,
+        "positions": [
+          233,
+          437,
+          765
+        ]
+      },
+      "projects": {
+        "count": 4,
+        "positions": [
+          123,
+          146,
+          204,
+          610
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          474,
+          547
+        ]
+      },
+      "contact-form": {
+        "count": 1,
+        "positions": [
+          289
+        ]
+      },
+      "bio": {
+        "count": 1,
+        "positions": [
+          225
+        ]
+      },
+      "pages/sections": {
+        "count": 1,
+        "positions": [
+          57
+        ]
+      },
+      "education": {
+        "count": 1,
+        "positions": [
+          248
+        ]
+      },
+      "home": {
+        "count": 2,
+        "positions": [
+          75,
+          590
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          665
+        ]
+      },
+      "skills": {
+        "count": 3,
+        "positions": [
+          103,
+          382,
+          714
+        ]
+      },
+      "herosection": {
+        "count": 2,
+        "positions": [
+          423,
+          752
+        ]
+      },
+      "requirements": {
+        "count": 1,
+        "positions": [
+          515
+        ]
+      },
+      "location": {
+        "count": 1,
+        "positions": [
+          323
+        ]
+      },
+      "tech": {
+        "count": 2,
+        "positions": [
+          460,
+          535
+        ]
+      },
+      "related-projects": {
+        "count": 1,
+        "positions": [
+          196
+        ]
+      },
+      "portfolio": {
+        "count": 1,
+        "positions": [
+          34
+        ]
+      },
+      "tailwindcss": {
+        "count": 2,
+        "positions": [
+          492,
+          563
+        ]
+      },
+      "social-links": {
+        "count": 1,
+        "positions": [
+          306
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          540
+        ]
+      },
+      "footer,": {
+        "count": 1,
+        "positions": [
+          693
+        ]
+      },
+      "project-list": {
+        "count": 1,
+        "positions": [
+          159
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          531
+        ]
+      },
+      "sociallinks": {
+        "count": 2,
+        "positions": [
+          409,
+          739
+        ]
+      },
+      "template": {
+        "count": 2,
+        "positions": [
+          24,
+          44
+        ]
+      },
+      "contactform,": {
+        "count": 1,
+        "positions": [
+          726
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          673
+        ]
+      },
+      "footer": {
+        "count": 2,
+        "positions": [
+          359,
+          693
+        ]
+      },
+      "header": {
+        "count": 2,
+        "positions": [
+          350,
+          685
+        ]
+      },
+      "featured-projects": {
+        "count": 1,
+        "positions": [
+          114
+        ]
+      },
+      "experiencetimeline": {
+        "count": 2,
+        "positions": [
+          437,
+          765
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "38",
+  "file_name": "src/components/SearchBar.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.1420265780730897
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 179,
+        "output_size": 175,
+        "stage_compression_ratio": 0.9776536312849162,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 175,
+        "output_size": 637,
+        "stage_compression_ratio": 3.64,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 137,
+          "original_size": 171,
+          "compressed_size": 637
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 637,
+        "output_size": 32,
+        "stage_compression_ratio": 0.05023547880690738,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 637,
+          "estimated_compressed_size": 250,
+          "entropy": 3.142180117999235
+        }
+      }
+    ],
+    "total_compression_ratio": 0.1787709497206704,
+    "stage_count": 3,
+    "original_size": 179,
+    "final_size": 32,
+    "space_savings": 147,
+    "space_savings_percent": 82.12290502793296
+  },
+  "original_size": 179,
+  "compressed_size": 32,
+  "compression_ratio": 0.1787709497206704,
+  "space_savings_percent": 82.12290502793296,
+  "content_hash": "8bfc2efd50796eb4",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:250:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 9,
+    "total_chars": 179,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 37,
+        "length": 37,
+        "preview": "export default function SearchBar() {",
+        "hash": "5381088a"
+      },
+      "1": {
+        "start_char": 38,
+        "end_char": 48,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 49,
+        "end_char": 90,
+        "length": 41,
+        "preview": "    <div className=\"component searchbar\">",
+        "hash": "c186d0b4"
+      },
+      "3": {
+        "start_char": 91,
+        "end_char": 115,
+        "length": 24,
+        "preview": "      <h2>SearchBar</h2>",
+        "hash": "6c5d818f"
+      },
+      "4": {
+        "start_char": 116,
+        "end_char": 160,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 161,
+        "end_char": 171,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 172,
+        "end_char": 176,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 177,
+        "end_char": 178,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 179,
+        "end_char": 179,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "searchbar()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          58
+        ]
+      },
+      "searchbar\">": {
+        "count": 1,
+        "positions": [
+          79
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          136
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          122
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          144
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          69,
+          126
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          152
+        ]
+      },
+      "*/}": {
+        "count": 1,
+        "positions": [
+          157
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          40
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "<h2>searchbar</h2>": {
+        "count": 1,
+        "positions": [
+          97
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

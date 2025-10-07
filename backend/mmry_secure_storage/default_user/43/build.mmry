@@ -1,0 +1,137 @@
+{
+  "user_id": "default_user",
+  "project_id": "43",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.10759536784741144
+  },
+  "folding_metadata": {
+    "strategy": "neural_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 45,
+        "output_size": 54,
+        "stage_compression_ratio": 1.2,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 2,
+          "compression_ratio": 1.2,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "huffman",
+        "input_size": 54,
+        "output_size": 33,
+        "stage_compression_ratio": 0.6111111111111112,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 51,
+          "estimated_compressed_size": 27,
+          "entropy": 4.38956412696717
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 33,
+        "output_size": 38,
+        "stage_compression_ratio": 1.1515151515151516,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 33,
+          "compressed_size": 38,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 0.8444444444444444,
+    "stage_count": 3,
+    "original_size": 45,
+    "final_size": 38,
+    "space_savings": 7,
+    "space_savings_percent": 15.555555555555555
+  },
+  "original_size": 45,
+  "compressed_size": 38,
+  "compression_ratio": 0.8444444444444444,
+  "space_savings_percent": 15.555555555555555,
+  "content_hash": "4d8d0ae9ed526cad",
+  "timestamp": 1759698428,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNrzCHVz83X0szIyt3JPzUstOrcy2cAsNcVKIbUIzDYCALmUC7w=",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698428,
+    "total_lines": 3,
+    "total_chars": 45,
+    "total_words": 4,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 20,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "1": {
+        "start_char": 21,
+        "end_char": 44,
+        "length": 23,
+        "preview": "Generated: README.ai.md",
+        "hash": "9a7cb76c"
+      },
+      "2": {
+        "start_char": 45,
+        "end_char": 45,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "readme.ai.md": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          0,
+          21
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          11
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

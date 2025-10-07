@@ -1,0 +1,399 @@
+{
+  "user_id": "default_user",
+  "project_id": "33",
+  "file_name": "src/app/about/page.tsx**",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03032749077490775
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 403,
+        "output_size": 381,
+        "stage_compression_ratio": 0.9454094292803971,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 9
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 381,
+        "output_size": 1245,
+        "stage_compression_ratio": 3.267716535433071,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 262,
+          "original_size": 370,
+          "compressed_size": 1245
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1245,
+        "output_size": 32,
+        "stage_compression_ratio": 0.02570281124497992,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1245,
+          "estimated_compressed_size": 495,
+          "entropy": 3.186536708545745
+        }
+      }
+    ],
+    "total_compression_ratio": 0.0794044665012407,
+    "stage_count": 3,
+    "original_size": 403,
+    "final_size": 32,
+    "space_savings": 371,
+    "space_savings_percent": 92.05955334987593
+  },
+  "original_size": 403,
+  "compressed_size": 32,
+  "compression_ratio": 0.0794044665012407,
+  "space_savings_percent": 92.05955334987593,
+  "content_hash": "933cf8b1b0d80234",
+  "timestamp": 1759013438,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:495:[116][115][120][10][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759013438,
+    "total_lines": 14,
+    "total_chars": 401,
+    "total_words": 51,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 3,
+        "length": 3,
+        "preview": "tsx",
+        "hash": "35e966ba"
+      },
+      "1": {
+        "start_char": 4,
+        "end_char": 37,
+        "length": 33,
+        "preview": "export default function About() {",
+        "hash": "53984dac"
+      },
+      "2": {
+        "start_char": 38,
+        "end_char": 48,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "3": {
+        "start_char": 49,
+        "end_char": 62,
+        "length": 13,
+        "preview": "    <section>",
+        "hash": "7aee1f86"
+      },
+      "4": {
+        "start_char": 63,
+        "end_char": 96,
+        "length": 33,
+        "preview": "      <h2>About This Project</h2>",
+        "hash": "e57e95e3"
+      },
+      "5": {
+        "start_char": 97,
+        "end_char": 106,
+        "length": 9,
+        "preview": "      <p>",
+        "hash": "31afcae7"
+      },
+      "6": {
+        "start_char": 107,
+        "end_char": 186,
+        "length": 79,
+        "preview": "        UK Mental Health AI is a research\u2011grade to...",
+        "hash": "9671186d"
+      },
+      "7": {
+        "start_char": 187,
+        "end_char": 261,
+        "length": 74,
+        "preview": "        processing to provide preliminary mental h...",
+        "hash": "513734ab"
+      },
+      "8": {
+        "start_char": 262,
+        "end_char": 344,
+        "length": 82,
+        "preview": "        intended for educational purposes and not ...",
+        "hash": "98d8907e"
+      },
+      "9": {
+        "start_char": 345,
+        "end_char": 368,
+        "length": 23,
+        "preview": "        medical advice.",
+        "hash": "353eb0cd"
+      },
+      "10": {
+        "start_char": 369,
+        "end_char": 379,
+        "length": 10,
+        "preview": "      </p>",
+        "hash": "f88fe8d4"
+      },
+      "11": {
+        "start_char": 380,
+        "end_char": 394,
+        "length": 14,
+        "preview": "    </section>",
+        "hash": "7a8b33a1"
+      },
+      "12": {
+        "start_char": 395,
+        "end_char": 399,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "13": {
+        "start_char": 400,
+        "end_char": 401,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      }
+    },
+    "word_index": {
+      "tool": {
+        "count": 1,
+        "positions": [
+          155
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          19
+        ]
+      },
+      "intended": {
+        "count": 1,
+        "positions": [
+          270
+        ]
+      },
+      "</p>": {
+        "count": 1,
+        "positions": [
+          375
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          40
+        ]
+      },
+      "health": {
+        "count": 2,
+        "positions": [
+          125,
+          236
+        ]
+      },
+      "<h2>about": {
+        "count": 1,
+        "positions": [
+          69
+        ]
+      },
+      "processing": {
+        "count": 1,
+        "positions": [
+          195
+        ]
+      },
+      "tsx": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "mental": {
+        "count": 2,
+        "positions": [
+          118,
+          229
+        ]
+      },
+      "natural": {
+        "count": 1,
+        "positions": [
+          170
+        ]
+      },
+      "preliminary": {
+        "count": 1,
+        "positions": [
+          217
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          11
+        ]
+      },
+      "that": {
+        "count": 1,
+        "positions": [
+          160
+        ]
+      },
+      "provide": {
+        "count": 1,
+        "positions": [
+          209
+        ]
+      },
+      "about()": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "educational": {
+        "count": 1,
+        "positions": [
+          283
+        ]
+      },
+      "project</h2>": {
+        "count": 1,
+        "positions": [
+          84
+        ]
+      },
+      "advice.": {
+        "count": 1,
+        "positions": [
+          361
+        ]
+      },
+      "and": {
+        "count": 1,
+        "positions": [
+          304
+        ]
+      },
+      "not": {
+        "count": 1,
+        "positions": [
+          308
+        ]
+      },
+      "language": {
+        "count": 1,
+        "positions": [
+          178
+        ]
+      },
+      "research\u2011grade": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "professional": {
+        "count": 1,
+        "positions": [
+          332
+        ]
+      },
+      "<p>": {
+        "count": 1,
+        "positions": [
+          103
+        ]
+      },
+      "</section>": {
+        "count": 1,
+        "positions": [
+          384
+        ]
+      },
+      "assessments.": {
+        "count": 1,
+        "positions": [
+          243
+        ]
+      },
+      "substitute": {
+        "count": 1,
+        "positions": [
+          317
+        ]
+      },
+      "medical": {
+        "count": 1,
+        "positions": [
+          353
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          4
+        ]
+      },
+      "uses": {
+        "count": 1,
+        "positions": [
+          165
+        ]
+      },
+      "purposes": {
+        "count": 1,
+        "positions": [
+          295
+        ]
+      },
+      "this": {
+        "count": 1,
+        "positions": [
+          79
+        ]
+      },
+      "for": {
+        "count": 2,
+        "positions": [
+          279,
+          328
+        ]
+      },
+      "<section>": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

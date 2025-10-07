@@ -1,0 +1,162 @@
+{
+  "user_id": "default_user",
+  "project_id": "47",
+  "file_name": "README.ai.md",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 1.0
+  },
+  "folding_metadata": {
+    "strategy": "neural_zlib_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "neural",
+        "input_size": 73,
+        "output_size": 91,
+        "stage_compression_ratio": 1.2465753424657535,
+        "metadata": {
+          "method": "neural",
+          "substitutions": 4,
+          "compression_ratio": 1.2465753424657535,
+          "neural_weights": {
+            "huffman_weight": 1.0,
+            "lz_weight": 1.0,
+            "rle_weight": 1.0,
+            "arithmetic_weight": 1.0,
+            "neural_weight": 1.0,
+            "chain_weight": 1.0
+          }
+        }
+      },
+      {
+        "stage": 2,
+        "method": "zlib",
+        "input_size": 91,
+        "output_size": 72,
+        "stage_compression_ratio": 0.7912087912087912,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 91,
+          "compressed_size": 72,
+          "compression_level": 9
+        }
+      },
+      {
+        "stage": 3,
+        "method": "zlib",
+        "input_size": 184,
+        "output_size": 144,
+        "stage_compression_ratio": 0.782608695652174,
+        "metadata": {
+          "method": "zlib",
+          "original_size": 184,
+          "compressed_size": 144,
+          "compression_level": 9
+        }
+      }
+    ],
+    "total_compression_ratio": 1.9726027397260273,
+    "stage_count": 3,
+    "original_size": 73,
+    "final_size": 144,
+    "space_savings": -71,
+    "space_savings_percent": -97.26027397260275
+  },
+  "original_size": 73,
+  "compressed_size": 144,
+  "compression_ratio": 1.9726027397260273,
+  "space_savings_percent": -97.26027397260275,
+  "content_hash": "f286b63251a00e68",
+  "timestamp": 1759698865,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "eNoljkELwjAMhf/LQKei0jpXG8+CsCHqBp5ySdsVTzJv+fm+4uGFvC8vIaFW1iTji9X4FWsUKHe3/XO+o0v97swaTgeECN5sWW1zYSXZgPtFZp0cqxwhN3+p2PXfW3BvJ5QIA5BxhZqiHjBAMoxlNHQ4basllok/+KR9IJ2KfaPBS7kFNcjGa4Wsq39lnz2u",
+  "content_encoding": "base64",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698865,
+    "total_lines": 3,
+    "total_chars": 73,
+    "total_words": 10,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 27,
+        "length": 27,
+        "preview": "# Project Generation Failed",
+        "hash": "4578bf52"
+      },
+      "1": {
+        "start_char": 28,
+        "end_char": 28,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "2": {
+        "start_char": 29,
+        "end_char": 73,
+        "length": 44,
+        "preview": "An error occurred during project generation.",
+        "hash": "988d0b0a"
+      }
+    },
+    "word_index": {
+      "failed": {
+        "count": 1,
+        "positions": [
+          21
+        ]
+      },
+      "occurred": {
+        "count": 1,
+        "positions": [
+          38
+        ]
+      },
+      "during": {
+        "count": 1,
+        "positions": [
+          47
+        ]
+      },
+      "project": {
+        "count": 2,
+        "positions": [
+          2,
+          54
+        ]
+      },
+      "error": {
+        "count": 1,
+        "positions": [
+          32
+        ]
+      },
+      "generation": {
+        "count": 2,
+        "positions": [
+          10,
+          62
+        ]
+      },
+      "generation.": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ai-chatbot-learnable",
+  "name": "AI Chatbot with Learning",
+  "description": "An intelligent chatbot that learns from conversations and can be updated anytime",
+  "category": "ai",
+  "difficulty": "beginner",
+  "estimatedTime": "30 minutes",
+  "features": [
+    "Conversation learning",
+    "Real-time training updates",
+    "Context awareness",
+    "Multi-language support",
+    "Customizable responses",
+    "Analytics dashboard",
+    "Export conversations",
+    "API integration"
+  ],
+  "icon": "MessageSquare",
+  "tags": ["ai", "chatbot", "learning", "conversation", "nlp"],
+  "access_tier": "free",
+  "popular": true,
+  "featured": true,
+  "downloads": 1250,
+  "rating": 4.8,
+  "tech_stack": {
+    "frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Node.js", "Express"],
+    "database": ["PostgreSQL", "Redis"],
+    "ai": ["OpenAI GPT", "LangChain", "Vector Database"],
+    "deployment": ["Vercel", "Railway"]
+  },
+  "files": [
+    "src/components/ChatbotInterface.tsx",
+    "src/components/ConversationLearning.tsx", 
+    "src/components/TrainingDashboard.tsx",
+    "src/components/ChatAnalytics.tsx",
+    "src/api/chat/route.ts",
+    "src/api/training/route.ts",
+    "src/lib/chatbot-engine.ts",
+    "src/lib/learning-system.ts",
+    "src/lib/vector-store.ts",
+    "src/database/schema.sql",
+    "src/styles/chatbot.css",
+    "README.md",
+    "package.json"
+  ],
+  "setup_instructions": [
+    "Install dependencies with npm install",
+    "Set up PostgreSQL database",
+    "Configure OpenAI API key",
+    "Run database migrations",
+    "Start development server"
+  ],
+  "customization_options": {
+    "personality": ["friendly", "professional", "casual", "formal"],
+    "languages": ["en", "es", "fr", "de", "zh", "ja"],
+    "response_style": ["concise", "detailed", "conversational", "technical"],
+    "learning_rate": ["fast", "medium", "slow"],
+    "context_window": [5, 10, 15, 20]
+  }
+} 

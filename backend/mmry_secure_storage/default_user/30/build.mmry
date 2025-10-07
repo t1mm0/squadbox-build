@@ -1,0 +1,598 @@
+{
+  "user_id": "default_user",
+  "project_id": "30",
+  "file_name": "build.log",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.01828703703703704
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 664,
+        "output_size": 666,
+        "stage_compression_ratio": 1.0030120481927711,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 2
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 666,
+        "output_size": 2039,
+        "stage_compression_ratio": 3.0615615615615615,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 431,
+          "original_size": 664,
+          "compressed_size": 2039
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 2039,
+        "output_size": 32,
+        "stage_compression_ratio": 0.01569396763119176,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 2039,
+          "estimated_compressed_size": 827,
+          "entropy": 3.248521648274034
+        }
+      }
+    ],
+    "total_compression_ratio": 0.04819277108433735,
+    "stage_count": 3,
+    "original_size": 664,
+    "final_size": 32,
+    "space_savings": 632,
+    "space_savings_percent": 95.18072289156626
+  },
+  "original_size": 664,
+  "compressed_size": 32,
+  "compression_ratio": 0.04819277108433735,
+  "space_savings_percent": 95.18072289156626,
+  "content_hash": "829056578d4e9449",
+  "timestamp": 1754572914,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:827:[66][117][105][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754572914,
+    "total_lines": 20,
+    "total_chars": 664,
+    "total_words": 74,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 36,
+        "length": 36,
+        "preview": "Build started at 2025-08-07 14:21:54",
+        "hash": "849e49a4"
+      },
+      "1": {
+        "start_char": 37,
+        "end_char": 61,
+        "length": 24,
+        "preview": "Project name: My Project",
+        "hash": "6a2ae757"
+      },
+      "2": {
+        "start_char": 62,
+        "end_char": 79,
+        "length": 17,
+        "preview": "Project type: web",
+        "hash": "82feb8fd"
+      },
+      "3": {
+        "start_char": 80,
+        "end_char": 93,
+        "length": 13,
+        "preview": "Requirements:",
+        "hash": "3b31c3fb"
+      },
+      "4": {
+        "start_char": 94,
+        "end_char": 194,
+        "length": 100,
+        "preview": "- Use tech stack: React, TypeScript, Next.js, Open...",
+        "hash": "c76ef156"
+      },
+      "5": {
+        "start_char": 195,
+        "end_char": 224,
+        "length": 29,
+        "preview": "- Create page: Chat Interface",
+        "hash": "9dced70d"
+      },
+      "6": {
+        "start_char": 225,
+        "end_char": 259,
+        "length": 34,
+        "preview": "- Create page: Analytics Dashboard",
+        "hash": "3c0fdf7f"
+      },
+      "7": {
+        "start_char": 260,
+        "end_char": 290,
+        "length": 30,
+        "preview": "- Create page: Training Center",
+        "hash": "b80b8dea"
+      },
+      "8": {
+        "start_char": 291,
+        "end_char": 449,
+        "length": 158,
+        "preview": "- Include components: EnterpriseChatInterface, Con...",
+        "hash": "608b99d5"
+      },
+      "9": {
+        "start_char": 450,
+        "end_char": 450,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "10": {
+        "start_char": 451,
+        "end_char": 486,
+        "length": 35,
+        "preview": "Using template: ai_chatbot_advanced",
+        "hash": "9ef0a44e"
+      },
+      "11": {
+        "start_char": 487,
+        "end_char": 487,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "12": {
+        "start_char": 488,
+        "end_char": 528,
+        "length": 40,
+        "preview": "Applying template ai_chatbot_advanced...",
+        "hash": "e463aa9c"
+      },
+      "13": {
+        "start_char": 529,
+        "end_char": 559,
+        "length": 30,
+        "preview": "Template applied successfully.",
+        "hash": "187509a3"
+      },
+      "14": {
+        "start_char": 560,
+        "end_char": 593,
+        "length": 33,
+        "preview": "Generated 14 files from template.",
+        "hash": "7ae47b52"
+      },
+      "15": {
+        "start_char": 594,
+        "end_char": 594,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "16": {
+        "start_char": 595,
+        "end_char": 621,
+        "length": 26,
+        "preview": "Generating code with AI...",
+        "hash": "5ecd0415"
+      },
+      "17": {
+        "start_char": 622,
+        "end_char": 642,
+        "length": 20,
+        "preview": "Generated: error.log",
+        "hash": "bb551adb"
+      },
+      "18": {
+        "start_char": 643,
+        "end_char": 663,
+        "length": 20,
+        "preview": "Generated: README.md",
+        "hash": "6e0c957a"
+      },
+      "19": {
+        "start_char": 664,
+        "end_char": 664,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "2025-08-07": {
+        "count": 1,
+        "positions": [
+          17
+        ]
+      },
+      "readme.md": {
+        "count": 1,
+        "positions": [
+          654
+        ]
+      },
+      "redis,": {
+        "count": 1,
+        "positions": [
+          175
+        ]
+      },
+      "voiceinterface,": {
+        "count": 1,
+        "positions": [
+          416
+        ]
+      },
+      "langchain,": {
+        "count": 1,
+        "positions": [
+          152
+        ]
+      },
+      "include": {
+        "count": 1,
+        "positions": [
+          293
+        ]
+      },
+      "knowledgebasemanager,": {
+        "count": 1,
+        "positions": [
+          394
+        ]
+      },
+      "page:": {
+        "count": 3,
+        "positions": [
+          204,
+          234,
+          269
+        ]
+      },
+      "generated:": {
+        "count": 2,
+        "positions": [
+          622,
+          643
+        ]
+      },
+      "applying": {
+        "count": 1,
+        "positions": [
+          488
+        ]
+      },
+      "ai_chatbot_advanced...": {
+        "count": 1,
+        "positions": [
+          506
+        ]
+      },
+      "react,": {
+        "count": 1,
+        "positions": [
+          112
+        ]
+      },
+      "with": {
+        "count": 1,
+        "positions": [
+          611
+        ]
+      },
+      "started": {
+        "count": 1,
+        "positions": [
+          6
+        ]
+      },
+      "project": {
+        "count": 3,
+        "positions": [
+          37,
+          54,
+          62
+        ]
+      },
+      "from": {
+        "count": 1,
+        "positions": [
+          579
+        ]
+      },
+      "type:": {
+        "count": 1,
+        "positions": [
+          70
+        ]
+      },
+      "name:": {
+        "count": 1,
+        "positions": [
+          45
+        ]
+      },
+      "template:": {
+        "count": 1,
+        "positions": [
+          457
+        ]
+      },
+      "openai": {
+        "count": 1,
+        "positions": [
+          140
+        ]
+      },
+      "tailwind": {
+        "count": 1,
+        "positions": [
+          182
+        ]
+      },
+      "enterprisechatinterface,": {
+        "count": 1,
+        "positions": [
+          313
+        ]
+      },
+      "create": {
+        "count": 3,
+        "positions": [
+          197,
+          227,
+          262
+        ]
+      },
+      "conversationlearning,": {
+        "count": 1,
+        "positions": [
+          338
+        ]
+      },
+      "template": {
+        "count": 4,
+        "positions": [
+          457,
+          497,
+          529,
+          584
+        ]
+      },
+      "applied": {
+        "count": 1,
+        "positions": [
+          538
+        ]
+      },
+      "build": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "analytics": {
+        "count": 2,
+        "positions": [
+          240,
+          383
+        ]
+      },
+      "center": {
+        "count": 1,
+        "positions": [
+          284
+        ]
+      },
+      "chatanalytics,": {
+        "count": 1,
+        "positions": [
+          379
+        ]
+      },
+      "web": {
+        "count": 1,
+        "positions": [
+          76
+        ]
+      },
+      "postgresql,": {
+        "count": 1,
+        "positions": [
+          163
+        ]
+      },
+      "sentimentanalyzer": {
+        "count": 1,
+        "positions": [
+          432
+        ]
+      },
+      "generated": {
+        "count": 3,
+        "positions": [
+          560,
+          622,
+          643
+        ]
+      },
+      "tech": {
+        "count": 1,
+        "positions": [
+          100
+        ]
+      },
+      "trainingdashboard,": {
+        "count": 1,
+        "positions": [
+          360
+        ]
+      },
+      "stack:": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "gpt,": {
+        "count": 1,
+        "positions": [
+          147
+        ]
+      },
+      "typescript,": {
+        "count": 1,
+        "positions": [
+          119
+        ]
+      },
+      "error.log": {
+        "count": 1,
+        "positions": [
+          633
+        ]
+      },
+      "ai_chatbot_advanced": {
+        "count": 2,
+        "positions": [
+          467,
+          506
+        ]
+      },
+      "code": {
+        "count": 1,
+        "positions": [
+          606
+        ]
+      },
+      "files": {
+        "count": 1,
+        "positions": [
+          573
+        ]
+      },
+      "ai...": {
+        "count": 1,
+        "positions": [
+          616
+        ]
+      },
+      "generating": {
+        "count": 1,
+        "positions": [
+          595
+        ]
+      },
+      "requirements:": {
+        "count": 1,
+        "positions": [
+          80
+        ]
+      },
+      "components:": {
+        "count": 1,
+        "positions": [
+          301
+        ]
+      },
+      "chat": {
+        "count": 5,
+        "positions": [
+          210,
+          323,
+          379,
+          470,
+          509
+        ]
+      },
+      "dashboard": {
+        "count": 2,
+        "positions": [
+          250,
+          368
+        ]
+      },
+      "next.js,": {
+        "count": 1,
+        "positions": [
+          131
+        ]
+      },
+      "template.": {
+        "count": 1,
+        "positions": [
+          584
+        ]
+      },
+      "14:21:54": {
+        "count": 1,
+        "positions": [
+          28
+        ]
+      },
+      "use": {
+        "count": 1,
+        "positions": [
+          96
+        ]
+      },
+      "css": {
+        "count": 1,
+        "positions": [
+          191
+        ]
+      },
+      "using": {
+        "count": 1,
+        "positions": [
+          451
+        ]
+      },
+      "interface": {
+        "count": 3,
+        "positions": [
+          215,
+          327,
+          421
+        ]
+      },
+      "training": {
+        "count": 2,
+        "positions": [
+          275,
+          360
+        ]
+      },
+      "successfully.": {
+        "count": 1,
+        "positions": [
+          546
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

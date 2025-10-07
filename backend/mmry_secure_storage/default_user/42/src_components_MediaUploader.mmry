@@ -1,0 +1,248 @@
+{
+  "user_id": "default_user",
+  "project_id": "42",
+  "file_name": "src/components/MediaUploader.jsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.36649214659685864
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 191,
+        "output_size": 187,
+        "stage_compression_ratio": 0.9790575916230366,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 4
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 187,
+        "output_size": 658,
+        "stage_compression_ratio": 3.518716577540107,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 141,
+          "original_size": 183,
+          "compressed_size": 658
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 658,
+        "output_size": 32,
+        "stage_compression_ratio": 0.0486322188449848,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 658,
+          "estimated_compressed_size": 259,
+          "entropy": 3.1530827995538915
+        }
+      }
+    ],
+    "total_compression_ratio": 0.16753926701570682,
+    "stage_count": 3,
+    "original_size": 191,
+    "final_size": 32,
+    "space_savings": 159,
+    "space_savings_percent": 83.24607329842932
+  },
+  "original_size": 191,
+  "compressed_size": 32,
+  "compression_ratio": 0.16753926701570682,
+  "space_savings_percent": 83.24607329842932,
+  "content_hash": "ca940c699a04e116",
+  "timestamp": 1759698210,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:259:[101][120][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759698210,
+    "total_lines": 9,
+    "total_chars": 191,
+    "total_words": 21,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 41,
+        "length": 41,
+        "preview": "export default function MediaUploader() {",
+        "hash": "4bb2d2d7"
+      },
+      "1": {
+        "start_char": 42,
+        "end_char": 52,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "2": {
+        "start_char": 53,
+        "end_char": 98,
+        "length": 45,
+        "preview": "    <div className=\"component mediauploader\">",
+        "hash": "a6ad39ee"
+      },
+      "3": {
+        "start_char": 99,
+        "end_char": 127,
+        "length": 28,
+        "preview": "      <h2>MediaUploader</h2>",
+        "hash": "f4b65ef7"
+      },
+      "4": {
+        "start_char": 128,
+        "end_char": 172,
+        "length": 44,
+        "preview": "      {/* Component content will go here */}",
+        "hash": "d3412e52"
+      },
+      "5": {
+        "start_char": 173,
+        "end_char": 183,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "6": {
+        "start_char": 184,
+        "end_char": 188,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "7": {
+        "start_char": 189,
+        "end_char": 190,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "8": {
+        "start_char": 191,
+        "end_char": 191,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "*/}": {
+        "count": 1,
+        "positions": [
+          169
+        ]
+      },
+      "content": {
+        "count": 1,
+        "positions": [
+          148
+        ]
+      },
+      "component": {
+        "count": 2,
+        "positions": [
+          73,
+          138
+        ]
+      },
+      "here": {
+        "count": 1,
+        "positions": [
+          164
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          57
+        ]
+      },
+      "mediauploader()": {
+        "count": 1,
+        "positions": [
+          24
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          177
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          15
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          0
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          44
+        ]
+      },
+      "mediauploader\">": {
+        "count": 1,
+        "positions": [
+          83
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          7
+        ]
+      },
+      "<h2>mediauploader</h2>": {
+        "count": 1,
+        "positions": [
+          105
+        ]
+      },
+      "{/*": {
+        "count": 1,
+        "positions": [
+          134
+        ]
+      },
+      "will": {
+        "count": 1,
+        "positions": [
+          156
+        ]
+      },
+      "classname=\"component": {
+        "count": 1,
+        "positions": [
+          62
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

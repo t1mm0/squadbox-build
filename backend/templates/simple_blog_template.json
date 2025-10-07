@@ -1,0 +1,56 @@
+{
+  "name": "Simple Blog Template",
+  "description": "A simple blog website with basic functionality",
+  "tech_stack": ["HTML", "CSS", "JavaScript"],
+  "structure": {
+    "pages": [
+      {
+        "name": "Home",
+        "sections": ["header", "featured-posts", "footer"]
+      },
+      {
+        "name": "Blog Post",
+        "sections": ["post-header", "post-content", "post-footer"]
+      }
+    ],
+    "components": [
+      "Header",
+      "Footer", 
+      "PostCard",
+      "Navigation"
+    ]
+  },
+  "features": [
+    "Responsive design",
+    "Blog post listing",
+    "Individual post pages",
+    "Simple navigation"
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "type": "page",
+      "description": "Homepage with blog post listing"
+    },
+    {
+      "path": "post.html", 
+      "type": "page",
+      "description": "Individual blog post page"
+    },
+    {
+      "path": "styles.css",
+      "type": "style",
+      "description": "Main stylesheet"
+    },
+    {
+      "path": "script.js",
+      "type": "script", 
+      "description": "JavaScript functionality"
+    },
+    {
+      "path": "README.md",
+      "type": "documentation",
+      "description": "Project documentation"
+    }
+  ]
+}

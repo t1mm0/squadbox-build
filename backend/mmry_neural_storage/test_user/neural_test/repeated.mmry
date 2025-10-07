@@ -1,0 +1,111 @@
+{
+  "user_id": "test_user",
+  "project_id": "neural_test",
+  "file_name": "repeated.txt",
+  "file_type": "text",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.0
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 38,
+        "output_size": 38,
+        "stage_compression_ratio": 1.0,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 0
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 38,
+        "output_size": 125,
+        "stage_compression_ratio": 3.289473684210526,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 26,
+          "original_size": 38,
+          "compressed_size": 125
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 125,
+        "output_size": 31,
+        "stage_compression_ratio": 0.248,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 125,
+          "estimated_compressed_size": 49,
+          "entropy": 3.1422502166092903
+        }
+      }
+    ],
+    "total_compression_ratio": 0.8157894736842105,
+    "stage_count": 3,
+    "original_size": 38,
+    "final_size": 31,
+    "space_savings": 7,
+    "space_savings_percent": 18.421052631578945
+  },
+  "original_size": 38,
+  "compressed_size": 31,
+  "compression_ratio": 0.8157894736842105,
+  "space_savings_percent": 18.421052631578945,
+  "content_hash": "5371aa0cbbe22c93",
+  "timestamp": 1754563556,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:49:[72][101][108][108][",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1754563556,
+    "total_lines": 1,
+    "total_chars": 38,
+    "total_words": 6,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 38,
+        "length": 38,
+        "preview": "Hello world! Hello world! Hello world!",
+        "hash": "7a2d65f1"
+      }
+    },
+    "word_index": {
+      "hello": {
+        "count": 3,
+        "positions": [
+          0,
+          13,
+          26
+        ]
+      },
+      "world!": {
+        "count": 3,
+        "positions": [
+          6,
+          19,
+          32
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

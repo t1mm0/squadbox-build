@@ -1,0 +1,401 @@
+{
+  "user_id": "default_user",
+  "project_id": "37",
+  "file_name": "src/app/brand-settings/page.tsx",
+  "file_type": "javascript",
+  "compression_system": "MMRY_Neural_Folding_v3",
+  "neural_prediction": {
+    "method": "zlib",
+    "confidence": 0.03680151338766007
+  },
+  "folding_metadata": {
+    "strategy": "repetitive_folding",
+    "stages": [
+      {
+        "stage": 1,
+        "method": "rle_alphabet",
+        "input_size": 505,
+        "output_size": 495,
+        "stage_compression_ratio": 0.9801980198019802,
+        "metadata": {
+          "method": "rle_alphabet",
+          "runs": 7
+        }
+      },
+      {
+        "stage": 2,
+        "method": "lz78",
+        "input_size": 495,
+        "output_size": 1400,
+        "stage_compression_ratio": 2.8282828282828283,
+        "metadata": {
+          "method": "lz78",
+          "dictionary_size": 294,
+          "original_size": 488,
+          "compressed_size": 1400
+        }
+      },
+      {
+        "stage": 3,
+        "method": "huffman",
+        "input_size": 1400,
+        "output_size": 32,
+        "stage_compression_ratio": 0.022857142857142857,
+        "metadata": {
+          "method": "huffman",
+          "original_size": 1400,
+          "estimated_compressed_size": 565,
+          "entropy": 3.2336627640754125
+        }
+      }
+    ],
+    "total_compression_ratio": 0.06336633663366337,
+    "stage_count": 3,
+    "original_size": 505,
+    "final_size": 32,
+    "space_savings": 473,
+    "space_savings_percent": 93.66336633663367
+  },
+  "original_size": 505,
+  "compressed_size": 32,
+  "compression_ratio": 0.06336633663366337,
+  "space_savings_percent": 93.66336633663367,
+  "content_hash": "81105175367fe90a",
+  "timestamp": 1759697730,
+  "mmry_signature": "MMRY_NEURAL_FOLDING_PROPRIETARY",
+  "compressed_content": "HUFFMAN:565:[105][109][112][111]",
+  "content_encoding": "text",
+  "mmry_index": {
+    "version": "1.0",
+    "created_at": 1759697730,
+    "total_lines": 18,
+    "total_chars": 505,
+    "total_words": 45,
+    "line_index": {
+      "0": {
+        "start_char": 0,
+        "end_char": 26,
+        "length": 26,
+        "preview": "import React from 'react';",
+        "hash": "33d7f8d3"
+      },
+      "1": {
+        "start_char": 27,
+        "end_char": 83,
+        "length": 56,
+        "preview": "import VoiceTraining from '../components/VoiceTrai...",
+        "hash": "48feffd9"
+      },
+      "2": {
+        "start_char": 84,
+        "end_char": 134,
+        "length": 50,
+        "preview": "import StyleGuide from '../components/StyleGuide';",
+        "hash": "3bf1a4b2"
+      },
+      "3": {
+        "start_char": 135,
+        "end_char": 191,
+        "length": 56,
+        "preview": "import CustomPrompts from '../components/CustomPro...",
+        "hash": "f0be8404"
+      },
+      "4": {
+        "start_char": 192,
+        "end_char": 260,
+        "length": 68,
+        "preview": "import IntegrationSettings from '../components/Int...",
+        "hash": "803ee79a"
+      },
+      "5": {
+        "start_char": 261,
+        "end_char": 261,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      },
+      "6": {
+        "start_char": 262,
+        "end_char": 304,
+        "length": 42,
+        "preview": "export default function Brand settings() {",
+        "hash": "9c584a90"
+      },
+      "7": {
+        "start_char": 305,
+        "end_char": 315,
+        "length": 10,
+        "preview": "  return (",
+        "hash": "b39b1ecf"
+      },
+      "8": {
+        "start_char": 316,
+        "end_char": 357,
+        "length": 41,
+        "preview": "    <div className=\"page brand settings\">",
+        "hash": "54c7ee39"
+      },
+      "9": {
+        "start_char": 358,
+        "end_char": 387,
+        "length": 29,
+        "preview": "      <h1>Brand Settings</h1>",
+        "hash": "e8b6c8b0"
+      },
+      "10": {
+        "start_char": 388,
+        "end_char": 411,
+        "length": 23,
+        "preview": "      <VoiceTraining />",
+        "hash": "7fe4361e"
+      },
+      "11": {
+        "start_char": 412,
+        "end_char": 432,
+        "length": 20,
+        "preview": "      <StyleGuide />",
+        "hash": "3c4e8e84"
+      },
+      "12": {
+        "start_char": 433,
+        "end_char": 456,
+        "length": 23,
+        "preview": "      <CustomPrompts />",
+        "hash": "4d90db07"
+      },
+      "13": {
+        "start_char": 457,
+        "end_char": 486,
+        "length": 29,
+        "preview": "      <IntegrationSettings />",
+        "hash": "810670f8"
+      },
+      "14": {
+        "start_char": 487,
+        "end_char": 497,
+        "length": 10,
+        "preview": "    </div>",
+        "hash": "b082895f"
+      },
+      "15": {
+        "start_char": 498,
+        "end_char": 502,
+        "length": 4,
+        "preview": "  );",
+        "hash": "4e64bf86"
+      },
+      "16": {
+        "start_char": 503,
+        "end_char": 504,
+        "length": 1,
+        "preview": "}",
+        "hash": "cbb184dd"
+      },
+      "17": {
+        "start_char": 505,
+        "end_char": 505,
+        "length": 0,
+        "preview": "",
+        "hash": "d41d8cd9"
+      }
+    },
+    "word_index": {
+      "brand": {
+        "count": 3,
+        "positions": [
+          286,
+          341,
+          368
+        ]
+      },
+      "import": {
+        "count": 5,
+        "positions": [
+          0,
+          27,
+          84,
+          135,
+          192
+        ]
+      },
+      "voicetraining": {
+        "count": 3,
+        "positions": [
+          34,
+          68,
+          395
+        ]
+      },
+      "styleguide": {
+        "count": 3,
+        "positions": [
+          91,
+          122,
+          419
+        ]
+      },
+      "'../components/styleguide';": {
+        "count": 1,
+        "positions": [
+          107
+        ]
+      },
+      "'../components/voicetraining';": {
+        "count": 1,
+        "positions": [
+          53
+        ]
+      },
+      "from": {
+        "count": 5,
+        "positions": [
+          13,
+          48,
+          102,
+          156,
+          219
+        ]
+      },
+      "<div": {
+        "count": 1,
+        "positions": [
+          320
+        ]
+      },
+      "</div>": {
+        "count": 1,
+        "positions": [
+          491
+        ]
+      },
+      "'react';": {
+        "count": 1,
+        "positions": [
+          18
+        ]
+      },
+      "customprompts": {
+        "count": 3,
+        "positions": [
+          142,
+          176,
+          440
+        ]
+      },
+      "react": {
+        "count": 2,
+        "positions": [
+          7,
+          19
+        ]
+      },
+      "settings()": {
+        "count": 1,
+        "positions": [
+          292
+        ]
+      },
+      "default": {
+        "count": 1,
+        "positions": [
+          269
+        ]
+      },
+      "<integrationsettings": {
+        "count": 1,
+        "positions": [
+          463
+        ]
+      },
+      "<customprompts": {
+        "count": 1,
+        "positions": [
+          439
+        ]
+      },
+      "classname=\"page": {
+        "count": 1,
+        "positions": [
+          325
+        ]
+      },
+      "return": {
+        "count": 1,
+        "positions": [
+          307
+        ]
+      },
+      "export": {
+        "count": 1,
+        "positions": [
+          262
+        ]
+      },
+      "'../components/integrationsettings';": {
+        "count": 1,
+        "positions": [
+          224
+        ]
+      },
+      "<voicetraining": {
+        "count": 1,
+        "positions": [
+          394
+        ]
+      },
+      "function": {
+        "count": 1,
+        "positions": [
+          277
+        ]
+      },
+      "settings\">": {
+        "count": 1,
+        "positions": [
+          347
+        ]
+      },
+      "<styleguide": {
+        "count": 1,
+        "positions": [
+          418
+        ]
+      },
+      "'../components/customprompts';": {
+        "count": 1,
+        "positions": [
+          161
+        ]
+      },
+      "settings</h1>": {
+        "count": 1,
+        "positions": [
+          374
+        ]
+      },
+      "<h1>brand": {
+        "count": 1,
+        "positions": [
+          364
+        ]
+      },
+      "integrationsettings": {
+        "count": 3,
+        "positions": [
+          199,
+          239,
+          464
+        ]
+      }
+    },
+    "structural_index": {},
+    "segment_index": {},
+    "search_capabilities": [
+      "line_range_retrieval",
+      "word_search",
+      "structural_search",
+      "segment_retrieval",
+      "partial_decompression"
+    ]
+  }
+}

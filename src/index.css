@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:root {
+  --mantine-color-body: #0a0a0a;
+}
