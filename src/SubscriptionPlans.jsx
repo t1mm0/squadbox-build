@@ -19,7 +19,7 @@ import {
   Badge
 } from '@mantine/core';
 import { IconCheck, IconCrown } from '@tabler/icons-react';
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 
 function SubscriptionPlans() {
   const theme = useMantineTheme();

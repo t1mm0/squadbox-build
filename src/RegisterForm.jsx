@@ -17,7 +17,7 @@ import {
   Divider,
   Anchor
 } from '@mantine/core';
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 
 const RegisterForm = ({ onToggleForm }) => {
   const { register, loading } = useAuth();

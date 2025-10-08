@@ -37,7 +37,7 @@ import {
 import MeetingScheduler from './components/MeetingScheduler';
 import CalElementTrigger from './components/CalElementTrigger';
 
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 
 const MEETING_SCHEDULER_URL = import.meta.env.VITE_SCHEDULER_URL || 'https://cal.com/teknoledg-g/30min?embed=true';
 

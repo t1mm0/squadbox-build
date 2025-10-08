@@ -31,7 +31,7 @@ import {
   IconLogin,
   IconUserPlus
 } from '@tabler/icons-react';
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 
 const UserProfile = ({ onNavigateToSettings }) => {
   const { currentUser, logout, login, register } = useAuth();

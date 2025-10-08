@@ -39,7 +39,7 @@ import AiManager from './AiManager';
 import ProjectDashboard from './ProjectDashboard';
 import SubscriptionPlans from './SubscriptionPlans';
 import RequirementsEditor from './RequirementsEditor';
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 import AuthPage from './AuthPage';
 import UserProfile from './UserProfile';
 import ProjectViewer from './ProjectViewer';

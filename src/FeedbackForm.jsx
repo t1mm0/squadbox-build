@@ -44,7 +44,7 @@ import {
   IconCode,
   IconDatabase
 } from '@tabler/icons-react';
-import { useAuth } from './AuthContext';
+import { useAuth } from './SimpleAuthContext';
 import './FeedbackForm.css';
 
 const FeedbackForm = ({ 
