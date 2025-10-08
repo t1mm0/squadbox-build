@@ -198,6 +198,13 @@ header {
   font-weight: 500;
 }
 
+/* Graceful animation degradation */
+.no-animations * {
+  transition: none !important;
+  animation: none !important;
+  transform: none !important;
+}
+
 /* Template rating stars hover effect */
 .template-card:hover .template-star {
   color: #ffd700 !important;

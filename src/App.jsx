@@ -41,6 +41,7 @@ import SubscriptionPlans from './SubscriptionPlans';
 import RequirementsEditor from './RequirementsEditor';
 import { useAuth } from './SimpleAuthContext';
 import AuthPage from './AuthPage';
+import animationManager from './animationManager';
 import UserProfile from './UserProfile';
 import ProjectViewer from './ProjectViewer';
 import OurTech from './OurTech';
@@ -1594,6 +1595,37 @@ function App() {
       {/* Theme Toggle */}
       <ThemeToggle />
     </AppShell>
+    
+    {/* Debug Panel - Only show in development */}
+    {process.env.NODE_ENV === 'development' && (
+      <div style={{
+        position: 'fixed',
+        bottom: '10px',
+        right: '10px',
+        zIndex: 9999,
+        backgroundColor: 'rgba(0,0,0,0.8)',
+        color: 'white',
+        padding: '10px',
+        borderRadius: '5px',
+        fontSize: '12px'
+      }}>
+        <div>Animations: {animationManager.isAnimationsEnabled() ? 'ON' : 'OFF'}</div>
+        <button 
+          onClick={() => animationManager.toggleAnimations()}
+          style={{
+            backgroundColor: '#5474b4',
+            color: 'white',
+            border: 'none',
+            padding: '5px 10px',
+            borderRadius: '3px',
+            cursor: 'pointer',
+            marginTop: '5px'
+          }}
+        >
+          Toggle Animations
+        </button>
+      </div>
+    )}
   );
 }
 

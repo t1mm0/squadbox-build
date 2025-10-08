@@ -14,6 +14,7 @@ import './minimal.css';
 // Import only the CSS we need
 // import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
+import './animationManager.js';
 
 // Create custom Mantine theme optimized for dark mode
 const theme = createTheme({
