@@ -16,14 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(false); // Start with false to prevent blank page
   const [profile, setProfile] = useState(null);
-  const [currentProvider, setCurrentProvider] = useState(() => {
-    try {
-      return DatabaseFactory.getCurrentProvider();
-    } catch (error) {
-      console.warn('Database provider initialization failed:', error);
-      return 'mongodb'; // fallback
-    }
-  });
+  const [currentProvider, setCurrentProvider] = useState('mongodb');
 
   // Check if user is authenticated on load
   useEffect(() => {
