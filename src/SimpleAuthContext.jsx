@@ -7,6 +7,12 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(false);
   const [profile, setProfile] = useState(null);
+  const [initialized, setInitialized] = useState(false);
+
+  // Initialize the context safely
+  React.useEffect(() => {
+    setInitialized(true);
+  }, []);
 
   const value = {
     currentUser,
@@ -15,6 +21,7 @@ export const AuthProvider = ({ children }) => {
     setLoading,
     profile,
     setProfile,
+    initialized,
     isAuthenticated: !!currentUser,
     login: async (email, password) => {
       console.log('Login attempt:', email);
@@ -44,6 +51,26 @@ export const AuthProvider = ({ children }) => {
       return { success: true };
     }
   };
+
+  // Don't render children until context is initialized
+  if (!initialized) {
+    return (
+      <div style={{
+        minHeight: '100vh',
+        backgroundColor: '#1a1a1a',
+        color: '#ffffff',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontFamily: 'Inter, system-ui, -apple-system, sans-serif'
+      }}>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🚀</div>
+          <div>Loading Squadbox...</div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <AuthContext.Provider value={value}>

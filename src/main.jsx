@@ -89,7 +89,9 @@ const Root = () => {
     <MantineProvider theme={theme} defaultColorScheme="dark" forceColorScheme="dark" withCssVariables>
       <Notifications position="top-right" />
       <ErrorBoundary>
-        <SafeApp />
+        <AuthProvider>
+          <App />
+        </AuthProvider>
       </ErrorBoundary>
     </MantineProvider>
   );
