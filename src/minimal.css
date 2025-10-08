@@ -1,4 +1,14 @@
 /* Minimal CSS for Squadbox - Override Mantine's large CSS */
+/* This file provides essential styling to prevent white page issues */
+
+/* Critical CSS - Load immediately */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
 :root {
   --mantine-color-body: #1a1a1a;
   --mantine-color-text: #ffffff;

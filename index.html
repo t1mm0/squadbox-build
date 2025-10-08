@@ -19,9 +19,37 @@
     <meta name="twitter:title" content="Squadbox | Build Apps with AI" />
     <meta name="twitter:description" content="AI that builds production-grade apps. Secure, fast, and deploy-ready." />
     <meta name="twitter:image" content="/images/squadboxboxed.png" />
+    <style>
+      /* Critical CSS - Prevents white page */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        min-height: 100vh;
+      }
+      #root {
+        min-height: 100vh;
+        background-color: #1a1a1a;
+      }
+      /* Loading state */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #1a1a1a;
+        color: #ffffff;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">
+        <div>Loading Squadbox...</div>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
