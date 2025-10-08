@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
         
         // Add timeout to prevent hanging
         const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('Auth timeout')), 1000)
+          setTimeout(() => reject(new Error('Auth timeout')), 500)
         );
         
         const sessionPromise = auth.getSession();
@@ -49,6 +49,8 @@ export const AuthProvider = ({ children }) => {
       } catch (error) {
         console.error('Error getting initial session:', error);
         console.log('Authentication failed, proceeding without auth');
+        // Set a default user for development
+        setCurrentUser(null);
       } finally {
         console.log('Setting loading to false');
         setLoading(false);
@@ -61,26 +63,35 @@ export const AuthProvider = ({ children }) => {
     const timeout = setTimeout(() => {
       console.log('Auth loading timeout, forcing loading to false');
       setLoading(false);
-    }, 100); // 100ms timeout - very fast response for public pages
+    }, 200); // 200ms timeout - very fast response for public pages
 
     // Listen for auth changes
-    const { data: { subscription } } = auth.onAuthStateChange(async (event, session) => {
-      console.log('Auth state change:', event, session);
-      setCurrentUser(session?.user ?? null);
-      
-      if (session?.user) {
-        // Load profile in background, don't block UI
-        loadUserProfile(session.user.id).catch(console.error);
-      } else {
-        setProfile(null);
-      }
-      
+    let subscription;
+    try {
+      const { data } = auth.onAuthStateChange(async (event, session) => {
+        console.log('Auth state change:', event, session);
+        setCurrentUser(session?.user ?? null);
+        
+        if (session?.user) {
+          // Load profile in background, don't block UI
+          loadUserProfile(session.user.id).catch(console.error);
+        } else {
+          setProfile(null);
+        }
+        
+        setLoading(false);
+      });
+      subscription = data.subscription;
+    } catch (error) {
+      console.error('Error setting up auth listener:', error);
       setLoading(false);
-    });
+    }
 
     return () => {
       clearTimeout(timeout);
-      subscription.unsubscribe();
+      if (subscription) {
+        subscription.unsubscribe();
+      }
     };
   }, []);
 

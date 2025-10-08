@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Frontend</title>
+</head>
+<body>
+    <h1>Frontend Test</h1>
+    <p>If you can see this, the frontend is loading.</p>
+    <script>
+        console.log('Frontend test page loaded');
+        
+        // Test API connection
+        fetch('https://squadbox-backend-2.onrender.com')
+            .then(response => {
+                console.log('API Response:', response.status);
+                return response.text();
+            })
+            .then(data => {
+                console.log('API Data:', data);
+            })
+            .catch(error => {
+                console.error('API Error:', error);
+            });
+    </script>
+</body>
+</html>

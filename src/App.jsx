@@ -653,6 +653,15 @@ function App() {
   
   // TEMPORARILY BYPASS AUTH FOR TESTING
   console.log('Auth state:', { authLoading, isAuthenticated, currentUser });
+  
+  // Add debugging for blank page issue
+  console.log('App render state:', { 
+    showAuthLoading, 
+    shouldShowAuthPage, 
+    view, 
+    authLoading, 
+    isAuthenticated 
+  });
 
   // Public marketing/legal views allowed before login
   const publicViews = new Set([
