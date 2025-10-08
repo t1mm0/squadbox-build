@@ -1,7 +1,8 @@
 # Squadbox MongoDB Atlas Environment Configuration
-MONGODB_ATLAS_URI=mongodb://squadbox_db_admin:bj5YXdHD9xB88HF@atlas-sql-68e252c0deb4b70ed3ec1da7-o4dxc6.a.query.mongodb.net/squadbox?ssl=true&authSource=admin
+# MONGODB_ATLAS_URI=mongodb://squadbox_db_admin:bj5YXdHD9xB88HF@atlas-sql-68e252c0deb4b70ed3ec1da7-o4dxc6.a.query.mongodb.net/squadbox?ssl=true&authSource=admin
 
-
+# WORKING
+MONGODB_URI=mongodb+srv://timmcguckin%40icloud.com:i3y0UYFAajlGv7lt@atlas-sql-68e252c0deb4b70ed3ec1da7-o4dxc6.a.query.mongodb.net/squadbox?ssl=true&authSource=admin
 
 # MongoDB Atlas Configuration
 # Database Configuration
@@ -12,7 +13,7 @@ DB_PROVIDER=mongodb
 
 #MONGODB_URI=mongodb+srv://squadbox_db_admin:bj5YXdHD9xB88HF@cluster0.pwfo0xy.mongodb.net/
 
-MONGODB_URI=mongodb+srv://timmcguckin@icloud.com:i3y0UYFAajlGv7lt@atlas-sql-68e252c0deb4b70ed3ec1da7-o4dxc6.a.query.mongodb.net/squadbox?ssl=true&authSource=admin
+# MONGODB_URI=mongodb+srv://timmcguckin@icloud.com:i3y0UYFAajlGv7lt@atlas-sql-68e252c0deb4b70ed3ec1da7-o4dxc6.a.query.mongodb.net/squadbox?ssl=true&authSource=admin
 
 MONGODB_DB=squadbox
 MONGODB_CLUSTER=cluster0

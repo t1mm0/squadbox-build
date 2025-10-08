@@ -7,6 +7,8 @@ import TestApp from './TestApp';
 import SimpleApp from './SimpleApp';
 import ProgressiveApp from './ProgressiveApp';
 import SafeApp from './SafeApp';
+import MinimalApp from './MinimalApp';
+import SimplifiedApp from './SimplifiedApp';
 import { AuthProvider } from './SimpleAuthContext';
 import ErrorBoundary from './ErrorBoundary';
 import './index.css';
@@ -14,7 +16,7 @@ import './minimal.css';
 // Import only the CSS we need
 // import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
-import './animationManager.js';
+// import './animationManager.js'; // Disabled to prevent uninitialized variable errors
 
 // Create custom Mantine theme optimized for dark mode
 const theme = createTheme({
@@ -91,7 +93,7 @@ const Root = () => {
       <Notifications position="top-right" />
       <ErrorBoundary>
         <AuthProvider>
-          <App />
+          <SimplifiedApp />
         </AuthProvider>
       </ErrorBoundary>
     </MantineProvider>

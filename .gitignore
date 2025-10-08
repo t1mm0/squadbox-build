@@ -33,5 +33,14 @@ Thumbs.db
 *.db
 *.sqlite
 
+*.pxd
+
+venv
+node_modules
+.venv
+
+pytest_cache
+test
+
 # Generated projects (if any)
 generated_projects/
