@@ -16,7 +16,14 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(false); // Start with false to prevent blank page
   const [profile, setProfile] = useState(null);
-  const [currentProvider, setCurrentProvider] = useState(DatabaseFactory.getCurrentProvider());
+  const [currentProvider, setCurrentProvider] = useState(() => {
+    try {
+      return DatabaseFactory.getCurrentProvider();
+    } catch (error) {
+      console.warn('Database provider initialization failed:', error);
+      return 'mongodb'; // fallback
+    }
+  });
 
   // Check if user is authenticated on load
   useEffect(() => {
@@ -24,9 +31,9 @@ export const AuthProvider = ({ children }) => {
       try {
         console.log('Getting initial session...');
         
-        // Check if auth is available
-        if (!auth) {
-          console.log('Auth not available, skipping authentication');
+        // Check if auth is available and properly initialized
+        if (!auth || typeof auth.getSession !== 'function') {
+          console.log('Auth not available or not properly initialized, skipping authentication');
           setLoading(false);
           return;
         }
@@ -68,20 +75,25 @@ export const AuthProvider = ({ children }) => {
     // Listen for auth changes
     let subscription;
     try {
-      const { data } = auth.onAuthStateChange(async (event, session) => {
-        console.log('Auth state change:', event, session);
-        setCurrentUser(session?.user ?? null);
-        
-        if (session?.user) {
-          // Load profile in background, don't block UI
-          loadUserProfile(session.user.id).catch(console.error);
-        } else {
-          setProfile(null);
-        }
-        
+      if (auth && typeof auth.onAuthStateChange === 'function') {
+        const { data } = auth.onAuthStateChange(async (event, session) => {
+          console.log('Auth state change:', event, session);
+          setCurrentUser(session?.user ?? null);
+          
+          if (session?.user) {
+            // Load profile in background, don't block UI
+            loadUserProfile(session.user.id).catch(console.error);
+          } else {
+            setProfile(null);
+          }
+          
+          setLoading(false);
+        });
+        subscription = data.subscription;
+      } else {
+        console.log('Auth state change listener not available');
         setLoading(false);
-      });
-      subscription = data.subscription;
+      }
     } catch (error) {
       console.error('Error setting up auth listener:', error);
       setLoading(false);
@@ -97,6 +109,11 @@ export const AuthProvider = ({ children }) => {
 
   const loadUserProfile = async (userId) => {
     try {
+      if (!db || typeof db.getUserProfile !== 'function') {
+        console.log('Database not available for profile loading');
+        return;
+      }
+      
       const { data, error } = await db.getUserProfile(userId);
       if (error) {
         console.error('Error loading user profile:', error);
