@@ -32,6 +32,16 @@ export const AuthProvider = ({ children }) => {
       // Mock signup for now
       setCurrentUser({ email, id: 'mock-user' });
       return { success: true };
+    },
+    register: async (email, password, username) => {
+      console.log('Register attempt:', email, username);
+      // Mock register for now
+      setCurrentUser({ email, id: 'mock-user', username });
+      return { success: true };
+    },
+    updateSubscription: async (plan) => {
+      console.log('Update subscription:', plan);
+      return { success: true };
     }
   };
 
