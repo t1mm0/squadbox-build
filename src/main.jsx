@@ -4,6 +4,7 @@ import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import App from './App';
 import TestApp from './TestApp';
+import SimpleApp from './SimpleApp';
 import { AuthProvider } from './AuthContext';
 import ErrorBoundary from './ErrorBoundary';
 import './index.css';
@@ -86,9 +87,7 @@ const Root = () => {
     <MantineProvider theme={theme} defaultColorScheme="dark" forceColorScheme="dark" withCssVariables>
       <Notifications position="top-right" />
       <ErrorBoundary>
-        <AuthProvider>
-          <App />
-        </AuthProvider>
+        <SimpleApp />
       </ErrorBoundary>
     </MantineProvider>
   );

@@ -12,6 +12,8 @@ class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     console.error('ErrorBoundary caught an error:', error, errorInfo);
+    console.error('Error stack:', error.stack);
+    console.error('Component stack:', errorInfo.componentStack);
   }
 
   render() {
@@ -34,6 +36,28 @@ class ErrorBoundary extends React.Component {
           <p style={{ marginBottom: '20px', opacity: 0.8 }}>
             We're sorry, but something unexpected happened.
           </p>
+          {this.state.error && (
+            <details style={{ 
+              marginBottom: '20px', 
+              padding: '10px', 
+              backgroundColor: '#2a2a2a', 
+              borderRadius: '4px',
+              fontSize: '12px',
+              textAlign: 'left',
+              maxWidth: '600px'
+            }}>
+              <summary style={{ cursor: 'pointer', marginBottom: '10px' }}>
+                Error Details (Click to expand)
+              </summary>
+              <pre style={{ 
+                whiteSpace: 'pre-wrap', 
+                wordBreak: 'break-word',
+                color: '#ff6b6b'
+              }}>
+                {this.state.error.toString()}
+              </pre>
+            </details>
+          )}
           <button
             onClick={() => {
               this.setState({ hasError: false, error: null });
