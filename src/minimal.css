@@ -1,0 +1,129 @@
+/* Minimal CSS for Squadbox - Override Mantine's large CSS */
+:root {
+  --mantine-color-body: #1a1a1a;
+  --mantine-color-text: #ffffff;
+  --mantine-color-bg: #1a1a1a;
+  --mantine-color-surface: #2a2a2a;
+  --mantine-color-border: #333333;
+}
+
+/* Force dark mode */
+* {
+  color-scheme: dark;
+}
+
+/* Basic app shell */
+.app-shell {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Basic components */
+.mantine-Button-root {
+  background-color: #5474b4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mantine-Button-root:hover {
+  background-color: #44639f;
+}
+
+.mantine-TextInput-input {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.mantine-Textarea-input {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.mantine-Paper-root {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.mantine-Card-root {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.mantine-Container-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.mantine-Title-root {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.mantine-Text-root {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.mantine-Group-root {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mantine-Stack-root {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mantine-SimpleGrid-root {
+  display: grid;
+  gap: 16px;
+}
+
+.mantine-SimpleGrid-root[data-cols="3"] {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mantine-SimpleGrid-root[data-cols="6"] {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mantine-SimpleGrid-root[data-cols="3"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .mantine-SimpleGrid-root[data-cols="6"] {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .mantine-SimpleGrid-root[data-cols="3"] {
+    grid-template-columns: 1fr;
+  }
+  
+  .mantine-SimpleGrid-root[data-cols="6"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

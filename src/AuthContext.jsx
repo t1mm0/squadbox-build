@@ -14,7 +14,7 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false); // Start with false to prevent blank page
   const [profile, setProfile] = useState(null);
   const [currentProvider, setCurrentProvider] = useState(DatabaseFactory.getCurrentProvider());
 
@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
         
         // Add timeout to prevent hanging
         const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('Auth timeout')), 500)
+          setTimeout(() => reject(new Error('Auth timeout')), 300)
         );
         
         const sessionPromise = auth.getSession();
@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
     const timeout = setTimeout(() => {
       console.log('Auth loading timeout, forcing loading to false');
       setLoading(false);
-    }, 200); // 200ms timeout - very fast response for public pages
+    }, 100); // 100ms timeout - very fast response for public pages
 
     // Listen for auth changes
     let subscription;

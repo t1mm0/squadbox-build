@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => {
     production: {
       sourcemap: false,
       minify: 'esbuild',
+      cssMinify: true,
       rollupOptions: {
         output: {
           manualChunks: {
@@ -110,6 +111,8 @@ export default defineConfig(({ mode }) => {
       assetsDir: 'assets',
       // Generate manifest for better caching
       manifest: true,
+      // Optimize CSS
+      cssCodeSplit: true,
       // Use mode-specific configuration
       ...currentConfig,
     },

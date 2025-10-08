@@ -670,7 +670,8 @@ function App() {
   ]);
 
   // Check if should show auth page (without early return)
-  const shouldShowAuthPage = !isAuthenticated && !publicViews.has(view);
+  // FORCE public pages to always show, even if auth is loading
+  const shouldShowAuthPage = !isAuthenticated && !publicViews.has(view) && !authLoading;
 
   // Auto-redirect authenticated users to dashboard if they're on main page
   // Define protected pages that require authentication
@@ -687,8 +688,14 @@ function App() {
     }
   }, [isAuthenticated, view]);
   
-  // Show loading state if needed
+  // Show loading state if needed - but with a timeout
   if (showAuthLoading) {
+    // Add a timeout to prevent infinite loading
+    setTimeout(() => {
+      console.log('Auth loading timeout, forcing loading to false');
+      setLoading(false);
+    }, 2000);
+    
     return (
       <div style={{
         position: 'absolute',
@@ -722,6 +729,12 @@ function App() {
   // Show auth page if needed
   if (shouldShowAuthPage) {
     return <AuthPage />;
+  }
+
+  // FORCE show public pages even if auth is loading
+  if (publicViews.has(view) && authLoading) {
+    console.log('Forcing public page display despite auth loading');
+    // Continue to render the page
   }
 
   // User is authenticated, show main app

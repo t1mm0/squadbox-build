@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import App from './App';
+import TestApp from './TestApp';
 import { AuthProvider } from './AuthContext';
 import './index.css';
-import '@mantine/core/styles.css';
+import './minimal.css';
+// Import only the CSS we need
+// import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 
 // Create custom Mantine theme optimized for dark mode
