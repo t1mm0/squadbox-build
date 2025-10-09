@@ -14,9 +14,9 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
-  const [loading, setLoading] = useState(false); // Start with false to prevent blank page
+  const [loading, setLoading] = useState(false);
   const [profile, setProfile] = useState(null);
-  const [currentProvider, setCurrentProvider] = useState('mongodb');
+  const [currentProvider, setCurrentProvider] = useState(DatabaseFactory.getCurrentProvider());
 
   // Check if user is authenticated on load
   useEffect(() => {
@@ -24,9 +24,9 @@ export const AuthProvider = ({ children }) => {
       try {
         console.log('Getting initial session...');
         
-        // Check if auth is available and properly initialized
-        if (!auth || typeof auth.getSession !== 'function') {
-          console.log('Auth not available or not properly initialized, skipping authentication');
+        // Check if auth is available
+        if (!auth) {
+          console.log('Auth not available, skipping authentication');
           setLoading(false);
           return;
         }
@@ -49,12 +49,16 @@ export const AuthProvider = ({ children }) => {
       } catch (error) {
         console.error('Error getting initial session:', error);
         console.log('Authentication failed, proceeding without auth');
-        // Set a default user for development
-        setCurrentUser(null);
-      } finally {
-        console.log('Setting loading to false');
-        setLoading(false);
-      }
+        } finally {
+          console.log('Setting loading to false');
+          setLoading(false);
+        }
+        
+        // Add general timeout to prevent hanging
+        setTimeout(() => {
+          console.log('Auth loading timeout, forcing loading to false');
+          setLoading(false);
+        }, 100);
     };
 
     getInitialSession();
@@ -66,47 +70,28 @@ export const AuthProvider = ({ children }) => {
     }, 100); // 100ms timeout - very fast response for public pages
 
     // Listen for auth changes
-    let subscription;
-    try {
-      if (auth && typeof auth.onAuthStateChange === 'function') {
-        const { data } = auth.onAuthStateChange(async (event, session) => {
-          console.log('Auth state change:', event, session);
-          setCurrentUser(session?.user ?? null);
-          
-          if (session?.user) {
-            // Load profile in background, don't block UI
-            loadUserProfile(session.user.id).catch(console.error);
-          } else {
-            setProfile(null);
-          }
-          
-          setLoading(false);
-        });
-        subscription = data.subscription;
+    const { data: { subscription } } = auth.onAuthStateChange(async (event, session) => {
+      console.log('Auth state change:', event, session);
+      setCurrentUser(session?.user ?? null);
+      
+      if (session?.user) {
+        // Load profile in background, don't block UI
+        loadUserProfile(session.user.id).catch(console.error);
       } else {
-        console.log('Auth state change listener not available');
-        setLoading(false);
+        setProfile(null);
       }
-    } catch (error) {
-      console.error('Error setting up auth listener:', error);
+      
       setLoading(false);
-    }
+    });
 
     return () => {
       clearTimeout(timeout);
-      if (subscription) {
-        subscription.unsubscribe();
-      }
+      subscription.unsubscribe();
     };
   }, []);
 
   const loadUserProfile = async (userId) => {
     try {
-      if (!db || typeof db.getUserProfile !== 'function') {
-        console.log('Database not available for profile loading');
-        return;
-      }
-      
       const { data, error } = await db.getUserProfile(userId);
       if (error) {
         console.error('Error loading user profile:', error);

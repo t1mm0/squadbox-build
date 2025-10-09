@@ -37,7 +37,7 @@ import {
   IconEye,
   IconInfoCircle
 } from '@tabler/icons-react';
-import { useAuth } from './SimpleAuthContext';
+import { useAuth } from './AuthContext';
 import { notifications } from '@mantine/notifications';
 
 function ProjectViewer() {

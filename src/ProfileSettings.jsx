@@ -60,7 +60,7 @@ import {
   IconDownload
 } from '@tabler/icons-react';
 import { notifications } from '@mantine/notifications';
-import { useAuth } from './SimpleAuthContext';
+import { useAuth } from './AuthContext';
 
 const ProfileSettings = ({ initialTab = 'profile' }) => {
   const { currentUser, logout } = useAuth();

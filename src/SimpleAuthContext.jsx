@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(false);
   const [profile, setProfile] = useState(null);
-  const [initialized, setInitialized] = useState(false);
+  const [initialized, setInitialized] = useState(true);
 
   // Initialize the context safely
   React.useEffect(() => {

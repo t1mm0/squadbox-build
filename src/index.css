@@ -1,14 +1,36 @@
-body {
-  margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #0a0a0a;
-  color: #ffffff;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-#root {
-  min-height: 100vh;
+/* smooth fonts & subtle radial glow */
+html, body {
+  @apply bg-slatebg;
 }
-
-:root {
-  --mantine-color-body: #0a0a0a;
+.gradient-ring {
+  background: radial-gradient(1200px 600px at 50% -10%, rgba(59,130,246,.18), transparent 60%),
+              radial-gradient(800px 400px at 10% 0%, rgba(139,92,246,.12), transparent 60%),
+              radial-gradient(800px 400px at 90% 0%, rgba(16,185,129,.10), transparent 60%);
 }
+.badge {
+  @apply text-xs font-medium px-2.5 py-1 rounded-full;
+  background: linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.04));
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.04);
+}
+.card {
+  @apply bg-slatecard rounded-2xl shadow-soft border border-white/5;
+}
+.tab {
+  @apply px-5 py-2 rounded-full border border-white/10 text-sm transition;
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.2));
+}
+.tab-active {
+  @apply border-brand-400 text-white;
+  box-shadow: inset 0 0 0 1px rgba(59,130,246,.5), 0 4px 18px rgba(59,130,246,.25);
+}
+.btn-primary {
+  @apply rounded-full px-6 py-3 font-semibold transition;
+  background: linear-gradient(180deg, #3dafff, #0b98ff);
+  box-shadow: 0 10px 28px rgba(11,152,255,.35);
+}
+.btn-primary:hover { transform: translateY(-1px); }

@@ -7,7 +7,7 @@
  */
 
 import { useState, useEffect, useRef } from 'react';
-import { useAuth } from './SimpleAuthContext';
+import { useAuth } from './AuthContext';
 
 const useStateCollector = () => {
   const { currentUser, isAuthenticated } = useAuth();
